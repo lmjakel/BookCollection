@@ -10,10 +10,17 @@
 <tr><td>21January2021</td><td>Completed Week 1 Activities and Exercise</td>
         <td>3 Hours</td><td>I didn't keep careful track of this week's hour breakdown so I'm not 100% sure on timing
                 this week</td></tr>
-<tr><td>22January2021</td><td>Activity 1</td><td>0.5 Hours</td><td></td></tr>
-<tr><td>29January2021</td><td>Activities 2-4</td><td>2.5 Hours</td><td></td></tr>
-<tr><td>31January2021</td><td>Completed Exercise for week 2</td><td>4.5 Hours</td><td></td></tr>
+<tr><td>22January2021</td><td>Week 2 Activity 1</td><td>0.5 Hours</td><td></td></tr>
+<tr><td>29January2021</td><td>Week 2 Activities 2-4</td><td>2.5 Hours</td><td></td></tr>
+<tr><td>31January2021</td><td>Week 2 Completed Exercise/td><td>4.5 Hours</td><td></td></tr>
 <tr><td>01February2021</td><td>Created ReadMe, Weekly Reflection, and Time Log files</td><td>0.5 Hours</td><td></td></tr>
+<tr><td>02February2021</td><td>Update and increase storage</td><td>0.5 Hours</td><td></td></tr>
+<tr><td>02February2021</td><td>Week 3 Readings</td><td>2 Hours</td><td></td></tr>
+<tr><td>02February2021</td><td>Week 3 Videos, activies, and Log4J Demo</td><td>2 Hours</td><td></td></tr>
+<tr><td>03February2021</td><td>Week 3 JUnit Demo</td><td>1 Hour</td><td></td></tr>
+<tr><td>03February2021</td><td>Attempting to get VMWareTools to work</td><td>3 Hours</td><td>It's still not working</tr>
+<tr><td>04February2021</td><td>Week 3 Exercise</td><td>2 Hours</td><td>Completed all but exception test</td></tr>
+<tr><td>05February2021</td><td>Week 3 Exercise, updated time log and weekly reflection</td><td>1.5 Hours</td><td>One month exactly until Tiny Baby is due!</td></tr>
 </tbody>
 
 </table>
