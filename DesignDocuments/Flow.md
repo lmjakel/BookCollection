@@ -1,5 +1,5 @@
 #Application Flow
-
+<hr>
 ## User Sign up
 1. User selects "Sign up" on menu of homepage
 2. User fills out form and submits

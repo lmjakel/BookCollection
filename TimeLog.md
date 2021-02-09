@@ -21,6 +21,10 @@
 <tr><td>03February2021</td><td>Attempting to get VMWareTools to work</td><td>3 Hours</td><td>It's still not working</tr>
 <tr><td>04February2021</td><td>Week 3 Exercise</td><td>2 Hours</td><td>Completed all but exception test</td></tr>
 <tr><td>05February2021</td><td>Week 3 Exercise, updated time log and weekly reflection</td><td>1.5 Hours</td><td>One month exactly until Tiny Baby is due!</td></tr>
+<tr><td>05February2021</td><td>Project - Created wireframe and user flow diagram in Figma</td><td>2 hours</td><td></td></tr>
+<tr><td>06February2021</td><td>Project - Added application flow and wireframe</td><td>2 Hours</td><td></td></tr>
+<tr><td>08February2021</td><td>Week 4 Readings about DAO</td><td>1 Hour</td><td></td></tr>
+<tr><td>09February2021</td><td>Project - Added User Stories</td><td>0.5 Hours</td><td></td></tr>
 </tbody>
 
 </table>

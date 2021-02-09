@@ -13,4 +13,15 @@ some of these tasks take longer than I anticipate. That will, hopefully,
 improve as time goes on, and I have more practice with the program!
 
 ##Week 3
-Time Spent On Project: <br/>
+Time Spent On Project: 4 hours <br/>
+During week 3, I used Figma to create the wireframes for the website, and the user flow
+diagram. I added the pdf versions of those documents to the project folder and explained
+the user flow in the Flow.md file. There is also a file called Ideas in the DesignDocuments
+that I created as a rough sketch of the website components and what I hope to include. 
+That will be my brainstorming file for this project, that way all my thoughts and ideas
+stay in one place!
+
+##Week 4
+Time Spent On Project: 30 minutes <br/>
+During week 4, I finished my userStories for checkpoint 1, updated my timeLog and
+my weekly reflections for week 3 and the first part of week 4.
