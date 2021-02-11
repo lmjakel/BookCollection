@@ -1,16 +1,16 @@
 # Project Plan
 
 ## Week 3
-- [ ] Create website pages and information plan
-- [ ] Create Project plan
-- [ ] Wireframes using Figma
-- [ ] Write user stories
-- [ ] Weekly reflection
+- [x] Create website pages and information plan
+- [x] Create Project plan
+- [x] Wireframes using Figma
+- [x] Write user stories
+- [x] Weekly reflection
 
 ## Week 4
 - [ ] build index page
 - [ ] create database
-- [ ] Checkpoint 1 due 3/2
+- [x] Checkpoint 1 due 3/2
 - [ ] Weekly reflection
 
 
