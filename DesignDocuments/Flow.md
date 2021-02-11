@@ -1,4 +1,4 @@
-#Application Flow
+# Application Flow
 <hr>
 ## User Sign up
 1. User selects "Sign up" on menu of homepage
@@ -30,7 +30,7 @@
 1. User selects "Edit Book"
 2. User is transferred to search page
 
-###Remove Book from Edit Collection
+### Remove Book from Edit Collection
 1. User selects "Remove Book"
 2. User is transferred to search page
 
@@ -38,17 +38,17 @@
 1. User selects "Search Collection" from the menu
 2. User sees options for how to search
 
-###Search By Title
+### Search By Title
 1. User selects "Search By Title"
 2. User fills out search form
 3. Result table is displayed with options to Edit or Remove Book 
 
-###Search By Author
+### Search By Author
 1. User selects "Search By Author"
 2. User fills out search form
 3. Result table is displayed with options to Edit or Remove Book
 
-###Search By Genre
+### Search By Genre
 1. User selects "Search By Genre"
 2. User fills out search form
 3. Result table is displayed with options to Edit or Remove Book
@@ -59,7 +59,7 @@
 3. User confirms changes
 4. Confirmation of edit is shown
 
-###Remove Book from Book Table
+### Remove Book from Book Table
 1. User selects "Remove Book"
 2. User is transferred to confirm removal page displaying book information
 3. Confirmation of removal shown
