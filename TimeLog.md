@@ -24,7 +24,10 @@
 <tr><td>05February2021</td><td>Project - Created wireframe and user flow diagram in Figma</td><td>2 hours</td><td></td></tr>
 <tr><td>06February2021</td><td>Project - Added application flow and wireframe</td><td>2 Hours</td><td></td></tr>
 <tr><td>08February2021</td><td>Week 4 Readings about DAO</td><td>1 Hour</td><td></td></tr>
-<tr><td>09February2021</td><td>Project - Added User Stories</td><td>0.5 Hours</td><td></td></tr>
+<tr><td>09February2021</td><td>Project - Added User Stories</td><td>0.5 Hours</td><td>Faelynn was spay today so this Wed/Thurs I didn't has as much time to work on school work since she was needing me more than usual</td></tr>
+<tr><td>12February2021</td><td>Week 4 Readings and overview videos</td><td>1 hour</td><td></td></tr>
+<tr><td>13February2021</td><td>Week 4 Videos and Demo parts 1 and 2</td><td>2 Hours</td><td></td></tr>
+<tr><td>14February2021</td><td>Week 4 Finished the Demo, completed Activity, and exercise</td><td>4 Hours</td><td></td></tr>
 </tbody>
 
 </table>

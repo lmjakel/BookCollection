@@ -8,13 +8,14 @@
 - [x] Weekly reflection
 
 ## Week 4
-- [ ] build index page
+- [x] build index page
 - [ ] create database
 - [x] Checkpoint 1 due 3/2
-- [ ] Weekly reflection
+- [x] Weekly reflection
 
 
 ## Week 5
+- [ ] Create CSS
 - [ ] Weekly reflection
 - [ ] User sign up page
 - [ ] Implement logging for project thus far
