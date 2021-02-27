@@ -9,7 +9,7 @@
 
 ## Week 4
 - [x] build index page
-- [ ] create database
+- [x] create database
 - [x] Checkpoint 1 due 3/2
 - [x] Weekly reflection
 
