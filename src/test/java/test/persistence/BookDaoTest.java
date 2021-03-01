@@ -1,11 +1,11 @@
 package test.persistence;
 
-import entity.Author;
 import entity.Book;
+import entity.Genre;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import persistence.AuthorDao;
 import persistence.BookDao;
+import persistence.GenreDao;
 import test.utilities.Database;
 
 import java.util.List;
@@ -38,4 +38,25 @@ public class BookDaoTest {
         List<Book> books = dao.searchByTitle("Thorns");
         assertEquals(1, books.size());
     }
+
+    @Test
+    void getBooksByGenreSuccess() {
+        List<Book> retrievedBooks = dao.searchByGenre(1);
+        assertEquals(2, retrievedBooks.size());
+
+    }
+
+    @Test
+    void getBooksByAuthorSuccess() {
+        List<Book> retrievedBooks = dao.searchByAuthor(1);
+        assertEquals(1, retrievedBooks.size());
+    }
+
+    @Test
+    void getBooksByUserSuccess() {
+        List<Book> retrievedBooks = dao.searchByUser(1);
+        assertEquals(2, retrievedBooks.size());
+    }
+
+
 }

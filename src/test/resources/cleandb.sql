@@ -24,5 +24,6 @@ INSERT INTO user VALUES (1,'LeeAnn','Jakel', 'ljakel', 'password', 'email@someth
 
 INSERT INTO book VALUES (1, 'A Court Of Thorns and Roses', '978-1408857861', 1, 1, 1),
                         (2, 'The Way of Kings', '978-0765365279', 4, 4, 2),
-                        (3, 'Dark Witch', '978-0425259856', 1, 5, 5);
+                        (3, 'Dark Witch', '978-0425259856', 1, 5, 5),
+                        (4, 'City of Bones', '978-0743566575', 2, 3, 1);
 

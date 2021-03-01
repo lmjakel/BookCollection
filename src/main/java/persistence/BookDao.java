@@ -2,6 +2,7 @@ package persistence;
 
 import entity.Author;
 import entity.Book;
+import entity.Genre;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
@@ -53,4 +54,48 @@ public class BookDao {
 
         return books;
     }
+
+    public List<Book> searchByGenre(int search) {
+        Session session = sessionFactory.openSession();
+
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<Book> query = builder.createQuery(Book.class);
+        Root<Book> root = query.from(Book.class);
+        query.select(root).where(builder.equal(root.get("genre"), search));
+        List<Book> books = session.createQuery(query).getResultList();
+
+        session.close();
+
+        return books;
+    }
+
+    public List<Book> searchByAuthor(int search) {
+        Session session = sessionFactory.openSession();
+
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<Book> query = builder.createQuery(Book.class);
+        Root<Book> root = query.from(Book.class);
+        query.select(root).where(builder.equal(root.get("author"), search));
+        List<Book> books = session.createQuery(query).getResultList();
+
+        session.close();
+
+        return books;
+    }
+
+    public List<Book> searchByUser(int search) {
+        Session session = sessionFactory.openSession();
+
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<Book> query = builder.createQuery(Book.class);
+        Root<Book> root = query.from(Book.class);
+        query.select(root).where(builder.equal(root.get("user"), search));
+        List<Book> books = session.createQuery(query).getResultList();
+
+        session.close();
+
+        return books;
+
+    }
+
 }
