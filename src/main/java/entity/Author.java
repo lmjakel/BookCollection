@@ -10,6 +10,7 @@ import javax.persistence.*;
 @Entity(name="Author")
 @Table(name="author")
 public class Author {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
