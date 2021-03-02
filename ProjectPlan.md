@@ -16,20 +16,21 @@
 
 ## Week 5
 - [ ] Create CSS
-- [ ] Weekly reflection
+- [x] Weekly reflection
 - [ ] User sign up page
 - [ ] Implement logging for project thus far
 
 
 ## Week 6
-- [ ] Weekly reflection
+- [x] Weekly reflection
 - [ ] Edit book collection pages(add, edit, remove)
-- [ ] User can view all books from database
-- [ ] Finalize checkpoint 2 components
+- [ ] User can view all books from database 
+- [x] Create Daos and Tests
+- [x] Finalize checkpoint 2 components
 
 
 ## Week 7
-- [ ] Checkpoint 2 due 3/23
+- [ ] Checkpoint 2 due 3/2
 - [ ] User can search within book collection (title, genre, author)
 - [ ] Database result table is displayed for searches
 

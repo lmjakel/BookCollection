@@ -28,6 +28,25 @@
 <tr><td>12February2021</td><td>Week 4 Readings and overview videos</td><td>1 hour</td><td></td></tr>
 <tr><td>13February2021</td><td>Week 4 Videos and Demo parts 1 and 2</td><td>2 Hours</td><td></td></tr>
 <tr><td>14February2021</td><td>Week 4 Finished the Demo, completed Activity, and exercise</td><td>4 Hours</td><td></td></tr>
+<tr><td>15February2021</td><td>Week 5 Readings</td><td>1.5 hours</td><td></td></tr>
+<tr><td>16February2021</td><td>Week 5 Overview videos and read through requirements</td><td>0.25 hours</td><td></td></tr>
+<tr><td>17February2021</td><td>Week 5 Activity Part 1 and 2</td><td>1.5 hours</td><td></td></tr>
+<tr><td>18February2021</td><td>Week 5 Activity Part 3</td><td>0.5 hours</td><td></td></tr>
+<tr><td>19February2021</td><td>Week 5 Exercise</td><td>1 hours</td><td></td></tr>
+<tr><td>20February2021</td><td>Week 5 Exercise</td><td>1.5 hours</td><td></td></tr>
+<tr><td>22February2021</td><td>Week 6 Reading and Exercise Parts 1-5</td><td>1.5 hours</td><td></td></tr>
+<tr><td>24February2021</td><td>Week 6 Activity - Design Review with Lisa</td><td>1 hour</td><td>We met via Zoom to go through out projects together</td></tr>
+<tr><td>25February2021</td><td>Week 6 Reading and Exercise Parts 6 and 7</td><td>1.5 hours</td><td>Had to trouble shoot why the database wasn't loading on AWS, turns out I didn't have an orderstable made!</td></tr>
+<tr><td>26February2021</td><td>Week 6 Activity - Design review for Anthony </td><td>0.5 hours</td><td>We were unable to meet so I reviewed from github</td></tr>
+<tr><td>27February2021</td><td>Project - created classes and test database</td><td>1.5 hours</td><td></td></tr>
+<tr><td>01March2021</td><td>Project - Created Tests for AuthorDao and BookDao</td><td>2 hours</td><td></td></tr>
+<tr><td>01March2021</td><td>Week 7 overview video and began readings</td><td>0.5 hours</td><td></td></tr>
+<tr><td>02March2021</td><td>Project - Updated Time log, project plan, and weekly reflection</td><td>0.5 hours</td><td></td></tr>
+
+
+
+
+
 </tbody>
 
 </table>
