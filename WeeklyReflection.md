@@ -39,3 +39,9 @@ database with the corresponding classes and directories.
 Time Spent on Project: 2 Hours <br/>
 So far this week I have created the AuthorDao and BookDao classes with their 
 corresponding test classes. All tests pass at this point with a good % coverage.
+
+## Week 8
+Time Spent on Project: 0 Hours <br/>
+
+## Week 9
+Time Spent on Project: <br/>

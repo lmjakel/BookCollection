@@ -5,6 +5,7 @@ import entity.Genre;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import persistence.BookDao;
+import persistence.GenericDao;
 import persistence.GenreDao;
 import test.utilities.Database;
 
@@ -14,11 +15,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BookDaoTest {
 
-    BookDao dao;
+    GenericDao bookDao;
 
     @BeforeEach
     void setup() {
-        dao = new BookDao();
+        bookDao = new GenericDao(Book.class);
 
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
@@ -29,32 +30,32 @@ public class BookDaoTest {
      */
     @Test
     void getAllBooksSuccess() {
-        List<Book> books = dao.getAllBooks();
-        assertEquals(3, books.size());
+        List<Book> books = bookDao.getAll();
+        assertEquals(4, books.size());
     }
 
     @Test
     void getBookByTitleSuccess() {
-        List<Book> books = dao.searchByTitle("Thorns");
+        List<Book> books = bookDao.getByPropertyLike("title", "Thorns");
         assertEquals(1, books.size());
     }
 
     @Test
     void getBooksByGenreSuccess() {
-        List<Book> retrievedBooks = dao.searchByGenre(1);
+        List<Book> retrievedBooks = bookDao.getByPropertyEqualsId("genre", 1);
         assertEquals(2, retrievedBooks.size());
 
     }
 
     @Test
     void getBooksByAuthorSuccess() {
-        List<Book> retrievedBooks = dao.searchByAuthor(1);
+        List<Book> retrievedBooks = bookDao.getByPropertyEqualsId("author", 1);
         assertEquals(1, retrievedBooks.size());
     }
 
     @Test
     void getBooksByUserSuccess() {
-        List<Book> retrievedBooks = dao.searchByUser(1);
+        List<Book> retrievedBooks = bookDao.getByPropertyEqualsId("user", 1);
         assertEquals(2, retrievedBooks.size());
     }
 
