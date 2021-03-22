@@ -1,11 +1,8 @@
 package persistence;
 
-import entity.Author;
-import entity.Genre;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
 import javax.persistence.criteria.CriteriaBuilder;
@@ -14,6 +11,11 @@ import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Root;
 import java.util.List;
 
+/**
+ * The type Generic dao.
+ *
+ * @param <T> the type parameter
+ */
 public class GenericDao<T> {
 
         private Class<T> type;
@@ -27,6 +29,7 @@ public class GenericDao<T> {
         return SessionFactoryProvider.getSessionFactory().openSession();
 
     }
+
     /**
      * Instantiates a new Generic dao.
      *
@@ -38,7 +41,9 @@ public class GenericDao<T> {
 
     /**
      * Gets a entity by id
-     * @param id entity id to search by
+     *
+     * @param <T> the type parameter
+     * @param id  entity id to search by
      * @return a entity
      */
     public <T>T getById(int id) {
@@ -48,6 +53,11 @@ public class GenericDao<T> {
         return entity;
     }
 
+    /**
+     * Gets all.
+     *
+     * @return the all
+     */
     public List<T> getAll() {
         Session session = getSession();
 
@@ -63,6 +73,12 @@ public class GenericDao<T> {
     }
 
 
+    /**
+     * Insert int.
+     *
+     * @param entity the entity
+     * @return the int
+     */
     public int insert(T entity) {
         int id = 0;
         Session session = getSession();
@@ -76,6 +92,11 @@ public class GenericDao<T> {
         return id;
     }
 
+    /**
+     * Delete.
+     *
+     * @param entity the entity
+     */
     public void delete(T entity) {
         Session session = getSession();
 
@@ -86,6 +107,11 @@ public class GenericDao<T> {
         session.close();
     }
 
+    /**
+     * Update.
+     *
+     * @param entity the entity
+     */
     public void update(T entity) {
         Session session = getSession();
 
@@ -101,7 +127,7 @@ public class GenericDao<T> {
      * Ie: search by part of author lastName getByPropertyLike("lastName", "C")
      *
      * @param propertyName entity property to search by
-     * @param value value of the property to search for
+     * @param value        value of the property to search for
      * @return list of entities meeting the criteria search
      */
     public List<T> getByPropertyLike(String propertyName, String value) {
@@ -121,11 +147,12 @@ public class GenericDao<T> {
         return entities;
     }
 
-    /** Get entity by property (exact match)
+    /**
+     * Get entity by property (exact match)
      * Ie: search by author lastName getByPropertyEqual("lastName", "Maas")
      *
      * @param propertyName entity property to search by
-     * @param value value of the property to search for
+     * @param value        value of the property to search for
      * @return list of entities meeting the criteria search
      */
     public List<T> getByPropertyEqual(String propertyName, String value) {
@@ -143,11 +170,12 @@ public class GenericDao<T> {
         return entities;
     }
 
-    /** Get entity by property (exact match)
+    /**
+     * Get entity by property (exact match)
      * Ie: search by author id getByPropertyEqualsId("author", "1")
      *
      * @param propertyName entity property to search by
-     * @param value value of the property to search for
+     * @param value        value of the property to search for
      * @return list of entities meeting the criteria search
      */
     public List<T> getByPropertyEqualsId(String propertyName, int value) {
