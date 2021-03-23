@@ -20,6 +20,24 @@
         <mapping class="entity.Book"/>
         <mapping class="entity.Genre"/>
         <mapping class="entity.User"/>
+        <mapping class="entity.AuthorsItem"/>
+        <mapping class="entity.Classifications"/>
+        <mapping class="entity.Created"/>
+        <mapping class="entity.Identifiers"/>
+        <mapping class="entity.Info"/>
+        <mapping class="entity.LanguagesItem"/>
+        <mapping class="entity.LastModified"/>
+        <mapping class="entity.Type"/>
+        <mapping class="entity.WorksItem"/>
+
+
+
+
+
+
+
+
+
 
     </session-factory>
 
