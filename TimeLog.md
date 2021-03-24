@@ -42,10 +42,14 @@
 <tr><td>01March2021</td><td>Project - Created Tests for AuthorDao and BookDao</td><td>2 hours</td><td></td></tr>
 <tr><td>01March2021</td><td>Week 7 overview video and began readings</td><td>0.5 hours</td><td></td></tr>
 <tr><td>02March2021</td><td>Project - Updated Time log, project plan, and weekly reflection</td><td>0.5 hours</td><td></td></tr>
-
-
-
-
+<tr><td>10March2021</td><td>Week 7 - finished activities</td><td>2 hours</td><td></td></tr>
+<tr><td>14March2021</td><td>Week 7 - began exercise</td><td>2 hours</td><td></td></tr>
+<tr><td>15March2021</td><td>Week 7 - exercise</td><td>2 hours</td><td>Application deploys but says credentials invalid</td></tr>
+<tr><td>18March2021</td><td>Week 7 - finished exercise</td><td>2 hours</td><td></td></tr>
+<tr><td>19March2021</td><td>Week 8 - readings and activity 1 and 2</td><td>2 hours</td><td></td></tr>
+<tr><td>21March2021</td><td>Week 8 - finished activities</td><td>2 hours</td><td></td></tr>
+<tr><td>23March2021</td><td>Project - created GenericDao, implemented API(week 8 exercise), created searchBook page and deployed to AWS</td><td>5 hours</td><td></td></tr>
+<tr><td>23March2021</td><td>Project - Updated Time log, project plan, and weekly reflection</td><td>0.5 hours</td><td></td></tr>
 
 </tbody>
 

@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<form action ="searchBook" method="GET">
+<form action ="searchBooks" method="GET">
     <label for="searchTerm">Search By Title: </label>
     <input type="text"  id="searchTerm" name="searchTerm">
 

@@ -26,13 +26,9 @@
         <c:forEach var="bookInfo" items="${book}">
             <tr>
                 <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.title}</td>
-                <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.genre}</td>
+                <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.genre.name}</td>
                 <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.isbn}</td>
-                <td style="border: 3px solid black; border-collapse: collapse">
-                    <c:forEach var="author" items="${userInfo.author}">
-                        ${author.last_name}, ${order.first_name}<br/>
-                    </c:forEach>
-                </td>
+                <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.author.lastName}, ${bookInfo.author.firstName}</td>
             </tr>
         </c:forEach>
         </tbody>

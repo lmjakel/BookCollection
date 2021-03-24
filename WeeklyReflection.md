@@ -39,9 +39,27 @@ database with the corresponding classes and directories.
 Time Spent on Project: 2 Hours <br/>
 So far this week I have created the AuthorDao and BookDao classes with their 
 corresponding test classes. All tests pass at this point with a good % coverage.
+So far I have separate Dao classes for ease of set up and work through at this
+point. 
 
 ## Week 8
 Time Spent on Project: 0 Hours <br/>
 
 ## Week 9
-Time Spent on Project: <br/>
+Time Spent on Project: 5 Hours <br/>
+I implemented OpenLibrary API for week 8 exercise, I am considering using that 
+to fill all the book data in rather than having the user enter all the data
+by hand. That way they would just have to enter the isbn and then confirm the 
+correct information was pulled based on the isbn they entered. I'm also hoping
+to use the API to display the cover art for the books. 
+
+I created the GenericDao and updated tests to correlate, all tests pass! 
+
+Created SearchBook and results jsp, as well as searchBooks servlet. I was able
+to get the jsp to display on the webpage and correctly search all books as well 
+as search by title or part of title. These are displayed on a result jsp page, 
+at this time they do not sort and only display for the user that is currently 
+logged in but that is the goal in the long run. 
+
+The application was successfully deployed using AWS after creating the database
+and tables via ssh in the terminal window. 

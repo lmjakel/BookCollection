@@ -18,7 +18,7 @@
 - [ ] Create CSS
 - [x] Weekly reflection
 - [ ] User sign up page
-- [ ] Implement logging for project thus far
+- [x] Implement logging for project thus far
 
 
 ## Week 6
@@ -30,22 +30,22 @@
 
 
 ## Week 7
-- [ ] Checkpoint 2 due 3/2
+- [x] Checkpoint 2 due 3/2
 - [ ] User can search within book collection (title, genre, author)
 - [ ] Database result table is displayed for searches
 
 
 ## Week 8
-- [ ] User login
-- [ ] Weekly reflection
+- [x] User login
+- [x] Weekly reflection
 - [ ] User can view book suggestions
-- [ ] Finalize Checkpoint 3 requirements
-- [ ] Implement logging for project thus far
+- [x] Finalize Checkpoint 3 requirements
+- [x] Implement logging for project thus far
 
 ## Week 9
-- [ ] Implement API
-- [ ] Checkpoint 3 due 4/13
-- [ ] Weekly reflection
+- [x] Implement API
+- [x] Checkpoint 3 due 4/13
+- [x] Weekly reflection
 
 
 ##Week 10
