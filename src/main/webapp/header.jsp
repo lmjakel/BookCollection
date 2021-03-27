@@ -13,10 +13,6 @@
 
     <nav id="menu">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Edit Library</a></li>
-            <li><a href="searchBooks.jsp">Search Library</a></li>
-            <li><a href="#">Book Suggestions</a></li>
             <li><a href="login.jsp">Login</a></li>
 
         </ul>

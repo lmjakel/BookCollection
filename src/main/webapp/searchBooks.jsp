@@ -12,8 +12,9 @@
 </head>
 <body>
 
+<!-- TODO create dropdown menu for type of search -->
 <form action ="searchBooks" method="GET">
-    <label for="searchTerm">Search By Title: </label>
+    <label for="searchTerm">Search Type: </label>
     <input type="text"  id="searchTerm" name="searchTerm">
 
     <button type="submit" name="submit" value="search">Search</button>
