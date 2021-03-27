@@ -13,7 +13,7 @@
 
     <nav id="menu">
         <ul>
-            <li><a href="login.jsp">Login</a></li>
+            <li><a href="index-logged-in.jsp">Login</a></li>
 
         </ul>
     </nav>
