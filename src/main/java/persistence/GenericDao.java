@@ -155,7 +155,7 @@ public class GenericDao<T> {
      * @param value        value of the property to search for
      * @return list of entities meeting the criteria search
      */
-    public List<T> getByPropertyEqual(String propertyName, String value) {
+    public List<T> getByPropertyEqual(String propertyName, int value) {
         Session session = getSession();
 
         logger.debug("Searching for book with " + propertyName + " = " + value);

@@ -3,6 +3,8 @@ package entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * The type User.
@@ -29,6 +31,12 @@ public class User {
 
     @Column(name="email")
     private String email;
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<Role> roles = new HashSet<>();
+
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<Book> books = new HashSet<>();
 
     /**
      * Instantiates a new User.
@@ -160,6 +168,83 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    /**
+     * Gets roles.
+     *
+     * @return the roles
+     */
+    public Set<Role> getRoles() {
+        return roles;
+    }
+
+    /**
+     * Sets roles.
+     *
+     * @param roles the roles
+     */
+    public void setRoles(Set<Role> roles) {
+        this.roles = roles;
+    }
+
+    /**
+     * Gets characters.
+     *
+     * @return the books
+     */
+    public Set<Book> getBooks() {
+        return  books;
+    }
+
+    /**
+     * Sets books.
+     *
+     * @param books the books
+     */
+    public void setCharacters(Set<Book> books) {
+        this.books = books;
+    }
+
+    /**
+     * Add role.
+     *
+     * @param role the role
+     */
+    public void addRole(Role role) {
+        roles.add(role);
+        role.setUser(this);
+    }
+
+    /**
+     * Remove role.
+     *
+     * @param role the role
+     */
+    public void removeRole(Role role) {
+        roles.remove(role);
+        role.setUser(null);
+    }
+
+    /**
+     * Add book.
+     *
+     * @param book the book
+     */
+    public void addBook (Book book) {
+        books.add(book);
+        book.setUser(this);
+    }
+
+    /**
+     * Remove book.
+     *
+     * @param book the book
+     */
+    public void removeBook (Book book) {
+        books.remove(book);
+        book.setUser(null);
+    }
+
 
     @Override
     public String toString() {
