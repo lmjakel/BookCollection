@@ -11,11 +11,11 @@ import javax.ws.rs.core.MediaType;
 
 public class ApiDao {
 
-    public Info getBook() throws JsonProcessingException {
+    public Info getBook(String ISBN) throws JsonProcessingException {
 
         Client client = ClientBuilder.newClient();
         WebTarget target =
-                client.target("http://openlibrary.org/isbn/9781599906959.json");
+                client.target("http://openlibrary.org/isbn/" + ISBN + ".json");
         String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
 
         ObjectMapper mapper = new ObjectMapper();

@@ -22,12 +22,15 @@ public class Book {
     private String isbn;
 
     @ManyToOne
+    @JoinColumn(name = "author_id")
     private Author author;
 
     @ManyToOne
+    @JoinColumn(name = "user_id")
     private User user;
 
     @ManyToOne
+    @JoinColumn(name = "genre_id")
     private Genre genre;
 
     /**

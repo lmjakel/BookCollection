@@ -46,7 +46,7 @@ public class SignUp extends HttpServlet {
 
         int id = userDao.insert(newUser);
 
-        req.setAttribute("newUser", userDao.getByPropertyEqual("id", id));
+        req.setAttribute("newUser", userDao.getByPropertyEqualsId("id", id));
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/signUpSuccess.jsp");
         dispatcher.forward(req, resp);

@@ -12,6 +12,7 @@ class ApiDaoTest {
     @Test
     void getBookTitle() throws JsonProcessingException {
         ApiDao dao = new ApiDao();
-        assertEquals("Throne of glass", dao.getBook().getTitle());
+        String ISBN = "9781599906959";
+        assertEquals("Throne of glass", dao.getBook(ISBN).getTitle());
     }
 }
