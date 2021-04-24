@@ -1,13 +1,7 @@
 package entity;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 public class Created{
-
-	@JsonProperty("type")
 	private String type;
-
-	@JsonProperty("value")
 	private String value;
 
 	public void setType(String type){
