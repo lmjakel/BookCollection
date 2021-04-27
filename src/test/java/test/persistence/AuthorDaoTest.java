@@ -66,7 +66,7 @@ public class AuthorDaoTest {
         GenericDao authorDao = new GenericDao(Author.class);
         Author retrievedAuthor = (Author)authorDao.getById(1);
         assertNotNull(retrievedAuthor);
-        assertEquals("Sarah J.", retrievedAuthor.getFirstName());
+        assertEquals("Sarah J. Maas", retrievedAuthor.getName());
     }
 
     /**
@@ -74,14 +74,13 @@ public class AuthorDaoTest {
      */
     @Test
     void insertAuthorSuccess() {
-        Author newAuthor = new Author("Cass", "Kiera");
+        Author newAuthor = new Author("Kiera Cass");
 
         int id = authorDao.insert(newAuthor);
         assertNotEquals(0, id);
 
         Author inseretedAuthor = (Author)authorDao.getById(id);
-        assertEquals("Kiera", inseretedAuthor.getFirstName());
-        assertEquals("Cass", inseretedAuthor.getLastName());
+        assertEquals("Cass", inseretedAuthor.getName());
     }
 
     /**

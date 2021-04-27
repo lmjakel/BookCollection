@@ -16,11 +16,8 @@ public class Author {
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
 
-    @Column(name="last_name")
-    private String lastName;
-
-    @Column (name="first_name")
-    private String firstName;
+    @Column (name= "name")
+    private String name;
 
     /**
      * Instantiates a new Author.
@@ -31,12 +28,10 @@ public class Author {
     /**
      * Instantiates a new Author.
      *
-     * @param lastName  the last name
-     * @param firstName the first name
+     * @param name the name
      */
-    public Author(String lastName, String firstName) {
-        this.lastName = lastName;
-        this.firstName = firstName;
+    public Author(String name) {
+        this.name = name;
     }
 
     /**
@@ -58,47 +53,28 @@ public class Author {
     }
 
     /**
-     * Gets last name.
+     * Gets name.
      *
-     * @return the last name
+     * @return the name
      */
-    public String getLastName() {
-        return lastName;
+    public String getName() {
+        return name;
     }
 
     /**
-     * Sets last name.
+     * Sets name.
      *
-     * @param lastName the last name
+     * @param name the name
      */
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    /**
-     * Gets first name.
-     *
-     * @return the first name
-     */
-    public String getFirstName() {
-        return firstName;
-    }
-
-    /**
-     * Sets first name.
-     *
-     * @param firstName the first name
-     */
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override
     public String toString() {
         return "Author{" +
                 "id=" + id +
-                ", lastName='" + lastName + '\'' +
-                ", firstName='" + firstName + '\'' +
+                ", name='" + name + '\'' +
                 '}';
     }
 }
