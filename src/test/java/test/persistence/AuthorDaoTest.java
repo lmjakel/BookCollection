@@ -41,21 +41,12 @@ public class AuthorDaoTest {
     }
 
     /**
-     * Gets author by last name success.
+     * Gets author by  name success.
      */
     @Test
-    void getAuthorByLastNameSuccess() {
-        List<Author> authors = authorDao.getByPropertyLike("lastName", "m");
-        assertEquals(1, authors.size());
-    }
-
-    /**
-     * Gets author by first name success.
-     */
-    @Test
-    void getAuthorByFirstNameSuccess() {
-        List<Author> authors = authorDao.getByPropertyLike("firstName", "S");
-        assertEquals(3, authors.size());
+    void getAuthorByNameSuccess() {
+        List<Author> authors = authorDao.getByPropertyLike("name", "S");
+        assertEquals(5, authors.size());
     }
 
     /**
@@ -79,8 +70,8 @@ public class AuthorDaoTest {
         int id = authorDao.insert(newAuthor);
         assertNotEquals(0, id);
 
-        Author inseretedAuthor = (Author)authorDao.getById(id);
-        assertEquals("Cass", inseretedAuthor.getName());
+        Author insertedAuthor = (Author)authorDao.getById(id);
+        assertEquals("Kiera Cass", insertedAuthor.getName());
     }
 
     /**
@@ -97,14 +88,14 @@ public class AuthorDaoTest {
      */
     @Test
     void updateAuthorSuccess() {
-        String newLastName = "Smith";
+        String newName = "John Smith";
         Author authorToUpdate = (Author)authorDao.getById(2);
 
-        authorToUpdate.setLastName(newLastName);
+        authorToUpdate.setName(newName);
         authorDao.update(authorToUpdate);
         Author retrievedAuthor = (Author)authorDao.getById(2);
 
-        assertEquals(newLastName, retrievedAuthor.getLastName());
+        assertEquals(newName, retrievedAuthor.getName());
 
     }
 }

@@ -1,0 +1,1142 @@
+[DEBUG] 2021-04-27 13:33:23.603 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[DEBUG] 2021-04-27 13:33:23.641 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[DEBUG] 2021-04-27 13:33:23.667 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[INFO ] 2021-04-27 13:33:24.103 [main] Version - HHH000412: Hibernate Core {5.4.4.Final}
+[DEBUG] 2021-04-27 13:33:24.113 [main] Environment - HHH000206: hibernate.properties not found
+[DEBUG] 2021-04-27 13:33:24.597 [main] LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[DEBUG] 2021-04-27 13:33:24.605 [main] LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+[DEBUG] 2021-04-27 13:33:24.615 [main] JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+[DEBUG] 2021-04-27 13:33:25.285 [main] ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[DEBUG] 2021-04-27 13:33:25.359 [main] RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+[DEBUG] 2021-04-27 13:33:25.369 [main] RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[INFO ] 2021-04-27 13:33:25.429 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[DEBUG] 2021-04-27 13:33:25.488 [main] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@1e530163
+[DEBUG] 2021-04-27 13:33:25.489 [main] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@1e530163
+[DEBUG] 2021-04-27 13:33:25.489 [main] BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1e530163
+[DEBUG] 2021-04-27 13:33:25.490 [main] BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4088741b
+[DEBUG] 2021-04-27 13:33:25.491 [main] BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@205bed61
+[DEBUG] 2021-04-27 13:33:25.491 [main] BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@7c2b58c0
+[DEBUG] 2021-04-27 13:33:25.492 [main] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@23f3dbf0
+[DEBUG] 2021-04-27 13:33:25.492 [main] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@23f3dbf0
+[DEBUG] 2021-04-27 13:33:25.493 [main] BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@23f3dbf0
+[DEBUG] 2021-04-27 13:33:25.493 [main] BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@20a05b32
+[DEBUG] 2021-04-27 13:33:25.494 [main] BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@20a05b32
+[DEBUG] 2021-04-27 13:33:25.495 [main] BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@20a05b32
+[DEBUG] 2021-04-27 13:33:25.498 [main] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@763cf5b9
+[DEBUG] 2021-04-27 13:33:25.498 [main] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@763cf5b9
+[DEBUG] 2021-04-27 13:33:25.499 [main] BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@763cf5b9
+[DEBUG] 2021-04-27 13:33:25.500 [main] BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@3c35c345
+[DEBUG] 2021-04-27 13:33:25.500 [main] BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@3c35c345
+[DEBUG] 2021-04-27 13:33:25.500 [main] BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@3c35c345
+[DEBUG] 2021-04-27 13:33:25.501 [main] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@69a2b3b6
+[DEBUG] 2021-04-27 13:33:25.502 [main] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@69a2b3b6
+[DEBUG] 2021-04-27 13:33:25.503 [main] BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@69a2b3b6
+[DEBUG] 2021-04-27 13:33:25.504 [main] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@46731692
+[DEBUG] 2021-04-27 13:33:25.504 [main] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@46731692
+[DEBUG] 2021-04-27 13:33:25.505 [main] BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@46731692
+[DEBUG] 2021-04-27 13:33:25.506 [main] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@151ef57f
+[DEBUG] 2021-04-27 13:33:25.506 [main] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@151ef57f
+[DEBUG] 2021-04-27 13:33:25.506 [main] BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@151ef57f
+[DEBUG] 2021-04-27 13:33:25.508 [main] BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@497aec8c
+[DEBUG] 2021-04-27 13:33:25.508 [main] BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@497aec8c
+[DEBUG] 2021-04-27 13:33:25.509 [main] BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@336880df
+[DEBUG] 2021-04-27 13:33:25.510 [main] BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@336880df
+[DEBUG] 2021-04-27 13:33:25.510 [main] BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@129bd55d
+[DEBUG] 2021-04-27 13:33:25.510 [main] BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@129bd55d
+[DEBUG] 2021-04-27 13:33:25.511 [main] BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@3672276e
+[DEBUG] 2021-04-27 13:33:25.512 [main] BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@2330e3e0
+[DEBUG] 2021-04-27 13:33:25.513 [main] BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@3f9270ed
+[DEBUG] 2021-04-27 13:33:25.514 [main] BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@3f9270ed
+[DEBUG] 2021-04-27 13:33:25.514 [main] BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@53a665ad
+[DEBUG] 2021-04-27 13:33:25.515 [main] BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@53a665ad
+[DEBUG] 2021-04-27 13:33:25.520 [main] BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@65753040
+[DEBUG] 2021-04-27 13:33:25.528 [main] BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@65753040
+[DEBUG] 2021-04-27 13:33:25.529 [main] BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@4e1459ea
+[DEBUG] 2021-04-27 13:33:25.529 [main] BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@4e1459ea
+[DEBUG] 2021-04-27 13:33:25.530 [main] BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@57c47a9e
+[DEBUG] 2021-04-27 13:33:25.530 [main] BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@57c47a9e
+[DEBUG] 2021-04-27 13:33:25.531 [main] BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@52d6cd34
+[DEBUG] 2021-04-27 13:33:25.532 [main] BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@52d6cd34
+[DEBUG] 2021-04-27 13:33:25.537 [main] BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@c2e3264
+[DEBUG] 2021-04-27 13:33:25.538 [main] BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@c2e3264
+[DEBUG] 2021-04-27 13:33:25.539 [main] BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@4a14c44f
+[DEBUG] 2021-04-27 13:33:25.539 [main] BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@4a14c44f
+[DEBUG] 2021-04-27 13:33:25.543 [main] BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@5c1f6d57
+[DEBUG] 2021-04-27 13:33:25.549 [main] BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@5c1f6d57
+[DEBUG] 2021-04-27 13:33:25.558 [main] BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@3a01773b
+[DEBUG] 2021-04-27 13:33:25.559 [main] BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@3a01773b
+[DEBUG] 2021-04-27 13:33:25.560 [main] BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@7b7683d4
+[DEBUG] 2021-04-27 13:33:25.560 [main] BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@7b7683d4
+[DEBUG] 2021-04-27 13:33:25.565 [main] BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@7942a854
+[DEBUG] 2021-04-27 13:33:25.566 [main] BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@7942a854
+[DEBUG] 2021-04-27 13:33:25.566 [main] BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@7942a854
+[DEBUG] 2021-04-27 13:33:25.570 [main] BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@5fcfca62
+[DEBUG] 2021-04-27 13:33:25.577 [main] BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@639aba11
+[DEBUG] 2021-04-27 13:33:25.577 [main] BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@639aba11
+[DEBUG] 2021-04-27 13:33:25.577 [main] BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@639aba11
+[DEBUG] 2021-04-27 13:33:25.579 [main] BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@66c38e51
+[DEBUG] 2021-04-27 13:33:25.580 [main] BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@4422dd48
+[DEBUG] 2021-04-27 13:33:25.580 [main] BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@4422dd48
+[DEBUG] 2021-04-27 13:33:25.583 [main] BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@12968227
+[DEBUG] 2021-04-27 13:33:25.583 [main] BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@12968227
+[DEBUG] 2021-04-27 13:33:25.587 [main] BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@2a066689
+[DEBUG] 2021-04-27 13:33:25.587 [main] BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@2a066689
+[DEBUG] 2021-04-27 13:33:25.589 [main] BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@79d06bbd
+[DEBUG] 2021-04-27 13:33:25.589 [main] BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@79d06bbd
+[DEBUG] 2021-04-27 13:33:25.597 [main] BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@3efedc6f
+[DEBUG] 2021-04-27 13:33:25.597 [main] BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@3efedc6f
+[DEBUG] 2021-04-27 13:33:25.598 [main] BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@5ff2b8ca
+[DEBUG] 2021-04-27 13:33:25.601 [main] BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@59e43e8c
+[DEBUG] 2021-04-27 13:33:25.601 [main] BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@59e43e8c
+[DEBUG] 2021-04-27 13:33:25.601 [main] BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@59e43e8c
+[DEBUG] 2021-04-27 13:33:25.602 [main] BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@3f049056
+[DEBUG] 2021-04-27 13:33:25.602 [main] BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@3f049056
+[DEBUG] 2021-04-27 13:33:25.602 [main] BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@3f049056
+[DEBUG] 2021-04-27 13:33:25.605 [main] BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@4c2fb9dd
+[DEBUG] 2021-04-27 13:33:25.610 [main] BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@25cd49a4
+[DEBUG] 2021-04-27 13:33:25.618 [main] BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@43b40233
+[DEBUG] 2021-04-27 13:33:25.618 [main] BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@43b40233
+[DEBUG] 2021-04-27 13:33:25.618 [main] BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@43b40233
+[DEBUG] 2021-04-27 13:33:25.619 [main] BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@35cd68d4
+[DEBUG] 2021-04-27 13:33:25.620 [main] BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@35cd68d4
+[DEBUG] 2021-04-27 13:33:25.620 [main] BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@35cd68d4
+[DEBUG] 2021-04-27 13:33:25.620 [main] BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@35764bef
+[DEBUG] 2021-04-27 13:33:25.624 [main] BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@2903c6ff
+[DEBUG] 2021-04-27 13:33:25.628 [main] BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@10cd6753
+[DEBUG] 2021-04-27 13:33:25.628 [main] BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@10cd6753
+[DEBUG] 2021-04-27 13:33:25.633 [main] BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@b835727
+[DEBUG] 2021-04-27 13:33:25.634 [main] BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@58860997
+[DEBUG] 2021-04-27 13:33:25.634 [main] BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@58860997
+[DEBUG] 2021-04-27 13:33:25.636 [main] BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@150ede8b
+[DEBUG] 2021-04-27 13:33:25.636 [main] BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@150ede8b
+[DEBUG] 2021-04-27 13:33:25.636 [main] BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4e1ce44
+[DEBUG] 2021-04-27 13:33:25.637 [main] BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@524a2ffb
+[DEBUG] 2021-04-27 13:33:25.638 [main] BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@bfc14b9
+[DEBUG] 2021-04-27 13:33:25.640 [main] BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@3d5790ea
+[DEBUG] 2021-04-27 13:33:25.650 [main] BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@3d5790ea
+[DEBUG] 2021-04-27 13:33:25.651 [main] BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@56913163
+[DEBUG] 2021-04-27 13:33:25.652 [main] BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@702b06fb
+[DEBUG] 2021-04-27 13:33:25.652 [main] BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@a18649a
+[DEBUG] 2021-04-27 13:33:25.652 [main] BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@5c534b5b
+[DEBUG] 2021-04-27 13:33:25.652 [main] BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@396639b
+[DEBUG] 2021-04-27 13:33:25.652 [main] BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@2b22a1cc
+[DEBUG] 2021-04-27 13:33:25.652 [main] BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@62573c86
+[DEBUG] 2021-04-27 13:33:25.652 [main] BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@2418ba04
+[DEBUG] 2021-04-27 13:33:25.706 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[DEBUG] 2021-04-27 13:33:25.713 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[DEBUG] 2021-04-27 13:33:25.714 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2021-04-27 13:33:25.714 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2021-04-27 13:33:25.716 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[DEBUG] 2021-04-27 13:33:25.718 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[DEBUG] 2021-04-27 13:33:25.718 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[DEBUG] 2021-04-27 13:33:25.719 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2021-04-27 13:33:25.720 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[DEBUG] 2021-04-27 13:33:25.724 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[DEBUG] 2021-04-27 13:33:25.725 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[DEBUG] 2021-04-27 13:33:25.726 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[DEBUG] 2021-04-27 13:33:25.726 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2021-04-27 13:33:25.727 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[INFO ] 2021-04-27 13:33:25.747 [main] C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.cj.jdbc.Driver at URL: jdbc:mysql://localhost:3306/test_BookCollection
+[INFO ] 2021-04-27 13:33:25.747 [main] C3P0ConnectionProvider - HHH10001001: Connection properties: {password=****, user=root}
+[INFO ] 2021-04-27 13:33:25.747 [main] C3P0ConnectionProvider - HHH10001003: Autocommit mode: false
+[INFO ] 2021-04-27 13:33:26.022 [main] C3P0ConnectionProvider - HHH10001007: JDBC isolation level: <unknown>
+[DEBUG] 2021-04-27 13:33:26.355 [main] JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 8.0.22
+      major : 8
+      minor : 0
+[DEBUG] 2021-04-27 13:33:26.357 [main] JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.22 (Revision: d64b664fa93e81296a377de031b8123a67e6def2)
+      major : 8
+      minor : 0
+[DEBUG] 2021-04-27 13:33:26.357 [main] JdbcEnvironmentInitiator - JDBC version : 4.2
+[INFO ] 2021-04-27 13:33:26.464 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[DEBUG] 2021-04-27 13:33:26.503 [main] IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+[DEBUG] 2021-04-27 13:33:26.553 [main] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+[DEBUG] 2021-04-27 13:33:26.652 [main] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[DEBUG] 2021-04-27 13:33:26.666 [main] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@5922d3e9] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@7d57dbb5]
+[DEBUG] 2021-04-27 13:33:26.745 [main] AnnotationMetadataSourceProcessorImpl - Encountered a non-categorized annotated class [entity.AuthorResponse]; ignoring
+[DEBUG] 2021-04-27 13:33:26.746 [main] AnnotationMetadataSourceProcessorImpl - Encountered a non-categorized annotated class [entity.AuthorsItem]; ignoring
+[DEBUG] 2021-04-27 13:33:26.751 [main] AnnotationMetadataSourceProcessorImpl - Encountered a non-categorized annotated class [entity.Classifications]; ignoring
+[DEBUG] 2021-04-27 13:33:26.751 [main] AnnotationMetadataSourceProcessorImpl - Encountered a non-categorized annotated class [entity.Created]; ignoring
+[DEBUG] 2021-04-27 13:33:26.756 [main] AnnotationMetadataSourceProcessorImpl - Encountered a non-categorized annotated class [entity.Identifiers]; ignoring
+[DEBUG] 2021-04-27 13:33:26.756 [main] AnnotationMetadataSourceProcessorImpl - Encountered a non-categorized annotated class [entity.Info]; ignoring
+[DEBUG] 2021-04-27 13:33:26.758 [main] AnnotationMetadataSourceProcessorImpl - Encountered a non-categorized annotated class [entity.LanguagesItem]; ignoring
+[DEBUG] 2021-04-27 13:33:26.758 [main] AnnotationMetadataSourceProcessorImpl - Encountered a non-categorized annotated class [entity.LastModified]; ignoring
+[DEBUG] 2021-04-27 13:33:26.759 [main] AnnotationMetadataSourceProcessorImpl - Encountered a non-categorized annotated class [entity.Type]; ignoring
+[DEBUG] 2021-04-27 13:33:26.760 [main] AnnotationMetadataSourceProcessorImpl - Encountered a non-categorized annotated class [entity.WorksItem]; ignoring
+[DEBUG] 2021-04-27 13:33:26.784 [main] AnnotationBinder - Binding entity from annotated class: entity.Author
+[DEBUG] 2021-04-27 13:33:26.837 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2021-04-27 13:33:26.850 [main] EntityBinder - Import with entity name Author
+[DEBUG] 2021-04-27 13:33:26.857 [main] EntityBinder - Bind entity entity.Author on table author
+[DEBUG] 2021-04-27 13:33:26.904 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:26.912 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2021-04-27 13:33:26.914 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Author:id]
+[DEBUG] 2021-04-27 13:33:26.921 [main] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2021-04-27 13:33:26.923 [main] PropertyBinder - Building property id
+[DEBUG] 2021-04-27 13:33:26.930 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2021-04-27 13:33:26.939 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:26.940 [main] PropertyBinder - MetadataSourceProcessor property name with lazy=false
+[DEBUG] 2021-04-27 13:33:26.940 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Author:name]
+[DEBUG] 2021-04-27 13:33:26.940 [main] SimpleValueBinder - building SimpleValue for name
+[DEBUG] 2021-04-27 13:33:26.940 [main] PropertyBinder - Building property name
+[DEBUG] 2021-04-27 13:33:26.943 [main] AnnotationBinder - Binding entity from annotated class: entity.Book
+[DEBUG] 2021-04-27 13:33:26.944 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2021-04-27 13:33:26.944 [main] EntityBinder - Import with entity name Book
+[DEBUG] 2021-04-27 13:33:26.944 [main] EntityBinder - Bind entity entity.Book on table book
+[DEBUG] 2021-04-27 13:33:26.959 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:26.960 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2021-04-27 13:33:26.960 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:id]
+[DEBUG] 2021-04-27 13:33:26.960 [main] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2021-04-27 13:33:26.960 [main] PropertyBinder - Building property id
+[DEBUG] 2021-04-27 13:33:26.960 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2021-04-27 13:33:26.961 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='author_id', referencedColumn='', mappedBy=''}
+[DEBUG] 2021-04-27 13:33:26.966 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=author, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:26.969 [main] PropertyBinder - Building property author
+[DEBUG] 2021-04-27 13:33:26.969 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='genre_id', referencedColumn='', mappedBy=''}
+[DEBUG] 2021-04-27 13:33:26.972 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=genre, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:26.973 [main] PropertyBinder - Building property genre
+[DEBUG] 2021-04-27 13:33:26.973 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=isbn, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:26.974 [main] PropertyBinder - MetadataSourceProcessor property isbn with lazy=false
+[DEBUG] 2021-04-27 13:33:26.974 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:isbn]
+[DEBUG] 2021-04-27 13:33:26.976 [main] SimpleValueBinder - building SimpleValue for isbn
+[DEBUG] 2021-04-27 13:33:26.976 [main] PropertyBinder - Building property isbn
+[DEBUG] 2021-04-27 13:33:26.976 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=title, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:26.976 [main] PropertyBinder - MetadataSourceProcessor property title with lazy=false
+[DEBUG] 2021-04-27 13:33:26.978 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:title]
+[DEBUG] 2021-04-27 13:33:26.978 [main] SimpleValueBinder - building SimpleValue for title
+[DEBUG] 2021-04-27 13:33:26.978 [main] PropertyBinder - Building property title
+[DEBUG] 2021-04-27 13:33:26.978 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='user_id', referencedColumn='', mappedBy=''}
+[DEBUG] 2021-04-27 13:33:26.978 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=user, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:26.979 [main] PropertyBinder - Building property user
+[DEBUG] 2021-04-27 13:33:26.980 [main] AnnotationBinder - Binding entity from annotated class: entity.Genre
+[DEBUG] 2021-04-27 13:33:26.980 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2021-04-27 13:33:26.980 [main] EntityBinder - Import with entity name Genre
+[DEBUG] 2021-04-27 13:33:26.980 [main] EntityBinder - Bind entity entity.Genre on table genre
+[DEBUG] 2021-04-27 13:33:26.983 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(genre), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:26.983 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2021-04-27 13:33:26.988 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Genre:id]
+[DEBUG] 2021-04-27 13:33:26.988 [main] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2021-04-27 13:33:26.989 [main] PropertyBinder - Building property id
+[DEBUG] 2021-04-27 13:33:26.989 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2021-04-27 13:33:26.989 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(genre), mappingColumn=name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:26.989 [main] PropertyBinder - MetadataSourceProcessor property name with lazy=false
+[DEBUG] 2021-04-27 13:33:26.989 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Genre:name]
+[DEBUG] 2021-04-27 13:33:26.989 [main] SimpleValueBinder - building SimpleValue for name
+[DEBUG] 2021-04-27 13:33:26.989 [main] PropertyBinder - Building property name
+[DEBUG] 2021-04-27 13:33:26.989 [main] AnnotationBinder - Binding entity from annotated class: entity.Role
+[DEBUG] 2021-04-27 13:33:26.990 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2021-04-27 13:33:26.993 [main] EntityBinder - Import with entity name Role
+[DEBUG] 2021-04-27 13:33:26.993 [main] EntityBinder - Bind entity entity.Role on table role
+[DEBUG] 2021-04-27 13:33:26.996 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:26.996 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2021-04-27 13:33:26.997 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Role:id]
+[DEBUG] 2021-04-27 13:33:26.997 [main] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2021-04-27 13:33:26.997 [main] PropertyBinder - Building property id
+[DEBUG] 2021-04-27 13:33:26.997 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2021-04-27 13:33:26.997 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=role_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:26.997 [main] PropertyBinder - MetadataSourceProcessor property roleName with lazy=false
+[DEBUG] 2021-04-27 13:33:26.997 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Role:roleName]
+[DEBUG] 2021-04-27 13:33:27.000 [main] SimpleValueBinder - building SimpleValue for roleName
+[DEBUG] 2021-04-27 13:33:27.000 [main] PropertyBinder - Building property roleName
+[DEBUG] 2021-04-27 13:33:27.001 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='user_id', referencedColumn='', mappedBy=''}
+[DEBUG] 2021-04-27 13:33:27.001 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=user, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:27.001 [main] PropertyBinder - Building property user
+[DEBUG] 2021-04-27 13:33:27.001 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=user_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:27.001 [main] PropertyBinder - MetadataSourceProcessor property userName with lazy=false
+[DEBUG] 2021-04-27 13:33:27.001 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Role:userName]
+[DEBUG] 2021-04-27 13:33:27.002 [main] SimpleValueBinder - building SimpleValue for userName
+[DEBUG] 2021-04-27 13:33:27.002 [main] PropertyBinder - Building property userName
+[DEBUG] 2021-04-27 13:33:27.002 [main] AnnotationBinder - Binding entity from annotated class: entity.User
+[DEBUG] 2021-04-27 13:33:27.002 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2021-04-27 13:33:27.002 [main] EntityBinder - Import with entity name User
+[DEBUG] 2021-04-27 13:33:27.002 [main] EntityBinder - Bind entity entity.User on table user
+[DEBUG] 2021-04-27 13:33:27.015 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:27.016 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2021-04-27 13:33:27.016 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:id]
+[DEBUG] 2021-04-27 13:33:27.016 [main] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2021-04-27 13:33:27.016 [main] PropertyBinder - Building property id
+[DEBUG] 2021-04-27 13:33:27.016 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
+[DEBUG] 2021-04-27 13:33:27.016 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2021-04-27 13:33:27.016 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=books, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:27.022 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:27.045 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:27.046 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=books_KEY, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:27.046 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='books_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2021-04-27 13:33:27.047 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2021-04-27 13:33:27.047 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2021-04-27 13:33:27.051 [main] CollectionBinder - Collection role: entity.User.books
+[DEBUG] 2021-04-27 13:33:27.058 [main] PropertyBinder - Building property books
+[DEBUG] 2021-04-27 13:33:27.058 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=email, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:27.058 [main] PropertyBinder - MetadataSourceProcessor property email with lazy=false
+[DEBUG] 2021-04-27 13:33:27.058 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:email]
+[DEBUG] 2021-04-27 13:33:27.059 [main] SimpleValueBinder - building SimpleValue for email
+[DEBUG] 2021-04-27 13:33:27.059 [main] PropertyBinder - Building property email
+[DEBUG] 2021-04-27 13:33:27.059 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:27.059 [main] PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
+[DEBUG] 2021-04-27 13:33:27.059 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:firstName]
+[DEBUG] 2021-04-27 13:33:27.059 [main] SimpleValueBinder - building SimpleValue for firstName
+[DEBUG] 2021-04-27 13:33:27.059 [main] PropertyBinder - Building property firstName
+[DEBUG] 2021-04-27 13:33:27.059 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:27.059 [main] PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
+[DEBUG] 2021-04-27 13:33:27.059 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:lastName]
+[DEBUG] 2021-04-27 13:33:27.059 [main] SimpleValueBinder - building SimpleValue for lastName
+[DEBUG] 2021-04-27 13:33:27.059 [main] PropertyBinder - Building property lastName
+[DEBUG] 2021-04-27 13:33:27.061 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=password, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:27.071 [main] PropertyBinder - MetadataSourceProcessor property password with lazy=false
+[DEBUG] 2021-04-27 13:33:27.076 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:password]
+[DEBUG] 2021-04-27 13:33:27.080 [main] SimpleValueBinder - building SimpleValue for password
+[DEBUG] 2021-04-27 13:33:27.080 [main] PropertyBinder - Building property password
+[DEBUG] 2021-04-27 13:33:27.080 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2021-04-27 13:33:27.080 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=roles, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:27.081 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:27.084 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:27.085 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=roles_KEY, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:27.085 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='roles_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2021-04-27 13:33:27.085 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2021-04-27 13:33:27.085 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2021-04-27 13:33:27.085 [main] CollectionBinder - Collection role: entity.User.roles
+[DEBUG] 2021-04-27 13:33:27.085 [main] PropertyBinder - Building property roles
+[DEBUG] 2021-04-27 13:33:27.085 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2021-04-27 13:33:27.086 [main] PropertyBinder - MetadataSourceProcessor property userName with lazy=false
+[DEBUG] 2021-04-27 13:33:27.086 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:userName]
+[DEBUG] 2021-04-27 13:33:27.086 [main] SimpleValueBinder - building SimpleValue for userName
+[DEBUG] 2021-04-27 13:33:27.086 [main] PropertyBinder - Building property userName
+[DEBUG] 2021-04-27 13:33:27.107 [main] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2021-04-27 13:33:27.107 [main] SimpleValueBinder - Starting fillSimpleValue for name
+[DEBUG] 2021-04-27 13:33:27.107 [main] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2021-04-27 13:33:27.107 [main] SimpleValueBinder - Starting fillSimpleValue for isbn
+[DEBUG] 2021-04-27 13:33:27.107 [main] SimpleValueBinder - Starting fillSimpleValue for title
+[DEBUG] 2021-04-27 13:33:27.107 [main] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2021-04-27 13:33:27.107 [main] SimpleValueBinder - Starting fillSimpleValue for name
+[DEBUG] 2021-04-27 13:33:27.107 [main] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2021-04-27 13:33:27.108 [main] SimpleValueBinder - Starting fillSimpleValue for roleName
+[DEBUG] 2021-04-27 13:33:27.108 [main] SimpleValueBinder - Starting fillSimpleValue for userName
+[DEBUG] 2021-04-27 13:33:27.108 [main] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2021-04-27 13:33:27.108 [main] SimpleValueBinder - Starting fillSimpleValue for email
+[DEBUG] 2021-04-27 13:33:27.108 [main] SimpleValueBinder - Starting fillSimpleValue for firstName
+[DEBUG] 2021-04-27 13:33:27.108 [main] SimpleValueBinder - Starting fillSimpleValue for lastName
+[DEBUG] 2021-04-27 13:33:27.113 [main] SimpleValueBinder - Starting fillSimpleValue for password
+[DEBUG] 2021-04-27 13:33:27.113 [main] SimpleValueBinder - Starting fillSimpleValue for userName
+[DEBUG] 2021-04-27 13:33:27.134 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [author]
+[DEBUG] 2021-04-27 13:33:27.134 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [book]
+[DEBUG] 2021-04-27 13:33:27.134 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [genre]
+[DEBUG] 2021-04-27 13:33:27.134 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [role]
+[DEBUG] 2021-04-27 13:33:27.134 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [user]
+[DEBUG] 2021-04-27 13:33:27.134 [main] CollectionSecondPass - Second pass for collection: entity.User.books
+[DEBUG] 2021-04-27 13:33:27.135 [main] CollectionBinder - Binding a OneToMany: entity.User.books through a foreign key
+[DEBUG] 2021-04-27 13:33:27.148 [main] CollectionBinder - Mapping collection: entity.User.books -> book
+[DEBUG] 2021-04-27 13:33:27.151 [main] TableBinder - Retrieving property entity.Book.user
+[DEBUG] 2021-04-27 13:33:27.152 [main] CollectionSecondPass - Mapped collection key: user_id, one-to-many: entity.Book
+[DEBUG] 2021-04-27 13:33:27.162 [main] CollectionSecondPass - Second pass for collection: entity.User.roles
+[DEBUG] 2021-04-27 13:33:27.162 [main] CollectionBinder - Binding a OneToMany: entity.User.roles through a foreign key
+[DEBUG] 2021-04-27 13:33:27.162 [main] CollectionBinder - Mapping collection: entity.User.roles -> role
+[DEBUG] 2021-04-27 13:33:27.163 [main] TableBinder - Retrieving property entity.Role.user
+[DEBUG] 2021-04-27 13:33:27.163 [main] CollectionSecondPass - Mapped collection key: user_id, one-to-many: entity.Role
+[DEBUG] 2021-04-27 13:33:27.163 [main] InFlightMetadataCollectorImpl - Resolving reference to class: entity.Author
+[DEBUG] 2021-04-27 13:33:27.175 [main] InFlightMetadataCollectorImpl - Resolving reference to class: entity.Genre
+[DEBUG] 2021-04-27 13:33:27.176 [main] InFlightMetadataCollectorImpl - Resolving reference to class: entity.User
+[DEBUG] 2021-04-27 13:33:27.180 [main] InFlightMetadataCollectorImpl - Resolving reference to class: entity.User
+[DEBUG] 2021-04-27 13:33:27.181 [main] InFlightMetadataCollectorImpl - Resolving reference to class: entity.Author
+[DEBUG] 2021-04-27 13:33:27.181 [main] InFlightMetadataCollectorImpl - Resolving reference to class: entity.Genre
+[DEBUG] 2021-04-27 13:33:27.182 [main] InFlightMetadataCollectorImpl - Resolving reference to class: entity.User
+[DEBUG] 2021-04-27 13:33:27.182 [main] InFlightMetadataCollectorImpl - Resolving reference to class: entity.User
+[DEBUG] 2021-04-27 13:33:27.364 [main] SessionFactoryImpl - Building session factory
+[DEBUG] 2021-04-27 13:33:27.378 [main] Settings - SessionFactory name : null
+[DEBUG] 2021-04-27 13:33:27.378 [main] Settings - Automatic flush during beforeCompletion(): enabled
+[DEBUG] 2021-04-27 13:33:27.378 [main] Settings - Automatic session close at end of transaction: disabled
+[DEBUG] 2021-04-27 13:33:27.379 [main] Settings - Statistics: disabled
+[DEBUG] 2021-04-27 13:33:27.379 [main] Settings - Deleted entity synthetic identifier rollback: disabled
+[DEBUG] 2021-04-27 13:33:27.379 [main] Settings - Default entity-mode: pojo
+[DEBUG] 2021-04-27 13:33:27.379 [main] Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[DEBUG] 2021-04-27 13:33:27.379 [main] Settings - Allow initialization of lazy state outside session : disabled
+[DEBUG] 2021-04-27 13:33:27.379 [main] Settings - Using BatchFetchStyle : LEGACY
+[DEBUG] 2021-04-27 13:33:27.379 [main] Settings - Default batch fetch size: -1
+[DEBUG] 2021-04-27 13:33:27.379 [main] Settings - Maximum outer join fetch depth: 2
+[DEBUG] 2021-04-27 13:33:27.379 [main] Settings - Default null ordering: NONE
+[DEBUG] 2021-04-27 13:33:27.379 [main] Settings - Order SQL updates by primary key: disabled
+[DEBUG] 2021-04-27 13:33:27.380 [main] Settings - Order SQL inserts for batching: disabled
+[DEBUG] 2021-04-27 13:33:27.380 [main] Settings - multi-tenancy strategy : NONE
+[DEBUG] 2021-04-27 13:33:27.380 [main] Settings - JTA Track by Thread: enabled
+[DEBUG] 2021-04-27 13:33:27.380 [main] Settings - Query language substitutions: {}
+[DEBUG] 2021-04-27 13:33:27.380 [main] Settings - Named query checking : enabled
+[DEBUG] 2021-04-27 13:33:27.380 [main] Settings - Second-level cache: disabled
+[DEBUG] 2021-04-27 13:33:27.380 [main] Settings - Second-level query cache: disabled
+[DEBUG] 2021-04-27 13:33:27.380 [main] Settings - Second-level query cache factory: null
+[DEBUG] 2021-04-27 13:33:27.380 [main] Settings - Second-level cache region prefix: null
+[DEBUG] 2021-04-27 13:33:27.380 [main] Settings - Optimize second-level cache for minimal puts: disabled
+[DEBUG] 2021-04-27 13:33:27.380 [main] Settings - Structured second-level cache entries: disabled
+[DEBUG] 2021-04-27 13:33:27.380 [main] Settings - Second-level cache direct-reference entries: disabled
+[DEBUG] 2021-04-27 13:33:27.380 [main] Settings - Automatic eviction of collection cache: disabled
+[DEBUG] 2021-04-27 13:33:27.380 [main] Settings - JDBC batch size: 15
+[DEBUG] 2021-04-27 13:33:27.380 [main] Settings - JDBC batch updates for versioned data: enabled
+[DEBUG] 2021-04-27 13:33:27.381 [main] Settings - Scrollable result sets: enabled
+[DEBUG] 2021-04-27 13:33:27.381 [main] Settings - Wrap result sets: disabled
+[DEBUG] 2021-04-27 13:33:27.381 [main] Settings - JDBC3 getGeneratedKeys(): enabled
+[DEBUG] 2021-04-27 13:33:27.382 [main] Settings - JDBC result set fetch size: null
+[DEBUG] 2021-04-27 13:33:27.382 [main] Settings - Connection release mode: AFTER_TRANSACTION
+[DEBUG] 2021-04-27 13:33:27.382 [main] Settings - Generate SQL with comments: disabled
+[DEBUG] 2021-04-27 13:33:27.382 [main] Settings - JPA compliance - query : 
+[DEBUG] 2021-04-27 13:33:27.382 [main] Settings - JPA compliance - closed-handling : 
+[DEBUG] 2021-04-27 13:33:27.382 [main] Settings - JPA compliance - lists : 
+[DEBUG] 2021-04-27 13:33:27.382 [main] Settings - JPA compliance - transactions : 
+[INFO ] 2021-04-27 13:33:27.462 [main] beans - HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[DEBUG] 2021-04-27 13:33:27.508 [main] SessionFactoryImpl - Session factory constructed with filter configurations : {}
+[DEBUG] 2021-04-27 13:33:27.508 [main] SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=gnome, awt.toolkit=sun.awt.X11.XToolkit, java.specification.version=11, sun.cpu.isalist=, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=UTF-8, hibernate.c3p0.min_size=5, java.class.path=/home/student/intellij/lib/idea_rt.jar:/home/student/intellij/plugins/junit/lib/junit5-rt.jar:/home/student/intellij/plugins/junit/lib/junit-rt.jar:/home/student/IdeaProjects/BookCollection/target/test-classes:/home/student/IdeaProjects/BookCollection/target/classes:/home/student/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/student/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/student/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar:/home/student/.m2/repository/mysql/mysql-connector-java/8.0.22/mysql-connector-java-8.0.22.jar:/home/student/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar:/home/student/.m2/repository/javax/servlet/jsp/jstl/jstl-api/1.2/jstl-api-1.2.jar:/home/student/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/home/student/.m2/repository/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar:/home/student/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar:/home/student/.m2/repository/taglibs/standard/1.1.2/standard-1.1.2.jar:/home/student/.m2/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar:/home/student/.m2/repository/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-runner/1.0.0/junit-platform-runner-1.0.0.jar:/home/student/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-launcher/1.0.0/junit-platform-launcher-1.0.0.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-suite-api/1.0.0/junit-platform-suite-api-1.0.0.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar:/home/student/.m2/repository/org/junit/vintage/junit-vintage-engine/4.12.0/junit-vintage-engine-4.12.0.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-engine/1.0.0/junit-platform-engine-1.0.0.jar:/home/student/.m2/repository/org/opentest4j/opentest4j/1.0.0/opentest4j-1.0.0.jar:/home/student/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.0.0/junit-jupiter-engine-5.0.0.jar:/home/student/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0.jar:/home/student/.m2/repository/org/hibernate/hibernate-core/5.4.4.Final/hibernate-core-5.4.4.Final.jar:/home/student/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar:/home/student/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar:/home/student/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar:/home/student/.m2/repository/net/bytebuddy/byte-buddy/1.9.11/byte-buddy-1.9.11.jar:/home/student/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/student/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar:/home/student/.m2/repository/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar:/home/student/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar:/home/student/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/home/student/.m2/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar:/home/student/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar:/home/student/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/home/student/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar:/home/student/.m2/repository/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar:/home/student/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar:/home/student/.m2/repository/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar:/home/student/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar:/home/student/.m2/repository/org/hibernate/hibernate-c3p0/5.4.4.Final/hibernate-c3p0-5.4.4.Final.jar:/home/student/.m2/repository/com/mchange/c3p0/0.9.5.3/c3p0-0.9.5.3.jar:/home/student/.m2/repository/com/mchange/mchange-commons-java/0.2.15/mchange-commons-java-0.2.15.jar:/home/student/.m2/repository/org/glassfish/jersey/core/jersey-client/2.29.1/jersey-client-2.29.1.jar:/home/student/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar:/home/student/.m2/repository/org/glassfish/jersey/core/jersey-common/2.29.1/jersey-common-2.29.1.jar:/home/student/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/home/student/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar:/home/student/.m2/repository/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar:/home/student/.m2/repository/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar:/home/student/.m2/repository/org/glassfish/jersey/inject/jersey-hk2/2.29.1/jersey-hk2-2.29.1.jar:/home/student/.m2/repository/org/glassfish/hk2/hk2-locator/2.6.1/hk2-locator-2.6.1.jar:/home/student/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.6.1/aopalliance-repackaged-2.6.1.jar:/home/student/.m2/repository/org/glassfish/hk2/hk2-api/2.6.1/hk2-api-2.6.1.jar:/home/student/.m2/repository/org/glassfish/hk2/hk2-utils/2.6.1/hk2-utils-2.6.1.jar:/home/student/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.jar:/home/student/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.jar:/home/student/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar, java.vm.vendor=Ubuntu, sun.arch.data.model=64, idea.test.cyclic.buffer.size=1048576, java.vendor.url=https://ubuntu.com/, user.timezone=America/Chicago, os.name=Linux, java.vm.specification.version=11, sun.java.launcher=SUN_STANDARD, user.country=US, sun.boot.library.path=/usr/lib/jvm/java-11-openjdk-amd64/lib, sun.java.command=com.intellij.rt.junit.JUnitStarter -ideVersion5 -junit5 test.persistence.AuthorDaoTest, jdk.debug=release, sun.cpu.endian=little, user.home=/home/student, hibernate.c3p0.max_statements=50, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2021-01-19, java.home=/usr/lib/jvm/java-11-openjdk-amd64, file.separator=/, java.vm.compressedOopsMode=32-bit, line.separator=
+, hibernate.c3p0.timeout=300, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, connection.password=student, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hibernate.c3p0.max_size=20, java.runtime.version=11.0.10+9-Ubuntu-0ubuntu1.20.04, user.name=student, path.separator=:, hibernate.connection.username=****, os.version=5.4.0-72-generic, java.runtime.name=OpenJDK Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/test_BookCollection, file.encoding=UTF-8, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver, java.vendor.url.bug=https://bugs.launchpad.net/ubuntu/+source/openjdk-lts, java.io.tmpdir=/tmp, java.version=11.0.10, user.dir=/home/student/IdeaProjects/BookCollection, os.arch=amd64, connection.username=root, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.print.PSPrinterJob, hibernate.connection.password=****, sun.os.patch.level=unknown, connection.driver_class=com.mysql.cj.jdbc.Driver, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@38291795, java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.vendor=Ubuntu, java.vm.info=mixed mode, sharing, java.vm.version=11.0.10+9-Ubuntu-0ubuntu1.20.04, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeLittle, connection.url=jdbc:mysql://localhost:3306/test_BookCollection, java.class.version=55.0}
+[DEBUG] 2021-04-27 13:33:27.557 [main] TypeSafeActivator - Unable to acquire Bean Validation ValidatorFactory, skipping activation
+[DEBUG] 2021-04-27 13:33:27.557 [main] JaccIntegrator - Skipping JACC integration as it was not enabled
+[DEBUG] 2021-04-27 13:33:27.561 [main] SessionFactoryImpl - Instantiated session factory
+[DEBUG] 2021-04-27 13:33:27.562 [main] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@5922d3e9] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@4d7a64ca]
+[DEBUG] 2021-04-27 13:33:27.738 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.Role] is safe
+[DEBUG] 2021-04-27 13:33:27.738 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.Role
+[DEBUG] 2021-04-27 13:33:27.766 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.Role] is safe
+[DEBUG] 2021-04-27 13:33:27.767 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.Role
+[DEBUG] 2021-04-27 13:33:28.126 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.User] is safe
+[DEBUG] 2021-04-27 13:33:28.126 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.User
+[DEBUG] 2021-04-27 13:33:28.129 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.User] is safe
+[DEBUG] 2021-04-27 13:33:28.129 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.User
+[DEBUG] 2021-04-27 13:33:28.251 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.Genre] is safe
+[DEBUG] 2021-04-27 13:33:28.251 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.Genre
+[DEBUG] 2021-04-27 13:33:28.251 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.Genre] is safe
+[DEBUG] 2021-04-27 13:33:28.251 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.Genre
+[DEBUG] 2021-04-27 13:33:28.282 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.Author] is safe
+[DEBUG] 2021-04-27 13:33:28.282 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.Author
+[DEBUG] 2021-04-27 13:33:28.283 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.Author] is safe
+[DEBUG] 2021-04-27 13:33:28.283 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.Author
+[DEBUG] 2021-04-27 13:33:28.323 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.Book] is safe
+[DEBUG] 2021-04-27 13:33:28.323 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.Book
+[DEBUG] 2021-04-27 13:33:28.323 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.Book] is safe
+[DEBUG] 2021-04-27 13:33:28.323 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.Book
+[DEBUG] 2021-04-27 13:33:28.401 [main] AbstractCollectionPersister - Static SQL for collection: entity.User.books
+[DEBUG] 2021-04-27 13:33:28.401 [main] AbstractCollectionPersister -  Row insert: update book set user_id=? where id=?
+[DEBUG] 2021-04-27 13:33:28.401 [main] AbstractCollectionPersister -  Row update: update book set  where id=?
+[DEBUG] 2021-04-27 13:33:28.401 [main] AbstractCollectionPersister -  Row delete: update book set user_id=null where user_id=? and id=?
+[DEBUG] 2021-04-27 13:33:28.401 [main] AbstractCollectionPersister -  One-shot delete: update book set user_id=null where user_id=?
+[DEBUG] 2021-04-27 13:33:28.402 [main] AbstractCollectionPersister - Static SQL for collection: entity.User.roles
+[DEBUG] 2021-04-27 13:33:28.402 [main] AbstractCollectionPersister -  Row insert: update role set user_id=? where id=?
+[DEBUG] 2021-04-27 13:33:28.402 [main] AbstractCollectionPersister -  Row update: update role set  where id=?
+[DEBUG] 2021-04-27 13:33:28.402 [main] AbstractCollectionPersister -  Row delete: update role set user_id=null where user_id=? and id=?
+[DEBUG] 2021-04-27 13:33:28.402 [main] AbstractCollectionPersister -  One-shot delete: update role set user_id=null where user_id=?
+[DEBUG] 2021-04-27 13:33:28.418 [main] AbstractEntityPersister - Static SQL for entity: entity.Role
+[DEBUG] 2021-04-27 13:33:28.419 [main] AbstractEntityPersister -  Version select: select id from role where id =?
+[DEBUG] 2021-04-27 13:33:28.419 [main] AbstractEntityPersister -  Snapshot select: select role_.id, role_.role_name as role_nam2_3_, role_.user_id as user_id4_3_, role_.user_name as user_nam3_3_ from role role_ where role_.id=?
+[DEBUG] 2021-04-27 13:33:28.419 [main] AbstractEntityPersister -  Insert 0: insert into role (role_name, user_id, user_name, id) values (?, ?, ?, ?)
+[DEBUG] 2021-04-27 13:33:28.419 [main] AbstractEntityPersister -  Update 0: update role set role_name=?, user_id=?, user_name=? where id=?
+[DEBUG] 2021-04-27 13:33:28.419 [main] AbstractEntityPersister -  Delete 0: delete from role where id=?
+[DEBUG] 2021-04-27 13:33:28.419 [main] AbstractEntityPersister -  Identity insert: insert into role (role_name, user_id, user_name) values (?, ?, ?)
+[DEBUG] 2021-04-27 13:33:28.460 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@11810917]
+[DEBUG] 2021-04-27 13:33:28.461 [main] MetamodelGraphWalker - Visiting attribute path : roleName
+[DEBUG] 2021-04-27 13:33:28.461 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2021-04-27 13:33:28.465 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6aae0e6f]
+[DEBUG] 2021-04-27 13:33:28.466 [main] MetamodelGraphWalker - Visiting attribute path : user.books
+[DEBUG] 2021-04-27 13:33:28.467 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@40c8067]
+[DEBUG] 2021-04-27 13:33:28.468 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6e95973c]
+[DEBUG] 2021-04-27 13:33:28.469 [main] MetamodelGraphWalker - Visiting attribute path : user.email
+[DEBUG] 2021-04-27 13:33:28.469 [main] MetamodelGraphWalker - Visiting attribute path : user.firstName
+[DEBUG] 2021-04-27 13:33:28.476 [main] MetamodelGraphWalker - Visiting attribute path : user.lastName
+[DEBUG] 2021-04-27 13:33:28.476 [main] MetamodelGraphWalker - Visiting attribute path : user.password
+[DEBUG] 2021-04-27 13:33:28.476 [main] MetamodelGraphWalker - Visiting attribute path : user.roles
+[DEBUG] 2021-04-27 13:33:28.476 [main] MetamodelGraphWalker - Property path deemed to be circular : user.roles
+[DEBUG] 2021-04-27 13:33:28.477 [main] MetamodelGraphWalker - Visiting attribute path : user.userName
+[DEBUG] 2021-04-27 13:33:28.477 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2021-04-27 13:33:28.480 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-04-27 13:33:28.507 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-04-27 13:33:28.513 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=entity.Role, querySpaceUid=<gen:0>, path=entity.Role)
+          - EntityAttributeFetchImpl(entity=entity.User, querySpaceUid=<gen:1>, path=entity.Role.user)
+             - CollectionAttributeFetchImpl(collection=entity.User.books, querySpaceUid=<gen:2>, path=entity.Role.user.books)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=entity.Book, querySpaceUid=<gen:3>, path=entity.Role.user.books.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+          - JOIN (JoinDefinedByMetadata(user)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=entity.User)
+                - SQL table alias mapping - user1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_4_1_}
+
+[DEBUG] 2021-04-27 13:33:28.521 [main] EntityLoader - Static select for entity entity.Role [NONE]: select role0_.id as id1_3_0_, role0_.role_name as role_nam2_3_0_, role0_.user_id as user_id4_3_0_, role0_.user_name as user_nam3_3_0_, user1_.id as id1_4_1_, user1_.email as email2_4_1_, user1_.first_name as first_na3_4_1_, user1_.last_name as last_nam4_4_1_, user1_.password as password5_4_1_, user1_.user_name as user_nam6_4_1_ from role role0_ left outer join user user1_ on role0_.user_id=user1_.id where role0_.id=?
+[DEBUG] 2021-04-27 13:33:28.521 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@14e750c5]
+[DEBUG] 2021-04-27 13:33:28.521 [main] MetamodelGraphWalker - Visiting attribute path : roleName
+[DEBUG] 2021-04-27 13:33:28.522 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2021-04-27 13:33:28.522 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5329f6b3]
+[DEBUG] 2021-04-27 13:33:28.522 [main] MetamodelGraphWalker - Visiting attribute path : user.books
+[DEBUG] 2021-04-27 13:33:28.522 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@77324a58]
+[DEBUG] 2021-04-27 13:33:28.523 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2c7c0e36]
+[DEBUG] 2021-04-27 13:33:28.523 [main] MetamodelGraphWalker - Visiting attribute path : user.email
+[DEBUG] 2021-04-27 13:33:28.523 [main] MetamodelGraphWalker - Visiting attribute path : user.firstName
+[DEBUG] 2021-04-27 13:33:28.523 [main] MetamodelGraphWalker - Visiting attribute path : user.lastName
+[DEBUG] 2021-04-27 13:33:28.523 [main] MetamodelGraphWalker - Visiting attribute path : user.password
+[DEBUG] 2021-04-27 13:33:28.523 [main] MetamodelGraphWalker - Visiting attribute path : user.roles
+[DEBUG] 2021-04-27 13:33:28.523 [main] MetamodelGraphWalker - Property path deemed to be circular : user.roles
+[DEBUG] 2021-04-27 13:33:28.523 [main] MetamodelGraphWalker - Visiting attribute path : user.userName
+[DEBUG] 2021-04-27 13:33:28.523 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2021-04-27 13:33:28.523 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-04-27 13:33:28.523 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-04-27 13:33:28.524 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=entity.Role, querySpaceUid=<gen:0>, path=entity.Role)
+          - EntityAttributeFetchImpl(entity=entity.User, querySpaceUid=<gen:1>, path=entity.Role.user)
+             - CollectionAttributeFetchImpl(collection=entity.User.books, querySpaceUid=<gen:2>, path=entity.Role.user.books)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=entity.Book, querySpaceUid=<gen:3>, path=entity.Role.user.books.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+          - JOIN (JoinDefinedByMetadata(user)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=entity.User)
+                - SQL table alias mapping - user1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_4_1_}
+
+[DEBUG] 2021-04-27 13:33:28.526 [main] EntityLoader - Static select for entity entity.Role [READ]: select role0_.id as id1_3_0_, role0_.role_name as role_nam2_3_0_, role0_.user_id as user_id4_3_0_, role0_.user_name as user_nam3_3_0_, user1_.id as id1_4_1_, user1_.email as email2_4_1_, user1_.first_name as first_na3_4_1_, user1_.last_name as last_nam4_4_1_, user1_.password as password5_4_1_, user1_.user_name as user_nam6_4_1_ from role role0_ left outer join user user1_ on role0_.user_id=user1_.id where role0_.id=?
+[DEBUG] 2021-04-27 13:33:28.541 [main] Loader - Static select for action ACTION_MERGE on entity entity.Role: select role0_.id as id1_3_0_, role0_.role_name as role_nam2_3_0_, role0_.user_id as user_id4_3_0_, role0_.user_name as user_nam3_3_0_ from role role0_ where role0_.id=?
+[DEBUG] 2021-04-27 13:33:28.549 [main] Loader - Static select for action ACTION_REFRESH on entity entity.Role: select role0_.id as id1_3_0_, role0_.role_name as role_nam2_3_0_, role0_.user_id as user_id4_3_0_, role0_.user_name as user_nam3_3_0_ from role role0_ where role0_.id=?
+[DEBUG] 2021-04-27 13:33:28.549 [main] AbstractEntityPersister - Static SQL for entity: entity.User
+[DEBUG] 2021-04-27 13:33:28.549 [main] AbstractEntityPersister -  Version select: select id from user where id =?
+[DEBUG] 2021-04-27 13:33:28.549 [main] AbstractEntityPersister -  Snapshot select: select user_.id, user_.email as email2_4_, user_.first_name as first_na3_4_, user_.last_name as last_nam4_4_, user_.password as password5_4_, user_.user_name as user_nam6_4_ from user user_ where user_.id=?
+[DEBUG] 2021-04-27 13:33:28.550 [main] AbstractEntityPersister -  Insert 0: insert into user (email, first_name, last_name, password, user_name, id) values (?, ?, ?, ?, ?, ?)
+[DEBUG] 2021-04-27 13:33:28.550 [main] AbstractEntityPersister -  Update 0: update user set email=?, first_name=?, last_name=?, password=?, user_name=? where id=?
+[DEBUG] 2021-04-27 13:33:28.550 [main] AbstractEntityPersister -  Delete 0: delete from user where id=?
+[DEBUG] 2021-04-27 13:33:28.550 [main] AbstractEntityPersister -  Identity insert: insert into user (email, first_name, last_name, password, user_name) values (?, ?, ?, ?, ?)
+[DEBUG] 2021-04-27 13:33:28.550 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7cd5fcf4]
+[DEBUG] 2021-04-27 13:33:28.550 [main] MetamodelGraphWalker - Visiting attribute path : books
+[DEBUG] 2021-04-27 13:33:28.550 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5f5297e3]
+[DEBUG] 2021-04-27 13:33:28.551 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2d22d3b1]
+[DEBUG] 2021-04-27 13:33:28.551 [main] MetamodelGraphWalker - Visiting attribute path : email
+[DEBUG] 2021-04-27 13:33:28.551 [main] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2021-04-27 13:33:28.551 [main] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2021-04-27 13:33:28.551 [main] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2021-04-27 13:33:28.551 [main] MetamodelGraphWalker - Visiting attribute path : roles
+[DEBUG] 2021-04-27 13:33:28.551 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7ec3a8bd]
+[DEBUG] 2021-04-27 13:33:28.551 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@9690008]
+[DEBUG] 2021-04-27 13:33:28.552 [main] MetamodelGraphWalker - Visiting attribute path : roles.roleName
+[DEBUG] 2021-04-27 13:33:28.552 [main] MetamodelGraphWalker - Visiting attribute path : roles.user
+[DEBUG] 2021-04-27 13:33:28.552 [main] MetamodelGraphWalker - Property path deemed to be circular : roles.user
+[DEBUG] 2021-04-27 13:33:28.553 [main] MetamodelGraphWalker - Visiting attribute path : roles.userName
+[DEBUG] 2021-04-27 13:33:28.553 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2021-04-27 13:33:28.555 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-04-27 13:33:28.556 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-04-27 13:33:28.564 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.User)
+    - Returns
+       - EntityReturnImpl(entity=entity.User, querySpaceUid=<gen:0>, path=entity.User)
+          - CollectionAttributeFetchImpl(collection=entity.User.books, querySpaceUid=<gen:1>, path=entity.User.books)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=entity.Book, querySpaceUid=<gen:2>, path=entity.User.books.<elements>)
+          - CollectionAttributeFetchImpl(collection=entity.User.roles, querySpaceUid=<gen:3>, path=entity.User.roles)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=entity.Role, querySpaceUid=<gen:4>, path=entity.User.roles.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+          - JOIN (JoinDefinedByMetadata(roles)) : <gen:0> -> <gen:3>
+             - CollectionQuerySpaceImpl(uid=<gen:3>, collection=entity.User.roles)
+                - SQL table alias mapping - roles1_
+                - alias suffix - 1_
+                - suffixed key columns - {user_id4_3_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_3_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                   - EntityQuerySpaceImpl(uid=<gen:4>, entity=entity.Role)
+                      - SQL table alias mapping - roles1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_3_2_}
+
+[DEBUG] 2021-04-27 13:33:28.564 [main] EntityLoader - Static select for entity entity.User [NONE]: select user0_.id as id1_4_0_, user0_.email as email2_4_0_, user0_.first_name as first_na3_4_0_, user0_.last_name as last_nam4_4_0_, user0_.password as password5_4_0_, user0_.user_name as user_nam6_4_0_, roles1_.user_id as user_id4_3_1_, roles1_.id as id1_3_1_, roles1_.id as id1_3_2_, roles1_.role_name as role_nam2_3_2_, roles1_.user_id as user_id4_3_2_, roles1_.user_name as user_nam3_3_2_ from user user0_ left outer join role roles1_ on user0_.id=roles1_.user_id where user0_.id=?
+[DEBUG] 2021-04-27 13:33:28.564 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3cc9632d]
+[DEBUG] 2021-04-27 13:33:28.564 [main] MetamodelGraphWalker - Visiting attribute path : books
+[DEBUG] 2021-04-27 13:33:28.564 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@489110c2]
+[DEBUG] 2021-04-27 13:33:28.564 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@700b9e6b]
+[DEBUG] 2021-04-27 13:33:28.564 [main] MetamodelGraphWalker - Visiting attribute path : email
+[DEBUG] 2021-04-27 13:33:28.564 [main] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2021-04-27 13:33:28.564 [main] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2021-04-27 13:33:28.564 [main] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2021-04-27 13:33:28.564 [main] MetamodelGraphWalker - Visiting attribute path : roles
+[DEBUG] 2021-04-27 13:33:28.564 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7ac5b4c]
+[DEBUG] 2021-04-27 13:33:28.564 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@150fc7a7]
+[DEBUG] 2021-04-27 13:33:28.565 [main] MetamodelGraphWalker - Visiting attribute path : roles.roleName
+[DEBUG] 2021-04-27 13:33:28.565 [main] MetamodelGraphWalker - Visiting attribute path : roles.user
+[DEBUG] 2021-04-27 13:33:28.565 [main] MetamodelGraphWalker - Property path deemed to be circular : roles.user
+[DEBUG] 2021-04-27 13:33:28.565 [main] MetamodelGraphWalker - Visiting attribute path : roles.userName
+[DEBUG] 2021-04-27 13:33:28.565 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2021-04-27 13:33:28.565 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-04-27 13:33:28.565 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-04-27 13:33:28.566 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.User)
+    - Returns
+       - EntityReturnImpl(entity=entity.User, querySpaceUid=<gen:0>, path=entity.User)
+          - CollectionAttributeFetchImpl(collection=entity.User.books, querySpaceUid=<gen:1>, path=entity.User.books)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=entity.Book, querySpaceUid=<gen:2>, path=entity.User.books.<elements>)
+          - CollectionAttributeFetchImpl(collection=entity.User.roles, querySpaceUid=<gen:3>, path=entity.User.roles)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=entity.Role, querySpaceUid=<gen:4>, path=entity.User.roles.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+          - JOIN (JoinDefinedByMetadata(roles)) : <gen:0> -> <gen:3>
+             - CollectionQuerySpaceImpl(uid=<gen:3>, collection=entity.User.roles)
+                - SQL table alias mapping - roles1_
+                - alias suffix - 1_
+                - suffixed key columns - {user_id4_3_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_3_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:3> -> <gen:4>
+                   - EntityQuerySpaceImpl(uid=<gen:4>, entity=entity.Role)
+                      - SQL table alias mapping - roles1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_3_2_}
+
+[DEBUG] 2021-04-27 13:33:28.566 [main] EntityLoader - Static select for entity entity.User [READ]: select user0_.id as id1_4_0_, user0_.email as email2_4_0_, user0_.first_name as first_na3_4_0_, user0_.last_name as last_nam4_4_0_, user0_.password as password5_4_0_, user0_.user_name as user_nam6_4_0_, roles1_.user_id as user_id4_3_1_, roles1_.id as id1_3_1_, roles1_.id as id1_3_2_, roles1_.role_name as role_nam2_3_2_, roles1_.user_id as user_id4_3_2_, roles1_.user_name as user_nam3_3_2_ from user user0_ left outer join role roles1_ on user0_.id=roles1_.user_id where user0_.id=?
+[DEBUG] 2021-04-27 13:33:28.567 [main] Loader - Static select for action ACTION_MERGE on entity entity.User: select user0_.id as id1_4_1_, user0_.email as email2_4_1_, user0_.first_name as first_na3_4_1_, user0_.last_name as last_nam4_4_1_, user0_.password as password5_4_1_, user0_.user_name as user_nam6_4_1_, books1_.user_id as user_id6_1_3_, books1_.id as id1_1_3_, books1_.id as id1_1_0_, books1_.author_id as author_i4_1_0_, books1_.genre_id as genre_id5_1_0_, books1_.isbn as isbn2_1_0_, books1_.title as title3_1_0_, books1_.user_id as user_id6_1_0_ from user user0_ left outer join book books1_ on user0_.id=books1_.user_id where user0_.id=?
+[DEBUG] 2021-04-27 13:33:28.567 [main] Loader - Static select for action ACTION_REFRESH on entity entity.User: select user0_.id as id1_4_1_, user0_.email as email2_4_1_, user0_.first_name as first_na3_4_1_, user0_.last_name as last_nam4_4_1_, user0_.password as password5_4_1_, user0_.user_name as user_nam6_4_1_, books1_.user_id as user_id6_1_3_, books1_.id as id1_1_3_, books1_.id as id1_1_0_, books1_.author_id as author_i4_1_0_, books1_.genre_id as genre_id5_1_0_, books1_.isbn as isbn2_1_0_, books1_.title as title3_1_0_, books1_.user_id as user_id6_1_0_ from user user0_ left outer join book books1_ on user0_.id=books1_.user_id where user0_.id=?
+[DEBUG] 2021-04-27 13:33:28.567 [main] AbstractEntityPersister - Static SQL for entity: entity.Genre
+[DEBUG] 2021-04-27 13:33:28.567 [main] AbstractEntityPersister -  Version select: select id from genre where id =?
+[DEBUG] 2021-04-27 13:33:28.567 [main] AbstractEntityPersister -  Snapshot select: select genre_.id, genre_.name as name2_2_ from genre genre_ where genre_.id=?
+[DEBUG] 2021-04-27 13:33:28.567 [main] AbstractEntityPersister -  Insert 0: insert into genre (name, id) values (?, ?)
+[DEBUG] 2021-04-27 13:33:28.568 [main] AbstractEntityPersister -  Update 0: update genre set name=? where id=?
+[DEBUG] 2021-04-27 13:33:28.568 [main] AbstractEntityPersister -  Delete 0: delete from genre where id=?
+[DEBUG] 2021-04-27 13:33:28.568 [main] AbstractEntityPersister -  Identity insert: insert into genre (name) values (?)
+[DEBUG] 2021-04-27 13:33:28.568 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7a3f08b6]
+[DEBUG] 2021-04-27 13:33:28.575 [main] MetamodelGraphWalker - Visiting attribute path : name
+[DEBUG] 2021-04-27 13:33:28.575 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-04-27 13:33:28.576 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-04-27 13:33:28.576 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.Genre)
+    - Returns
+       - EntityReturnImpl(entity=entity.Genre, querySpaceUid=<gen:0>, path=entity.Genre)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.Genre)
+          - SQL table alias mapping - genre0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[DEBUG] 2021-04-27 13:33:28.576 [main] EntityLoader - Static select for entity entity.Genre [NONE]: select genre0_.id as id1_2_0_, genre0_.name as name2_2_0_ from genre genre0_ where genre0_.id=?
+[DEBUG] 2021-04-27 13:33:28.576 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5fb5ad40]
+[DEBUG] 2021-04-27 13:33:28.577 [main] MetamodelGraphWalker - Visiting attribute path : name
+[DEBUG] 2021-04-27 13:33:28.577 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-04-27 13:33:28.577 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-04-27 13:33:28.577 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.Genre)
+    - Returns
+       - EntityReturnImpl(entity=entity.Genre, querySpaceUid=<gen:0>, path=entity.Genre)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.Genre)
+          - SQL table alias mapping - genre0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[DEBUG] 2021-04-27 13:33:28.578 [main] EntityLoader - Static select for entity entity.Genre [READ]: select genre0_.id as id1_2_0_, genre0_.name as name2_2_0_ from genre genre0_ where genre0_.id=?
+[DEBUG] 2021-04-27 13:33:28.579 [main] Loader - Static select for action ACTION_MERGE on entity entity.Genre: select genre0_.id as id1_2_0_, genre0_.name as name2_2_0_ from genre genre0_ where genre0_.id=?
+[DEBUG] 2021-04-27 13:33:28.579 [main] Loader - Static select for action ACTION_REFRESH on entity entity.Genre: select genre0_.id as id1_2_0_, genre0_.name as name2_2_0_ from genre genre0_ where genre0_.id=?
+[DEBUG] 2021-04-27 13:33:28.579 [main] AbstractEntityPersister - Static SQL for entity: entity.Author
+[DEBUG] 2021-04-27 13:33:28.579 [main] AbstractEntityPersister -  Version select: select id from author where id =?
+[DEBUG] 2021-04-27 13:33:28.579 [main] AbstractEntityPersister -  Snapshot select: select author_.id, author_.name as name2_0_ from author author_ where author_.id=?
+[DEBUG] 2021-04-27 13:33:28.579 [main] AbstractEntityPersister -  Insert 0: insert into author (name, id) values (?, ?)
+[DEBUG] 2021-04-27 13:33:28.579 [main] AbstractEntityPersister -  Update 0: update author set name=? where id=?
+[DEBUG] 2021-04-27 13:33:28.579 [main] AbstractEntityPersister -  Delete 0: delete from author where id=?
+[DEBUG] 2021-04-27 13:33:28.579 [main] AbstractEntityPersister -  Identity insert: insert into author (name) values (?)
+[DEBUG] 2021-04-27 13:33:28.579 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@632cf7d3]
+[DEBUG] 2021-04-27 13:33:28.580 [main] MetamodelGraphWalker - Visiting attribute path : name
+[DEBUG] 2021-04-27 13:33:28.580 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-04-27 13:33:28.580 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-04-27 13:33:28.581 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.Author)
+    - Returns
+       - EntityReturnImpl(entity=entity.Author, querySpaceUid=<gen:0>, path=entity.Author)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.Author)
+          - SQL table alias mapping - author0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2021-04-27 13:33:28.581 [main] EntityLoader - Static select for entity entity.Author [NONE]: select author0_.id as id1_0_0_, author0_.name as name2_0_0_ from author author0_ where author0_.id=?
+[DEBUG] 2021-04-27 13:33:28.581 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2315052d]
+[DEBUG] 2021-04-27 13:33:28.584 [main] MetamodelGraphWalker - Visiting attribute path : name
+[DEBUG] 2021-04-27 13:33:28.584 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-04-27 13:33:28.584 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-04-27 13:33:28.584 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.Author)
+    - Returns
+       - EntityReturnImpl(entity=entity.Author, querySpaceUid=<gen:0>, path=entity.Author)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.Author)
+          - SQL table alias mapping - author0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2021-04-27 13:33:28.584 [main] EntityLoader - Static select for entity entity.Author [READ]: select author0_.id as id1_0_0_, author0_.name as name2_0_0_ from author author0_ where author0_.id=?
+[DEBUG] 2021-04-27 13:33:28.585 [main] Loader - Static select for action ACTION_MERGE on entity entity.Author: select author0_.id as id1_0_0_, author0_.name as name2_0_0_ from author author0_ where author0_.id=?
+[DEBUG] 2021-04-27 13:33:28.585 [main] Loader - Static select for action ACTION_REFRESH on entity entity.Author: select author0_.id as id1_0_0_, author0_.name as name2_0_0_ from author author0_ where author0_.id=?
+[DEBUG] 2021-04-27 13:33:28.586 [main] AbstractEntityPersister - Static SQL for entity: entity.Book
+[DEBUG] 2021-04-27 13:33:28.586 [main] AbstractEntityPersister -  Version select: select id from book where id =?
+[DEBUG] 2021-04-27 13:33:28.586 [main] AbstractEntityPersister -  Snapshot select: select book_.id, book_.author_id as author_i4_1_, book_.genre_id as genre_id5_1_, book_.isbn as isbn2_1_, book_.title as title3_1_, book_.user_id as user_id6_1_ from book book_ where book_.id=?
+[DEBUG] 2021-04-27 13:33:28.586 [main] AbstractEntityPersister -  Insert 0: insert into book (author_id, genre_id, isbn, title, user_id, id) values (?, ?, ?, ?, ?, ?)
+[DEBUG] 2021-04-27 13:33:28.586 [main] AbstractEntityPersister -  Update 0: update book set author_id=?, genre_id=?, isbn=?, title=?, user_id=? where id=?
+[DEBUG] 2021-04-27 13:33:28.586 [main] AbstractEntityPersister -  Delete 0: delete from book where id=?
+[DEBUG] 2021-04-27 13:33:28.586 [main] AbstractEntityPersister -  Identity insert: insert into book (author_id, genre_id, isbn, title, user_id) values (?, ?, ?, ?, ?)
+[DEBUG] 2021-04-27 13:33:28.586 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@67d8faec]
+[DEBUG] 2021-04-27 13:33:28.586 [main] MetamodelGraphWalker - Visiting attribute path : author
+[DEBUG] 2021-04-27 13:33:28.586 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7eaa2bc6]
+[DEBUG] 2021-04-27 13:33:28.588 [main] MetamodelGraphWalker - Visiting attribute path : author.name
+[DEBUG] 2021-04-27 13:33:28.588 [main] MetamodelGraphWalker - Visiting attribute path : genre
+[DEBUG] 2021-04-27 13:33:28.589 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4d81e83a]
+[DEBUG] 2021-04-27 13:33:28.590 [main] MetamodelGraphWalker - Visiting attribute path : genre.name
+[DEBUG] 2021-04-27 13:33:28.590 [main] MetamodelGraphWalker - Visiting attribute path : isbn
+[DEBUG] 2021-04-27 13:33:28.590 [main] MetamodelGraphWalker - Visiting attribute path : title
+[DEBUG] 2021-04-27 13:33:28.590 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2021-04-27 13:33:28.590 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7cf8f45a]
+[DEBUG] 2021-04-27 13:33:28.591 [main] MetamodelGraphWalker - Visiting attribute path : user.books
+[DEBUG] 2021-04-27 13:33:28.591 [main] MetamodelGraphWalker - Property path deemed to be circular : user.books
+[DEBUG] 2021-04-27 13:33:28.591 [main] MetamodelGraphWalker - Visiting attribute path : user.email
+[DEBUG] 2021-04-27 13:33:28.591 [main] MetamodelGraphWalker - Visiting attribute path : user.firstName
+[DEBUG] 2021-04-27 13:33:28.591 [main] MetamodelGraphWalker - Visiting attribute path : user.lastName
+[DEBUG] 2021-04-27 13:33:28.591 [main] MetamodelGraphWalker - Visiting attribute path : user.password
+[DEBUG] 2021-04-27 13:33:28.591 [main] MetamodelGraphWalker - Visiting attribute path : user.roles
+[DEBUG] 2021-04-27 13:33:28.591 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@204d9edf]
+[DEBUG] 2021-04-27 13:33:28.591 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6b2aafbc]
+[DEBUG] 2021-04-27 13:33:28.591 [main] MetamodelGraphWalker - Visiting attribute path : user.roles.roleName
+[DEBUG] 2021-04-27 13:33:28.591 [main] MetamodelGraphWalker - Visiting attribute path : user.roles.user
+[DEBUG] 2021-04-27 13:33:28.591 [main] MetamodelGraphWalker - Property path deemed to be circular : user.roles.user
+[DEBUG] 2021-04-27 13:33:28.591 [main] MetamodelGraphWalker - Visiting attribute path : user.roles.userName
+[DEBUG] 2021-04-27 13:33:28.591 [main] MetamodelGraphWalker - Visiting attribute path : user.userName
+[DEBUG] 2021-04-27 13:33:28.591 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-04-27 13:33:28.592 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-04-27 13:33:28.600 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.Book)
+    - Returns
+       - EntityReturnImpl(entity=entity.Book, querySpaceUid=<gen:0>, path=entity.Book)
+          - EntityAttributeFetchImpl(entity=entity.Author, querySpaceUid=<gen:1>, path=entity.Book.author)
+          - EntityAttributeFetchImpl(entity=entity.Genre, querySpaceUid=<gen:2>, path=entity.Book.genre)
+          - EntityAttributeFetchImpl(entity=entity.User, querySpaceUid=<gen:3>, path=entity.Book.user)
+             - CollectionAttributeFetchImpl(collection=entity.User.roles, querySpaceUid=<gen:4>, path=entity.Book.user.roles)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=entity.Role, querySpaceUid=<gen:5>, path=entity.Book.user.roles.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(author)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=entity.Author)
+                - SQL table alias mapping - author1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+          - JOIN (JoinDefinedByMetadata(genre)) : <gen:0> -> <gen:2>
+             - EntityQuerySpaceImpl(uid=<gen:2>, entity=entity.Genre)
+                - SQL table alias mapping - genre2_
+                - alias suffix - 2_
+                - suffixed key columns - {id1_2_2_}
+          - JOIN (JoinDefinedByMetadata(user)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=entity.User)
+                - SQL table alias mapping - user3_
+                - alias suffix - 3_
+                - suffixed key columns - {id1_4_3_}
+                - JOIN (JoinDefinedByMetadata(roles)) : <gen:3> -> <gen:4>
+                   - CollectionQuerySpaceImpl(uid=<gen:4>, collection=entity.User.roles)
+                      - SQL table alias mapping - roles4_
+                      - alias suffix - 4_
+                      - suffixed key columns - {user_id4_3_4_}
+                      - entity-element alias suffix - 5_
+                      - 5_entity-element suffixed key columns - id1_3_5_
+                      - JOIN (JoinDefinedByMetadata(elements)) : <gen:4> -> <gen:5>
+                         - EntityQuerySpaceImpl(uid=<gen:5>, entity=entity.Role)
+                            - SQL table alias mapping - roles4_
+                            - alias suffix - 5_
+                            - suffixed key columns - {id1_3_5_}
+
+[DEBUG] 2021-04-27 13:33:28.600 [main] EntityLoader - Static select for entity entity.Book [NONE]: select book0_.id as id1_1_0_, book0_.author_id as author_i4_1_0_, book0_.genre_id as genre_id5_1_0_, book0_.isbn as isbn2_1_0_, book0_.title as title3_1_0_, book0_.user_id as user_id6_1_0_, author1_.id as id1_0_1_, author1_.name as name2_0_1_, genre2_.id as id1_2_2_, genre2_.name as name2_2_2_, user3_.id as id1_4_3_, user3_.email as email2_4_3_, user3_.first_name as first_na3_4_3_, user3_.last_name as last_nam4_4_3_, user3_.password as password5_4_3_, user3_.user_name as user_nam6_4_3_, roles4_.user_id as user_id4_3_4_, roles4_.id as id1_3_4_, roles4_.id as id1_3_5_, roles4_.role_name as role_nam2_3_5_, roles4_.user_id as user_id4_3_5_, roles4_.user_name as user_nam3_3_5_ from book book0_ left outer join author author1_ on book0_.author_id=author1_.id left outer join genre genre2_ on book0_.genre_id=genre2_.id left outer join user user3_ on book0_.user_id=user3_.id left outer join role roles4_ on user3_.id=roles4_.user_id where book0_.id=?
+[DEBUG] 2021-04-27 13:33:28.600 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5bec3e0]
+[DEBUG] 2021-04-27 13:33:28.601 [main] MetamodelGraphWalker - Visiting attribute path : author
+[DEBUG] 2021-04-27 13:33:28.601 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@35f7969d]
+[DEBUG] 2021-04-27 13:33:28.601 [main] MetamodelGraphWalker - Visiting attribute path : author.name
+[DEBUG] 2021-04-27 13:33:28.601 [main] MetamodelGraphWalker - Visiting attribute path : genre
+[DEBUG] 2021-04-27 13:33:28.601 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@47569167]
+[DEBUG] 2021-04-27 13:33:28.601 [main] MetamodelGraphWalker - Visiting attribute path : genre.name
+[DEBUG] 2021-04-27 13:33:28.601 [main] MetamodelGraphWalker - Visiting attribute path : isbn
+[DEBUG] 2021-04-27 13:33:28.601 [main] MetamodelGraphWalker - Visiting attribute path : title
+[DEBUG] 2021-04-27 13:33:28.601 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2021-04-27 13:33:28.602 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4b93dd6a]
+[DEBUG] 2021-04-27 13:33:28.602 [main] MetamodelGraphWalker - Visiting attribute path : user.books
+[DEBUG] 2021-04-27 13:33:28.602 [main] MetamodelGraphWalker - Property path deemed to be circular : user.books
+[DEBUG] 2021-04-27 13:33:28.602 [main] MetamodelGraphWalker - Visiting attribute path : user.email
+[DEBUG] 2021-04-27 13:33:28.602 [main] MetamodelGraphWalker - Visiting attribute path : user.firstName
+[DEBUG] 2021-04-27 13:33:28.602 [main] MetamodelGraphWalker - Visiting attribute path : user.lastName
+[DEBUG] 2021-04-27 13:33:28.602 [main] MetamodelGraphWalker - Visiting attribute path : user.password
+[DEBUG] 2021-04-27 13:33:28.602 [main] MetamodelGraphWalker - Visiting attribute path : user.roles
+[DEBUG] 2021-04-27 13:33:28.602 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2b0454d2]
+[DEBUG] 2021-04-27 13:33:28.602 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2616b618]
+[DEBUG] 2021-04-27 13:33:28.602 [main] MetamodelGraphWalker - Visiting attribute path : user.roles.roleName
+[DEBUG] 2021-04-27 13:33:28.602 [main] MetamodelGraphWalker - Visiting attribute path : user.roles.user
+[DEBUG] 2021-04-27 13:33:28.602 [main] MetamodelGraphWalker - Property path deemed to be circular : user.roles.user
+[DEBUG] 2021-04-27 13:33:28.602 [main] MetamodelGraphWalker - Visiting attribute path : user.roles.userName
+[DEBUG] 2021-04-27 13:33:28.602 [main] MetamodelGraphWalker - Visiting attribute path : user.userName
+[DEBUG] 2021-04-27 13:33:28.603 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-04-27 13:33:28.603 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-04-27 13:33:28.610 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.Book)
+    - Returns
+       - EntityReturnImpl(entity=entity.Book, querySpaceUid=<gen:0>, path=entity.Book)
+          - EntityAttributeFetchImpl(entity=entity.Author, querySpaceUid=<gen:1>, path=entity.Book.author)
+          - EntityAttributeFetchImpl(entity=entity.Genre, querySpaceUid=<gen:2>, path=entity.Book.genre)
+          - EntityAttributeFetchImpl(entity=entity.User, querySpaceUid=<gen:3>, path=entity.Book.user)
+             - CollectionAttributeFetchImpl(collection=entity.User.roles, querySpaceUid=<gen:4>, path=entity.Book.user.roles)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=entity.Role, querySpaceUid=<gen:5>, path=entity.Book.user.roles.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(author)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=entity.Author)
+                - SQL table alias mapping - author1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+          - JOIN (JoinDefinedByMetadata(genre)) : <gen:0> -> <gen:2>
+             - EntityQuerySpaceImpl(uid=<gen:2>, entity=entity.Genre)
+                - SQL table alias mapping - genre2_
+                - alias suffix - 2_
+                - suffixed key columns - {id1_2_2_}
+          - JOIN (JoinDefinedByMetadata(user)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=entity.User)
+                - SQL table alias mapping - user3_
+                - alias suffix - 3_
+                - suffixed key columns - {id1_4_3_}
+                - JOIN (JoinDefinedByMetadata(roles)) : <gen:3> -> <gen:4>
+                   - CollectionQuerySpaceImpl(uid=<gen:4>, collection=entity.User.roles)
+                      - SQL table alias mapping - roles4_
+                      - alias suffix - 4_
+                      - suffixed key columns - {user_id4_3_4_}
+                      - entity-element alias suffix - 5_
+                      - 5_entity-element suffixed key columns - id1_3_5_
+                      - JOIN (JoinDefinedByMetadata(elements)) : <gen:4> -> <gen:5>
+                         - EntityQuerySpaceImpl(uid=<gen:5>, entity=entity.Role)
+                            - SQL table alias mapping - roles4_
+                            - alias suffix - 5_
+                            - suffixed key columns - {id1_3_5_}
+
+[DEBUG] 2021-04-27 13:33:28.610 [main] EntityLoader - Static select for entity entity.Book [READ]: select book0_.id as id1_1_0_, book0_.author_id as author_i4_1_0_, book0_.genre_id as genre_id5_1_0_, book0_.isbn as isbn2_1_0_, book0_.title as title3_1_0_, book0_.user_id as user_id6_1_0_, author1_.id as id1_0_1_, author1_.name as name2_0_1_, genre2_.id as id1_2_2_, genre2_.name as name2_2_2_, user3_.id as id1_4_3_, user3_.email as email2_4_3_, user3_.first_name as first_na3_4_3_, user3_.last_name as last_nam4_4_3_, user3_.password as password5_4_3_, user3_.user_name as user_nam6_4_3_, roles4_.user_id as user_id4_3_4_, roles4_.id as id1_3_4_, roles4_.id as id1_3_5_, roles4_.role_name as role_nam2_3_5_, roles4_.user_id as user_id4_3_5_, roles4_.user_name as user_nam3_3_5_ from book book0_ left outer join author author1_ on book0_.author_id=author1_.id left outer join genre genre2_ on book0_.genre_id=genre2_.id left outer join user user3_ on book0_.user_id=user3_.id left outer join role roles4_ on user3_.id=roles4_.user_id where book0_.id=?
+[DEBUG] 2021-04-27 13:33:28.611 [main] Loader - Static select for action ACTION_MERGE on entity entity.Book: select book0_.id as id1_1_0_, book0_.author_id as author_i4_1_0_, book0_.genre_id as genre_id5_1_0_, book0_.isbn as isbn2_1_0_, book0_.title as title3_1_0_, book0_.user_id as user_id6_1_0_ from book book0_ where book0_.id=?
+[DEBUG] 2021-04-27 13:33:28.611 [main] Loader - Static select for action ACTION_REFRESH on entity entity.Book: select book0_.id as id1_1_0_, book0_.author_id as author_i4_1_0_, book0_.genre_id as genre_id5_1_0_, book0_.isbn as isbn2_1_0_, book0_.title as title3_1_0_, book0_.user_id as user_id6_1_0_ from book book0_ where book0_.id=?
+[DEBUG] 2021-04-27 13:33:28.619 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@79be91eb]
+[DEBUG] 2021-04-27 13:33:28.619 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@626c569b]
+[DEBUG] 2021-04-27 13:33:28.619 [main] MetamodelGraphWalker - Visiting attribute path : author
+[DEBUG] 2021-04-27 13:33:28.619 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@68e5c7ae]
+[DEBUG] 2021-04-27 13:33:28.619 [main] MetamodelGraphWalker - Visiting attribute path : author.name
+[DEBUG] 2021-04-27 13:33:28.619 [main] MetamodelGraphWalker - Visiting attribute path : genre
+[DEBUG] 2021-04-27 13:33:28.620 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6744707b]
+[DEBUG] 2021-04-27 13:33:28.624 [main] MetamodelGraphWalker - Visiting attribute path : genre.name
+[DEBUG] 2021-04-27 13:33:28.624 [main] MetamodelGraphWalker - Visiting attribute path : isbn
+[DEBUG] 2021-04-27 13:33:28.624 [main] MetamodelGraphWalker - Visiting attribute path : title
+[DEBUG] 2021-04-27 13:33:28.624 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2021-04-27 13:33:28.624 [main] MetamodelGraphWalker - Property path deemed to be circular : user
+[DEBUG] 2021-04-27 13:33:28.625 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-04-27 13:33:28.627 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-04-27 13:33:28.629 [main] LoadPlanTreePrinter - LoadPlan(collection=entity.User.books)
+    - Returns
+       - CollectionReturnImpl(collection=entity.User.books, querySpaceUid=<gen:0>, path=[entity.User.books])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=entity.Book, querySpaceUid=<gen:1>, path=[entity.User.books].<elements>)
+             - EntityAttributeFetchImpl(entity=entity.Author, querySpaceUid=<gen:2>, path=[entity.User.books].<elements>.author)
+             - EntityAttributeFetchImpl(entity=entity.Genre, querySpaceUid=<gen:3>, path=[entity.User.books].<elements>.genre)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=entity.User.books)
+          - SQL table alias mapping - books0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_id6_1_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_1_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=entity.Book)
+                - SQL table alias mapping - books0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+                - JOIN (JoinDefinedByMetadata(author)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=entity.Author)
+                      - SQL table alias mapping - author1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_0_2_}
+                - JOIN (JoinDefinedByMetadata(genre)) : <gen:1> -> <gen:3>
+                   - EntityQuerySpaceImpl(uid=<gen:3>, entity=entity.Genre)
+                      - SQL table alias mapping - genre2_
+                      - alias suffix - 3_
+                      - suffixed key columns - {id1_2_3_}
+
+[DEBUG] 2021-04-27 13:33:28.632 [main] CollectionLoader - Static select for collection entity.User.books: select books0_.user_id as user_id6_1_0_, books0_.id as id1_1_0_, books0_.id as id1_1_1_, books0_.author_id as author_i4_1_1_, books0_.genre_id as genre_id5_1_1_, books0_.isbn as isbn2_1_1_, books0_.title as title3_1_1_, books0_.user_id as user_id6_1_1_, author1_.id as id1_0_2_, author1_.name as name2_0_2_, genre2_.id as id1_2_3_, genre2_.name as name2_2_3_ from book books0_ left outer join author author1_ on books0_.author_id=author1_.id left outer join genre genre2_ on books0_.genre_id=genre2_.id where books0_.user_id=?
+[DEBUG] 2021-04-27 13:33:28.632 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1304e0d7]
+[DEBUG] 2021-04-27 13:33:28.632 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6ddc67d0]
+[DEBUG] 2021-04-27 13:33:28.632 [main] MetamodelGraphWalker - Visiting attribute path : roleName
+[DEBUG] 2021-04-27 13:33:28.632 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2021-04-27 13:33:28.632 [main] MetamodelGraphWalker - Property path deemed to be circular : user
+[DEBUG] 2021-04-27 13:33:28.632 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2021-04-27 13:33:28.633 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2021-04-27 13:33:28.636 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2021-04-27 13:33:28.637 [main] LoadPlanTreePrinter - LoadPlan(collection=entity.User.roles)
+    - Returns
+       - CollectionReturnImpl(collection=entity.User.roles, querySpaceUid=<gen:0>, path=[entity.User.roles])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=entity.Role, querySpaceUid=<gen:1>, path=[entity.User.roles].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=entity.User.roles)
+          - SQL table alias mapping - roles0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_id4_3_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_3_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=entity.Role)
+                - SQL table alias mapping - roles0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_3_1_}
+
+[DEBUG] 2021-04-27 13:33:28.637 [main] CollectionLoader - Static select for collection entity.User.roles: select roles0_.user_id as user_id4_3_0_, roles0_.id as id1_3_0_, roles0_.id as id1_3_1_, roles0_.role_name as role_nam2_3_1_, roles0_.user_id as user_id4_3_1_, roles0_.user_name as user_nam3_3_1_ from role roles0_ where roles0_.user_id=?
+[DEBUG] 2021-04-27 13:33:28.680 [main] SchemaManagementToolCoordinator - No actions specified; doing nothing
+[DEBUG] 2021-04-27 13:33:28.680 [main] JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+[DEBUG] 2021-04-27 13:33:28.681 [main] JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+[DEBUG] 2021-04-27 13:33:28.690 [main] StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2021-04-27 13:33:28.691 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[DEBUG] 2021-04-27 13:33:28.691 [main] NamedQueryRepository - Checking 0 named HQL queries
+[DEBUG] 2021-04-27 13:33:28.691 [main] NamedQueryRepository - Checking 0 named SQL queries
+[DEBUG] 2021-04-27 13:33:28.697 [main] SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@1216eb3f
+[DEBUG] 2021-04-27 13:33:28.699 [main] SessionFactoryRegistry - Registering SessionFactory: eb75802f-84ca-4c64-92e6-d973daa35966 (<unnamed>)
+[DEBUG] 2021-04-27 13:33:28.699 [main] SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+[DEBUG] 2021-04-27 13:33:28.794 [main] StatisticsInitiator - Statistics initialized [enabled=false]
+[DEBUG] 2021-04-27 13:33:28.808 [main] TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[DEBUG] 2021-04-27 13:33:28.808 [main] TransactionImpl - begin
+[DEBUG] 2021-04-27 13:33:28.821 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2021-04-27 13:33:28.831 [main] SQL - insert into author (name) values (?)
+[DEBUG] 2021-04-27 13:33:28.859 [main] IdentifierGeneratorHelper - Natively generated identity: 36
+[DEBUG] 2021-04-27 13:33:28.859 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2021-04-27 13:33:28.862 [main] TransactionImpl - committing
+[DEBUG] 2021-04-27 13:33:28.862 [main] AbstractFlushingEventListener - Processing flush-time cascades
+[DEBUG] 2021-04-27 13:33:28.863 [main] AbstractFlushingEventListener - Dirty checking collections
+[DEBUG] 2021-04-27 13:33:28.865 [main] AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+[DEBUG] 2021-04-27 13:33:28.865 [main] AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[DEBUG] 2021-04-27 13:33:28.869 [main] EntityPrinter - Listing entities:
+[DEBUG] 2021-04-27 13:33:28.869 [main] EntityPrinter - entity.Author{name=Kiera Cass, id=36}
+[DEBUG] 2021-04-27 13:33:28.876 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2021-04-27 13:33:28.878 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2021-04-27 13:33:28.892 [main] SQL - select author0_.id as id1_0_0_, author0_.name as name2_0_0_ from author author0_ where author0_.id=?
+[DEBUG] 2021-04-27 13:33:28.911 [main] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2021-04-27 13:33:28.912 [main] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2021-04-27 13:33:28.915 [main] TwoPhaseLoad - Resolving attributes for [entity.Author#36]
+[DEBUG] 2021-04-27 13:33:28.916 [main] TwoPhaseLoad - Processing attribute `name` : value = Kiera Cass
+[DEBUG] 2021-04-27 13:33:28.916 [main] TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+[DEBUG] 2021-04-27 13:33:28.916 [main] TwoPhaseLoad - Done materializing entity [entity.Author#36]
+[DEBUG] 2021-04-27 13:33:28.917 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2021-04-27 13:33:28.917 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : entity.Author#36
+[DEBUG] 2021-04-27 13:33:28.917 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2021-04-27 13:33:29.081 [main] SQL - select author0_.id as id1_0_0_, author0_.name as name2_0_0_ from author author0_ where author0_.id=?
+[DEBUG] 2021-04-27 13:33:29.087 [main] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2021-04-27 13:33:29.087 [main] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2021-04-27 13:33:29.088 [main] TwoPhaseLoad - Resolving attributes for [entity.Author#1]
+[DEBUG] 2021-04-27 13:33:29.089 [main] TwoPhaseLoad - Processing attribute `name` : value = Sarah J. Maas
+[DEBUG] 2021-04-27 13:33:29.089 [main] TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+[DEBUG] 2021-04-27 13:33:29.089 [main] TwoPhaseLoad - Done materializing entity [entity.Author#1]
+[DEBUG] 2021-04-27 13:33:29.089 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2021-04-27 13:33:29.089 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : entity.Author#1
+[DEBUG] 2021-04-27 13:33:29.089 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2021-04-27 13:33:29.279 [main] CriteriaQueryImpl - Rendered criteria query -> select generatedAlias0 from Author as generatedAlias0
+[DEBUG] 2021-04-27 13:33:29.293 [main] QueryTranslatorFactoryInitiator - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@9f0fc36
+[DEBUG] 2021-04-27 13:33:29.318 [main] QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from entity.Author as generatedAlias0
+[DEBUG] 2021-04-27 13:33:29.326 [main] ErrorTracker - throwQueryException() : no errors
+[DEBUG] 2021-04-27 13:33:29.348 [main] QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[IDENT] Node: 'entity'
+       |     |  \-[IDENT] Node: 'Author'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+[DEBUG] 2021-04-27 13:33:29.397 [main] HqlSqlBaseWalker - select << begin [level=1, statement=select]
+[DEBUG] 2021-04-27 13:33:29.420 [main] FromElement - FromClause{level=1} : entity.Author (generatedAlias0) -> author0_
+[DEBUG] 2021-04-27 13:33:29.426 [main] FromReferenceNode - Resolved : generatedAlias0 -> author0_.id
+[DEBUG] 2021-04-27 13:33:29.432 [main] HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+[DEBUG] 2021-04-27 13:33:29.432 [main] HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} author0_.id ) ( FromClause{level=1} author author0_ ) )
+[DEBUG] 2021-04-27 13:33:29.445 [main] JoinProcessor - Using FROM fragment [author author0_]
+[DEBUG] 2021-04-27 13:33:29.445 [main] HqlSqlBaseWalker - select >> end [level=1, statement=select]
+[DEBUG] 2021-04-27 13:33:29.449 [main] QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (author)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'author0_.id as id1_0_' {alias=generatedAlias0, className=entity.Author, tableAlias=author0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'author0_.name as name2_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[author0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'author author0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=author,tableAlias=author0_,origin=null,columns={,className=entity.Author}}
+
+[DEBUG] 2021-04-27 13:33:29.449 [main] ErrorTracker - throwQueryException() : no errors
+[DEBUG] 2021-04-27 13:33:29.459 [main] QueryTranslatorImpl - HQL: select generatedAlias0 from entity.Author as generatedAlias0
+[DEBUG] 2021-04-27 13:33:29.459 [main] QueryTranslatorImpl - SQL: select author0_.id as id1_0_, author0_.name as name2_0_ from author author0_
+[DEBUG] 2021-04-27 13:33:29.459 [main] ErrorTracker - throwQueryException() : no errors
+[DEBUG] 2021-04-27 13:33:29.481 [main] SQL - select author0_.id as id1_0_, author0_.name as name2_0_ from author author0_
+[DEBUG] 2021-04-27 13:33:29.484 [main] Loader - Result set row: 0
+[DEBUG] 2021-04-27 13:33:29.488 [main] Loader - Result row: EntityKey[entity.Author#1]
+[DEBUG] 2021-04-27 13:33:29.489 [main] Loader - Result set row: 1
+[DEBUG] 2021-04-27 13:33:29.490 [main] Loader - Result row: EntityKey[entity.Author#2]
+[DEBUG] 2021-04-27 13:33:29.490 [main] Loader - Result set row: 2
+[DEBUG] 2021-04-27 13:33:29.490 [main] Loader - Result row: EntityKey[entity.Author#3]
+[DEBUG] 2021-04-27 13:33:29.490 [main] Loader - Result set row: 3
+[DEBUG] 2021-04-27 13:33:29.490 [main] Loader - Result row: EntityKey[entity.Author#4]
+[DEBUG] 2021-04-27 13:33:29.490 [main] Loader - Result set row: 4
+[DEBUG] 2021-04-27 13:33:29.490 [main] Loader - Result row: EntityKey[entity.Author#5]
+[DEBUG] 2021-04-27 13:33:29.491 [main] TwoPhaseLoad - Resolving attributes for [entity.Author#1]
+[DEBUG] 2021-04-27 13:33:29.491 [main] TwoPhaseLoad - Processing attribute `name` : value = Sarah J. Maas
+[DEBUG] 2021-04-27 13:33:29.491 [main] TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+[DEBUG] 2021-04-27 13:33:29.492 [main] TwoPhaseLoad - Done materializing entity [entity.Author#1]
+[DEBUG] 2021-04-27 13:33:29.492 [main] TwoPhaseLoad - Resolving attributes for [entity.Author#2]
+[DEBUG] 2021-04-27 13:33:29.492 [main] TwoPhaseLoad - Processing attribute `name` : value = Cassandra Clare
+[DEBUG] 2021-04-27 13:33:29.492 [main] TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+[DEBUG] 2021-04-27 13:33:29.492 [main] TwoPhaseLoad - Done materializing entity [entity.Author#2]
+[DEBUG] 2021-04-27 13:33:29.492 [main] TwoPhaseLoad - Resolving attributes for [entity.Author#3]
+[DEBUG] 2021-04-27 13:33:29.492 [main] TwoPhaseLoad - Processing attribute `name` : value = Stephen King
+[DEBUG] 2021-04-27 13:33:29.492 [main] TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+[DEBUG] 2021-04-27 13:33:29.492 [main] TwoPhaseLoad - Done materializing entity [entity.Author#3]
+[DEBUG] 2021-04-27 13:33:29.493 [main] TwoPhaseLoad - Resolving attributes for [entity.Author#4]
+[DEBUG] 2021-04-27 13:33:29.493 [main] TwoPhaseLoad - Processing attribute `name` : value = Brandon Sanderson
+[DEBUG] 2021-04-27 13:33:29.493 [main] TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+[DEBUG] 2021-04-27 13:33:29.493 [main] TwoPhaseLoad - Done materializing entity [entity.Author#4]
+[DEBUG] 2021-04-27 13:33:29.493 [main] TwoPhaseLoad - Resolving attributes for [entity.Author#5]
+[DEBUG] 2021-04-27 13:33:29.493 [main] TwoPhaseLoad - Processing attribute `name` : value = Nora Roberts
+[DEBUG] 2021-04-27 13:33:29.493 [main] TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+[DEBUG] 2021-04-27 13:33:29.494 [main] TwoPhaseLoad - Done materializing entity [entity.Author#5]
+[DEBUG] 2021-04-27 13:33:29.495 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2021-04-27 13:33:29.719 [main] CriteriaQueryImpl - Rendered criteria query -> select generatedAlias0 from Author as generatedAlias0 where generatedAlias0.name like :param0
+[DEBUG] 2021-04-27 13:33:29.722 [main] QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from entity.Author as generatedAlias0 where generatedAlias0.name like :param0
+[DEBUG] 2021-04-27 13:33:29.726 [main] ErrorTracker - throwQueryException() : no errors
+[DEBUG] 2021-04-27 13:33:29.728 [main] QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[IDENT] Node: 'entity'
+    |  |     |  \-[IDENT] Node: 'Author'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[LIKE] Node: 'like'
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'name'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param0'
+
+[DEBUG] 2021-04-27 13:33:29.729 [main] HqlSqlBaseWalker - select << begin [level=1, statement=select]
+[DEBUG] 2021-04-27 13:33:29.729 [main] FromElement - FromClause{level=1} : entity.Author (generatedAlias0) -> author0_
+[DEBUG] 2021-04-27 13:33:29.729 [main] FromReferenceNode - Resolved : generatedAlias0 -> author0_.id
+[DEBUG] 2021-04-27 13:33:29.733 [main] FromReferenceNode - Resolved : generatedAlias0 -> author0_.id
+[DEBUG] 2021-04-27 13:33:29.735 [main] DotNode - getDataType() : name -> org.hibernate.type.StringType@129bd55d
+[DEBUG] 2021-04-27 13:33:29.736 [main] FromReferenceNode - Resolved : generatedAlias0.name -> author0_.name
+[DEBUG] 2021-04-27 13:33:29.738 [main] HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+[DEBUG] 2021-04-27 13:33:29.739 [main] HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} author0_.id ) ( FromClause{level=1} author author0_ ) ( where ( like ( author0_.name author0_.id name ) ? ) ) )
+[DEBUG] 2021-04-27 13:33:29.740 [main] JoinProcessor - Using FROM fragment [author author0_]
+[DEBUG] 2021-04-27 13:33:29.740 [main] HqlSqlBaseWalker - select >> end [level=1, statement=select]
+[DEBUG] 2021-04-27 13:33:29.741 [main] QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (author)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'author0_.id as id1_0_' {alias=generatedAlias0, className=entity.Author, tableAlias=author0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'author0_.name as name2_0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[author0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'author author0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=author,tableAlias=author0_,origin=null,columns={,className=entity.Author}}
+    \-[WHERE] SqlNode: 'where'
+       \-[LIKE] BinaryLogicOperatorNode: 'like'
+          +-[DOT] DotNode: 'author0_.name' {propertyName=name,dereferenceType=PRIMITIVE,getPropertyPath=name,path=generatedAlias0.name,tableAlias=author0_,className=entity.Author,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'author0_.id' {alias=generatedAlias0, className=entity.Author, tableAlias=author0_}
+          |  \-[IDENT] IdentNode: 'name' {originalText=name}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.StringType@129bd55d}
+
+[DEBUG] 2021-04-27 13:33:29.741 [main] ErrorTracker - throwQueryException() : no errors
+[DEBUG] 2021-04-27 13:33:29.741 [main] QueryTranslatorImpl - HQL: select generatedAlias0 from entity.Author as generatedAlias0 where generatedAlias0.name like :param0
+[DEBUG] 2021-04-27 13:33:29.741 [main] QueryTranslatorImpl - SQL: select author0_.id as id1_0_, author0_.name as name2_0_ from author author0_ where author0_.name like ?
+[DEBUG] 2021-04-27 13:33:29.742 [main] ErrorTracker - throwQueryException() : no errors
+[DEBUG] 2021-04-27 13:33:29.751 [main] SQL - select author0_.id as id1_0_, author0_.name as name2_0_ from author author0_ where author0_.name like ?
+[DEBUG] 2021-04-27 13:33:29.757 [main] Loader - Result set row: 0
+[DEBUG] 2021-04-27 13:33:29.757 [main] Loader - Result row: EntityKey[entity.Author#1]
+[DEBUG] 2021-04-27 13:33:29.757 [main] Loader - Result set row: 1
+[DEBUG] 2021-04-27 13:33:29.757 [main] Loader - Result row: EntityKey[entity.Author#2]
+[DEBUG] 2021-04-27 13:33:29.757 [main] Loader - Result set row: 2
+[DEBUG] 2021-04-27 13:33:29.758 [main] Loader - Result row: EntityKey[entity.Author#3]
+[DEBUG] 2021-04-27 13:33:29.758 [main] Loader - Result set row: 3
+[DEBUG] 2021-04-27 13:33:29.758 [main] Loader - Result row: EntityKey[entity.Author#4]
+[DEBUG] 2021-04-27 13:33:29.760 [main] Loader - Result set row: 4
+[DEBUG] 2021-04-27 13:33:29.761 [main] Loader - Result row: EntityKey[entity.Author#5]
+[DEBUG] 2021-04-27 13:33:29.764 [main] TwoPhaseLoad - Resolving attributes for [entity.Author#1]
+[DEBUG] 2021-04-27 13:33:29.764 [main] TwoPhaseLoad - Processing attribute `name` : value = Sarah J. Maas
+[DEBUG] 2021-04-27 13:33:29.764 [main] TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+[DEBUG] 2021-04-27 13:33:29.764 [main] TwoPhaseLoad - Done materializing entity [entity.Author#1]
+[DEBUG] 2021-04-27 13:33:29.764 [main] TwoPhaseLoad - Resolving attributes for [entity.Author#2]
+[DEBUG] 2021-04-27 13:33:29.766 [main] TwoPhaseLoad - Processing attribute `name` : value = Cassandra Clare
+[DEBUG] 2021-04-27 13:33:29.766 [main] TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+[DEBUG] 2021-04-27 13:33:29.766 [main] TwoPhaseLoad - Done materializing entity [entity.Author#2]
+[DEBUG] 2021-04-27 13:33:29.766 [main] TwoPhaseLoad - Resolving attributes for [entity.Author#3]
+[DEBUG] 2021-04-27 13:33:29.766 [main] TwoPhaseLoad - Processing attribute `name` : value = Stephen King
+[DEBUG] 2021-04-27 13:33:29.766 [main] TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+[DEBUG] 2021-04-27 13:33:29.768 [main] TwoPhaseLoad - Done materializing entity [entity.Author#3]
+[DEBUG] 2021-04-27 13:33:29.768 [main] TwoPhaseLoad - Resolving attributes for [entity.Author#4]
+[DEBUG] 2021-04-27 13:33:29.768 [main] TwoPhaseLoad - Processing attribute `name` : value = Brandon Sanderson
+[DEBUG] 2021-04-27 13:33:29.768 [main] TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+[DEBUG] 2021-04-27 13:33:29.768 [main] TwoPhaseLoad - Done materializing entity [entity.Author#4]
+[DEBUG] 2021-04-27 13:33:29.768 [main] TwoPhaseLoad - Resolving attributes for [entity.Author#5]
+[DEBUG] 2021-04-27 13:33:29.768 [main] TwoPhaseLoad - Processing attribute `name` : value = Nora Roberts
+[DEBUG] 2021-04-27 13:33:29.768 [main] TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+[DEBUG] 2021-04-27 13:33:29.768 [main] TwoPhaseLoad - Done materializing entity [entity.Author#5]
+[DEBUG] 2021-04-27 13:33:29.769 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2021-04-27 13:33:29.973 [main] SQL - select author0_.id as id1_0_0_, author0_.name as name2_0_0_ from author author0_ where author0_.id=?
+[DEBUG] 2021-04-27 13:33:30.018 [main] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2021-04-27 13:33:30.018 [main] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2021-04-27 13:33:30.021 [main] TwoPhaseLoad - Resolving attributes for [entity.Author#3]
+[DEBUG] 2021-04-27 13:33:30.021 [main] TwoPhaseLoad - Processing attribute `name` : value = Stephen King
+[DEBUG] 2021-04-27 13:33:30.021 [main] TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+[DEBUG] 2021-04-27 13:33:30.021 [main] TwoPhaseLoad - Done materializing entity [entity.Author#3]
+[DEBUG] 2021-04-27 13:33:30.021 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2021-04-27 13:33:30.021 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : entity.Author#3
+[DEBUG] 2021-04-27 13:33:30.021 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2021-04-27 13:33:30.024 [main] TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[DEBUG] 2021-04-27 13:33:30.025 [main] TransactionImpl - begin
+[DEBUG] 2021-04-27 13:33:30.038 [main] TransactionImpl - committing
+[DEBUG] 2021-04-27 13:33:30.039 [main] AbstractFlushingEventListener - Processing flush-time cascades
+[DEBUG] 2021-04-27 13:33:30.039 [main] AbstractFlushingEventListener - Dirty checking collections
+[DEBUG] 2021-04-27 13:33:30.039 [main] AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+[DEBUG] 2021-04-27 13:33:30.039 [main] AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[DEBUG] 2021-04-27 13:33:30.039 [main] EntityPrinter - Listing entities:
+[DEBUG] 2021-04-27 13:33:30.039 [main] EntityPrinter - entity.Author{name=Stephen King, id=3}
+[DEBUG] 2021-04-27 13:33:30.061 [main] SQL - delete from author where id=?
+[DEBUG] 2021-04-27 13:33:30.069 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2021-04-27 13:33:30.070 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2021-04-27 13:33:30.070 [main] JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+[DEBUG] 2021-04-27 13:33:30.071 [main] SQL - select author0_.id as id1_0_0_, author0_.name as name2_0_0_ from author author0_ where author0_.id=?
+[DEBUG] 2021-04-27 13:33:30.077 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2021-04-27 13:33:30.078 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : entity.Author#3
+[DEBUG] 2021-04-27 13:33:30.078 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2021-04-27 13:33:30.252 [main] SQL - select author0_.id as id1_0_0_, author0_.name as name2_0_0_ from author author0_ where author0_.id=?
+[DEBUG] 2021-04-27 13:33:30.254 [main] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2021-04-27 13:33:30.254 [main] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2021-04-27 13:33:30.254 [main] TwoPhaseLoad - Resolving attributes for [entity.Author#2]
+[DEBUG] 2021-04-27 13:33:30.254 [main] TwoPhaseLoad - Processing attribute `name` : value = Cassandra Clare
+[DEBUG] 2021-04-27 13:33:30.254 [main] TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+[DEBUG] 2021-04-27 13:33:30.254 [main] TwoPhaseLoad - Done materializing entity [entity.Author#2]
+[DEBUG] 2021-04-27 13:33:30.256 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2021-04-27 13:33:30.256 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : entity.Author#2
+[DEBUG] 2021-04-27 13:33:30.256 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2021-04-27 13:33:30.258 [main] TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+[DEBUG] 2021-04-27 13:33:30.258 [main] TransactionImpl - begin
+[DEBUG] 2021-04-27 13:33:30.263 [main] TransactionImpl - committing
+[DEBUG] 2021-04-27 13:33:30.263 [main] AbstractFlushingEventListener - Processing flush-time cascades
+[DEBUG] 2021-04-27 13:33:30.263 [main] AbstractFlushingEventListener - Dirty checking collections
+[DEBUG] 2021-04-27 13:33:30.264 [main] AbstractFlushingEventListener - Flushed: 0 insertions, 1 updates, 0 deletions to 1 objects
+[DEBUG] 2021-04-27 13:33:30.264 [main] AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[DEBUG] 2021-04-27 13:33:30.264 [main] EntityPrinter - Listing entities:
+[DEBUG] 2021-04-27 13:33:30.266 [main] EntityPrinter - entity.Author{name=John Smith, id=2}
+[DEBUG] 2021-04-27 13:33:30.267 [main] SQL - update author set name=? where id=?
+[DEBUG] 2021-04-27 13:33:30.274 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2021-04-27 13:33:30.276 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2021-04-27 13:33:30.277 [main] SQL - select author0_.id as id1_0_0_, author0_.name as name2_0_0_ from author author0_ where author0_.id=?
+[DEBUG] 2021-04-27 13:33:30.281 [main] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2021-04-27 13:33:30.281 [main] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2021-04-27 13:33:30.283 [main] TwoPhaseLoad - Resolving attributes for [entity.Author#2]
+[DEBUG] 2021-04-27 13:33:30.283 [main] TwoPhaseLoad - Processing attribute `name` : value = John Smith
+[DEBUG] 2021-04-27 13:33:30.283 [main] TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
+[DEBUG] 2021-04-27 13:33:30.283 [main] TwoPhaseLoad - Done materializing entity [entity.Author#2]
+[DEBUG] 2021-04-27 13:33:30.285 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2021-04-27 13:33:30.285 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : entity.Author#2
+[DEBUG] 2021-04-27 13:33:30.285 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction

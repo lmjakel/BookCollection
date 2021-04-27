@@ -20,7 +20,7 @@ public class Role {
     private int id;
 
     @ManyToOne
-    @JoinColumn(name = "user_id", foreignKey = @ForeignKey(name = "user_id_fk"))
+    @JoinColumn(name = "user_id", foreignKey = @ForeignKey(name = "user_id"))
     private User user;
 
     @Column(name = "role_name")
