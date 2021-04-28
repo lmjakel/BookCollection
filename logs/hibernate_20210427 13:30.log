@@ -156,28 +156,28 @@
 [DEBUG] 2021-04-27 13:30:40.531 [main] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
 [DEBUG] 2021-04-27 13:30:40.642 [main] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
 [DEBUG] 2021-04-27 13:30:40.648 [main] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@5f2de715] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@5922d3e9]
-[DEBUG] 2021-04-27 13:30:40.745 [main] AnnotationBinder - Binding entity from annotated class: entity.Author
+[DEBUG] 2021-04-27 13:30:40.745 [main] AnnotationBinder - Binding entity from annotated class: Author
 [DEBUG] 2021-04-27 13:30:40.768 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:40.787 [main] EntityBinder - Import with entity name Author
-[DEBUG] 2021-04-27 13:30:40.791 [main] EntityBinder - Bind entity entity.Author on table author
+[DEBUG] 2021-04-27 13:30:40.791 [main] EntityBinder - Bind entity Author on table author
 [DEBUG] 2021-04-27 13:30:40.863 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:40.867 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:40.876 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Author:id]
+[DEBUG] 2021-04-27 13:30:40.876 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Author:id]
 [DEBUG] 2021-04-27 13:30:40.890 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:40.912 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:40.943 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
 [DEBUG] 2021-04-27 13:30:40.944 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:40.960 [main] PropertyBinder - MetadataSourceProcessor property name with lazy=false
-[DEBUG] 2021-04-27 13:30:40.965 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Author:name]
+[DEBUG] 2021-04-27 13:30:40.965 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Author:name]
 [DEBUG] 2021-04-27 13:30:40.965 [main] SimpleValueBinder - building SimpleValue for name
 [DEBUG] 2021-04-27 13:30:40.965 [main] PropertyBinder - Building property name
-[DEBUG] 2021-04-27 13:30:40.972 [main] AnnotationBinder - Binding entity from annotated class: entity.Book
+[DEBUG] 2021-04-27 13:30:40.972 [main] AnnotationBinder - Binding entity from annotated class: Book
 [DEBUG] 2021-04-27 13:30:40.973 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:40.973 [main] EntityBinder - Import with entity name Book
-[DEBUG] 2021-04-27 13:30:40.973 [main] EntityBinder - Bind entity entity.Book on table book
+[DEBUG] 2021-04-27 13:30:40.973 [main] EntityBinder - Bind entity Book on table book
 [DEBUG] 2021-04-27 13:30:40.981 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:40.982 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:40.983 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:id]
+[DEBUG] 2021-04-27 13:30:40.983 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Book:id]
 [DEBUG] 2021-04-27 13:30:40.984 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:40.984 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:40.984 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
@@ -189,39 +189,39 @@
 [DEBUG] 2021-04-27 13:30:40.991 [main] PropertyBinder - Building property genre
 [DEBUG] 2021-04-27 13:30:40.991 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=isbn, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:40.993 [main] PropertyBinder - MetadataSourceProcessor property isbn with lazy=false
-[DEBUG] 2021-04-27 13:30:40.993 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:isbn]
+[DEBUG] 2021-04-27 13:30:40.993 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Book:isbn]
 [DEBUG] 2021-04-27 13:30:40.993 [main] SimpleValueBinder - building SimpleValue for isbn
 [DEBUG] 2021-04-27 13:30:40.993 [main] PropertyBinder - Building property isbn
 [DEBUG] 2021-04-27 13:30:40.993 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=title, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:40.993 [main] PropertyBinder - MetadataSourceProcessor property title with lazy=false
-[DEBUG] 2021-04-27 13:30:40.993 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:title]
+[DEBUG] 2021-04-27 13:30:40.993 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Book:title]
 [DEBUG] 2021-04-27 13:30:40.993 [main] SimpleValueBinder - building SimpleValue for title
 [DEBUG] 2021-04-27 13:30:40.994 [main] PropertyBinder - Building property title
 [DEBUG] 2021-04-27 13:30:40.994 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='user_id', referencedColumn='', mappedBy=''}
 [DEBUG] 2021-04-27 13:30:40.994 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=user, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:40.994 [main] PropertyBinder - Building property user
-[DEBUG] 2021-04-27 13:30:40.994 [main] AnnotationBinder - Binding entity from annotated class: entity.Genre
+[DEBUG] 2021-04-27 13:30:40.994 [main] AnnotationBinder - Binding entity from annotated class: Genre
 [DEBUG] 2021-04-27 13:30:40.994 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:40.995 [main] EntityBinder - Import with entity name Genre
-[DEBUG] 2021-04-27 13:30:40.998 [main] EntityBinder - Bind entity entity.Genre on table genre
+[DEBUG] 2021-04-27 13:30:40.998 [main] EntityBinder - Bind entity Genre on table genre
 [DEBUG] 2021-04-27 13:30:41.000 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(genre), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.001 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:41.001 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Genre:id]
+[DEBUG] 2021-04-27 13:30:41.001 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Genre:id]
 [DEBUG] 2021-04-27 13:30:41.001 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:41.001 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:41.001 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
 [DEBUG] 2021-04-27 13:30:41.003 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(genre), mappingColumn=name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.003 [main] PropertyBinder - MetadataSourceProcessor property name with lazy=false
-[DEBUG] 2021-04-27 13:30:41.003 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Genre:name]
+[DEBUG] 2021-04-27 13:30:41.003 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Genre:name]
 [DEBUG] 2021-04-27 13:30:41.003 [main] SimpleValueBinder - building SimpleValue for name
 [DEBUG] 2021-04-27 13:30:41.003 [main] PropertyBinder - Building property name
-[DEBUG] 2021-04-27 13:30:41.005 [main] AnnotationBinder - Binding entity from annotated class: entity.User
+[DEBUG] 2021-04-27 13:30:41.005 [main] AnnotationBinder - Binding entity from annotated class: User
 [DEBUG] 2021-04-27 13:30:41.005 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:41.006 [main] EntityBinder - Import with entity name User
-[DEBUG] 2021-04-27 13:30:41.006 [main] EntityBinder - Bind entity entity.User on table user
+[DEBUG] 2021-04-27 13:30:41.006 [main] EntityBinder - Bind entity User on table user
 [DEBUG] 2021-04-27 13:30:41.013 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.013 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:41.013 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:id]
+[DEBUG] 2021-04-27 13:30:41.013 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:id]
 [DEBUG] 2021-04-27 13:30:41.014 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:41.014 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:41.014 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
@@ -233,26 +233,26 @@
 [DEBUG] 2021-04-27 13:30:41.031 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='books_KEY', referencedColumn='null', mappedBy='null'}
 [DEBUG] 2021-04-27 13:30:41.032 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
 [DEBUG] 2021-04-27 13:30:41.033 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
-[DEBUG] 2021-04-27 13:30:41.035 [main] CollectionBinder - Collection role: entity.User.books
+[DEBUG] 2021-04-27 13:30:41.035 [main] CollectionBinder - Collection role: User.books
 [DEBUG] 2021-04-27 13:30:41.044 [main] PropertyBinder - Building property books
 [DEBUG] 2021-04-27 13:30:41.045 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=email, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.045 [main] PropertyBinder - MetadataSourceProcessor property email with lazy=false
-[DEBUG] 2021-04-27 13:30:41.045 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:email]
+[DEBUG] 2021-04-27 13:30:41.045 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:email]
 [DEBUG] 2021-04-27 13:30:41.045 [main] SimpleValueBinder - building SimpleValue for email
 [DEBUG] 2021-04-27 13:30:41.045 [main] PropertyBinder - Building property email
 [DEBUG] 2021-04-27 13:30:41.046 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.046 [main] PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
-[DEBUG] 2021-04-27 13:30:41.047 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:firstName]
+[DEBUG] 2021-04-27 13:30:41.047 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:firstName]
 [DEBUG] 2021-04-27 13:30:41.047 [main] SimpleValueBinder - building SimpleValue for firstName
 [DEBUG] 2021-04-27 13:30:41.047 [main] PropertyBinder - Building property firstName
 [DEBUG] 2021-04-27 13:30:41.047 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.047 [main] PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
-[DEBUG] 2021-04-27 13:30:41.048 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:lastName]
+[DEBUG] 2021-04-27 13:30:41.048 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:lastName]
 [DEBUG] 2021-04-27 13:30:41.048 [main] SimpleValueBinder - building SimpleValue for lastName
 [DEBUG] 2021-04-27 13:30:41.048 [main] PropertyBinder - Building property lastName
 [DEBUG] 2021-04-27 13:30:41.051 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=password, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.051 [main] PropertyBinder - MetadataSourceProcessor property password with lazy=false
-[DEBUG] 2021-04-27 13:30:41.051 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:password]
+[DEBUG] 2021-04-27 13:30:41.051 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:password]
 [DEBUG] 2021-04-27 13:30:41.052 [main] SimpleValueBinder - building SimpleValue for password
 [DEBUG] 2021-04-27 13:30:41.052 [main] PropertyBinder - Building property password
 [DEBUG] 2021-04-27 13:30:41.052 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
@@ -263,11 +263,11 @@
 [DEBUG] 2021-04-27 13:30:41.059 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='roles_KEY', referencedColumn='null', mappedBy='null'}
 [DEBUG] 2021-04-27 13:30:41.060 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
 [DEBUG] 2021-04-27 13:30:41.060 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
-[DEBUG] 2021-04-27 13:30:41.061 [main] CollectionBinder - Collection role: entity.User.roles
+[DEBUG] 2021-04-27 13:30:41.061 [main] CollectionBinder - Collection role: User.roles
 [DEBUG] 2021-04-27 13:30:41.062 [main] PropertyBinder - Building property roles
 [DEBUG] 2021-04-27 13:30:41.062 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.062 [main] PropertyBinder - MetadataSourceProcessor property userName with lazy=false
-[DEBUG] 2021-04-27 13:30:41.062 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:userName]
+[DEBUG] 2021-04-27 13:30:41.062 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:userName]
 [DEBUG] 2021-04-27 13:30:41.062 [main] SimpleValueBinder - building SimpleValue for userName
 [DEBUG] 2021-04-27 13:30:41.062 [main] PropertyBinder - Building property userName
 [DEBUG] 2021-04-27 13:30:41.063 [main] SimpleValueBinder - Starting fillSimpleValue for id
@@ -287,13 +287,13 @@
 [DEBUG] 2021-04-27 13:30:41.080 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [book]
 [DEBUG] 2021-04-27 13:30:41.080 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [genre]
 [DEBUG] 2021-04-27 13:30:41.080 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [user]
-[DEBUG] 2021-04-27 13:30:41.081 [main] CollectionSecondPass - Second pass for collection: entity.User.books
-[DEBUG] 2021-04-27 13:30:41.081 [main] CollectionBinder - Binding a OneToMany: entity.User.books through a foreign key
-[DEBUG] 2021-04-27 13:30:41.082 [main] CollectionBinder - Mapping collection: entity.User.books -> book
-[DEBUG] 2021-04-27 13:30:41.089 [main] TableBinder - Retrieving property entity.Book.user
-[DEBUG] 2021-04-27 13:30:41.090 [main] CollectionSecondPass - Mapped collection key: user_id, one-to-many: entity.Book
-[DEBUG] 2021-04-27 13:30:41.091 [main] CollectionSecondPass - Second pass for collection: entity.User.roles
-[DEBUG] 2021-04-27 13:30:41.091 [main] CollectionBinder - Binding a collection of element: entity.User.roles
+[DEBUG] 2021-04-27 13:30:41.081 [main] CollectionSecondPass - Second pass for collection: User.books
+[DEBUG] 2021-04-27 13:30:41.081 [main] CollectionBinder - Binding a OneToMany: User.books through a foreign key
+[DEBUG] 2021-04-27 13:30:41.082 [main] CollectionBinder - Mapping collection: User.books -> book
+[DEBUG] 2021-04-27 13:30:41.089 [main] TableBinder - Retrieving property Book.user
+[DEBUG] 2021-04-27 13:30:41.090 [main] CollectionSecondPass - Mapped collection key: user_id, one-to-many: Book
+[DEBUG] 2021-04-27 13:30:41.091 [main] CollectionSecondPass - Second pass for collection: User.roles
+[DEBUG] 2021-04-27 13:30:41.091 [main] CollectionBinder - Binding a collection of element: User.roles
 [DEBUG] 2021-04-27 13:30:41.261 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
 [DEBUG] 2021-04-27 13:30:41.263 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
 [DEBUG] 2021-04-27 13:30:41.264 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
@@ -449,28 +449,28 @@
 [DEBUG] 2021-04-27 13:30:41.627 [main] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
 [DEBUG] 2021-04-27 13:30:41.657 [main] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
 [DEBUG] 2021-04-27 13:30:41.657 [main] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@36aab105] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@889a8a8]
-[DEBUG] 2021-04-27 13:30:41.658 [main] AnnotationBinder - Binding entity from annotated class: entity.Author
+[DEBUG] 2021-04-27 13:30:41.658 [main] AnnotationBinder - Binding entity from annotated class: Author
 [DEBUG] 2021-04-27 13:30:41.658 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:41.658 [main] EntityBinder - Import with entity name Author
-[DEBUG] 2021-04-27 13:30:41.658 [main] EntityBinder - Bind entity entity.Author on table author
+[DEBUG] 2021-04-27 13:30:41.658 [main] EntityBinder - Bind entity Author on table author
 [DEBUG] 2021-04-27 13:30:41.658 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.659 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:41.659 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Author:id]
+[DEBUG] 2021-04-27 13:30:41.659 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Author:id]
 [DEBUG] 2021-04-27 13:30:41.659 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:41.659 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:41.659 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
 [DEBUG] 2021-04-27 13:30:41.659 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.659 [main] PropertyBinder - MetadataSourceProcessor property name with lazy=false
-[DEBUG] 2021-04-27 13:30:41.659 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Author:name]
+[DEBUG] 2021-04-27 13:30:41.659 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Author:name]
 [DEBUG] 2021-04-27 13:30:41.680 [main] SimpleValueBinder - building SimpleValue for name
 [DEBUG] 2021-04-27 13:30:41.680 [main] PropertyBinder - Building property name
-[DEBUG] 2021-04-27 13:30:41.680 [main] AnnotationBinder - Binding entity from annotated class: entity.Book
+[DEBUG] 2021-04-27 13:30:41.680 [main] AnnotationBinder - Binding entity from annotated class: Book
 [DEBUG] 2021-04-27 13:30:41.680 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:41.680 [main] EntityBinder - Import with entity name Book
-[DEBUG] 2021-04-27 13:30:41.683 [main] EntityBinder - Bind entity entity.Book on table book
+[DEBUG] 2021-04-27 13:30:41.683 [main] EntityBinder - Bind entity Book on table book
 [DEBUG] 2021-04-27 13:30:41.683 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.683 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:41.683 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:id]
+[DEBUG] 2021-04-27 13:30:41.683 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Book:id]
 [DEBUG] 2021-04-27 13:30:41.684 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:41.684 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:41.684 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
@@ -482,39 +482,39 @@
 [DEBUG] 2021-04-27 13:30:41.694 [main] PropertyBinder - Building property genre
 [DEBUG] 2021-04-27 13:30:41.694 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=isbn, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.694 [main] PropertyBinder - MetadataSourceProcessor property isbn with lazy=false
-[DEBUG] 2021-04-27 13:30:41.694 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:isbn]
+[DEBUG] 2021-04-27 13:30:41.694 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Book:isbn]
 [DEBUG] 2021-04-27 13:30:41.695 [main] SimpleValueBinder - building SimpleValue for isbn
 [DEBUG] 2021-04-27 13:30:41.695 [main] PropertyBinder - Building property isbn
 [DEBUG] 2021-04-27 13:30:41.695 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=title, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.695 [main] PropertyBinder - MetadataSourceProcessor property title with lazy=false
-[DEBUG] 2021-04-27 13:30:41.695 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:title]
+[DEBUG] 2021-04-27 13:30:41.695 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Book:title]
 [DEBUG] 2021-04-27 13:30:41.695 [main] SimpleValueBinder - building SimpleValue for title
 [DEBUG] 2021-04-27 13:30:41.695 [main] PropertyBinder - Building property title
 [DEBUG] 2021-04-27 13:30:41.695 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='user_id', referencedColumn='', mappedBy=''}
 [DEBUG] 2021-04-27 13:30:41.695 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=user, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.702 [main] PropertyBinder - Building property user
-[DEBUG] 2021-04-27 13:30:41.702 [main] AnnotationBinder - Binding entity from annotated class: entity.Genre
+[DEBUG] 2021-04-27 13:30:41.702 [main] AnnotationBinder - Binding entity from annotated class: Genre
 [DEBUG] 2021-04-27 13:30:41.702 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:41.702 [main] EntityBinder - Import with entity name Genre
-[DEBUG] 2021-04-27 13:30:41.702 [main] EntityBinder - Bind entity entity.Genre on table genre
+[DEBUG] 2021-04-27 13:30:41.702 [main] EntityBinder - Bind entity Genre on table genre
 [DEBUG] 2021-04-27 13:30:41.703 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(genre), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.703 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:41.703 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Genre:id]
+[DEBUG] 2021-04-27 13:30:41.703 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Genre:id]
 [DEBUG] 2021-04-27 13:30:41.703 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:41.703 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:41.703 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
 [DEBUG] 2021-04-27 13:30:41.703 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(genre), mappingColumn=name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.703 [main] PropertyBinder - MetadataSourceProcessor property name with lazy=false
-[DEBUG] 2021-04-27 13:30:41.703 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Genre:name]
+[DEBUG] 2021-04-27 13:30:41.703 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Genre:name]
 [DEBUG] 2021-04-27 13:30:41.703 [main] SimpleValueBinder - building SimpleValue for name
 [DEBUG] 2021-04-27 13:30:41.715 [main] PropertyBinder - Building property name
-[DEBUG] 2021-04-27 13:30:41.715 [main] AnnotationBinder - Binding entity from annotated class: entity.User
+[DEBUG] 2021-04-27 13:30:41.715 [main] AnnotationBinder - Binding entity from annotated class: User
 [DEBUG] 2021-04-27 13:30:41.715 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:41.715 [main] EntityBinder - Import with entity name User
-[DEBUG] 2021-04-27 13:30:41.716 [main] EntityBinder - Bind entity entity.User on table user
+[DEBUG] 2021-04-27 13:30:41.716 [main] EntityBinder - Bind entity User on table user
 [DEBUG] 2021-04-27 13:30:41.723 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.723 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:41.723 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:id]
+[DEBUG] 2021-04-27 13:30:41.723 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:id]
 [DEBUG] 2021-04-27 13:30:41.723 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:41.723 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:41.727 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
@@ -526,26 +526,26 @@
 [DEBUG] 2021-04-27 13:30:41.728 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='books_KEY', referencedColumn='null', mappedBy='null'}
 [DEBUG] 2021-04-27 13:30:41.728 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
 [DEBUG] 2021-04-27 13:30:41.728 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
-[DEBUG] 2021-04-27 13:30:41.728 [main] CollectionBinder - Collection role: entity.User.books
+[DEBUG] 2021-04-27 13:30:41.728 [main] CollectionBinder - Collection role: User.books
 [DEBUG] 2021-04-27 13:30:41.728 [main] PropertyBinder - Building property books
 [DEBUG] 2021-04-27 13:30:41.728 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=email, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.728 [main] PropertyBinder - MetadataSourceProcessor property email with lazy=false
-[DEBUG] 2021-04-27 13:30:41.728 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:email]
+[DEBUG] 2021-04-27 13:30:41.728 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:email]
 [DEBUG] 2021-04-27 13:30:41.728 [main] SimpleValueBinder - building SimpleValue for email
 [DEBUG] 2021-04-27 13:30:41.728 [main] PropertyBinder - Building property email
 [DEBUG] 2021-04-27 13:30:41.740 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.740 [main] PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
-[DEBUG] 2021-04-27 13:30:41.740 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:firstName]
+[DEBUG] 2021-04-27 13:30:41.740 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:firstName]
 [DEBUG] 2021-04-27 13:30:41.740 [main] SimpleValueBinder - building SimpleValue for firstName
 [DEBUG] 2021-04-27 13:30:41.740 [main] PropertyBinder - Building property firstName
 [DEBUG] 2021-04-27 13:30:41.741 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.741 [main] PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
-[DEBUG] 2021-04-27 13:30:41.741 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:lastName]
+[DEBUG] 2021-04-27 13:30:41.741 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:lastName]
 [DEBUG] 2021-04-27 13:30:41.741 [main] SimpleValueBinder - building SimpleValue for lastName
 [DEBUG] 2021-04-27 13:30:41.746 [main] PropertyBinder - Building property lastName
 [DEBUG] 2021-04-27 13:30:41.746 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=password, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.746 [main] PropertyBinder - MetadataSourceProcessor property password with lazy=false
-[DEBUG] 2021-04-27 13:30:41.746 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:password]
+[DEBUG] 2021-04-27 13:30:41.746 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:password]
 [DEBUG] 2021-04-27 13:30:41.746 [main] SimpleValueBinder - building SimpleValue for password
 [DEBUG] 2021-04-27 13:30:41.747 [main] PropertyBinder - Building property password
 [DEBUG] 2021-04-27 13:30:41.747 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
@@ -556,11 +556,11 @@
 [DEBUG] 2021-04-27 13:30:41.749 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='roles_KEY', referencedColumn='null', mappedBy='null'}
 [DEBUG] 2021-04-27 13:30:41.750 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
 [DEBUG] 2021-04-27 13:30:41.750 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
-[DEBUG] 2021-04-27 13:30:41.750 [main] CollectionBinder - Collection role: entity.User.roles
+[DEBUG] 2021-04-27 13:30:41.750 [main] CollectionBinder - Collection role: User.roles
 [DEBUG] 2021-04-27 13:30:41.750 [main] PropertyBinder - Building property roles
 [DEBUG] 2021-04-27 13:30:41.759 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:41.760 [main] PropertyBinder - MetadataSourceProcessor property userName with lazy=false
-[DEBUG] 2021-04-27 13:30:41.760 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:userName]
+[DEBUG] 2021-04-27 13:30:41.760 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:userName]
 [DEBUG] 2021-04-27 13:30:41.760 [main] SimpleValueBinder - building SimpleValue for userName
 [DEBUG] 2021-04-27 13:30:41.760 [main] PropertyBinder - Building property userName
 [DEBUG] 2021-04-27 13:30:41.761 [main] SimpleValueBinder - Starting fillSimpleValue for id
@@ -580,13 +580,13 @@
 [DEBUG] 2021-04-27 13:30:41.761 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [book]
 [DEBUG] 2021-04-27 13:30:41.761 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [genre]
 [DEBUG] 2021-04-27 13:30:41.761 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [user]
-[DEBUG] 2021-04-27 13:30:41.761 [main] CollectionSecondPass - Second pass for collection: entity.User.books
-[DEBUG] 2021-04-27 13:30:41.762 [main] CollectionBinder - Binding a OneToMany: entity.User.books through a foreign key
-[DEBUG] 2021-04-27 13:30:41.762 [main] CollectionBinder - Mapping collection: entity.User.books -> book
-[DEBUG] 2021-04-27 13:30:41.762 [main] TableBinder - Retrieving property entity.Book.user
-[DEBUG] 2021-04-27 13:30:41.762 [main] CollectionSecondPass - Mapped collection key: user_id, one-to-many: entity.Book
-[DEBUG] 2021-04-27 13:30:41.762 [main] CollectionSecondPass - Second pass for collection: entity.User.roles
-[DEBUG] 2021-04-27 13:30:41.762 [main] CollectionBinder - Binding a collection of element: entity.User.roles
+[DEBUG] 2021-04-27 13:30:41.761 [main] CollectionSecondPass - Second pass for collection: User.books
+[DEBUG] 2021-04-27 13:30:41.762 [main] CollectionBinder - Binding a OneToMany: User.books through a foreign key
+[DEBUG] 2021-04-27 13:30:41.762 [main] CollectionBinder - Mapping collection: User.books -> book
+[DEBUG] 2021-04-27 13:30:41.762 [main] TableBinder - Retrieving property Book.user
+[DEBUG] 2021-04-27 13:30:41.762 [main] CollectionSecondPass - Mapped collection key: user_id, one-to-many: Book
+[DEBUG] 2021-04-27 13:30:41.762 [main] CollectionSecondPass - Second pass for collection: User.roles
+[DEBUG] 2021-04-27 13:30:41.762 [main] CollectionBinder - Binding a collection of element: User.roles
 [DEBUG] 2021-04-27 13:30:41.913 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
 [DEBUG] 2021-04-27 13:30:41.916 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
 [DEBUG] 2021-04-27 13:30:41.916 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
@@ -742,28 +742,28 @@
 [DEBUG] 2021-04-27 13:30:42.296 [main] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
 [DEBUG] 2021-04-27 13:30:42.322 [main] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
 [DEBUG] 2021-04-27 13:30:42.323 [main] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@4570d7b6] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@72b6832e]
-[DEBUG] 2021-04-27 13:30:42.323 [main] AnnotationBinder - Binding entity from annotated class: entity.Author
+[DEBUG] 2021-04-27 13:30:42.323 [main] AnnotationBinder - Binding entity from annotated class: Author
 [DEBUG] 2021-04-27 13:30:42.324 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:42.324 [main] EntityBinder - Import with entity name Author
-[DEBUG] 2021-04-27 13:30:42.324 [main] EntityBinder - Bind entity entity.Author on table author
+[DEBUG] 2021-04-27 13:30:42.324 [main] EntityBinder - Bind entity Author on table author
 [DEBUG] 2021-04-27 13:30:42.330 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:42.330 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:42.344 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Author:id]
+[DEBUG] 2021-04-27 13:30:42.344 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Author:id]
 [DEBUG] 2021-04-27 13:30:42.344 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:42.344 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:42.344 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
 [DEBUG] 2021-04-27 13:30:42.345 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:42.345 [main] PropertyBinder - MetadataSourceProcessor property name with lazy=false
-[DEBUG] 2021-04-27 13:30:42.345 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Author:name]
+[DEBUG] 2021-04-27 13:30:42.345 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Author:name]
 [DEBUG] 2021-04-27 13:30:42.345 [main] SimpleValueBinder - building SimpleValue for name
 [DEBUG] 2021-04-27 13:30:42.345 [main] PropertyBinder - Building property name
-[DEBUG] 2021-04-27 13:30:42.345 [main] AnnotationBinder - Binding entity from annotated class: entity.Book
+[DEBUG] 2021-04-27 13:30:42.345 [main] AnnotationBinder - Binding entity from annotated class: Book
 [DEBUG] 2021-04-27 13:30:42.345 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:42.345 [main] EntityBinder - Import with entity name Book
-[DEBUG] 2021-04-27 13:30:42.345 [main] EntityBinder - Bind entity entity.Book on table book
+[DEBUG] 2021-04-27 13:30:42.345 [main] EntityBinder - Bind entity Book on table book
 [DEBUG] 2021-04-27 13:30:42.346 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:42.346 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:42.346 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:id]
+[DEBUG] 2021-04-27 13:30:42.346 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Book:id]
 [DEBUG] 2021-04-27 13:30:42.346 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:42.346 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:42.346 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
@@ -775,39 +775,39 @@
 [DEBUG] 2021-04-27 13:30:42.347 [main] PropertyBinder - Building property genre
 [DEBUG] 2021-04-27 13:30:42.347 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=isbn, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:42.347 [main] PropertyBinder - MetadataSourceProcessor property isbn with lazy=false
-[DEBUG] 2021-04-27 13:30:42.347 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:isbn]
+[DEBUG] 2021-04-27 13:30:42.347 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Book:isbn]
 [DEBUG] 2021-04-27 13:30:42.360 [main] SimpleValueBinder - building SimpleValue for isbn
 [DEBUG] 2021-04-27 13:30:42.360 [main] PropertyBinder - Building property isbn
 [DEBUG] 2021-04-27 13:30:42.360 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=title, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:42.360 [main] PropertyBinder - MetadataSourceProcessor property title with lazy=false
-[DEBUG] 2021-04-27 13:30:42.360 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:title]
+[DEBUG] 2021-04-27 13:30:42.360 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Book:title]
 [DEBUG] 2021-04-27 13:30:42.361 [main] SimpleValueBinder - building SimpleValue for title
 [DEBUG] 2021-04-27 13:30:42.361 [main] PropertyBinder - Building property title
 [DEBUG] 2021-04-27 13:30:42.361 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='user_id', referencedColumn='', mappedBy=''}
 [DEBUG] 2021-04-27 13:30:42.361 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=user, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:42.361 [main] PropertyBinder - Building property user
-[DEBUG] 2021-04-27 13:30:42.361 [main] AnnotationBinder - Binding entity from annotated class: entity.Genre
+[DEBUG] 2021-04-27 13:30:42.361 [main] AnnotationBinder - Binding entity from annotated class: Genre
 [DEBUG] 2021-04-27 13:30:42.361 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:42.361 [main] EntityBinder - Import with entity name Genre
-[DEBUG] 2021-04-27 13:30:42.361 [main] EntityBinder - Bind entity entity.Genre on table genre
+[DEBUG] 2021-04-27 13:30:42.361 [main] EntityBinder - Bind entity Genre on table genre
 [DEBUG] 2021-04-27 13:30:42.362 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(genre), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:42.362 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:42.362 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Genre:id]
+[DEBUG] 2021-04-27 13:30:42.362 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Genre:id]
 [DEBUG] 2021-04-27 13:30:42.362 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:42.362 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:42.362 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
 [DEBUG] 2021-04-27 13:30:42.362 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(genre), mappingColumn=name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:42.362 [main] PropertyBinder - MetadataSourceProcessor property name with lazy=false
-[DEBUG] 2021-04-27 13:30:42.362 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Genre:name]
+[DEBUG] 2021-04-27 13:30:42.362 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Genre:name]
 [DEBUG] 2021-04-27 13:30:42.362 [main] SimpleValueBinder - building SimpleValue for name
 [DEBUG] 2021-04-27 13:30:42.362 [main] PropertyBinder - Building property name
-[DEBUG] 2021-04-27 13:30:42.362 [main] AnnotationBinder - Binding entity from annotated class: entity.User
+[DEBUG] 2021-04-27 13:30:42.362 [main] AnnotationBinder - Binding entity from annotated class: User
 [DEBUG] 2021-04-27 13:30:42.363 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:42.363 [main] EntityBinder - Import with entity name User
-[DEBUG] 2021-04-27 13:30:42.363 [main] EntityBinder - Bind entity entity.User on table user
+[DEBUG] 2021-04-27 13:30:42.363 [main] EntityBinder - Bind entity User on table user
 [DEBUG] 2021-04-27 13:30:42.363 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:42.364 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:42.364 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:id]
+[DEBUG] 2021-04-27 13:30:42.364 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:id]
 [DEBUG] 2021-04-27 13:30:42.364 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:42.364 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:42.389 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
@@ -819,26 +819,26 @@
 [DEBUG] 2021-04-27 13:30:42.394 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='books_KEY', referencedColumn='null', mappedBy='null'}
 [DEBUG] 2021-04-27 13:30:42.395 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
 [DEBUG] 2021-04-27 13:30:42.395 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
-[DEBUG] 2021-04-27 13:30:42.395 [main] CollectionBinder - Collection role: entity.User.books
+[DEBUG] 2021-04-27 13:30:42.395 [main] CollectionBinder - Collection role: User.books
 [DEBUG] 2021-04-27 13:30:42.395 [main] PropertyBinder - Building property books
 [DEBUG] 2021-04-27 13:30:42.395 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=email, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:42.395 [main] PropertyBinder - MetadataSourceProcessor property email with lazy=false
-[DEBUG] 2021-04-27 13:30:42.395 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:email]
+[DEBUG] 2021-04-27 13:30:42.395 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:email]
 [DEBUG] 2021-04-27 13:30:42.396 [main] SimpleValueBinder - building SimpleValue for email
 [DEBUG] 2021-04-27 13:30:42.396 [main] PropertyBinder - Building property email
 [DEBUG] 2021-04-27 13:30:42.397 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:42.397 [main] PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
-[DEBUG] 2021-04-27 13:30:42.397 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:firstName]
+[DEBUG] 2021-04-27 13:30:42.397 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:firstName]
 [DEBUG] 2021-04-27 13:30:42.397 [main] SimpleValueBinder - building SimpleValue for firstName
 [DEBUG] 2021-04-27 13:30:42.397 [main] PropertyBinder - Building property firstName
 [DEBUG] 2021-04-27 13:30:42.397 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:42.397 [main] PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
-[DEBUG] 2021-04-27 13:30:42.397 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:lastName]
+[DEBUG] 2021-04-27 13:30:42.397 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:lastName]
 [DEBUG] 2021-04-27 13:30:42.397 [main] SimpleValueBinder - building SimpleValue for lastName
 [DEBUG] 2021-04-27 13:30:42.397 [main] PropertyBinder - Building property lastName
 [DEBUG] 2021-04-27 13:30:42.397 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=password, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:42.397 [main] PropertyBinder - MetadataSourceProcessor property password with lazy=false
-[DEBUG] 2021-04-27 13:30:42.397 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:password]
+[DEBUG] 2021-04-27 13:30:42.397 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:password]
 [DEBUG] 2021-04-27 13:30:42.397 [main] SimpleValueBinder - building SimpleValue for password
 [DEBUG] 2021-04-27 13:30:42.397 [main] PropertyBinder - Building property password
 [DEBUG] 2021-04-27 13:30:42.397 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
@@ -849,11 +849,11 @@
 [DEBUG] 2021-04-27 13:30:42.398 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='roles_KEY', referencedColumn='null', mappedBy='null'}
 [DEBUG] 2021-04-27 13:30:42.406 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
 [DEBUG] 2021-04-27 13:30:42.406 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
-[DEBUG] 2021-04-27 13:30:42.407 [main] CollectionBinder - Collection role: entity.User.roles
+[DEBUG] 2021-04-27 13:30:42.407 [main] CollectionBinder - Collection role: User.roles
 [DEBUG] 2021-04-27 13:30:42.407 [main] PropertyBinder - Building property roles
 [DEBUG] 2021-04-27 13:30:42.407 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:42.407 [main] PropertyBinder - MetadataSourceProcessor property userName with lazy=false
-[DEBUG] 2021-04-27 13:30:42.407 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:userName]
+[DEBUG] 2021-04-27 13:30:42.407 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:userName]
 [DEBUG] 2021-04-27 13:30:42.407 [main] SimpleValueBinder - building SimpleValue for userName
 [DEBUG] 2021-04-27 13:30:42.407 [main] PropertyBinder - Building property userName
 [DEBUG] 2021-04-27 13:30:42.408 [main] SimpleValueBinder - Starting fillSimpleValue for id
@@ -873,13 +873,13 @@
 [DEBUG] 2021-04-27 13:30:42.425 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [book]
 [DEBUG] 2021-04-27 13:30:42.425 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [genre]
 [DEBUG] 2021-04-27 13:30:42.425 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [user]
-[DEBUG] 2021-04-27 13:30:42.425 [main] CollectionSecondPass - Second pass for collection: entity.User.books
-[DEBUG] 2021-04-27 13:30:42.427 [main] CollectionBinder - Binding a OneToMany: entity.User.books through a foreign key
-[DEBUG] 2021-04-27 13:30:42.428 [main] CollectionBinder - Mapping collection: entity.User.books -> book
-[DEBUG] 2021-04-27 13:30:42.428 [main] TableBinder - Retrieving property entity.Book.user
-[DEBUG] 2021-04-27 13:30:42.428 [main] CollectionSecondPass - Mapped collection key: user_id, one-to-many: entity.Book
-[DEBUG] 2021-04-27 13:30:42.428 [main] CollectionSecondPass - Second pass for collection: entity.User.roles
-[DEBUG] 2021-04-27 13:30:42.428 [main] CollectionBinder - Binding a collection of element: entity.User.roles
+[DEBUG] 2021-04-27 13:30:42.425 [main] CollectionSecondPass - Second pass for collection: User.books
+[DEBUG] 2021-04-27 13:30:42.427 [main] CollectionBinder - Binding a OneToMany: User.books through a foreign key
+[DEBUG] 2021-04-27 13:30:42.428 [main] CollectionBinder - Mapping collection: User.books -> book
+[DEBUG] 2021-04-27 13:30:42.428 [main] TableBinder - Retrieving property Book.user
+[DEBUG] 2021-04-27 13:30:42.428 [main] CollectionSecondPass - Mapped collection key: user_id, one-to-many: Book
+[DEBUG] 2021-04-27 13:30:42.428 [main] CollectionSecondPass - Second pass for collection: User.roles
+[DEBUG] 2021-04-27 13:30:42.428 [main] CollectionBinder - Binding a collection of element: User.roles
 [DEBUG] 2021-04-27 13:30:42.586 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
 [DEBUG] 2021-04-27 13:30:42.589 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
 [DEBUG] 2021-04-27 13:30:42.589 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
@@ -1035,28 +1035,28 @@
 [DEBUG] 2021-04-27 13:30:42.942 [main] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
 [DEBUG] 2021-04-27 13:30:42.990 [main] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
 [DEBUG] 2021-04-27 13:30:42.990 [main] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@5503de1] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@32faa16c]
-[DEBUG] 2021-04-27 13:30:42.991 [main] AnnotationBinder - Binding entity from annotated class: entity.Author
+[DEBUG] 2021-04-27 13:30:42.991 [main] AnnotationBinder - Binding entity from annotated class: Author
 [DEBUG] 2021-04-27 13:30:42.991 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:42.991 [main] EntityBinder - Import with entity name Author
-[DEBUG] 2021-04-27 13:30:42.991 [main] EntityBinder - Bind entity entity.Author on table author
+[DEBUG] 2021-04-27 13:30:42.991 [main] EntityBinder - Bind entity Author on table author
 [DEBUG] 2021-04-27 13:30:42.992 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:42.992 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:42.992 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Author:id]
+[DEBUG] 2021-04-27 13:30:42.992 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Author:id]
 [DEBUG] 2021-04-27 13:30:42.992 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:42.992 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:42.992 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
 [DEBUG] 2021-04-27 13:30:42.992 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:42.992 [main] PropertyBinder - MetadataSourceProcessor property name with lazy=false
-[DEBUG] 2021-04-27 13:30:42.992 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Author:name]
+[DEBUG] 2021-04-27 13:30:42.992 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Author:name]
 [DEBUG] 2021-04-27 13:30:42.992 [main] SimpleValueBinder - building SimpleValue for name
 [DEBUG] 2021-04-27 13:30:42.993 [main] PropertyBinder - Building property name
-[DEBUG] 2021-04-27 13:30:42.993 [main] AnnotationBinder - Binding entity from annotated class: entity.Book
+[DEBUG] 2021-04-27 13:30:42.993 [main] AnnotationBinder - Binding entity from annotated class: Book
 [DEBUG] 2021-04-27 13:30:43.001 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:43.001 [main] EntityBinder - Import with entity name Book
-[DEBUG] 2021-04-27 13:30:43.002 [main] EntityBinder - Bind entity entity.Book on table book
+[DEBUG] 2021-04-27 13:30:43.002 [main] EntityBinder - Bind entity Book on table book
 [DEBUG] 2021-04-27 13:30:43.007 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.007 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:43.007 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:id]
+[DEBUG] 2021-04-27 13:30:43.007 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Book:id]
 [DEBUG] 2021-04-27 13:30:43.007 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:43.007 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:43.007 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
@@ -1068,39 +1068,39 @@
 [DEBUG] 2021-04-27 13:30:43.008 [main] PropertyBinder - Building property genre
 [DEBUG] 2021-04-27 13:30:43.008 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=isbn, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.008 [main] PropertyBinder - MetadataSourceProcessor property isbn with lazy=false
-[DEBUG] 2021-04-27 13:30:43.008 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:isbn]
+[DEBUG] 2021-04-27 13:30:43.008 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Book:isbn]
 [DEBUG] 2021-04-27 13:30:43.008 [main] SimpleValueBinder - building SimpleValue for isbn
 [DEBUG] 2021-04-27 13:30:43.008 [main] PropertyBinder - Building property isbn
 [DEBUG] 2021-04-27 13:30:43.008 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=title, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.015 [main] PropertyBinder - MetadataSourceProcessor property title with lazy=false
-[DEBUG] 2021-04-27 13:30:43.015 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:title]
+[DEBUG] 2021-04-27 13:30:43.015 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Book:title]
 [DEBUG] 2021-04-27 13:30:43.015 [main] SimpleValueBinder - building SimpleValue for title
 [DEBUG] 2021-04-27 13:30:43.015 [main] PropertyBinder - Building property title
 [DEBUG] 2021-04-27 13:30:43.015 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='user_id', referencedColumn='', mappedBy=''}
 [DEBUG] 2021-04-27 13:30:43.015 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=user, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.015 [main] PropertyBinder - Building property user
-[DEBUG] 2021-04-27 13:30:43.015 [main] AnnotationBinder - Binding entity from annotated class: entity.Genre
+[DEBUG] 2021-04-27 13:30:43.015 [main] AnnotationBinder - Binding entity from annotated class: Genre
 [DEBUG] 2021-04-27 13:30:43.016 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:43.016 [main] EntityBinder - Import with entity name Genre
-[DEBUG] 2021-04-27 13:30:43.016 [main] EntityBinder - Bind entity entity.Genre on table genre
+[DEBUG] 2021-04-27 13:30:43.016 [main] EntityBinder - Bind entity Genre on table genre
 [DEBUG] 2021-04-27 13:30:43.021 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(genre), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.021 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:43.021 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Genre:id]
+[DEBUG] 2021-04-27 13:30:43.021 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Genre:id]
 [DEBUG] 2021-04-27 13:30:43.022 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:43.022 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:43.022 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
 [DEBUG] 2021-04-27 13:30:43.022 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(genre), mappingColumn=name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.022 [main] PropertyBinder - MetadataSourceProcessor property name with lazy=false
-[DEBUG] 2021-04-27 13:30:43.022 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Genre:name]
+[DEBUG] 2021-04-27 13:30:43.022 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Genre:name]
 [DEBUG] 2021-04-27 13:30:43.022 [main] SimpleValueBinder - building SimpleValue for name
 [DEBUG] 2021-04-27 13:30:43.022 [main] PropertyBinder - Building property name
-[DEBUG] 2021-04-27 13:30:43.022 [main] AnnotationBinder - Binding entity from annotated class: entity.User
+[DEBUG] 2021-04-27 13:30:43.022 [main] AnnotationBinder - Binding entity from annotated class: User
 [DEBUG] 2021-04-27 13:30:43.022 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:43.022 [main] EntityBinder - Import with entity name User
-[DEBUG] 2021-04-27 13:30:43.022 [main] EntityBinder - Bind entity entity.User on table user
+[DEBUG] 2021-04-27 13:30:43.022 [main] EntityBinder - Bind entity User on table user
 [DEBUG] 2021-04-27 13:30:43.036 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.036 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:43.036 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:id]
+[DEBUG] 2021-04-27 13:30:43.036 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:id]
 [DEBUG] 2021-04-27 13:30:43.040 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:43.042 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:43.042 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
@@ -1112,26 +1112,26 @@
 [DEBUG] 2021-04-27 13:30:43.052 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='books_KEY', referencedColumn='null', mappedBy='null'}
 [DEBUG] 2021-04-27 13:30:43.052 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
 [DEBUG] 2021-04-27 13:30:43.052 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
-[DEBUG] 2021-04-27 13:30:43.052 [main] CollectionBinder - Collection role: entity.User.books
+[DEBUG] 2021-04-27 13:30:43.052 [main] CollectionBinder - Collection role: User.books
 [DEBUG] 2021-04-27 13:30:43.052 [main] PropertyBinder - Building property books
 [DEBUG] 2021-04-27 13:30:43.052 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=email, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.053 [main] PropertyBinder - MetadataSourceProcessor property email with lazy=false
-[DEBUG] 2021-04-27 13:30:43.053 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:email]
+[DEBUG] 2021-04-27 13:30:43.053 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:email]
 [DEBUG] 2021-04-27 13:30:43.053 [main] SimpleValueBinder - building SimpleValue for email
 [DEBUG] 2021-04-27 13:30:43.053 [main] PropertyBinder - Building property email
 [DEBUG] 2021-04-27 13:30:43.053 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.053 [main] PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
-[DEBUG] 2021-04-27 13:30:43.053 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:firstName]
+[DEBUG] 2021-04-27 13:30:43.053 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:firstName]
 [DEBUG] 2021-04-27 13:30:43.053 [main] SimpleValueBinder - building SimpleValue for firstName
 [DEBUG] 2021-04-27 13:30:43.053 [main] PropertyBinder - Building property firstName
 [DEBUG] 2021-04-27 13:30:43.053 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.053 [main] PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
-[DEBUG] 2021-04-27 13:30:43.053 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:lastName]
+[DEBUG] 2021-04-27 13:30:43.053 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:lastName]
 [DEBUG] 2021-04-27 13:30:43.053 [main] SimpleValueBinder - building SimpleValue for lastName
 [DEBUG] 2021-04-27 13:30:43.053 [main] PropertyBinder - Building property lastName
 [DEBUG] 2021-04-27 13:30:43.053 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=password, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.053 [main] PropertyBinder - MetadataSourceProcessor property password with lazy=false
-[DEBUG] 2021-04-27 13:30:43.053 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:password]
+[DEBUG] 2021-04-27 13:30:43.053 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:password]
 [DEBUG] 2021-04-27 13:30:43.053 [main] SimpleValueBinder - building SimpleValue for password
 [DEBUG] 2021-04-27 13:30:43.053 [main] PropertyBinder - Building property password
 [DEBUG] 2021-04-27 13:30:43.053 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
@@ -1142,11 +1142,11 @@
 [DEBUG] 2021-04-27 13:30:43.054 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='roles_KEY', referencedColumn='null', mappedBy='null'}
 [DEBUG] 2021-04-27 13:30:43.054 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
 [DEBUG] 2021-04-27 13:30:43.054 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
-[DEBUG] 2021-04-27 13:30:43.054 [main] CollectionBinder - Collection role: entity.User.roles
+[DEBUG] 2021-04-27 13:30:43.054 [main] CollectionBinder - Collection role: User.roles
 [DEBUG] 2021-04-27 13:30:43.054 [main] PropertyBinder - Building property roles
 [DEBUG] 2021-04-27 13:30:43.054 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.054 [main] PropertyBinder - MetadataSourceProcessor property userName with lazy=false
-[DEBUG] 2021-04-27 13:30:43.054 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:userName]
+[DEBUG] 2021-04-27 13:30:43.054 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:userName]
 [DEBUG] 2021-04-27 13:30:43.054 [main] SimpleValueBinder - building SimpleValue for userName
 [DEBUG] 2021-04-27 13:30:43.054 [main] PropertyBinder - Building property userName
 [DEBUG] 2021-04-27 13:30:43.055 [main] SimpleValueBinder - Starting fillSimpleValue for id
@@ -1166,13 +1166,13 @@
 [DEBUG] 2021-04-27 13:30:43.055 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [book]
 [DEBUG] 2021-04-27 13:30:43.055 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [genre]
 [DEBUG] 2021-04-27 13:30:43.055 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [user]
-[DEBUG] 2021-04-27 13:30:43.056 [main] CollectionSecondPass - Second pass for collection: entity.User.books
-[DEBUG] 2021-04-27 13:30:43.056 [main] CollectionBinder - Binding a OneToMany: entity.User.books through a foreign key
-[DEBUG] 2021-04-27 13:30:43.056 [main] CollectionBinder - Mapping collection: entity.User.books -> book
-[DEBUG] 2021-04-27 13:30:43.056 [main] TableBinder - Retrieving property entity.Book.user
-[DEBUG] 2021-04-27 13:30:43.068 [main] CollectionSecondPass - Mapped collection key: user_id, one-to-many: entity.Book
-[DEBUG] 2021-04-27 13:30:43.072 [main] CollectionSecondPass - Second pass for collection: entity.User.roles
-[DEBUG] 2021-04-27 13:30:43.072 [main] CollectionBinder - Binding a collection of element: entity.User.roles
+[DEBUG] 2021-04-27 13:30:43.056 [main] CollectionSecondPass - Second pass for collection: User.books
+[DEBUG] 2021-04-27 13:30:43.056 [main] CollectionBinder - Binding a OneToMany: User.books through a foreign key
+[DEBUG] 2021-04-27 13:30:43.056 [main] CollectionBinder - Mapping collection: User.books -> book
+[DEBUG] 2021-04-27 13:30:43.056 [main] TableBinder - Retrieving property Book.user
+[DEBUG] 2021-04-27 13:30:43.068 [main] CollectionSecondPass - Mapped collection key: user_id, one-to-many: Book
+[DEBUG] 2021-04-27 13:30:43.072 [main] CollectionSecondPass - Second pass for collection: User.roles
+[DEBUG] 2021-04-27 13:30:43.072 [main] CollectionBinder - Binding a collection of element: User.roles
 [DEBUG] 2021-04-27 13:30:43.185 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
 [DEBUG] 2021-04-27 13:30:43.190 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
 [DEBUG] 2021-04-27 13:30:43.190 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
@@ -1328,28 +1328,28 @@
 [DEBUG] 2021-04-27 13:30:43.443 [main] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
 [DEBUG] 2021-04-27 13:30:43.463 [main] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
 [DEBUG] 2021-04-27 13:30:43.463 [main] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@33e434c8] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@546394ed]
-[DEBUG] 2021-04-27 13:30:43.464 [main] AnnotationBinder - Binding entity from annotated class: entity.Author
+[DEBUG] 2021-04-27 13:30:43.464 [main] AnnotationBinder - Binding entity from annotated class: Author
 [DEBUG] 2021-04-27 13:30:43.464 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:43.464 [main] EntityBinder - Import with entity name Author
-[DEBUG] 2021-04-27 13:30:43.464 [main] EntityBinder - Bind entity entity.Author on table author
+[DEBUG] 2021-04-27 13:30:43.464 [main] EntityBinder - Bind entity Author on table author
 [DEBUG] 2021-04-27 13:30:43.464 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.464 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:43.464 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Author:id]
+[DEBUG] 2021-04-27 13:30:43.464 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Author:id]
 [DEBUG] 2021-04-27 13:30:43.464 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:43.464 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:43.464 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
 [DEBUG] 2021-04-27 13:30:43.465 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.465 [main] PropertyBinder - MetadataSourceProcessor property name with lazy=false
-[DEBUG] 2021-04-27 13:30:43.465 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Author:name]
+[DEBUG] 2021-04-27 13:30:43.465 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Author:name]
 [DEBUG] 2021-04-27 13:30:43.465 [main] SimpleValueBinder - building SimpleValue for name
 [DEBUG] 2021-04-27 13:30:43.483 [main] PropertyBinder - Building property name
-[DEBUG] 2021-04-27 13:30:43.483 [main] AnnotationBinder - Binding entity from annotated class: entity.Book
+[DEBUG] 2021-04-27 13:30:43.483 [main] AnnotationBinder - Binding entity from annotated class: Book
 [DEBUG] 2021-04-27 13:30:43.483 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:43.483 [main] EntityBinder - Import with entity name Book
-[DEBUG] 2021-04-27 13:30:43.483 [main] EntityBinder - Bind entity entity.Book on table book
+[DEBUG] 2021-04-27 13:30:43.483 [main] EntityBinder - Bind entity Book on table book
 [DEBUG] 2021-04-27 13:30:43.484 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.484 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:43.484 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:id]
+[DEBUG] 2021-04-27 13:30:43.484 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Book:id]
 [DEBUG] 2021-04-27 13:30:43.484 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:43.484 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:43.484 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
@@ -1361,39 +1361,39 @@
 [DEBUG] 2021-04-27 13:30:43.485 [main] PropertyBinder - Building property genre
 [DEBUG] 2021-04-27 13:30:43.485 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=isbn, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.491 [main] PropertyBinder - MetadataSourceProcessor property isbn with lazy=false
-[DEBUG] 2021-04-27 13:30:43.491 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:isbn]
+[DEBUG] 2021-04-27 13:30:43.491 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Book:isbn]
 [DEBUG] 2021-04-27 13:30:43.491 [main] SimpleValueBinder - building SimpleValue for isbn
 [DEBUG] 2021-04-27 13:30:43.491 [main] PropertyBinder - Building property isbn
 [DEBUG] 2021-04-27 13:30:43.491 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=title, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.491 [main] PropertyBinder - MetadataSourceProcessor property title with lazy=false
-[DEBUG] 2021-04-27 13:30:43.491 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:title]
+[DEBUG] 2021-04-27 13:30:43.491 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Book:title]
 [DEBUG] 2021-04-27 13:30:43.492 [main] SimpleValueBinder - building SimpleValue for title
 [DEBUG] 2021-04-27 13:30:43.492 [main] PropertyBinder - Building property title
 [DEBUG] 2021-04-27 13:30:43.492 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='user_id', referencedColumn='', mappedBy=''}
 [DEBUG] 2021-04-27 13:30:43.492 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=user, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.492 [main] PropertyBinder - Building property user
-[DEBUG] 2021-04-27 13:30:43.492 [main] AnnotationBinder - Binding entity from annotated class: entity.Genre
+[DEBUG] 2021-04-27 13:30:43.492 [main] AnnotationBinder - Binding entity from annotated class: Genre
 [DEBUG] 2021-04-27 13:30:43.500 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:43.500 [main] EntityBinder - Import with entity name Genre
-[DEBUG] 2021-04-27 13:30:43.500 [main] EntityBinder - Bind entity entity.Genre on table genre
+[DEBUG] 2021-04-27 13:30:43.500 [main] EntityBinder - Bind entity Genre on table genre
 [DEBUG] 2021-04-27 13:30:43.501 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(genre), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.504 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:43.504 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Genre:id]
+[DEBUG] 2021-04-27 13:30:43.504 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Genre:id]
 [DEBUG] 2021-04-27 13:30:43.504 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:43.504 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:43.504 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
 [DEBUG] 2021-04-27 13:30:43.504 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(genre), mappingColumn=name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.504 [main] PropertyBinder - MetadataSourceProcessor property name with lazy=false
-[DEBUG] 2021-04-27 13:30:43.504 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Genre:name]
+[DEBUG] 2021-04-27 13:30:43.504 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Genre:name]
 [DEBUG] 2021-04-27 13:30:43.504 [main] SimpleValueBinder - building SimpleValue for name
 [DEBUG] 2021-04-27 13:30:43.504 [main] PropertyBinder - Building property name
-[DEBUG] 2021-04-27 13:30:43.504 [main] AnnotationBinder - Binding entity from annotated class: entity.User
+[DEBUG] 2021-04-27 13:30:43.504 [main] AnnotationBinder - Binding entity from annotated class: User
 [DEBUG] 2021-04-27 13:30:43.504 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-04-27 13:30:43.505 [main] EntityBinder - Import with entity name User
-[DEBUG] 2021-04-27 13:30:43.505 [main] EntityBinder - Bind entity entity.User on table user
+[DEBUG] 2021-04-27 13:30:43.505 [main] EntityBinder - Bind entity User on table user
 [DEBUG] 2021-04-27 13:30:43.521 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.522 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-04-27 13:30:43.522 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:id]
+[DEBUG] 2021-04-27 13:30:43.522 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:id]
 [DEBUG] 2021-04-27 13:30:43.522 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-04-27 13:30:43.522 [main] PropertyBinder - Building property id
 [DEBUG] 2021-04-27 13:30:43.522 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
@@ -1405,26 +1405,26 @@
 [DEBUG] 2021-04-27 13:30:43.523 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='books_KEY', referencedColumn='null', mappedBy='null'}
 [DEBUG] 2021-04-27 13:30:43.523 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
 [DEBUG] 2021-04-27 13:30:43.523 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
-[DEBUG] 2021-04-27 13:30:43.523 [main] CollectionBinder - Collection role: entity.User.books
+[DEBUG] 2021-04-27 13:30:43.523 [main] CollectionBinder - Collection role: User.books
 [DEBUG] 2021-04-27 13:30:43.523 [main] PropertyBinder - Building property books
 [DEBUG] 2021-04-27 13:30:43.523 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=email, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.523 [main] PropertyBinder - MetadataSourceProcessor property email with lazy=false
-[DEBUG] 2021-04-27 13:30:43.523 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:email]
+[DEBUG] 2021-04-27 13:30:43.523 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:email]
 [DEBUG] 2021-04-27 13:30:43.523 [main] SimpleValueBinder - building SimpleValue for email
 [DEBUG] 2021-04-27 13:30:43.523 [main] PropertyBinder - Building property email
 [DEBUG] 2021-04-27 13:30:43.523 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.523 [main] PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
-[DEBUG] 2021-04-27 13:30:43.523 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:firstName]
+[DEBUG] 2021-04-27 13:30:43.523 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:firstName]
 [DEBUG] 2021-04-27 13:30:43.523 [main] SimpleValueBinder - building SimpleValue for firstName
 [DEBUG] 2021-04-27 13:30:43.523 [main] PropertyBinder - Building property firstName
 [DEBUG] 2021-04-27 13:30:43.523 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.524 [main] PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
-[DEBUG] 2021-04-27 13:30:43.524 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:lastName]
+[DEBUG] 2021-04-27 13:30:43.524 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:lastName]
 [DEBUG] 2021-04-27 13:30:43.524 [main] SimpleValueBinder - building SimpleValue for lastName
 [DEBUG] 2021-04-27 13:30:43.524 [main] PropertyBinder - Building property lastName
 [DEBUG] 2021-04-27 13:30:43.524 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=password, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.528 [main] PropertyBinder - MetadataSourceProcessor property password with lazy=false
-[DEBUG] 2021-04-27 13:30:43.529 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:password]
+[DEBUG] 2021-04-27 13:30:43.529 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:password]
 [DEBUG] 2021-04-27 13:30:43.529 [main] SimpleValueBinder - building SimpleValue for password
 [DEBUG] 2021-04-27 13:30:43.529 [main] PropertyBinder - Building property password
 [DEBUG] 2021-04-27 13:30:43.529 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
@@ -1435,11 +1435,11 @@
 [DEBUG] 2021-04-27 13:30:43.529 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='roles_KEY', referencedColumn='null', mappedBy='null'}
 [DEBUG] 2021-04-27 13:30:43.529 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
 [DEBUG] 2021-04-27 13:30:43.529 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
-[DEBUG] 2021-04-27 13:30:43.529 [main] CollectionBinder - Collection role: entity.User.roles
+[DEBUG] 2021-04-27 13:30:43.529 [main] CollectionBinder - Collection role: User.roles
 [DEBUG] 2021-04-27 13:30:43.529 [main] PropertyBinder - Building property roles
 [DEBUG] 2021-04-27 13:30:43.529 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-04-27 13:30:43.529 [main] PropertyBinder - MetadataSourceProcessor property userName with lazy=false
-[DEBUG] 2021-04-27 13:30:43.529 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:userName]
+[DEBUG] 2021-04-27 13:30:43.529 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:userName]
 [DEBUG] 2021-04-27 13:30:43.530 [main] SimpleValueBinder - building SimpleValue for userName
 [DEBUG] 2021-04-27 13:30:43.530 [main] PropertyBinder - Building property userName
 [DEBUG] 2021-04-27 13:30:43.530 [main] SimpleValueBinder - Starting fillSimpleValue for id
@@ -1459,10 +1459,10 @@
 [DEBUG] 2021-04-27 13:30:43.548 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [book]
 [DEBUG] 2021-04-27 13:30:43.548 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [genre]
 [DEBUG] 2021-04-27 13:30:43.548 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [user]
-[DEBUG] 2021-04-27 13:30:43.548 [main] CollectionSecondPass - Second pass for collection: entity.User.books
-[DEBUG] 2021-04-27 13:30:43.548 [main] CollectionBinder - Binding a OneToMany: entity.User.books through a foreign key
-[DEBUG] 2021-04-27 13:30:43.548 [main] CollectionBinder - Mapping collection: entity.User.books -> book
-[DEBUG] 2021-04-27 13:30:43.548 [main] TableBinder - Retrieving property entity.Book.user
-[DEBUG] 2021-04-27 13:30:43.548 [main] CollectionSecondPass - Mapped collection key: user_id, one-to-many: entity.Book
-[DEBUG] 2021-04-27 13:30:43.548 [main] CollectionSecondPass - Second pass for collection: entity.User.roles
-[DEBUG] 2021-04-27 13:30:43.548 [main] CollectionBinder - Binding a collection of element: entity.User.roles
+[DEBUG] 2021-04-27 13:30:43.548 [main] CollectionSecondPass - Second pass for collection: User.books
+[DEBUG] 2021-04-27 13:30:43.548 [main] CollectionBinder - Binding a OneToMany: User.books through a foreign key
+[DEBUG] 2021-04-27 13:30:43.548 [main] CollectionBinder - Mapping collection: User.books -> book
+[DEBUG] 2021-04-27 13:30:43.548 [main] TableBinder - Retrieving property Book.user
+[DEBUG] 2021-04-27 13:30:43.548 [main] CollectionSecondPass - Mapped collection key: user_id, one-to-many: Book
+[DEBUG] 2021-04-27 13:30:43.548 [main] CollectionSecondPass - Second pass for collection: User.roles
+[DEBUG] 2021-04-27 13:30:43.548 [main] CollectionBinder - Binding a collection of element: User.roles

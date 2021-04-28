@@ -1,4 +1,4 @@
-package entity;
+package com.leeannjakel.entity;
 
 import org.hibernate.annotations.GenericGenerator;
 
@@ -7,52 +7,35 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * The type Genre.
+ * The type Author.
  */
-@Entity(name="Genre")
-@Table(name="genre")
-public class Genre {
+@Entity(name="Author")
+@Table(name="author")
+public class Author {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
 
-    @Column(name="name")
+    @Column (name= "name")
     private String name;
 
-    @OneToMany(mappedBy = "genre", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "author", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     private Set<Book> books = new HashSet<>();
 
     /**
-     * Instantiates a new Genre.
+     * Instantiates a new Author.
      */
-    public Genre() {
+    public Author() {
     }
 
     /**
-     * Instantiates a new Genre.
+     * Instantiates a new Author.
      *
      * @param name the name
      */
-    public Genre(String name) {
-        this.name = name;
-    }
-
-    /**
-     * Gets name.
-     *
-     * @return the name
-     */
-    public String getName() {
-        return name;
-    }
-
-    /**
-     * Sets name.
-     *
-     * @param name the name
-     */
-    public void setName(String name) {
+    public Author(String name) {
         this.name = name;
     }
 
@@ -75,6 +58,24 @@ public class Genre {
     }
 
     /**
+     * Gets name.
+     *
+     * @return the name
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * Sets name.
+     *
+     * @param name the name
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /**
      * Gets books.
      *
      * @return the books
@@ -94,7 +95,7 @@ public class Genre {
 
     @Override
     public String toString() {
-        return "Genre{" +
+        return "Author{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';

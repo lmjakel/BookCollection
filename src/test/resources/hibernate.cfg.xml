@@ -16,21 +16,21 @@
         <property name="hibernate.c3p0.max_statements">50</property>
         <property name="hibernate.c3p0.idle_test_period">3000</property>
 
-        <mapping class="entity.Author"/>
-        <mapping class="entity.AuthorResponse"/>
-        <mapping class="entity.AuthorsItem"/>
-        <mapping class="entity.Book"/>
-        <mapping class="entity.Classifications"/>
-        <mapping class="entity.Created"/>
-        <mapping class="entity.Genre"/>
-        <mapping class="entity.Identifiers"/>
-        <mapping class="entity.Info"/>
-        <mapping class="entity.LanguagesItem"/>
-        <mapping class="entity.LastModified"/>
-        <mapping class="entity.Role"/>
-        <mapping class="entity.Type"/>
-        <mapping class="entity.User"/>
-        <mapping class="entity.WorksItem"/>
+        <mapping class="com.leeannjakel.entity.Author"/>
+        <mapping class="com.leeannjakel.entity.AuthorResponse"/>
+        <mapping class="com.leeannjakel.entity.AuthorsItem"/>
+        <mapping class="com.leeannjakel.entity.Book"/>
+        <mapping class="com.leeannjakel.entity.Classifications"/>
+        <mapping class="com.leeannjakel.entity.Created"/>
+        <mapping class="com.leeannjakel.entity.Genre"/>
+        <mapping class="com.leeannjakel.entity.Identifiers"/>
+        <mapping class="com.leeannjakel.entity.Info"/>
+        <mapping class="com.leeannjakel.entity.LanguagesItem"/>
+        <mapping class="com.leeannjakel.entity.LastModified"/>
+        <mapping class="com.leeannjakel.entity.Role"/>
+        <mapping class="com.leeannjakel.entity.Type"/>
+        <mapping class="com.leeannjakel.entity.User"/>
+        <mapping class="com.leeannjakel.entity.WorksItem"/>
 
 
 

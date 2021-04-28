@@ -1,10 +1,10 @@
-package controller;
+package com.leeannjakel.controller;
 
-import entity.Role;
-import entity.User;
+import com.leeannjakel.entity.Role;
+import com.leeannjakel.entity.User;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import persistence.GenericDao;
+import com.leeannjakel.persistence.GenericDao;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

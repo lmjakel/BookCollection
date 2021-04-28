@@ -1,4 +1,4 @@
-package utilities;
+package com.leeannjakel.utilities;
 
 import java.io.*;
 import java.util.*;

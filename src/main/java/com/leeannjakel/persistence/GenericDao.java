@@ -1,4 +1,4 @@
-package persistence;
+package com.leeannjakel.persistence;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

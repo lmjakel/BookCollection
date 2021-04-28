@@ -1,5 +1,5 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
-import entity.Info;
+import com.leeannjakel.entity.Info;
 import org.junit.Test;
 import javax.ws.rs.client.*;
 import javax.ws.rs.core.MediaType;

@@ -156,24 +156,24 @@
 [DEBUG] 2021-03-01 10:28:56.049 [main] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
 [DEBUG] 2021-03-01 10:28:56.150 [main] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
 [DEBUG] 2021-03-01 10:28:56.160 [main] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@16eedaa6] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@28501a4b]
-[DEBUG] 2021-03-01 10:28:56.259 [main] AnnotationBinder - Binding entity from annotated class: entity.Author
+[DEBUG] 2021-03-01 10:28:56.259 [main] AnnotationBinder - Binding entity from annotated class: Author
 [DEBUG] 2021-03-01 10:28:56.293 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-03-01 10:28:56.301 [main] EntityBinder - Import with entity name Author
-[DEBUG] 2021-03-01 10:28:56.310 [main] EntityBinder - Bind entity entity.Author on table author
+[DEBUG] 2021-03-01 10:28:56.310 [main] EntityBinder - Bind entity Author on table author
 [DEBUG] 2021-03-01 10:28:56.342 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-03-01 10:28:56.346 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-03-01 10:28:56.352 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Author:id]
+[DEBUG] 2021-03-01 10:28:56.352 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Author:id]
 [DEBUG] 2021-03-01 10:28:56.356 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-03-01 10:28:56.361 [main] PropertyBinder - Building property id
 [DEBUG] 2021-03-01 10:28:56.369 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
 [DEBUG] 2021-03-01 10:28:56.376 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-03-01 10:28:56.376 [main] PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
-[DEBUG] 2021-03-01 10:28:56.376 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Author:firstName]
+[DEBUG] 2021-03-01 10:28:56.376 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Author:firstName]
 [DEBUG] 2021-03-01 10:28:56.376 [main] SimpleValueBinder - building SimpleValue for firstName
 [DEBUG] 2021-03-01 10:28:56.376 [main] PropertyBinder - Building property firstName
 [DEBUG] 2021-03-01 10:28:56.379 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-03-01 10:28:56.380 [main] PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
-[DEBUG] 2021-03-01 10:28:56.380 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Author:lastName]
+[DEBUG] 2021-03-01 10:28:56.380 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Author:lastName]
 [DEBUG] 2021-03-01 10:28:56.380 [main] SimpleValueBinder - building SimpleValue for lastName
 [DEBUG] 2021-03-01 10:28:56.380 [main] PropertyBinder - Building property lastName
 [DEBUG] 2021-03-01 10:28:56.388 [main] SimpleValueBinder - Starting fillSimpleValue for id
@@ -227,11 +227,11 @@
 [DEBUG] 2021-03-01 10:28:56.666 [main] JaccIntegrator - Skipping JACC integration as it was not enabled
 [DEBUG] 2021-03-01 10:28:56.673 [main] SessionFactoryImpl - Instantiated session factory
 [DEBUG] 2021-03-01 10:28:56.673 [main] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@16eedaa6] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@4ba6ec50]
-[DEBUG] 2021-03-01 10:28:56.768 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.Author] is safe
-[DEBUG] 2021-03-01 10:28:56.771 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.Author
-[DEBUG] 2021-03-01 10:28:56.869 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.Author] is safe
-[DEBUG] 2021-03-01 10:28:56.869 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.Author
-[DEBUG] 2021-03-01 10:28:57.535 [main] AbstractEntityPersister - Static SQL for entity: entity.Author
+[DEBUG] 2021-03-01 10:28:56.768 [main] ClassLoaderAccessImpl - Not known whether passed class name [Author] is safe
+[DEBUG] 2021-03-01 10:28:56.771 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : Author
+[DEBUG] 2021-03-01 10:28:56.869 [main] ClassLoaderAccessImpl - Not known whether passed class name [Author] is safe
+[DEBUG] 2021-03-01 10:28:56.869 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : Author
+[DEBUG] 2021-03-01 10:28:57.535 [main] AbstractEntityPersister - Static SQL for entity: Author
 [DEBUG] 2021-03-01 10:28:57.535 [main] AbstractEntityPersister -  Version select: select id from author where id =?
 [DEBUG] 2021-03-01 10:28:57.535 [main] AbstractEntityPersister -  Snapshot select: select author_.id, author_.first_name as first_na2_0_, author_.last_name as last_nam3_0_ from author author_ where author_.id=?
 [DEBUG] 2021-03-01 10:28:57.535 [main] AbstractEntityPersister -  Insert 0: insert into author (first_name, last_name, id) values (?, ?, ?)
@@ -243,33 +243,33 @@
 [DEBUG] 2021-03-01 10:28:57.576 [main] MetamodelGraphWalker - Visiting attribute path : lastName
 [DEBUG] 2021-03-01 10:28:57.578 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 [DEBUG] 2021-03-01 10:28:57.594 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-[DEBUG] 2021-03-01 10:28:57.609 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.Author)
+[DEBUG] 2021-03-01 10:28:57.609 [main] LoadPlanTreePrinter - LoadPlan(entity=Author)
     - Returns
-       - EntityReturnImpl(entity=entity.Author, querySpaceUid=<gen:0>, path=entity.Author)
+       - EntityReturnImpl(entity=Author, querySpaceUid=<gen:0>, path=Author)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.Author)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Author)
           - SQL table alias mapping - author0_
           - alias suffix - 0_
           - suffixed key columns - {id1_0_0_}
 
-[DEBUG] 2021-03-01 10:28:57.615 [main] EntityLoader - Static select for entity entity.Author [NONE]: select author0_.id as id1_0_0_, author0_.first_name as first_na2_0_0_, author0_.last_name as last_nam3_0_0_ from author author0_ where author0_.id=?
+[DEBUG] 2021-03-01 10:28:57.615 [main] EntityLoader - Static select for entity Author [NONE]: select author0_.id as id1_0_0_, author0_.first_name as first_na2_0_0_, author0_.last_name as last_nam3_0_0_ from author author0_ where author0_.id=?
 [DEBUG] 2021-03-01 10:28:57.615 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2a2dc0a]
 [DEBUG] 2021-03-01 10:28:57.615 [main] MetamodelGraphWalker - Visiting attribute path : firstName
 [DEBUG] 2021-03-01 10:28:57.615 [main] MetamodelGraphWalker - Visiting attribute path : lastName
 [DEBUG] 2021-03-01 10:28:57.617 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 [DEBUG] 2021-03-01 10:28:57.618 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-[DEBUG] 2021-03-01 10:28:57.618 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.Author)
+[DEBUG] 2021-03-01 10:28:57.618 [main] LoadPlanTreePrinter - LoadPlan(entity=Author)
     - Returns
-       - EntityReturnImpl(entity=entity.Author, querySpaceUid=<gen:0>, path=entity.Author)
+       - EntityReturnImpl(entity=Author, querySpaceUid=<gen:0>, path=Author)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.Author)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Author)
           - SQL table alias mapping - author0_
           - alias suffix - 0_
           - suffixed key columns - {id1_0_0_}
 
-[DEBUG] 2021-03-01 10:28:57.619 [main] EntityLoader - Static select for entity entity.Author [READ]: select author0_.id as id1_0_0_, author0_.first_name as first_na2_0_0_, author0_.last_name as last_nam3_0_0_ from author author0_ where author0_.id=?
-[DEBUG] 2021-03-01 10:28:57.647 [main] Loader - Static select for action ACTION_MERGE on entity entity.Author: select author0_.id as id1_0_0_, author0_.first_name as first_na2_0_0_, author0_.last_name as last_nam3_0_0_ from author author0_ where author0_.id=?
-[DEBUG] 2021-03-01 10:28:57.647 [main] Loader - Static select for action ACTION_REFRESH on entity entity.Author: select author0_.id as id1_0_0_, author0_.first_name as first_na2_0_0_, author0_.last_name as last_nam3_0_0_ from author author0_ where author0_.id=?
+[DEBUG] 2021-03-01 10:28:57.619 [main] EntityLoader - Static select for entity Author [READ]: select author0_.id as id1_0_0_, author0_.first_name as first_na2_0_0_, author0_.last_name as last_nam3_0_0_ from author author0_ where author0_.id=?
+[DEBUG] 2021-03-01 10:28:57.647 [main] Loader - Static select for action ACTION_MERGE on entity Author: select author0_.id as id1_0_0_, author0_.first_name as first_na2_0_0_, author0_.last_name as last_nam3_0_0_ from author author0_ where author0_.id=?
+[DEBUG] 2021-03-01 10:28:57.647 [main] Loader - Static select for action ACTION_REFRESH on entity Author: select author0_.id as id1_0_0_, author0_.first_name as first_na2_0_0_, author0_.last_name as last_nam3_0_0_ from author author0_ where author0_.id=?
 [DEBUG] 2021-03-01 10:28:57.706 [main] SchemaManagementToolCoordinator - No actions specified; doing nothing
 [DEBUG] 2021-03-01 10:28:57.707 [main] JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
 [DEBUG] 2021-03-01 10:28:57.707 [main] JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
@@ -283,7 +283,7 @@
 [DEBUG] 2021-03-01 10:28:58.010 [main] StatisticsInitiator - Statistics initialized [enabled=false]
 [DEBUG] 2021-03-01 10:28:58.066 [main] CriteriaQueryImpl - Rendered criteria query -> select generatedAlias0 from Author as generatedAlias0
 [DEBUG] 2021-03-01 10:28:58.099 [main] QueryTranslatorFactoryInitiator - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@53eba4b8
-[DEBUG] 2021-03-01 10:28:58.143 [main] QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from entity.Author as generatedAlias0
+[DEBUG] 2021-03-01 10:28:58.143 [main] QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from Author as generatedAlias0
 [DEBUG] 2021-03-01 10:28:58.151 [main] ErrorTracker - throwQueryException() : no errors
 [DEBUG] 2021-03-01 10:28:58.171 [main] QueryTranslatorImpl - --- HQL AST ---
  \-[QUERY] Node: 'query'
@@ -298,7 +298,7 @@
           \-[IDENT] Node: 'generatedAlias0'
 
 [DEBUG] 2021-03-01 10:28:58.226 [main] HqlSqlBaseWalker - select << begin [level=1, statement=select]
-[DEBUG] 2021-03-01 10:28:58.252 [main] FromElement - FromClause{level=1} : entity.Author (generatedAlias0) -> author0_
+[DEBUG] 2021-03-01 10:28:58.252 [main] FromElement - FromClause{level=1} : Author (generatedAlias0) -> author0_
 [DEBUG] 2021-03-01 10:28:58.253 [main] FromReferenceNode - Resolved : generatedAlias0 -> author0_.id
 [DEBUG] 2021-03-01 10:28:58.254 [main] HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
 [DEBUG] 2021-03-01 10:28:58.255 [main] HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} author0_.id ) ( FromClause{level=1} author author0_ ) )
@@ -307,13 +307,13 @@
 [DEBUG] 2021-03-01 10:28:58.278 [main] QueryTranslatorImpl - --- SQL AST ---
  \-[SELECT] QueryNode: 'SELECT'  querySpaces (author)
     +-[SELECT_CLAUSE] SelectClause: '{select clause}'
-    |  +-[ALIAS_REF] IdentNode: 'author0_.id as id1_0_' {alias=generatedAlias0, className=entity.Author, tableAlias=author0_}
+    |  +-[ALIAS_REF] IdentNode: 'author0_.id as id1_0_' {alias=generatedAlias0, className=Author, tableAlias=author0_}
     |  \-[SQL_TOKEN] SqlFragment: 'author0_.first_name as first_na2_0_, author0_.last_name as last_nam3_0_'
     \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[author0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
-       \-[FROM_FRAGMENT] FromElement: 'author author0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=author,tableAlias=author0_,origin=null,columns={,className=entity.Author}}
+       \-[FROM_FRAGMENT] FromElement: 'author author0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=author,tableAlias=author0_,origin=null,columns={,className=Author}}
 
 [DEBUG] 2021-03-01 10:28:58.278 [main] ErrorTracker - throwQueryException() : no errors
-[DEBUG] 2021-03-01 10:28:58.290 [main] QueryTranslatorImpl - HQL: select generatedAlias0 from entity.Author as generatedAlias0
+[DEBUG] 2021-03-01 10:28:58.290 [main] QueryTranslatorImpl - HQL: select generatedAlias0 from Author as generatedAlias0
 [DEBUG] 2021-03-01 10:28:58.290 [main] QueryTranslatorImpl - SQL: select author0_.id as id1_0_, author0_.first_name as first_na2_0_, author0_.last_name as last_nam3_0_ from author author0_
 [DEBUG] 2021-03-01 10:28:58.290 [main] ErrorTracker - throwQueryException() : no errors
 [DEBUG] 2021-03-01 10:28:58.327 [main] SQL - select author0_.id as id1_0_, author0_.first_name as first_na2_0_, author0_.last_name as last_nam3_0_ from author author0_

@@ -15,30 +15,21 @@
 
 
 ## Week 5
-- [ ] Create CSS
 - [x] Weekly reflection
-- [ ] User sign up page
+- [x] User sign up page
 - [x] Implement logging for project thus far
-
 
 ## Week 6
 - [x] Weekly reflection
-- [ ] Edit book collection pages(add, edit, remove)
-- [ ] User can view all books from database 
 - [x] Create Daos and Tests
 - [x] Finalize checkpoint 2 components
 
-
 ## Week 7
 - [x] Checkpoint 2 due 3/2
-- [ ] User can search within book collection (title, genre, author)
-- [ ] Database result table is displayed for searches
-
 
 ## Week 8
 - [x] User login
 - [x] Weekly reflection
-- [ ] User can view book suggestions
 - [x] Finalize Checkpoint 3 requirements
 - [x] Implement logging for project thus far
 
@@ -47,37 +38,36 @@
 - [x] Checkpoint 3 due 4/13
 - [x] Weekly reflection
 
-
 ##Week 10
-- [ ] Weekly reflection
-- [ ] User can view all book
-
+- [x] Weekly reflection
 
 ##Week 11
-- [ ] Weekly reflection
-- [ ] Improve website design as needed
-- [ ] Improve logging for project as needed
-
+- [x] Weekly reflection
 
 ## Week 12
-- [ ] Weekly reflection
-- [ ] Format result tables
+- [x] Weekly reflection
 
 ## Week 13
-- [ ] Weekly reflection
-
+- [x] Weekly reflection
 
 ## Week 14
-- [ ] Weekly reflection
-
+- [ ] Weekly reflection 
+- [ ] Add Lombok
+- [ ] Edit book information(add, edit, remove)
+- [ ] Remove book 
+- [ ] Add book
+- [ ] User can view all books
+- [ ] User can search within book collection (title, genre, author)
+- [ ] User can view book suggestions
+- [ ] Create CSS
 
 ## Week 15
 - [ ] Weekly reflection
-- [ ] Final Presentation
-- [ ] Create video
-- [ ] finalize documentation
+- [ ] Finalize code
+- [ ] Finalize documentation
 
 ## Week 16
-- [ ] Finalize code
+- [ ] Final presentation
+- [ ] Create video
 - [ ] Weekly reflection
-- [ ] Project Due 5/11
+- [ ] Project Due 5/11 9pm

@@ -1,12 +1,12 @@
 package test.persistence;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import entity.AuthorsItem;
+import com.leeannjakel.entity.AuthorsItem;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Test;
 
-import persistence.ApiDao;
+import com.leeannjakel.persistence.ApiDao;
 
 import java.util.List;
 

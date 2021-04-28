@@ -1,10 +1,9 @@
-package controller;
+package com.leeannjakel.controller;
 
-import entity.Book;
-import entity.Info;
+import com.leeannjakel.entity.Book;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import persistence.GenericDao;
+import com.leeannjakel.persistence.GenericDao;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -16,6 +15,9 @@ import java.io.IOException;
 import java.util.List;
 
 
+/**
+ * The type Search books.
+ */
 @WebServlet(
         urlPatterns = {"/searchBooks"}
 )
@@ -31,9 +33,13 @@ public class SearchBooks extends HttpServlet {
 
         logger.debug("searchBooks class");
 
-        if (req.getParameter ("submit").equals("search")) {
+        if (req.getParameter("submit").equals("search")) {
             logger.debug("inside the if");
-            List<Book> book = dao.getByPropertyLike("title", req.getParameter("searchTerm"));
+
+            String searchType = req.getParameter("type");
+            logger.debug("search type: {}", searchType);
+
+            List<Book> book = dao.getByPropertyLike(searchType, req.getParameter("searchTerm"));
             req.setAttribute("book", book);
         } else {
             req.setAttribute("book", dao.getAll());

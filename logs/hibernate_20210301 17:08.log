@@ -156,33 +156,33 @@
 [DEBUG] 2021-03-01 17:08:34.053 [main] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
 [DEBUG] 2021-03-01 17:08:34.235 [main] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
 [DEBUG] 2021-03-01 17:08:34.249 [main] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@6e33fcae] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@66c38e51]
-[DEBUG] 2021-03-01 17:08:34.460 [main] AnnotationBinder - Binding entity from annotated class: entity.Author
+[DEBUG] 2021-03-01 17:08:34.460 [main] AnnotationBinder - Binding entity from annotated class: Author
 [DEBUG] 2021-03-01 17:08:34.539 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-03-01 17:08:34.555 [main] EntityBinder - Import with entity name Author
-[DEBUG] 2021-03-01 17:08:34.564 [main] EntityBinder - Bind entity entity.Author on table author
+[DEBUG] 2021-03-01 17:08:34.564 [main] EntityBinder - Bind entity Author on table author
 [DEBUG] 2021-03-01 17:08:34.640 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-03-01 17:08:34.642 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-03-01 17:08:34.644 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Author:id]
+[DEBUG] 2021-03-01 17:08:34.644 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Author:id]
 [DEBUG] 2021-03-01 17:08:34.653 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-03-01 17:08:34.660 [main] PropertyBinder - Building property id
 [DEBUG] 2021-03-01 17:08:34.671 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
 [DEBUG] 2021-03-01 17:08:34.675 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-03-01 17:08:34.676 [main] PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
-[DEBUG] 2021-03-01 17:08:34.676 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Author:firstName]
+[DEBUG] 2021-03-01 17:08:34.676 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Author:firstName]
 [DEBUG] 2021-03-01 17:08:34.677 [main] SimpleValueBinder - building SimpleValue for firstName
 [DEBUG] 2021-03-01 17:08:34.677 [main] PropertyBinder - Building property firstName
 [DEBUG] 2021-03-01 17:08:34.678 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(author), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-03-01 17:08:34.678 [main] PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
-[DEBUG] 2021-03-01 17:08:34.678 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Author:lastName]
+[DEBUG] 2021-03-01 17:08:34.678 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Author:lastName]
 [DEBUG] 2021-03-01 17:08:34.678 [main] SimpleValueBinder - building SimpleValue for lastName
 [DEBUG] 2021-03-01 17:08:34.678 [main] PropertyBinder - Building property lastName
-[DEBUG] 2021-03-01 17:08:34.684 [main] AnnotationBinder - Binding entity from annotated class: entity.Book
+[DEBUG] 2021-03-01 17:08:34.684 [main] AnnotationBinder - Binding entity from annotated class: Book
 [DEBUG] 2021-03-01 17:08:34.685 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-03-01 17:08:34.685 [main] EntityBinder - Import with entity name Book
-[DEBUG] 2021-03-01 17:08:34.685 [main] EntityBinder - Bind entity entity.Book on table book
+[DEBUG] 2021-03-01 17:08:34.685 [main] EntityBinder - Bind entity Book on table book
 [DEBUG] 2021-03-01 17:08:34.688 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-03-01 17:08:34.688 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-03-01 17:08:34.688 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:id]
+[DEBUG] 2021-03-01 17:08:34.688 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Book:id]
 [DEBUG] 2021-03-01 17:08:34.688 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-03-01 17:08:34.708 [main] PropertyBinder - Building property id
 [DEBUG] 2021-03-01 17:08:34.708 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
@@ -194,65 +194,65 @@
 [DEBUG] 2021-03-01 17:08:34.731 [main] PropertyBinder - Building property genre
 [DEBUG] 2021-03-01 17:08:34.731 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=isbn, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-03-01 17:08:34.731 [main] PropertyBinder - MetadataSourceProcessor property isbn with lazy=false
-[DEBUG] 2021-03-01 17:08:34.732 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:isbn]
+[DEBUG] 2021-03-01 17:08:34.732 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Book:isbn]
 [DEBUG] 2021-03-01 17:08:34.732 [main] SimpleValueBinder - building SimpleValue for isbn
 [DEBUG] 2021-03-01 17:08:34.732 [main] PropertyBinder - Building property isbn
 [DEBUG] 2021-03-01 17:08:34.732 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=title, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-03-01 17:08:34.733 [main] PropertyBinder - MetadataSourceProcessor property title with lazy=false
-[DEBUG] 2021-03-01 17:08:34.733 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Book:title]
+[DEBUG] 2021-03-01 17:08:34.733 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Book:title]
 [DEBUG] 2021-03-01 17:08:34.737 [main] SimpleValueBinder - building SimpleValue for title
 [DEBUG] 2021-03-01 17:08:34.737 [main] PropertyBinder - Building property title
 [DEBUG] 2021-03-01 17:08:34.738 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
 [DEBUG] 2021-03-01 17:08:34.738 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(book), mappingColumn=user, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-03-01 17:08:34.740 [main] PropertyBinder - Building property user
-[DEBUG] 2021-03-01 17:08:34.740 [main] AnnotationBinder - Binding entity from annotated class: entity.Genre
+[DEBUG] 2021-03-01 17:08:34.740 [main] AnnotationBinder - Binding entity from annotated class: Genre
 [DEBUG] 2021-03-01 17:08:34.741 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-03-01 17:08:34.741 [main] EntityBinder - Import with entity name Genre
-[DEBUG] 2021-03-01 17:08:34.741 [main] EntityBinder - Bind entity entity.Genre on table genre
+[DEBUG] 2021-03-01 17:08:34.741 [main] EntityBinder - Bind entity Genre on table genre
 [DEBUG] 2021-03-01 17:08:34.744 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(genre), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-03-01 17:08:34.748 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-03-01 17:08:34.748 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Genre:id]
+[DEBUG] 2021-03-01 17:08:34.748 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Genre:id]
 [DEBUG] 2021-03-01 17:08:34.749 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-03-01 17:08:34.749 [main] PropertyBinder - Building property id
 [DEBUG] 2021-03-01 17:08:34.749 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
 [DEBUG] 2021-03-01 17:08:34.750 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(genre), mappingColumn=name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-03-01 17:08:34.750 [main] PropertyBinder - MetadataSourceProcessor property name with lazy=false
-[DEBUG] 2021-03-01 17:08:34.750 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.Genre:name]
+[DEBUG] 2021-03-01 17:08:34.750 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [Genre:name]
 [DEBUG] 2021-03-01 17:08:34.750 [main] SimpleValueBinder - building SimpleValue for name
 [DEBUG] 2021-03-01 17:08:34.750 [main] PropertyBinder - Building property name
-[DEBUG] 2021-03-01 17:08:34.750 [main] AnnotationBinder - Binding entity from annotated class: entity.User
+[DEBUG] 2021-03-01 17:08:34.750 [main] AnnotationBinder - Binding entity from annotated class: User
 [DEBUG] 2021-03-01 17:08:34.750 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 [DEBUG] 2021-03-01 17:08:34.750 [main] EntityBinder - Import with entity name User
-[DEBUG] 2021-03-01 17:08:34.751 [main] EntityBinder - Bind entity entity.User on table user
+[DEBUG] 2021-03-01 17:08:34.751 [main] EntityBinder - Bind entity User on table user
 [DEBUG] 2021-03-01 17:08:34.752 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=id, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-03-01 17:08:34.752 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
-[DEBUG] 2021-03-01 17:08:34.757 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:id]
+[DEBUG] 2021-03-01 17:08:34.757 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:id]
 [DEBUG] 2021-03-01 17:08:34.758 [main] SimpleValueBinder - building SimpleValue for id
 [DEBUG] 2021-03-01 17:08:34.758 [main] PropertyBinder - Building property id
 [DEBUG] 2021-03-01 17:08:34.758 [main] BinderHelper - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, org.hibernate.id.enhanced.SequenceStyleGenerator, native, ...)
 [DEBUG] 2021-03-01 17:08:34.758 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=email, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-03-01 17:08:34.759 [main] PropertyBinder - MetadataSourceProcessor property email with lazy=false
-[DEBUG] 2021-03-01 17:08:34.759 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:email]
+[DEBUG] 2021-03-01 17:08:34.759 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:email]
 [DEBUG] 2021-03-01 17:08:34.759 [main] SimpleValueBinder - building SimpleValue for email
 [DEBUG] 2021-03-01 17:08:34.759 [main] PropertyBinder - Building property email
 [DEBUG] 2021-03-01 17:08:34.759 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-03-01 17:08:34.760 [main] PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
-[DEBUG] 2021-03-01 17:08:34.760 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:firstName]
+[DEBUG] 2021-03-01 17:08:34.760 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:firstName]
 [DEBUG] 2021-03-01 17:08:34.760 [main] SimpleValueBinder - building SimpleValue for firstName
 [DEBUG] 2021-03-01 17:08:34.760 [main] PropertyBinder - Building property firstName
 [DEBUG] 2021-03-01 17:08:34.761 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-03-01 17:08:34.762 [main] PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
-[DEBUG] 2021-03-01 17:08:34.762 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:lastName]
+[DEBUG] 2021-03-01 17:08:34.762 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:lastName]
 [DEBUG] 2021-03-01 17:08:34.762 [main] SimpleValueBinder - building SimpleValue for lastName
 [DEBUG] 2021-03-01 17:08:34.762 [main] PropertyBinder - Building property lastName
 [DEBUG] 2021-03-01 17:08:34.762 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=password, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-03-01 17:08:34.763 [main] PropertyBinder - MetadataSourceProcessor property password with lazy=false
-[DEBUG] 2021-03-01 17:08:34.763 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:password]
+[DEBUG] 2021-03-01 17:08:34.763 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:password]
 [DEBUG] 2021-03-01 17:08:34.763 [main] SimpleValueBinder - building SimpleValue for password
 [DEBUG] 2021-03-01 17:08:34.763 [main] PropertyBinder - Building property password
 [DEBUG] 2021-03-01 17:08:34.764 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=username, insertable=true, updatable=true, unique=false}
 [DEBUG] 2021-03-01 17:08:34.764 [main] PropertyBinder - MetadataSourceProcessor property userName with lazy=false
-[DEBUG] 2021-03-01 17:08:34.764 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [entity.User:userName]
+[DEBUG] 2021-03-01 17:08:34.764 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [User:userName]
 [DEBUG] 2021-03-01 17:08:34.764 [main] SimpleValueBinder - building SimpleValue for userName
 [DEBUG] 2021-03-01 17:08:34.764 [main] PropertyBinder - Building property userName
 [DEBUG] 2021-03-01 17:08:34.766 [main] SimpleValueBinder - Starting fillSimpleValue for id
@@ -273,12 +273,12 @@
 [DEBUG] 2021-03-01 17:08:34.790 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [book]
 [DEBUG] 2021-03-01 17:08:34.791 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [genre]
 [DEBUG] 2021-03-01 17:08:34.791 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [user]
-[DEBUG] 2021-03-01 17:08:34.791 [main] InFlightMetadataCollectorImpl - Resolving reference to class: entity.Author
-[DEBUG] 2021-03-01 17:08:34.803 [main] InFlightMetadataCollectorImpl - Resolving reference to class: entity.Genre
-[DEBUG] 2021-03-01 17:08:34.804 [main] InFlightMetadataCollectorImpl - Resolving reference to class: entity.User
-[DEBUG] 2021-03-01 17:08:34.816 [main] InFlightMetadataCollectorImpl - Resolving reference to class: entity.Author
-[DEBUG] 2021-03-01 17:08:34.816 [main] InFlightMetadataCollectorImpl - Resolving reference to class: entity.Genre
-[DEBUG] 2021-03-01 17:08:34.816 [main] InFlightMetadataCollectorImpl - Resolving reference to class: entity.User
+[DEBUG] 2021-03-01 17:08:34.791 [main] InFlightMetadataCollectorImpl - Resolving reference to class: Author
+[DEBUG] 2021-03-01 17:08:34.803 [main] InFlightMetadataCollectorImpl - Resolving reference to class: Genre
+[DEBUG] 2021-03-01 17:08:34.804 [main] InFlightMetadataCollectorImpl - Resolving reference to class: User
+[DEBUG] 2021-03-01 17:08:34.816 [main] InFlightMetadataCollectorImpl - Resolving reference to class: Author
+[DEBUG] 2021-03-01 17:08:34.816 [main] InFlightMetadataCollectorImpl - Resolving reference to class: Genre
+[DEBUG] 2021-03-01 17:08:34.816 [main] InFlightMetadataCollectorImpl - Resolving reference to class: User
 [DEBUG] 2021-03-01 17:08:34.968 [main] SessionFactoryImpl - Building session factory
 [DEBUG] 2021-03-01 17:08:34.971 [main] Settings - SessionFactory name : null
 [DEBUG] 2021-03-01 17:08:34.971 [main] Settings - Automatic flush during beforeCompletion(): enabled
@@ -326,23 +326,23 @@
 [DEBUG] 2021-03-01 17:08:35.470 [main] JaccIntegrator - Skipping JACC integration as it was not enabled
 [DEBUG] 2021-03-01 17:08:35.480 [main] SessionFactoryImpl - Instantiated session factory
 [DEBUG] 2021-03-01 17:08:35.480 [main] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@6e33fcae] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@7e72a6cc]
-[DEBUG] 2021-03-01 17:08:35.808 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.User] is safe
-[DEBUG] 2021-03-01 17:08:35.809 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.User
-[DEBUG] 2021-03-01 17:08:35.913 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.User] is safe
-[DEBUG] 2021-03-01 17:08:35.914 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.User
-[DEBUG] 2021-03-01 17:08:36.517 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.Genre] is safe
-[DEBUG] 2021-03-01 17:08:36.517 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.Genre
-[DEBUG] 2021-03-01 17:08:36.517 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.Genre] is safe
-[DEBUG] 2021-03-01 17:08:36.517 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.Genre
-[DEBUG] 2021-03-01 17:08:36.540 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.Author] is safe
-[DEBUG] 2021-03-01 17:08:36.540 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.Author
-[DEBUG] 2021-03-01 17:08:36.540 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.Author] is safe
-[DEBUG] 2021-03-01 17:08:36.540 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.Author
-[DEBUG] 2021-03-01 17:08:36.610 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.Book] is safe
-[DEBUG] 2021-03-01 17:08:36.611 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.Book
-[DEBUG] 2021-03-01 17:08:36.615 [main] ClassLoaderAccessImpl - Not known whether passed class name [entity.Book] is safe
-[DEBUG] 2021-03-01 17:08:36.616 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : entity.Book
-[DEBUG] 2021-03-01 17:08:36.734 [main] AbstractEntityPersister - Static SQL for entity: entity.User
+[DEBUG] 2021-03-01 17:08:35.808 [main] ClassLoaderAccessImpl - Not known whether passed class name [User] is safe
+[DEBUG] 2021-03-01 17:08:35.809 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : User
+[DEBUG] 2021-03-01 17:08:35.913 [main] ClassLoaderAccessImpl - Not known whether passed class name [User] is safe
+[DEBUG] 2021-03-01 17:08:35.914 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : User
+[DEBUG] 2021-03-01 17:08:36.517 [main] ClassLoaderAccessImpl - Not known whether passed class name [Genre] is safe
+[DEBUG] 2021-03-01 17:08:36.517 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : Genre
+[DEBUG] 2021-03-01 17:08:36.517 [main] ClassLoaderAccessImpl - Not known whether passed class name [Genre] is safe
+[DEBUG] 2021-03-01 17:08:36.517 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : Genre
+[DEBUG] 2021-03-01 17:08:36.540 [main] ClassLoaderAccessImpl - Not known whether passed class name [Author] is safe
+[DEBUG] 2021-03-01 17:08:36.540 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : Author
+[DEBUG] 2021-03-01 17:08:36.540 [main] ClassLoaderAccessImpl - Not known whether passed class name [Author] is safe
+[DEBUG] 2021-03-01 17:08:36.540 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : Author
+[DEBUG] 2021-03-01 17:08:36.610 [main] ClassLoaderAccessImpl - Not known whether passed class name [Book] is safe
+[DEBUG] 2021-03-01 17:08:36.611 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : Book
+[DEBUG] 2021-03-01 17:08:36.615 [main] ClassLoaderAccessImpl - Not known whether passed class name [Book] is safe
+[DEBUG] 2021-03-01 17:08:36.616 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : Book
+[DEBUG] 2021-03-01 17:08:36.734 [main] AbstractEntityPersister - Static SQL for entity: User
 [DEBUG] 2021-03-01 17:08:36.735 [main] AbstractEntityPersister -  Version select: select id from user where id =?
 [DEBUG] 2021-03-01 17:08:36.735 [main] AbstractEntityPersister -  Snapshot select: select user_.id, user_.email as email2_3_, user_.first_name as first_na3_3_, user_.last_name as last_nam4_3_, user_.password as password5_3_, user_.username as username6_3_ from user user_ where user_.id=?
 [DEBUG] 2021-03-01 17:08:36.735 [main] AbstractEntityPersister -  Insert 0: insert into user (email, first_name, last_name, password, username, id) values (?, ?, ?, ?, ?, ?)
@@ -357,16 +357,16 @@
 [DEBUG] 2021-03-01 17:08:36.819 [main] MetamodelGraphWalker - Visiting attribute path : userName
 [DEBUG] 2021-03-01 17:08:36.819 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 [DEBUG] 2021-03-01 17:08:36.848 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-[DEBUG] 2021-03-01 17:08:36.855 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.User)
+[DEBUG] 2021-03-01 17:08:36.855 [main] LoadPlanTreePrinter - LoadPlan(entity=User)
     - Returns
-       - EntityReturnImpl(entity=entity.User, querySpaceUid=<gen:0>, path=entity.User)
+       - EntityReturnImpl(entity=User, querySpaceUid=<gen:0>, path=User)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.User)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=User)
           - SQL table alias mapping - user0_
           - alias suffix - 0_
           - suffixed key columns - {id1_3_0_}
 
-[DEBUG] 2021-03-01 17:08:36.860 [main] EntityLoader - Static select for entity entity.User [NONE]: select user0_.id as id1_3_0_, user0_.email as email2_3_0_, user0_.first_name as first_na3_3_0_, user0_.last_name as last_nam4_3_0_, user0_.password as password5_3_0_, user0_.username as username6_3_0_ from user user0_ where user0_.id=?
+[DEBUG] 2021-03-01 17:08:36.860 [main] EntityLoader - Static select for entity User [NONE]: select user0_.id as id1_3_0_, user0_.email as email2_3_0_, user0_.first_name as first_na3_3_0_, user0_.last_name as last_nam4_3_0_, user0_.password as password5_3_0_, user0_.username as username6_3_0_ from user user0_ where user0_.id=?
 [DEBUG] 2021-03-01 17:08:36.860 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6dce59e]
 [DEBUG] 2021-03-01 17:08:36.862 [main] MetamodelGraphWalker - Visiting attribute path : email
 [DEBUG] 2021-03-01 17:08:36.862 [main] MetamodelGraphWalker - Visiting attribute path : firstName
@@ -375,19 +375,19 @@
 [DEBUG] 2021-03-01 17:08:36.863 [main] MetamodelGraphWalker - Visiting attribute path : userName
 [DEBUG] 2021-03-01 17:08:36.863 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 [DEBUG] 2021-03-01 17:08:36.865 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-[DEBUG] 2021-03-01 17:08:36.867 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.User)
+[DEBUG] 2021-03-01 17:08:36.867 [main] LoadPlanTreePrinter - LoadPlan(entity=User)
     - Returns
-       - EntityReturnImpl(entity=entity.User, querySpaceUid=<gen:0>, path=entity.User)
+       - EntityReturnImpl(entity=User, querySpaceUid=<gen:0>, path=User)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.User)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=User)
           - SQL table alias mapping - user0_
           - alias suffix - 0_
           - suffixed key columns - {id1_3_0_}
 
-[DEBUG] 2021-03-01 17:08:36.867 [main] EntityLoader - Static select for entity entity.User [READ]: select user0_.id as id1_3_0_, user0_.email as email2_3_0_, user0_.first_name as first_na3_3_0_, user0_.last_name as last_nam4_3_0_, user0_.password as password5_3_0_, user0_.username as username6_3_0_ from user user0_ where user0_.id=?
-[DEBUG] 2021-03-01 17:08:36.898 [main] Loader - Static select for action ACTION_MERGE on entity entity.User: select user0_.id as id1_3_0_, user0_.email as email2_3_0_, user0_.first_name as first_na3_3_0_, user0_.last_name as last_nam4_3_0_, user0_.password as password5_3_0_, user0_.username as username6_3_0_ from user user0_ where user0_.id=?
-[DEBUG] 2021-03-01 17:08:36.899 [main] Loader - Static select for action ACTION_REFRESH on entity entity.User: select user0_.id as id1_3_0_, user0_.email as email2_3_0_, user0_.first_name as first_na3_3_0_, user0_.last_name as last_nam4_3_0_, user0_.password as password5_3_0_, user0_.username as username6_3_0_ from user user0_ where user0_.id=?
-[DEBUG] 2021-03-01 17:08:36.899 [main] AbstractEntityPersister - Static SQL for entity: entity.Genre
+[DEBUG] 2021-03-01 17:08:36.867 [main] EntityLoader - Static select for entity User [READ]: select user0_.id as id1_3_0_, user0_.email as email2_3_0_, user0_.first_name as first_na3_3_0_, user0_.last_name as last_nam4_3_0_, user0_.password as password5_3_0_, user0_.username as username6_3_0_ from user user0_ where user0_.id=?
+[DEBUG] 2021-03-01 17:08:36.898 [main] Loader - Static select for action ACTION_MERGE on entity User: select user0_.id as id1_3_0_, user0_.email as email2_3_0_, user0_.first_name as first_na3_3_0_, user0_.last_name as last_nam4_3_0_, user0_.password as password5_3_0_, user0_.username as username6_3_0_ from user user0_ where user0_.id=?
+[DEBUG] 2021-03-01 17:08:36.899 [main] Loader - Static select for action ACTION_REFRESH on entity User: select user0_.id as id1_3_0_, user0_.email as email2_3_0_, user0_.first_name as first_na3_3_0_, user0_.last_name as last_nam4_3_0_, user0_.password as password5_3_0_, user0_.username as username6_3_0_ from user user0_ where user0_.id=?
+[DEBUG] 2021-03-01 17:08:36.899 [main] AbstractEntityPersister - Static SQL for entity: Genre
 [DEBUG] 2021-03-01 17:08:36.900 [main] AbstractEntityPersister -  Version select: select id from genre where id =?
 [DEBUG] 2021-03-01 17:08:36.900 [main] AbstractEntityPersister -  Snapshot select: select genre_.id, genre_.name as name2_2_ from genre genre_ where genre_.id=?
 [DEBUG] 2021-03-01 17:08:36.900 [main] AbstractEntityPersister -  Insert 0: insert into genre (name, id) values (?, ?)
@@ -398,33 +398,33 @@
 [DEBUG] 2021-03-01 17:08:36.905 [main] MetamodelGraphWalker - Visiting attribute path : name
 [DEBUG] 2021-03-01 17:08:36.905 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 [DEBUG] 2021-03-01 17:08:36.906 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-[DEBUG] 2021-03-01 17:08:36.906 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.Genre)
+[DEBUG] 2021-03-01 17:08:36.906 [main] LoadPlanTreePrinter - LoadPlan(entity=Genre)
     - Returns
-       - EntityReturnImpl(entity=entity.Genre, querySpaceUid=<gen:0>, path=entity.Genre)
+       - EntityReturnImpl(entity=Genre, querySpaceUid=<gen:0>, path=Genre)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.Genre)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Genre)
           - SQL table alias mapping - genre0_
           - alias suffix - 0_
           - suffixed key columns - {id1_2_0_}
 
-[DEBUG] 2021-03-01 17:08:36.906 [main] EntityLoader - Static select for entity entity.Genre [NONE]: select genre0_.id as id1_2_0_, genre0_.name as name2_2_0_ from genre genre0_ where genre0_.id=?
+[DEBUG] 2021-03-01 17:08:36.906 [main] EntityLoader - Static select for entity Genre [NONE]: select genre0_.id as id1_2_0_, genre0_.name as name2_2_0_ from genre genre0_ where genre0_.id=?
 [DEBUG] 2021-03-01 17:08:36.906 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@52d3fafd]
 [DEBUG] 2021-03-01 17:08:36.906 [main] MetamodelGraphWalker - Visiting attribute path : name
 [DEBUG] 2021-03-01 17:08:36.907 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 [DEBUG] 2021-03-01 17:08:36.910 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-[DEBUG] 2021-03-01 17:08:36.913 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.Genre)
+[DEBUG] 2021-03-01 17:08:36.913 [main] LoadPlanTreePrinter - LoadPlan(entity=Genre)
     - Returns
-       - EntityReturnImpl(entity=entity.Genre, querySpaceUid=<gen:0>, path=entity.Genre)
+       - EntityReturnImpl(entity=Genre, querySpaceUid=<gen:0>, path=Genre)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.Genre)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Genre)
           - SQL table alias mapping - genre0_
           - alias suffix - 0_
           - suffixed key columns - {id1_2_0_}
 
-[DEBUG] 2021-03-01 17:08:36.913 [main] EntityLoader - Static select for entity entity.Genre [READ]: select genre0_.id as id1_2_0_, genre0_.name as name2_2_0_ from genre genre0_ where genre0_.id=?
-[DEBUG] 2021-03-01 17:08:36.917 [main] Loader - Static select for action ACTION_MERGE on entity entity.Genre: select genre0_.id as id1_2_0_, genre0_.name as name2_2_0_ from genre genre0_ where genre0_.id=?
-[DEBUG] 2021-03-01 17:08:36.917 [main] Loader - Static select for action ACTION_REFRESH on entity entity.Genre: select genre0_.id as id1_2_0_, genre0_.name as name2_2_0_ from genre genre0_ where genre0_.id=?
-[DEBUG] 2021-03-01 17:08:36.918 [main] AbstractEntityPersister - Static SQL for entity: entity.Author
+[DEBUG] 2021-03-01 17:08:36.913 [main] EntityLoader - Static select for entity Genre [READ]: select genre0_.id as id1_2_0_, genre0_.name as name2_2_0_ from genre genre0_ where genre0_.id=?
+[DEBUG] 2021-03-01 17:08:36.917 [main] Loader - Static select for action ACTION_MERGE on entity Genre: select genre0_.id as id1_2_0_, genre0_.name as name2_2_0_ from genre genre0_ where genre0_.id=?
+[DEBUG] 2021-03-01 17:08:36.917 [main] Loader - Static select for action ACTION_REFRESH on entity Genre: select genre0_.id as id1_2_0_, genre0_.name as name2_2_0_ from genre genre0_ where genre0_.id=?
+[DEBUG] 2021-03-01 17:08:36.918 [main] AbstractEntityPersister - Static SQL for entity: Author
 [DEBUG] 2021-03-01 17:08:36.918 [main] AbstractEntityPersister -  Version select: select id from author where id =?
 [DEBUG] 2021-03-01 17:08:36.918 [main] AbstractEntityPersister -  Snapshot select: select author_.id, author_.first_name as first_na2_0_, author_.last_name as last_nam3_0_ from author author_ where author_.id=?
 [DEBUG] 2021-03-01 17:08:36.918 [main] AbstractEntityPersister -  Insert 0: insert into author (first_name, last_name, id) values (?, ?, ?)
@@ -436,34 +436,34 @@
 [DEBUG] 2021-03-01 17:08:36.918 [main] MetamodelGraphWalker - Visiting attribute path : lastName
 [DEBUG] 2021-03-01 17:08:36.919 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 [DEBUG] 2021-03-01 17:08:36.919 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-[DEBUG] 2021-03-01 17:08:36.919 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.Author)
+[DEBUG] 2021-03-01 17:08:36.919 [main] LoadPlanTreePrinter - LoadPlan(entity=Author)
     - Returns
-       - EntityReturnImpl(entity=entity.Author, querySpaceUid=<gen:0>, path=entity.Author)
+       - EntityReturnImpl(entity=Author, querySpaceUid=<gen:0>, path=Author)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.Author)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Author)
           - SQL table alias mapping - author0_
           - alias suffix - 0_
           - suffixed key columns - {id1_0_0_}
 
-[DEBUG] 2021-03-01 17:08:36.919 [main] EntityLoader - Static select for entity entity.Author [NONE]: select author0_.id as id1_0_0_, author0_.first_name as first_na2_0_0_, author0_.last_name as last_nam3_0_0_ from author author0_ where author0_.id=?
+[DEBUG] 2021-03-01 17:08:36.919 [main] EntityLoader - Static select for entity Author [NONE]: select author0_.id as id1_0_0_, author0_.first_name as first_na2_0_0_, author0_.last_name as last_nam3_0_0_ from author author0_ where author0_.id=?
 [DEBUG] 2021-03-01 17:08:36.919 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@523a7801]
 [DEBUG] 2021-03-01 17:08:36.919 [main] MetamodelGraphWalker - Visiting attribute path : firstName
 [DEBUG] 2021-03-01 17:08:36.919 [main] MetamodelGraphWalker - Visiting attribute path : lastName
 [DEBUG] 2021-03-01 17:08:36.919 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 [DEBUG] 2021-03-01 17:08:36.919 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-[DEBUG] 2021-03-01 17:08:36.920 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.Author)
+[DEBUG] 2021-03-01 17:08:36.920 [main] LoadPlanTreePrinter - LoadPlan(entity=Author)
     - Returns
-       - EntityReturnImpl(entity=entity.Author, querySpaceUid=<gen:0>, path=entity.Author)
+       - EntityReturnImpl(entity=Author, querySpaceUid=<gen:0>, path=Author)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.Author)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Author)
           - SQL table alias mapping - author0_
           - alias suffix - 0_
           - suffixed key columns - {id1_0_0_}
 
-[DEBUG] 2021-03-01 17:08:36.920 [main] EntityLoader - Static select for entity entity.Author [READ]: select author0_.id as id1_0_0_, author0_.first_name as first_na2_0_0_, author0_.last_name as last_nam3_0_0_ from author author0_ where author0_.id=?
-[DEBUG] 2021-03-01 17:08:36.920 [main] Loader - Static select for action ACTION_MERGE on entity entity.Author: select author0_.id as id1_0_0_, author0_.first_name as first_na2_0_0_, author0_.last_name as last_nam3_0_0_ from author author0_ where author0_.id=?
-[DEBUG] 2021-03-01 17:08:36.920 [main] Loader - Static select for action ACTION_REFRESH on entity entity.Author: select author0_.id as id1_0_0_, author0_.first_name as first_na2_0_0_, author0_.last_name as last_nam3_0_0_ from author author0_ where author0_.id=?
-[DEBUG] 2021-03-01 17:08:36.920 [main] AbstractEntityPersister - Static SQL for entity: entity.Book
+[DEBUG] 2021-03-01 17:08:36.920 [main] EntityLoader - Static select for entity Author [READ]: select author0_.id as id1_0_0_, author0_.first_name as first_na2_0_0_, author0_.last_name as last_nam3_0_0_ from author author0_ where author0_.id=?
+[DEBUG] 2021-03-01 17:08:36.920 [main] Loader - Static select for action ACTION_MERGE on entity Author: select author0_.id as id1_0_0_, author0_.first_name as first_na2_0_0_, author0_.last_name as last_nam3_0_0_ from author author0_ where author0_.id=?
+[DEBUG] 2021-03-01 17:08:36.920 [main] Loader - Static select for action ACTION_REFRESH on entity Author: select author0_.id as id1_0_0_, author0_.first_name as first_na2_0_0_, author0_.last_name as last_nam3_0_0_ from author author0_ where author0_.id=?
+[DEBUG] 2021-03-01 17:08:36.920 [main] AbstractEntityPersister - Static SQL for entity: Book
 [DEBUG] 2021-03-01 17:08:36.920 [main] AbstractEntityPersister -  Version select: select id from book where id =?
 [DEBUG] 2021-03-01 17:08:36.920 [main] AbstractEntityPersister -  Snapshot select: select book_.id, book_.author_id as author_i4_1_, book_.genre_id as genre_id5_1_, book_.isbn as isbn2_1_, book_.title as title3_1_, book_.user_id as user_id6_1_ from book book_ where book_.id=?
 [DEBUG] 2021-03-01 17:08:36.920 [main] AbstractEntityPersister -  Insert 0: insert into book (author_id, genre_id, isbn, title, user_id, id) values (?, ?, ?, ?, ?, ?)
@@ -489,34 +489,34 @@
 [DEBUG] 2021-03-01 17:08:36.948 [main] MetamodelGraphWalker - Visiting attribute path : user.userName
 [DEBUG] 2021-03-01 17:08:36.948 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 [DEBUG] 2021-03-01 17:08:36.948 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-[DEBUG] 2021-03-01 17:08:36.953 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.Book)
+[DEBUG] 2021-03-01 17:08:36.953 [main] LoadPlanTreePrinter - LoadPlan(entity=Book)
     - Returns
-       - EntityReturnImpl(entity=entity.Book, querySpaceUid=<gen:0>, path=entity.Book)
-          - EntityAttributeFetchImpl(entity=entity.Author, querySpaceUid=<gen:1>, path=entity.Book.author)
-          - EntityAttributeFetchImpl(entity=entity.Genre, querySpaceUid=<gen:2>, path=entity.Book.genre)
-          - EntityAttributeFetchImpl(entity=entity.User, querySpaceUid=<gen:3>, path=entity.Book.user)
+       - EntityReturnImpl(entity=Book, querySpaceUid=<gen:0>, path=Book)
+          - EntityAttributeFetchImpl(entity=Author, querySpaceUid=<gen:1>, path=Book.author)
+          - EntityAttributeFetchImpl(entity=Genre, querySpaceUid=<gen:2>, path=Book.genre)
+          - EntityAttributeFetchImpl(entity=User, querySpaceUid=<gen:3>, path=Book.user)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.Book)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Book)
           - SQL table alias mapping - book0_
           - alias suffix - 0_
           - suffixed key columns - {id1_1_0_}
           - JOIN (JoinDefinedByMetadata(author)) : <gen:0> -> <gen:1>
-             - EntityQuerySpaceImpl(uid=<gen:1>, entity=entity.Author)
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=Author)
                 - SQL table alias mapping - author1_
                 - alias suffix - 1_
                 - suffixed key columns - {id1_0_1_}
           - JOIN (JoinDefinedByMetadata(genre)) : <gen:0> -> <gen:2>
-             - EntityQuerySpaceImpl(uid=<gen:2>, entity=entity.Genre)
+             - EntityQuerySpaceImpl(uid=<gen:2>, entity=Genre)
                 - SQL table alias mapping - genre2_
                 - alias suffix - 2_
                 - suffixed key columns - {id1_2_2_}
           - JOIN (JoinDefinedByMetadata(user)) : <gen:0> -> <gen:3>
-             - EntityQuerySpaceImpl(uid=<gen:3>, entity=entity.User)
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=User)
                 - SQL table alias mapping - user3_
                 - alias suffix - 3_
                 - suffixed key columns - {id1_3_3_}
 
-[DEBUG] 2021-03-01 17:08:36.954 [main] EntityLoader - Static select for entity entity.Book [NONE]: select book0_.id as id1_1_0_, book0_.author_id as author_i4_1_0_, book0_.genre_id as genre_id5_1_0_, book0_.isbn as isbn2_1_0_, book0_.title as title3_1_0_, book0_.user_id as user_id6_1_0_, author1_.id as id1_0_1_, author1_.first_name as first_na2_0_1_, author1_.last_name as last_nam3_0_1_, genre2_.id as id1_2_2_, genre2_.name as name2_2_2_, user3_.id as id1_3_3_, user3_.email as email2_3_3_, user3_.first_name as first_na3_3_3_, user3_.last_name as last_nam4_3_3_, user3_.password as password5_3_3_, user3_.username as username6_3_3_ from book book0_ left outer join author author1_ on book0_.author_id=author1_.id left outer join genre genre2_ on book0_.genre_id=genre2_.id left outer join user user3_ on book0_.user_id=user3_.id where book0_.id=?
+[DEBUG] 2021-03-01 17:08:36.954 [main] EntityLoader - Static select for entity Book [NONE]: select book0_.id as id1_1_0_, book0_.author_id as author_i4_1_0_, book0_.genre_id as genre_id5_1_0_, book0_.isbn as isbn2_1_0_, book0_.title as title3_1_0_, book0_.user_id as user_id6_1_0_, author1_.id as id1_0_1_, author1_.first_name as first_na2_0_1_, author1_.last_name as last_nam3_0_1_, genre2_.id as id1_2_2_, genre2_.name as name2_2_2_, user3_.id as id1_3_3_, user3_.email as email2_3_3_, user3_.first_name as first_na3_3_3_, user3_.last_name as last_nam4_3_3_, user3_.password as password5_3_3_, user3_.username as username6_3_3_ from book book0_ left outer join author author1_ on book0_.author_id=author1_.id left outer join genre genre2_ on book0_.genre_id=genre2_.id left outer join user user3_ on book0_.user_id=user3_.id where book0_.id=?
 [DEBUG] 2021-03-01 17:08:36.954 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@29079032]
 [DEBUG] 2021-03-01 17:08:36.954 [main] MetamodelGraphWalker - Visiting attribute path : author
 [DEBUG] 2021-03-01 17:08:36.954 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@776015fc]
@@ -536,36 +536,36 @@
 [DEBUG] 2021-03-01 17:08:36.958 [main] MetamodelGraphWalker - Visiting attribute path : user.userName
 [DEBUG] 2021-03-01 17:08:36.958 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 [DEBUG] 2021-03-01 17:08:36.959 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-[DEBUG] 2021-03-01 17:08:36.960 [main] LoadPlanTreePrinter - LoadPlan(entity=entity.Book)
+[DEBUG] 2021-03-01 17:08:36.960 [main] LoadPlanTreePrinter - LoadPlan(entity=Book)
     - Returns
-       - EntityReturnImpl(entity=entity.Book, querySpaceUid=<gen:0>, path=entity.Book)
-          - EntityAttributeFetchImpl(entity=entity.Author, querySpaceUid=<gen:1>, path=entity.Book.author)
-          - EntityAttributeFetchImpl(entity=entity.Genre, querySpaceUid=<gen:2>, path=entity.Book.genre)
-          - EntityAttributeFetchImpl(entity=entity.User, querySpaceUid=<gen:3>, path=entity.Book.user)
+       - EntityReturnImpl(entity=Book, querySpaceUid=<gen:0>, path=Book)
+          - EntityAttributeFetchImpl(entity=Author, querySpaceUid=<gen:1>, path=Book.author)
+          - EntityAttributeFetchImpl(entity=Genre, querySpaceUid=<gen:2>, path=Book.genre)
+          - EntityAttributeFetchImpl(entity=User, querySpaceUid=<gen:3>, path=Book.user)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=entity.Book)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Book)
           - SQL table alias mapping - book0_
           - alias suffix - 0_
           - suffixed key columns - {id1_1_0_}
           - JOIN (JoinDefinedByMetadata(author)) : <gen:0> -> <gen:1>
-             - EntityQuerySpaceImpl(uid=<gen:1>, entity=entity.Author)
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=Author)
                 - SQL table alias mapping - author1_
                 - alias suffix - 1_
                 - suffixed key columns - {id1_0_1_}
           - JOIN (JoinDefinedByMetadata(genre)) : <gen:0> -> <gen:2>
-             - EntityQuerySpaceImpl(uid=<gen:2>, entity=entity.Genre)
+             - EntityQuerySpaceImpl(uid=<gen:2>, entity=Genre)
                 - SQL table alias mapping - genre2_
                 - alias suffix - 2_
                 - suffixed key columns - {id1_2_2_}
           - JOIN (JoinDefinedByMetadata(user)) : <gen:0> -> <gen:3>
-             - EntityQuerySpaceImpl(uid=<gen:3>, entity=entity.User)
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=User)
                 - SQL table alias mapping - user3_
                 - alias suffix - 3_
                 - suffixed key columns - {id1_3_3_}
 
-[DEBUG] 2021-03-01 17:08:36.964 [main] EntityLoader - Static select for entity entity.Book [READ]: select book0_.id as id1_1_0_, book0_.author_id as author_i4_1_0_, book0_.genre_id as genre_id5_1_0_, book0_.isbn as isbn2_1_0_, book0_.title as title3_1_0_, book0_.user_id as user_id6_1_0_, author1_.id as id1_0_1_, author1_.first_name as first_na2_0_1_, author1_.last_name as last_nam3_0_1_, genre2_.id as id1_2_2_, genre2_.name as name2_2_2_, user3_.id as id1_3_3_, user3_.email as email2_3_3_, user3_.first_name as first_na3_3_3_, user3_.last_name as last_nam4_3_3_, user3_.password as password5_3_3_, user3_.username as username6_3_3_ from book book0_ left outer join author author1_ on book0_.author_id=author1_.id left outer join genre genre2_ on book0_.genre_id=genre2_.id left outer join user user3_ on book0_.user_id=user3_.id where book0_.id=?
-[DEBUG] 2021-03-01 17:08:36.966 [main] Loader - Static select for action ACTION_MERGE on entity entity.Book: select book0_.id as id1_1_0_, book0_.author_id as author_i4_1_0_, book0_.genre_id as genre_id5_1_0_, book0_.isbn as isbn2_1_0_, book0_.title as title3_1_0_, book0_.user_id as user_id6_1_0_ from book book0_ where book0_.id=?
-[DEBUG] 2021-03-01 17:08:36.969 [main] Loader - Static select for action ACTION_REFRESH on entity entity.Book: select book0_.id as id1_1_0_, book0_.author_id as author_i4_1_0_, book0_.genre_id as genre_id5_1_0_, book0_.isbn as isbn2_1_0_, book0_.title as title3_1_0_, book0_.user_id as user_id6_1_0_ from book book0_ where book0_.id=?
+[DEBUG] 2021-03-01 17:08:36.964 [main] EntityLoader - Static select for entity Book [READ]: select book0_.id as id1_1_0_, book0_.author_id as author_i4_1_0_, book0_.genre_id as genre_id5_1_0_, book0_.isbn as isbn2_1_0_, book0_.title as title3_1_0_, book0_.user_id as user_id6_1_0_, author1_.id as id1_0_1_, author1_.first_name as first_na2_0_1_, author1_.last_name as last_nam3_0_1_, genre2_.id as id1_2_2_, genre2_.name as name2_2_2_, user3_.id as id1_3_3_, user3_.email as email2_3_3_, user3_.first_name as first_na3_3_3_, user3_.last_name as last_nam4_3_3_, user3_.password as password5_3_3_, user3_.username as username6_3_3_ from book book0_ left outer join author author1_ on book0_.author_id=author1_.id left outer join genre genre2_ on book0_.genre_id=genre2_.id left outer join user user3_ on book0_.user_id=user3_.id where book0_.id=?
+[DEBUG] 2021-03-01 17:08:36.966 [main] Loader - Static select for action ACTION_MERGE on entity Book: select book0_.id as id1_1_0_, book0_.author_id as author_i4_1_0_, book0_.genre_id as genre_id5_1_0_, book0_.isbn as isbn2_1_0_, book0_.title as title3_1_0_, book0_.user_id as user_id6_1_0_ from book book0_ where book0_.id=?
+[DEBUG] 2021-03-01 17:08:36.969 [main] Loader - Static select for action ACTION_REFRESH on entity Book: select book0_.id as id1_1_0_, book0_.author_id as author_i4_1_0_, book0_.genre_id as genre_id5_1_0_, book0_.isbn as isbn2_1_0_, book0_.title as title3_1_0_, book0_.user_id as user_id6_1_0_ from book book0_ where book0_.id=?
 [DEBUG] 2021-03-01 17:08:37.035 [main] SchemaManagementToolCoordinator - No actions specified; doing nothing
 [DEBUG] 2021-03-01 17:08:37.035 [main] JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
 [DEBUG] 2021-03-01 17:08:37.036 [main] JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
@@ -580,16 +580,16 @@
 [DEBUG] 2021-03-01 17:08:38.316 [main] SQL - select genre0_.id as id1_2_0_, genre0_.name as name2_2_0_ from genre genre0_ where genre0_.id=?
 [DEBUG] 2021-03-01 17:08:38.386 [main] ResultSetProcessorImpl - Starting ResultSet row #0
 [DEBUG] 2021-03-01 17:08:38.388 [main] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
-[DEBUG] 2021-03-01 17:08:38.402 [main] TwoPhaseLoad - Resolving attributes for [entity.Genre#1]
+[DEBUG] 2021-03-01 17:08:38.402 [main] TwoPhaseLoad - Resolving attributes for [Genre#1]
 [DEBUG] 2021-03-01 17:08:38.404 [main] TwoPhaseLoad - Processing attribute `name` : value = Young Adult
 [DEBUG] 2021-03-01 17:08:38.404 [main] TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
-[DEBUG] 2021-03-01 17:08:38.405 [main] TwoPhaseLoad - Done materializing entity [entity.Genre#1]
+[DEBUG] 2021-03-01 17:08:38.405 [main] TwoPhaseLoad - Done materializing entity [Genre#1]
 [DEBUG] 2021-03-01 17:08:38.406 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
-[DEBUG] 2021-03-01 17:08:38.407 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : entity.Genre#1
+[DEBUG] 2021-03-01 17:08:38.407 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : Genre#1
 [DEBUG] 2021-03-01 17:08:38.407 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
 [DEBUG] 2021-03-01 17:08:38.488 [main] CriteriaQueryImpl - Rendered criteria query -> select generatedAlias0 from Book as generatedAlias0 where generatedAlias0.genre=1
 [DEBUG] 2021-03-01 17:08:38.672 [main] QueryTranslatorFactoryInitiator - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@6986f93e
-[DEBUG] 2021-03-01 17:08:38.803 [main] QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from entity.Book as generatedAlias0 where generatedAlias0.genre=1
+[DEBUG] 2021-03-01 17:08:38.803 [main] QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from Book as generatedAlias0 where generatedAlias0.genre=1
 [DEBUG] 2021-03-01 17:08:38.853 [main] ErrorTracker - throwQueryException() : no errors
 [DEBUG] 2021-03-01 17:08:38.942 [main] QueryTranslatorImpl - --- HQL AST ---
  \-[QUERY] Node: 'query'
@@ -610,11 +610,11 @@
           \-[NUM_INT] Node: '1'
 
 [DEBUG] 2021-03-01 17:08:39.026 [main] HqlSqlBaseWalker - select << begin [level=1, statement=select]
-[DEBUG] 2021-03-01 17:08:39.062 [main] FromElement - FromClause{level=1} : entity.Book (generatedAlias0) -> book0_
+[DEBUG] 2021-03-01 17:08:39.062 [main] FromElement - FromClause{level=1} : Book (generatedAlias0) -> book0_
 [DEBUG] 2021-03-01 17:08:39.070 [main] FromReferenceNode - Resolved : generatedAlias0 -> book0_.id
 [DEBUG] 2021-03-01 17:08:39.074 [main] FromReferenceNode - Resolved : generatedAlias0 -> book0_.id
-[DEBUG] 2021-03-01 17:08:39.078 [main] DotNode - getDataType() : genre -> org.hibernate.type.ManyToOneType(entity.Genre)
-[DEBUG] 2021-03-01 17:08:39.079 [main] DotNode - dereferenceShortcut() : property genre in entity.Book does not require a join.
+[DEBUG] 2021-03-01 17:08:39.078 [main] DotNode - getDataType() : genre -> org.hibernate.type.ManyToOneType(Genre)
+[DEBUG] 2021-03-01 17:08:39.079 [main] DotNode - dereferenceShortcut() : property genre in Book does not require a join.
 [DEBUG] 2021-03-01 17:08:39.079 [main] DotNode - Terminal getPropertyPath = [genre]
 [DEBUG] 2021-03-01 17:08:39.079 [main] FromReferenceNode - Resolved : generatedAlias0.genre -> book0_.genre_id
 [DEBUG] 2021-03-01 17:08:39.084 [main] HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
@@ -624,49 +624,49 @@
 [DEBUG] 2021-03-01 17:08:39.110 [main] QueryTranslatorImpl - --- SQL AST ---
  \-[SELECT] QueryNode: 'SELECT'  querySpaces (book)
     +-[SELECT_CLAUSE] SelectClause: '{select clause}'
-    |  +-[ALIAS_REF] IdentNode: 'book0_.id as id1_1_' {alias=generatedAlias0, className=entity.Book, tableAlias=book0_}
+    |  +-[ALIAS_REF] IdentNode: 'book0_.id as id1_1_' {alias=generatedAlias0, className=Book, tableAlias=book0_}
     |  \-[SQL_TOKEN] SqlFragment: 'book0_.author_id as author_i4_1_, book0_.genre_id as genre_id5_1_, book0_.isbn as isbn2_1_, book0_.title as title3_1_, book0_.user_id as user_id6_1_'
     +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[book0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
-    |  \-[FROM_FRAGMENT] FromElement: 'book book0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=book,tableAlias=book0_,origin=null,columns={,className=entity.Book}}
+    |  \-[FROM_FRAGMENT] FromElement: 'book book0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=book,tableAlias=book0_,origin=null,columns={,className=Book}}
     \-[WHERE] SqlNode: 'where'
        \-[EQ] BinaryLogicOperatorNode: '='
-          +-[DOT] DotNode: 'book0_.genre_id' {propertyName=genre,dereferenceType=UNKNOWN,getPropertyPath=genre,path=generatedAlias0.genre,tableAlias=book0_,className=entity.Book,classAlias=generatedAlias0}
-          |  +-[ALIAS_REF] IdentNode: 'book0_.id' {alias=generatedAlias0, className=entity.Book, tableAlias=book0_}
+          +-[DOT] DotNode: 'book0_.genre_id' {propertyName=genre,dereferenceType=UNKNOWN,getPropertyPath=genre,path=generatedAlias0.genre,tableAlias=book0_,className=Book,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'book0_.id' {alias=generatedAlias0, className=Book, tableAlias=book0_}
           |  \-[IDENT] IdentNode: 'genre' {originalText=genre}
           \-[NUM_INT] LiteralNode: '1'
 
 [DEBUG] 2021-03-01 17:08:39.110 [main] ErrorTracker - throwQueryException() : no errors
-[DEBUG] 2021-03-01 17:08:39.138 [main] QueryTranslatorImpl - HQL: select generatedAlias0 from entity.Book as generatedAlias0 where generatedAlias0.genre=1
+[DEBUG] 2021-03-01 17:08:39.138 [main] QueryTranslatorImpl - HQL: select generatedAlias0 from Book as generatedAlias0 where generatedAlias0.genre=1
 [DEBUG] 2021-03-01 17:08:39.138 [main] QueryTranslatorImpl - SQL: select book0_.id as id1_1_, book0_.author_id as author_i4_1_, book0_.genre_id as genre_id5_1_, book0_.isbn as isbn2_1_, book0_.title as title3_1_, book0_.user_id as user_id6_1_ from book book0_ where book0_.genre_id=1
 [DEBUG] 2021-03-01 17:08:39.138 [main] ErrorTracker - throwQueryException() : no errors
 [DEBUG] 2021-03-01 17:08:39.178 [main] SQL - select book0_.id as id1_1_, book0_.author_id as author_i4_1_, book0_.genre_id as genre_id5_1_, book0_.isbn as isbn2_1_, book0_.title as title3_1_, book0_.user_id as user_id6_1_ from book book0_ where book0_.genre_id=1
 [DEBUG] 2021-03-01 17:08:39.215 [main] Loader - Result set row: 0
-[DEBUG] 2021-03-01 17:08:39.232 [main] Loader - Result row: EntityKey[entity.Book#1]
-[DEBUG] 2021-03-01 17:08:39.234 [main] TwoPhaseLoad - Resolving attributes for [entity.Book#1]
+[DEBUG] 2021-03-01 17:08:39.232 [main] Loader - Result row: EntityKey[Book#1]
+[DEBUG] 2021-03-01 17:08:39.234 [main] TwoPhaseLoad - Resolving attributes for [Book#1]
 [DEBUG] 2021-03-01 17:08:39.235 [main] TwoPhaseLoad - Processing attribute `author` : value = 1
 [DEBUG] 2021-03-01 17:08:39.235 [main] TwoPhaseLoad - Attribute (`author`)  - enhanced for lazy-loading? - false
 [DEBUG] 2021-03-01 17:08:39.235 [main] SQL - select author0_.id as id1_0_0_, author0_.first_name as first_na2_0_0_, author0_.last_name as last_nam3_0_0_ from author author0_ where author0_.id=?
 [DEBUG] 2021-03-01 17:08:39.240 [main] ResultSetProcessorImpl - Starting ResultSet row #0
 [DEBUG] 2021-03-01 17:08:39.241 [main] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
-[DEBUG] 2021-03-01 17:08:39.241 [main] TwoPhaseLoad - Resolving attributes for [entity.Author#1]
+[DEBUG] 2021-03-01 17:08:39.241 [main] TwoPhaseLoad - Resolving attributes for [Author#1]
 [DEBUG] 2021-03-01 17:08:39.243 [main] TwoPhaseLoad - Processing attribute `firstName` : value = Sarah J.
 [DEBUG] 2021-03-01 17:08:39.243 [main] TwoPhaseLoad - Attribute (`firstName`)  - enhanced for lazy-loading? - false
 [DEBUG] 2021-03-01 17:08:39.243 [main] TwoPhaseLoad - Processing attribute `lastName` : value = Maas
 [DEBUG] 2021-03-01 17:08:39.243 [main] TwoPhaseLoad - Attribute (`lastName`)  - enhanced for lazy-loading? - false
-[DEBUG] 2021-03-01 17:08:39.243 [main] TwoPhaseLoad - Done materializing entity [entity.Author#1]
+[DEBUG] 2021-03-01 17:08:39.243 [main] TwoPhaseLoad - Done materializing entity [Author#1]
 [DEBUG] 2021-03-01 17:08:39.243 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
-[DEBUG] 2021-03-01 17:08:39.243 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : entity.Author#1
+[DEBUG] 2021-03-01 17:08:39.243 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : Author#1
 [DEBUG] 2021-03-01 17:08:39.244 [main] TwoPhaseLoad - Processing attribute `genre` : value = 1
 [DEBUG] 2021-03-01 17:08:39.244 [main] TwoPhaseLoad - Attribute (`genre`)  - enhanced for lazy-loading? - false
 [DEBUG] 2021-03-01 17:08:39.244 [main] SQL - select genre0_.id as id1_2_0_, genre0_.name as name2_2_0_ from genre genre0_ where genre0_.id=?
 [DEBUG] 2021-03-01 17:08:39.257 [main] ResultSetProcessorImpl - Starting ResultSet row #0
 [DEBUG] 2021-03-01 17:08:39.257 [main] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
-[DEBUG] 2021-03-01 17:08:39.257 [main] TwoPhaseLoad - Resolving attributes for [entity.Genre#1]
+[DEBUG] 2021-03-01 17:08:39.257 [main] TwoPhaseLoad - Resolving attributes for [Genre#1]
 [DEBUG] 2021-03-01 17:08:39.257 [main] TwoPhaseLoad - Processing attribute `name` : value = Young Adult
 [DEBUG] 2021-03-01 17:08:39.258 [main] TwoPhaseLoad - Attribute (`name`)  - enhanced for lazy-loading? - false
-[DEBUG] 2021-03-01 17:08:39.258 [main] TwoPhaseLoad - Done materializing entity [entity.Genre#1]
+[DEBUG] 2021-03-01 17:08:39.258 [main] TwoPhaseLoad - Done materializing entity [Genre#1]
 [DEBUG] 2021-03-01 17:08:39.260 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
-[DEBUG] 2021-03-01 17:08:39.260 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : entity.Genre#1
+[DEBUG] 2021-03-01 17:08:39.260 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : Genre#1
 [DEBUG] 2021-03-01 17:08:39.260 [main] TwoPhaseLoad - Processing attribute `isbn` : value = 978-1408857861
 [DEBUG] 2021-03-01 17:08:39.260 [main] TwoPhaseLoad - Attribute (`isbn`)  - enhanced for lazy-loading? - false
 [DEBUG] 2021-03-01 17:08:39.261 [main] TwoPhaseLoad - Processing attribute `title` : value = A Court Of Thorns and Roses
@@ -676,7 +676,7 @@
 [DEBUG] 2021-03-01 17:08:39.261 [main] SQL - select user0_.id as id1_3_0_, user0_.email as email2_3_0_, user0_.first_name as first_na3_3_0_, user0_.last_name as last_nam4_3_0_, user0_.password as password5_3_0_, user0_.username as username6_3_0_ from user user0_ where user0_.id=?
 [DEBUG] 2021-03-01 17:08:39.267 [main] ResultSetProcessorImpl - Starting ResultSet row #0
 [DEBUG] 2021-03-01 17:08:39.267 [main] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
-[DEBUG] 2021-03-01 17:08:39.268 [main] TwoPhaseLoad - Resolving attributes for [entity.User#1]
+[DEBUG] 2021-03-01 17:08:39.268 [main] TwoPhaseLoad - Resolving attributes for [User#1]
 [DEBUG] 2021-03-01 17:08:39.268 [main] TwoPhaseLoad - Processing attribute `email` : value = email@something.com
 [DEBUG] 2021-03-01 17:08:39.268 [main] TwoPhaseLoad - Attribute (`email`)  - enhanced for lazy-loading? - false
 [DEBUG] 2021-03-01 17:08:39.268 [main] TwoPhaseLoad - Processing attribute `firstName` : value = LeeAnn
@@ -687,8 +687,8 @@
 [DEBUG] 2021-03-01 17:08:39.268 [main] TwoPhaseLoad - Attribute (`password`)  - enhanced for lazy-loading? - false
 [DEBUG] 2021-03-01 17:08:39.268 [main] TwoPhaseLoad - Processing attribute `userName` : value = ljakel
 [DEBUG] 2021-03-01 17:08:39.268 [main] TwoPhaseLoad - Attribute (`userName`)  - enhanced for lazy-loading? - false
-[DEBUG] 2021-03-01 17:08:39.268 [main] TwoPhaseLoad - Done materializing entity [entity.User#1]
+[DEBUG] 2021-03-01 17:08:39.268 [main] TwoPhaseLoad - Done materializing entity [User#1]
 [DEBUG] 2021-03-01 17:08:39.268 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
-[DEBUG] 2021-03-01 17:08:39.268 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : entity.User#1
-[DEBUG] 2021-03-01 17:08:39.268 [main] TwoPhaseLoad - Done materializing entity [entity.Book#1]
+[DEBUG] 2021-03-01 17:08:39.268 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : User#1
+[DEBUG] 2021-03-01 17:08:39.268 [main] TwoPhaseLoad - Done materializing entity [Book#1]
 [DEBUG] 2021-03-01 17:08:39.290 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction

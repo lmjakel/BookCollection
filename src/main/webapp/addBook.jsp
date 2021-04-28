@@ -23,14 +23,19 @@
 <!-- end header-->
 <div id="container">
 
-
     <main>
+        <h2>Add a Book</h2>
+        <p>
+            Please enter the ISBN, if your book can be found in the system you will be asked to select a genre and
+            any notes. If the ISBN cannot be found you will be prompted to manly enter the Title, Author, Genre,
+            and ISBN into the database
+        </p>
         <form id="bookForm" action ="addBook" method="GET">
-            <label for="isbn">ISN: </label>
+            <label for="isbn">ISBN: </label>
             <input type="text" id="isbn" name="isbn">
             </br>
 
-            <button class="formButton" type="submit" name="submit" value="create">Add Book</button>
+            <button class="formButton" type="submit" name="submit" value="submit">Add Book</button>
 
         </form>
 

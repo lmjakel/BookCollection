@@ -1,14 +1,14 @@
-package controller;
+package com.leeannjakel.controller;
 
 
-import entity.Author;
-import entity.Book;
-import entity.Genre;
-import entity.User;
+import com.leeannjakel.entity.Author;
+import com.leeannjakel.entity.Book;
+import com.leeannjakel.entity.Genre;
+import com.leeannjakel.entity.User;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import persistence.ApiDao;
-import persistence.GenericDao;
+import com.leeannjakel.persistence.ApiDao;
+import com.leeannjakel.persistence.GenericDao;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -61,7 +61,7 @@ public class AddBook extends HttpServlet {
 
         req.setAttribute("books", booksDao.getByPropertyEqual("userName", username));
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/bookSuccessfullyAdded.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/bookFound.jsp");
         dispatcher.forward(req, resp);
     }
 }

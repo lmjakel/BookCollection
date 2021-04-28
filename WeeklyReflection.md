@@ -63,3 +63,13 @@ logged in but that is the goal in the long run.
 
 The application was successfully deployed using AWS after creating the database
 and tables via ssh in the terminal window. 
+
+## Week 10 - 12
+No time spent on project due to team project
+
+## Week 13
+Time Spent on Project:  Hours <br/>
+
+
+## Week 14
+Time Spent on Project:  Hours <br/>

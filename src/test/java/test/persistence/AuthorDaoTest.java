@@ -1,9 +1,9 @@
 package test.persistence;
 
-import entity.Author;
+import com.leeannjakel.entity.Author;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import persistence.GenericDao;
+import com.leeannjakel.persistence.GenericDao;
 import test.utilities.Database;
 
 import java.util.List;

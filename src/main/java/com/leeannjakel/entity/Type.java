@@ -1,4 +1,4 @@
-package entity;
+package com.leeannjakel.entity;
 
 public class Type{
 	private String key;

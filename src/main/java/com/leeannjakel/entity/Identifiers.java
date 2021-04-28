@@ -1,13 +1,13 @@
-package entity;
+package com.leeannjakel.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Classifications{
+public class Identifiers{
 
 	@Override
  	public String toString(){
 		return 
-			"Classifications{" + 
+			"Identifiers{" + 
 			"}";
 		}
 }
