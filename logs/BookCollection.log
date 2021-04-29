@@ -1,0 +1,91 @@
+[DEBUG] 2021-04-28 10:54:35.561 [http-nio-8080-exec-5] SearchBooks - searchBooks class
+[DEBUG] 2021-04-29 15:03:44.374 [http-nio-8080-exec-8] SearchBooks - searchBooks class
+[DEBUG] 2021-04-29 15:10:05.966 [http-nio-8080-exec-12] SearchBooks - searchBooks class
+[DEBUG] 2021-04-29 15:10:05.995 [http-nio-8080-exec-12] SearchBooks - search param: viewAll
+[DEBUG] 2021-04-29 15:10:29.887 [http-nio-8080-exec-13] SearchBooks - searchBooks class
+[DEBUG] 2021-04-29 15:10:29.888 [http-nio-8080-exec-13] SearchBooks - search param: null
+[DEBUG] 2021-04-29 15:10:50.591 [http-nio-8080-exec-16] SearchBooks - searchBooks class
+[DEBUG] 2021-04-29 15:10:50.592 [http-nio-8080-exec-16] SearchBooks - search param: viewAll
+[DEBUG] 2021-04-29 15:10:58.147 [http-nio-8080-exec-20] SearchBooks - searchBooks class
+[DEBUG] 2021-04-29 15:10:58.147 [http-nio-8080-exec-20] SearchBooks - search param: author
+[DEBUG] 2021-04-29 15:11:07.446 [http-nio-8080-exec-17] SearchBooks - searchBooks class
+[DEBUG] 2021-04-29 15:11:07.446 [http-nio-8080-exec-17] SearchBooks - search param: viewAll
+[DEBUG] 2021-04-29 15:11:14.278 [http-nio-8080-exec-14] SearchBooks - searchBooks class
+[DEBUG] 2021-04-29 15:11:14.279 [http-nio-8080-exec-14] SearchBooks - search param: viewAll
+[DEBUG] 2021-04-29 15:20:47.251 [http-nio-8080-exec-27] SearchBooks - searchBooks class
+[DEBUG] 2021-04-29 15:20:56.842 [http-nio-8080-exec-23] SearchBooks - searchBooks class
+[DEBUG] 2021-04-29 15:24:53.033 [http-nio-8080-exec-4] SearchBooks - type param: author
+[DEBUG] 2021-04-29 15:24:53.059 [http-nio-8080-exec-4] SearchBooks - search type: author
+[DEBUG] 2021-04-29 15:24:53.060 [http-nio-8080-exec-4] SearchBooks - search term: Maas
+[DEBUG] 2021-04-29 15:25:18.301 [http-nio-8080-exec-4] GenericDao - Searching for book with author = Maas
+[DEBUG] 2021-04-29 15:29:28.006 [http-nio-8080-exec-8] SearchBooks - type param: title
+[DEBUG] 2021-04-29 15:29:28.008 [http-nio-8080-exec-8] SearchBooks - search type: title
+[DEBUG] 2021-04-29 15:29:28.008 [http-nio-8080-exec-8] SearchBooks - search term: Thorns
+[DEBUG] 2021-04-29 15:29:28.008 [http-nio-8080-exec-8] GenericDao - Searching for book with title = Thorns
+[DEBUG] 2021-04-29 15:32:40.621 [http-nio-8080-exec-3] SearchBooks - type param: author.name
+[DEBUG] 2021-04-29 15:32:40.636 [http-nio-8080-exec-3] SearchBooks - search type: author.name
+[DEBUG] 2021-04-29 15:32:40.637 [http-nio-8080-exec-3] SearchBooks - search term: Maas
+[DEBUG] 2021-04-29 15:32:54.255 [http-nio-8080-exec-3] GenericDao - Searching for book with author.name = Maas
+[DEBUG] 2021-04-29 15:33:09.487 [http-nio-8080-exec-7] SearchBooks - type param: author
+[DEBUG] 2021-04-29 15:33:09.488 [http-nio-8080-exec-7] SearchBooks - search type: author
+[DEBUG] 2021-04-29 15:33:09.488 [http-nio-8080-exec-7] SearchBooks - search term: Young Adult
+[DEBUG] 2021-04-29 15:33:09.488 [http-nio-8080-exec-7] GenericDao - Searching for book with author = Young Adult
+[DEBUG] 2021-04-29 15:36:11.370 [http-nio-8080-exec-6] SearchBooks - type param: author
+[DEBUG] 2021-04-29 15:36:11.390 [http-nio-8080-exec-6] SearchBooks - search type: author
+[DEBUG] 2021-04-29 15:36:11.390 [http-nio-8080-exec-6] SearchBooks - search term: Maas
+[DEBUG] 2021-04-29 15:36:23.377 [http-nio-8080-exec-6] GenericDao - Searching for book with author = Maas
+[DEBUG] 2021-04-29 16:05:17.001 [http-nio-8080-exec-2] SearchBooks - type param: author
+[DEBUG] 2021-04-29 16:05:17.009 [http-nio-8080-exec-2] SearchBooks - search type: author
+[DEBUG] 2021-04-29 16:05:17.010 [http-nio-8080-exec-2] SearchBooks - search term: Maas
+[DEBUG] 2021-04-29 16:05:32.615 [http-nio-8080-exec-2] GenericDao - Searching for book with author = 1
+[DEBUG] 2021-04-29 16:10:53.975 [http-nio-8080-exec-3] SearchBooks - type param: author
+[DEBUG] 2021-04-29 16:10:53.997 [http-nio-8080-exec-3] SearchBooks - search type: author
+[DEBUG] 2021-04-29 16:10:53.997 [http-nio-8080-exec-3] SearchBooks - search term: Maas
+[DEBUG] 2021-04-29 16:11:07.601 [http-nio-8080-exec-3] SearchBooks - authorList: [Author{id=1, name='Sarah J. Maas '}]
+[DEBUG] 2021-04-29 16:11:07.670 [http-nio-8080-exec-3] GenericDao - Searching for book with author = 1
+[DEBUG] 2021-04-29 16:17:05.905 [http-nio-8080-exec-3] SearchBooks - type param: author
+[DEBUG] 2021-04-29 16:17:05.926 [http-nio-8080-exec-3] SearchBooks - search type: author
+[DEBUG] 2021-04-29 16:17:05.927 [http-nio-8080-exec-3] SearchBooks - search term: Maas
+[DEBUG] 2021-04-29 16:17:20.748 [http-nio-8080-exec-3] SearchBooks - authorList: [Author{id=1, name='Sarah J. Maas '}]
+[DEBUG] 2021-04-29 16:17:20.783 [http-nio-8080-exec-3] GenericDao - Searching for book with author = 1
+[DEBUG] 2021-04-29 16:17:20.964 [http-nio-8080-exec-3] SearchBooks - author books: [Book{id=1, title='A Court Of Thorns and Roses', isbn='978-1408857861', author=Author{id=1, name='Sarah J. Maas '}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young Adult'}}]
+[DEBUG] 2021-04-29 16:22:51.240 [http-nio-8080-exec-4] SearchBooks - search type: author
+[DEBUG] 2021-04-29 16:22:51.250 [http-nio-8080-exec-4] SearchBooks - search term: Maas
+[DEBUG] 2021-04-29 16:23:05.899 [http-nio-8080-exec-4] SearchBooks - authorList: [Author{id=1, name='Sarah J. Maas '}]
+[DEBUG] 2021-04-29 16:23:05.972 [http-nio-8080-exec-4] GenericDao - Searching for book with author = 1
+[DEBUG] 2021-04-29 16:23:06.187 [http-nio-8080-exec-4] SearchBooks - author books: [Book{id=1, title='A Court Of Thorns and Roses', isbn='978-1408857861', author=Author{id=1, name='Sarah J. Maas '}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young Adult'}}]
+[DEBUG] 2021-04-29 17:41:30.413 [http-nio-8080-exec-6] SearchBooks - search type: author
+[DEBUG] 2021-04-29 17:41:30.446 [http-nio-8080-exec-6] SearchBooks - search term: M
+[DEBUG] 2021-04-29 17:41:43.953 [http-nio-8080-exec-6] SearchBooks - authorList: [Author{id=1, name='Sarah J. Maas '}]
+[DEBUG] 2021-04-29 17:41:43.989 [http-nio-8080-exec-6] GenericDao - Searching for book with author = 1
+[DEBUG] 2021-04-29 17:41:44.174 [http-nio-8080-exec-6] SearchBooks - author books: [Book{id=1, title='A Court Of Thorns and Roses', isbn='978-1408857861', author=Author{id=1, name='Sarah J. Maas '}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young Adult'}}]
+[DEBUG] 2021-04-29 17:47:03.236 [http-nio-8080-exec-3] SearchBooks - search type: author
+[DEBUG] 2021-04-29 17:47:03.258 [http-nio-8080-exec-3] SearchBooks - search term: Maas
+[DEBUG] 2021-04-29 17:47:16.029 [http-nio-8080-exec-3] SearchBooks - authorList: [Author{id=1, name='Sarah J. Maas '}]
+[DEBUG] 2021-04-29 17:47:16.082 [http-nio-8080-exec-3] GenericDao - Searching for book with author = 1
+[DEBUG] 2021-04-29 17:47:16.302 [http-nio-8080-exec-3] SearchBooks - author books: [Book{id=1, title='A Court Of Thorns and Roses', isbn='978-1408857861', author=Author{id=1, name='Sarah J. Maas '}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young Adult'}}]
+[DEBUG] 2021-04-29 17:47:16.461 [http-nio-8080-exec-3] SearchBooks - Book list: [Book{id=1, title='A Court Of Thorns and Roses', isbn='978-1408857861', author=Author{id=1, name='Sarah J. Maas '}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young Adult'}}]
+[DEBUG] 2021-04-29 17:59:10.151 [http-nio-8080-exec-10] SearchBooks - search type: author
+[DEBUG] 2021-04-29 17:59:10.184 [http-nio-8080-exec-10] SearchBooks - search term: s
+[DEBUG] 2021-04-29 17:59:22.754 [http-nio-8080-exec-10] SearchBooks - authorList: [Author{id=1, name='Sarah J. Maas '}, Author{id=2, name='Cassandra Clare'}, Author{id=3, name='Stephen King'}, Author{id=4, name='Brandon Sanderson'}, Author{id=5, name='Nora Roberts'}]
+[DEBUG] 2021-04-29 17:59:22.795 [http-nio-8080-exec-10] GenericDao - Searching for book with author = 1
+[DEBUG] 2021-04-29 17:59:22.996 [http-nio-8080-exec-10] SearchBooks - author books: [Book{id=1, title='A Court Of Thorns and Roses', isbn='978-1408857861', author=Author{id=1, name='Sarah J. Maas '}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young Adult'}}]
+[DEBUG] 2021-04-29 17:59:23.073 [http-nio-8080-exec-10] SearchBooks - Book list: [Book{id=1, title='A Court Of Thorns and Roses', isbn='978-1408857861', author=Author{id=1, name='Sarah J. Maas '}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young Adult'}}]
+[DEBUG] 2021-04-29 17:59:23.073 [http-nio-8080-exec-10] GenericDao - Searching for book with author = 2
+[DEBUG] 2021-04-29 17:59:23.132 [http-nio-8080-exec-10] SearchBooks - author books: []
+[DEBUG] 2021-04-29 17:59:23.132 [http-nio-8080-exec-10] SearchBooks - Book list: [Book{id=1, title='A Court Of Thorns and Roses', isbn='978-1408857861', author=Author{id=1, name='Sarah J. Maas '}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young Adult'}}]
+[DEBUG] 2021-04-29 17:59:23.133 [http-nio-8080-exec-10] GenericDao - Searching for book with author = 3
+[DEBUG] 2021-04-29 17:59:23.218 [http-nio-8080-exec-10] SearchBooks - author books: [Book{id=4, title='City of Bones', isbn='978-0743566575', author=Author{id=3, name='Stephen King'}, user=User{id=2, firstName='Max', lastName='Jakel', userName='mjakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young Adult'}}]
+[DEBUG] 2021-04-29 17:59:23.221 [http-nio-8080-exec-10] SearchBooks - Book list: [Book{id=1, title='A Court Of Thorns and Roses', isbn='978-1408857861', author=Author{id=1, name='Sarah J. Maas '}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young Adult'}}, Book{id=4, title='City of Bones', isbn='978-0743566575', author=Author{id=3, name='Stephen King'}, user=User{id=2, firstName='Max', lastName='Jakel', userName='mjakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young Adult'}}]
+[DEBUG] 2021-04-29 17:59:23.223 [http-nio-8080-exec-10] GenericDao - Searching for book with author = 4
+[DEBUG] 2021-04-29 17:59:23.291 [http-nio-8080-exec-10] SearchBooks - author books: [Book{id=2, title='The Way of Kings', isbn='978-0765365279', author=Author{id=4, name='Brandon Sanderson'}, user=User{id=4, firstName='Anthony', lastName='Rice', userName='ricerocks', password='password', email='email@something.com'}, genre=Genre{id=2, name='Science Fiction'}}]
+[DEBUG] 2021-04-29 17:59:23.300 [http-nio-8080-exec-10] SearchBooks - Book list: [Book{id=1, title='A Court Of Thorns and Roses', isbn='978-1408857861', author=Author{id=1, name='Sarah J. Maas '}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young Adult'}}, Book{id=4, title='City of Bones', isbn='978-0743566575', author=Author{id=3, name='Stephen King'}, user=User{id=2, firstName='Max', lastName='Jakel', userName='mjakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young Adult'}}, Book{id=2, title='The Way of Kings', isbn='978-0765365279', author=Author{id=4, name='Brandon Sanderson'}, user=User{id=4, firstName='Anthony', lastName='Rice', userName='ricerocks', password='password', email='email@something.com'}, genre=Genre{id=2, name='Science Fiction'}}]
+[DEBUG] 2021-04-29 17:59:23.300 [http-nio-8080-exec-10] GenericDao - Searching for book with author = 5
+[DEBUG] 2021-04-29 17:59:23.414 [http-nio-8080-exec-10] SearchBooks - author books: [Book{id=3, title='Dark Witch', isbn='978-0425259856', author=Author{id=5, name='Nora Roberts'}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=5, name='Romance'}}]
+[DEBUG] 2021-04-29 17:59:23.414 [http-nio-8080-exec-10] SearchBooks - Book list: [Book{id=1, title='A Court Of Thorns and Roses', isbn='978-1408857861', author=Author{id=1, name='Sarah J. Maas '}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young Adult'}}, Book{id=4, title='City of Bones', isbn='978-0743566575', author=Author{id=3, name='Stephen King'}, user=User{id=2, firstName='Max', lastName='Jakel', userName='mjakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young Adult'}}, Book{id=2, title='The Way of Kings', isbn='978-0765365279', author=Author{id=4, name='Brandon Sanderson'}, user=User{id=4, firstName='Anthony', lastName='Rice', userName='ricerocks', password='password', email='email@something.com'}, genre=Genre{id=2, name='Science Fiction'}}, Book{id=3, title='Dark Witch', isbn='978-0425259856', author=Author{id=5, name='Nora Roberts'}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=5, name='Romance'}}]
+[DEBUG] 2021-04-29 17:59:34.898 [http-nio-8080-exec-3] SearchBooks - search type: genre
+[DEBUG] 2021-04-29 17:59:34.900 [http-nio-8080-exec-3] SearchBooks - search term: Young Adult
+[DEBUG] 2021-04-29 17:59:34.980 [http-nio-8080-exec-3] SearchBooks - genreList: [Genre{id=1, name='Young Adult'}]
+[DEBUG] 2021-04-29 17:59:34.980 [http-nio-8080-exec-3] GenericDao - Searching for book with genre = 1
+[DEBUG] 2021-04-29 17:59:35.117 [http-nio-8080-exec-3] SearchBooks - genre books: [Book{id=1, title='A Court Of Thorns and Roses', isbn='978-1408857861', author=Author{id=1, name='Sarah J. Maas '}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young Adult'}}, Book{id=4, title='City of Bones', isbn='978-0743566575', author=Author{id=3, name='Stephen King'}, user=User{id=2, firstName='Max', lastName='Jakel', userName='mjakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young Adult'}}]
+[DEBUG] 2021-04-29 17:59:35.117 [http-nio-8080-exec-3] SearchBooks - Book list: [Book{id=1, title='A Court Of Thorns and Roses', isbn='978-1408857861', author=Author{id=1, name='Sarah J. Maas '}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young Adult'}}, Book{id=4, title='City of Bones', isbn='978-0743566575', author=Author{id=3, name='Stephen King'}, user=User{id=2, firstName='Max', lastName='Jakel', userName='mjakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young Adult'}}]
