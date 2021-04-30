@@ -56,8 +56,8 @@
 - [ ] Edit book information(add, edit, remove)
 - [ ] Remove book 
 - [ ] Add book
-- [ ] User can view all books
-- [ ] User can search within book collection (title, genre, author)
+- [x] User can view all books
+- [x] User can search within book collection (title, genre, author)
 - [ ] User can view book suggestions
 - [ ] Create CSS
 

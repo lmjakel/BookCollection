@@ -37,6 +37,10 @@
                 <th style="border: 3px solid black; border-collapse: collapse">Genre</th>
                 <th style="border: 3px solid black; border-collapse: collapse">ISBN</th>
                 <th style="border: 3px solid black; border-collapse: collapse">Author</th>
+                <th style="border: 3px solid black; border-collapse: collapse">Notes</th>
+                <th style="border: 3px solid black; border-collapse: collapse">Modify Book</th>
+
+
                 </thead>
 
                 <tbody>
@@ -46,6 +50,11 @@
                         <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.genre.name}</td>
                         <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.isbn}</td>
                         <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.author.name}</td>
+                        <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.notes}</td>
+                        <td>
+                            <a href="Services/ModifyBook/DeleteVerification/${bookInfo.id}">Delete </a>/
+                            <a href="Services/ModifyCharacter/Edit/${bookInfo.id}"> Edit Notes</a>
+                        </td>
                     </tr>
                 </c:forEach>
                 </tbody>
