@@ -53,8 +53,8 @@
 ## Week 14
 - [ ] Weekly reflection 
 - [ ] Add Lombok
-- [ ] Edit book information(add, edit, remove)
-- [ ] Remove book 
+- [x] Edit book notes
+- [x] Remove book 
 - [ ] Add book
 - [x] User can view all books
 - [x] User can search within book collection (title, genre, author)

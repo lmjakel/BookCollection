@@ -62,7 +62,7 @@
                         </td>
                         <td>
                             <form id="bookEditForm" action ="EditBook" method="GET">
-                                <input type="hidden" value="${bookInfo.id}">
+                                <input type="hidden" value="${bookInfo.id}" id="bookId" name="bookId">
                                 <input type="submit" value="edit" id="edit" name="modify">
                             </form>
                         </td>

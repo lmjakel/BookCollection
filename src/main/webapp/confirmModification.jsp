@@ -24,7 +24,6 @@
 <div id="container">
 
     <main>
-
         <c:out value="${output}"/>
     </main>
 

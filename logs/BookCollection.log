@@ -222,3 +222,5 @@
 [DEBUG] 2021-05-01 09:46:41.901 [http-nio-8080-exec-9] DeleteBook - book ID: 2
 [DEBUG] 2021-05-01 09:46:41.906 [http-nio-8080-exec-9] DeleteBook - param: delete
 [DEBUG] 2021-05-01 09:46:41.906 [http-nio-8080-exec-9] DeleteBook - I am in delete book
+[DEBUG] 2021-05-01 12:03:14.196 [http-nio-8080-exec-6] GenericDao - Searching for book with id = 1
+[DEBUG] 2021-05-01 12:03:54.517 [http-nio-8080-exec-10] EditBook - book ID: 1

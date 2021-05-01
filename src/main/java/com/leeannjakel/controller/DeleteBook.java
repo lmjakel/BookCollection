@@ -66,7 +66,7 @@ public class DeleteBook extends HttpServlet{
         }
         req.setAttribute("output", output);
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/confirmDelete.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/confirmModification.jsp");
         dispatcher.forward(req, resp);
 
     }
