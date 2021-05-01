@@ -1,8 +1,6 @@
 package com.leeannjakel.controller;
 
-import com.leeannjakel.entity.Author;
 import com.leeannjakel.entity.Book;
-import com.leeannjakel.entity.Genre;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import com.leeannjakel.persistence.GenericDao;
@@ -13,27 +11,26 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
-import javax.ws.rs.core.Response;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The type Delete book.
+ */
 @WebServlet(
         urlPatterns = {"/DeleteBook"}
 )
 /**
- * A class used to delete a character as passed in from the view character page
+ * A class used to delete a book as passed in from the view books page
  *
  * @author LeeAnn Jakel
  */
 public class DeleteBook extends HttpServlet{
     private final Logger logger = LogManager.getLogger(this.getClass());
+    /**
+     * The Book dao.
+     */
     GenericDao<Book> bookDao = new GenericDao(Book.class);
 
     @Override
@@ -59,16 +56,12 @@ public class DeleteBook extends HttpServlet{
         int bookId = Integer.parseInt(idString);
         logger.debug("book ID: {}", bookId);
 
-        if (req.getParameter("submit").equals("delete")){
-            logger.debug("I am in delete book");
-
+        if (req.getParameter("confirmation").equals("delete")){
             Book book = bookDao.getById(bookId);
 
             bookDao.delete(book);
             output = "Book has been deleted";
         } else {
-            logger.debug("I am in no delete book");
-
             output = "Book has not been deleted";
         }
         req.setAttribute("output", output);

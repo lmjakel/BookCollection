@@ -217,3 +217,8 @@
 [DEBUG] 2021-04-30 21:45:50.064 [http-nio-8080-exec-1] DeleteBook - I am in no delete book
 [DEBUG] 2021-04-30 21:45:50.384 [http-nio-8080-exec-3] DeleteBook - book ID: 2
 [DEBUG] 2021-04-30 21:45:50.384 [http-nio-8080-exec-3] DeleteBook - I am in no delete book
+[DEBUG] 2021-05-01 09:46:38.052 [http-nio-8080-exec-5] DeleteBook - I am in delete book doGet
+[DEBUG] 2021-05-01 09:46:38.086 [http-nio-8080-exec-5] GenericDao - Searching for book with id = 2
+[DEBUG] 2021-05-01 09:46:41.901 [http-nio-8080-exec-9] DeleteBook - book ID: 2
+[DEBUG] 2021-05-01 09:46:41.906 [http-nio-8080-exec-9] DeleteBook - param: delete
+[DEBUG] 2021-05-01 09:46:41.906 [http-nio-8080-exec-9] DeleteBook - I am in delete book

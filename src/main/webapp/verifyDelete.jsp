@@ -28,15 +28,25 @@
             Are you sure you want to delete your book?
         </p>
 
+        <table>
+        <jsp:useBean id="book" scope="request" type="java.util.List"/>
         <c:forEach var="bookInfo" items="${book}">
             <tr>
-                <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.title}</td>
-                <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.genre.name}</td>
-                <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.isbn}</td>
-                <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.author.name}</td>
-                <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.notes}</td>
+                <td>Title:</td><td>${bookInfo.title}</td>
             </tr>
-
+            <tr>
+                <td>Genre:</td><td>${bookInfo.genre.name}</td>
+            </tr>
+            <tr>
+                <td>ISBN</td><td>${bookInfo.isbn}</td>
+            </tr>
+            <tr>
+                <td>Author:</td><td>${bookInfo.author.name}</td>
+            </tr>
+            <tr>
+                <td>Notes:</td><td>${bookInfo.notes}</td>
+            </tr>
+        </table>
         <form id="bookForm" action ="DeleteBook" method="POST">
 
             <label for="delete">Yes, delete the book</label>
