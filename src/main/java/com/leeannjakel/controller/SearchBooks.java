@@ -32,6 +32,7 @@ public class SearchBooks extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String username = req.getUserPrincipal().getName();
 
         GenericDao<Book> dao = new GenericDao(Book.class);
         GenericDao<Author> authorDao = new GenericDao(Author.class);
@@ -78,14 +79,13 @@ public class SearchBooks extends HttpServlet {
                 book = dao.getByPropertyEqual("title", searchTerm);
                 logger.debug("Title books: {}", book);
 
-            } else {
-                book = dao.getAll();
             }
-
             req.setAttribute("book", book);
+        }
+
+
 
             RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
             dispatcher.forward(req, resp);
         }
     }
-}

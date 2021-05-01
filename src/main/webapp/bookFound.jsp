@@ -27,6 +27,15 @@
     <p>
         Please add the book genre and any notes you'd like saved!
     </p>
+
+    <jsp:useBean id="books" scope="request" type="java.util.List"/>
+    <c:forEach var="bookInfo" items="${books}">
+        <tr>
+            <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.title}</td>
+            <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.isbn}</td>
+            <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.authorName}</td>
+        </tr>
+    </c:forEach>
 <form>
     <label for="genre">Genre: </label>
     <select name="genre" id="genre">

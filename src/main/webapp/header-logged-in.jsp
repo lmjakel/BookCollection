@@ -20,9 +20,8 @@
 
     <nav id="menu">
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="index-logged-in.jsp">Home</a></li>
             <li><a href="addBook.jsp">Add Book</a></li>
-            <li><a href="#">Edit Library</a></li>
             <li><a href="searchBooks.jsp">Search Library</a></li>
             <li><a href="bookSuggestions.jsp">Book Suggestions</a></li>
             <li><a href="profile.jsp">Profile</a></li>

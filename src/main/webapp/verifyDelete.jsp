@@ -37,10 +37,9 @@
                 <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.notes}</td>
             </tr>
 
-        <form id="bookForm" action ="Services/ModifyBook" method="GET">
+        <form id="bookForm" action ="DeleteBook" method="POST">
 
-        <input>
-            <label for="delete">Yes, delete the book></label>
+            <label for="delete">Yes, delete the book</label>
             <input class="delete" id="delete" type="radio" name="confirmation" value="delete">
             <br>
             <label for="noDelete">No, I want to keep that book</label>

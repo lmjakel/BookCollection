@@ -38,12 +38,15 @@
                 <th style="border: 3px solid black; border-collapse: collapse">ISBN</th>
                 <th style="border: 3px solid black; border-collapse: collapse">Author</th>
                 <th style="border: 3px solid black; border-collapse: collapse">Notes</th>
-                <th style="border: 3px solid black; border-collapse: collapse">Modify Book</th>
+                <th style="border: 3px solid black; border-collapse: collapse">Delete</th>
+                <th style="border: 3px solid black; border-collapse: collapse">Edit</th>
+
 
 
                 </thead>
 
                 <tbody>
+                <jsp:useBean id="book" scope="request" type="java.util.List"/>
                 <c:forEach var="bookInfo" items="${book}">
                     <tr>
                         <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.title}</td>
@@ -52,8 +55,16 @@
                         <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.author.name}</td>
                         <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.notes}</td>
                         <td>
-                            <a href="Services/ModifyBook/DeleteVerification/${bookInfo.id}">Delete </a>/
-                            <a href="Services/ModifyCharacter/Edit/${bookInfo.id}"> Edit Notes</a>
+                            <form id="bookDeleteForm" action ="DeleteBook" method="GET">
+                                <input type="hidden" value="${bookInfo.id}" id="bookId" name="bookId">
+                                <input type="submit" value="delete" id="delete" name="modify">
+                            </form>
+                        </td>
+                        <td>
+                            <form id="bookEditForm" action ="EditBook" method="GET">
+                                <input type="hidden" value="${bookInfo.id}">
+                                <input type="submit" value="edit" id="edit" name="modify">
+                            </form>
                         </td>
                     </tr>
                 </c:forEach>

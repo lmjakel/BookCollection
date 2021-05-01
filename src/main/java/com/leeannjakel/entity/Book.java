@@ -33,6 +33,9 @@ public class Book {
     @JoinColumn(name = "genre_id")
     private Genre genre;
 
+    @Column(name="notes")
+    private String notes;
+
     /**
      * Instantiates a new Book.
      */
@@ -47,13 +50,33 @@ public class Book {
      * @param author the author
      * @param user   the user
      * @param genre  the genre
+     * @param notes  the notes
      */
-    public Book(String title, String isbn, Author author, User user, Genre genre) {
+    public Book(String title, String isbn, Author author, User user, Genre genre, String notes) {
         this.title = title;
         this.isbn = isbn;
         this.author = author;
         this.user = user;
         this.genre = genre;
+        this.notes = notes;
+    }
+
+    /**
+     * Gets notes.
+     *
+     * @return the notes
+     */
+    public String getNotes() {
+        return notes;
+    }
+
+    /**
+     * Sets notes.
+     *
+     * @param notes the notes
+     */
+    public void setNotes(String notes) {
+        this.notes = notes;
     }
 
     /**
@@ -173,6 +196,7 @@ public class Book {
                 ", author=" + author +
                 ", user=" + user +
                 ", genre=" + genre +
+                ", notes='" + notes + '\'' +
                 '}';
     }
 }

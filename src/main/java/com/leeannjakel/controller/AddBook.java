@@ -1,10 +1,7 @@
 package com.leeannjakel.controller;
 
 
-import com.leeannjakel.entity.Author;
-import com.leeannjakel.entity.Book;
-import com.leeannjakel.entity.Genre;
-import com.leeannjakel.entity.User;
+import com.leeannjakel.entity.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import com.leeannjakel.persistence.ApiDao;
@@ -40,8 +37,6 @@ public class AddBook extends HttpServlet {
         String username = req.getUserPrincipal().getName();
         List<User> users = userDao.getByPropertyEqual("userName", username);
         int userID = users.get(0).getId();
-
-        //Get book info from API
 
 
 

@@ -33,7 +33,7 @@
     <li>Search by part or all of an author's first name or last name</li>
     <li>Search by part of all of a book title</li>
     <li>Search by genre</li>
-    <li></li>
+    <li>View all books in your b</li>
 </ul>
 
 <h4>Book Notes</h4>
