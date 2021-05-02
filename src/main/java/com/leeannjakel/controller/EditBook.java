@@ -41,7 +41,6 @@ public class EditBook extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws  ServletException, IOException {
-        PrintWriter out = resp.getWriter();
         String output = "";
 
         String idString =  req.getParameter("bookId");

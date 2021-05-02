@@ -56,13 +56,13 @@
                         <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.notes}</td>
                         <td>
                             <form id="bookDeleteForm" action ="DeleteBook" method="GET">
-                                <input type="hidden" value="${bookInfo.id}" id="bookId" name="bookId">
+                                <input type="hidden" value="${bookInfo.id}" class="bookId" name="bookId">
                                 <input type="submit" value="delete" id="delete" name="modify">
                             </form>
                         </td>
                         <td>
                             <form id="bookEditForm" action ="EditBook" method="GET">
-                                <input type="hidden" value="${bookInfo.id}" id="bookId" name="bookId">
+                                <input type="hidden" value="${bookInfo.id}" class="bookId" name="bookId">
                                 <input type="submit" value="edit" id="edit" name="modify">
                             </form>
                         </td>
@@ -73,5 +73,6 @@
 
         </div>
     </main>
+</div>
 </body>
 </html>

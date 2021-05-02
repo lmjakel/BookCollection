@@ -224,3 +224,15 @@
 [DEBUG] 2021-05-01 09:46:41.906 [http-nio-8080-exec-9] DeleteBook - I am in delete book
 [DEBUG] 2021-05-01 12:03:14.196 [http-nio-8080-exec-6] GenericDao - Searching for book with id = 1
 [DEBUG] 2021-05-01 12:03:54.517 [http-nio-8080-exec-10] EditBook - book ID: 1
+[DEBUG] 2021-05-01 16:02:00.937 [http-nio-8080-exec-3] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-01 16:19:28.809 [http-nio-8080-exec-6] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-01 16:27:30.737 [http-nio-8080-exec-4] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-01 16:27:32.161 [http-nio-8080-exec-4] AddBook - isbn: 9781599906959
+[DEBUG] 2021-05-01 18:02:56.454 [http-nio-8080-exec-3] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-01 18:02:58.075 [http-nio-8080-exec-3] AddBook - isbn: 9781599906959
+[DEBUG] 2021-05-01 20:47:41.164 [http-nio-8080-exec-3] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-01 20:47:42.830 [http-nio-8080-exec-3] AddBook - isbn: 9781599906959
+[DEBUG] 2021-05-01 21:46:58.152 [http-nio-8080-exec-4] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-01 21:46:59.215 [http-nio-8080-exec-4] AddBook - isbn: 9781599906959
+[DEBUG] 2021-05-01 21:56:11.494 [http-nio-8080-exec-3] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-01 21:56:12.731 [http-nio-8080-exec-3] AddBook - isbn: 9781599906959

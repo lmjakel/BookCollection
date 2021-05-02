@@ -83,8 +83,6 @@ public class SearchBooks extends HttpServlet {
             req.setAttribute("book", book);
         }
 
-
-
             RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
             dispatcher.forward(req, resp);
         }

@@ -24,8 +24,6 @@
             <li><a href="addBook.jsp">Add Book</a></li>
             <li><a href="searchBooks.jsp">Search Library</a></li>
             <li><a href="bookSuggestions.jsp">Book Suggestions</a></li>
-            <li><a href="profile.jsp">Profile</a></li>
-
         </ul>
     </nav>
 </header>
