@@ -236,3 +236,9 @@
 [DEBUG] 2021-05-01 21:46:59.215 [http-nio-8080-exec-4] AddBook - isbn: 9781599906959
 [DEBUG] 2021-05-01 21:56:11.494 [http-nio-8080-exec-3] GenericDao - Searching for book with userName = ljakel
 [DEBUG] 2021-05-01 21:56:12.731 [http-nio-8080-exec-3] AddBook - isbn: 9781599906959
+[DEBUG] 2021-05-02 13:16:55.385 [http-nio-8080-exec-6] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-02 13:16:57.244 [http-nio-8080-exec-6] AddBook - isbn: 9781599906959
+[DEBUG] 2021-05-02 13:29:28.535 [http-nio-8080-exec-6] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-02 13:29:29.876 [http-nio-8080-exec-6] AddBook - isbn: 9781599906959
+[DEBUG] 2021-05-02 14:01:44.578 [http-nio-8080-exec-5] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-02 14:01:44.614 [http-nio-8080-exec-5] AddBook - isbn: 9781599906959

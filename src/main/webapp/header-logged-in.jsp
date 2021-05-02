@@ -5,12 +5,6 @@
   Time: 9:45 AM
   To change this template use File | Settings | File Templates.
 --%>
-<%--
-  Created by IntelliJ IDEA.
-  User: LeeAnn Jakel
-  Date: 2/11/21
-  Time: 4:02 PM
---%>
 <header>
     <div id="header">
 
