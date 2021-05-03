@@ -24,14 +24,13 @@
 <div id="container">
 
     <main>
-        <jsp:useBean id="newBook" scope="request" type="java.util.List"/>
         <c:forEach var="bookInfo" items="${newBook}">
             <tr>
             <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.title}</td>
             <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.isbn}</td>
             <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.author.name}</td>
             </tr>
-        <c:/>
+        </c:forEach>
     </main>
 </div>
 

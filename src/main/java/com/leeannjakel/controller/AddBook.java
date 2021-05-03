@@ -62,10 +62,25 @@ public class AddBook extends HttpServlet {
         List<AuthorsItem> authorList = apiDao.getBook(isbn).getAuthors();
         String key = authorList.get(0).getKey();
         String authorName = apiDao.getAuthor(key);
-        Author newAuthor = new Author(authorName);
-        int id = authorDao.insert(newAuthor);
-        Author bookAuthor = authorDao.getById(id);
-
+        Author bookAuthor = null;
+        /**determine if author already exists
+         * if so, get Author. If not, add author
+         */
+        List<Author> allAuthorsList = authorDao.getAll();
+        boolean found = false;
+        for (Author author: allAuthorsList) {
+            String authorListName = author.getName();
+            if (authorListName.equals(authorName)) {
+                List<Author> bookAuthorList = authorDao.getByPropertyEqual("name", authorListName);
+                bookAuthor = bookAuthorList.get(0);
+                found = true;
+            }
+        }
+        if (!found) {
+            Author newAuthor = new Author(authorName);
+            int id = authorDao.insert(newAuthor);
+            bookAuthor = authorDao.getById(id);
+        }
         //Set Genre to 1 for time being and notes to null
         Genre genre = genreDao.getById(1);
         String notes = "";

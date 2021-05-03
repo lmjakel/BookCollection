@@ -330,3 +330,15 @@
 [DEBUG] 2021-05-03 10:33:30.232 [http-nio-8080-exec-3] GenericDao - Searching for book with name = Sarah J. Maas
 [DEBUG] 2021-05-03 11:46:10.980 [http-nio-8080-exec-6] GenericDao - Searching for book with userName = ljakel
 [DEBUG] 2021-05-03 11:50:40.182 [http-nio-8080-exec-6] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-03 12:18:15.357 [http-nio-8080-exec-2] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-03 12:30:09.399 [http-nio-8080-exec-10] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-03 13:01:57.943 [http-nio-8080-exec-2] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-03 13:03:45.007 [http-nio-8080-exec-7] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-03 13:03:46.196 [http-nio-8080-exec-7] GenericDao - Searching for book with name = Sarah J. Maas
+[DEBUG] 2021-05-03 13:11:28.560 [http-nio-8080-exec-3] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-03 13:16:09.438 [http-nio-8080-exec-3] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-03 16:51:59.960 [http-nio-8080-exec-6] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-03 17:03:30.982 [http-nio-8080-exec-9] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-03 17:03:43.295 [http-nio-8080-exec-4] AddBook - BookId: 10
+[DEBUG] 2021-05-03 17:03:43.348 [http-nio-8080-exec-4] AddBook - Book: Book{id=10, title='Decisive battles in Chinese history', isbn='9781594162893', author=Author{id=15, name='Morgan Deane'}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young_Adult'}, notes=''}
+[DEBUG] 2021-05-03 17:03:43.537 [http-nio-8080-exec-4] GenericDao - Searching for book with name = Other
