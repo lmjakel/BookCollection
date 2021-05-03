@@ -101,20 +101,14 @@ public class BookDaoTest {
         newBook.setNotes("Another lovely book by SJM");
 
         List<Author> author = authorDao.getByPropertyEqual("name", "Sarah J. Maas");
-        System.out.println(author);
         Author bookAuthor = author.get(0);
         newBook.setAuthor(bookAuthor);
-        System.out.println(bookAuthor);
 
         User user = userDao.getById(1);
         newBook.setUser(user);
-        System.out.println(user);
 
         Genre genre = genreDao.getById(1);
         newBook.setGenre(genre);
-        System.out.println(genre);
-
-        System.out.println(newBook);
 
         int id = bookDao.insert(newBook);
         assertNotEquals(0, id);

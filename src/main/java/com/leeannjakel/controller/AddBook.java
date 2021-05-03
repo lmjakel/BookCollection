@@ -30,10 +30,10 @@ public class AddBook extends HttpServlet {
     /**
      * Instantiate the Daos
      */
-    GenericDao userDao = new GenericDao(User.class);
-    GenericDao authorDao = new GenericDao(Author.class);
-    GenericDao genreDao = new GenericDao(Genre.class);
-    GenericDao bookDao = new GenericDao(Book.class);
+    GenericDao<User> userDao = new GenericDao(User.class);
+    GenericDao<Author> authorDao = new GenericDao(Author.class);
+    GenericDao<Genre> genreDao = new GenericDao(Genre.class);
+    GenericDao<Book> bookDao = new GenericDao(Book.class);
 
 
     /**
@@ -55,33 +55,34 @@ public class AddBook extends HttpServlet {
 
         //Get book info from API
         String isbn = req.getParameter("isbn");
-        logger.debug("isbn: {}", isbn);
-
         Info bookInfo = apiDao.getBook(isbn);
-        logger.debug("Book: {}", bookInfo);
-
         String title = bookInfo.getTitle();
-        logger.debug("book Title: {}", title);
 
         //get author name
         List<AuthorsItem> authorList = apiDao.getBook(isbn).getAuthors();
         String key = authorList.get(0).getKey();
         String authorName = apiDao.getAuthor(key);
-        Author author = new Author(authorName);
+        Author newAuthor = new Author(authorName);
+        int id = authorDao.insert(newAuthor);
+        Author bookAuthor = authorDao.getById(id);
 
-
-        //Set Genre and notes to null
-        Genre genre = new Genre("");
+        //Set Genre to 1 for time being and notes to null
+        Genre genre = genreDao.getById(1);
         String notes = "";
 
-        //Create array of book attributes
-        List<Book> book = new ArrayList<>();
+        //set Book attributes
+        Book newBook = new Book();
+        newBook.setTitle(title);
+        newBook.setIsbn(isbn);
+        newBook.setNotes(notes);
+        newBook.setGenre(genre);
+        newBook.setAuthor(bookAuthor);
+        newBook.setUser(user);
 
-        Book bookItem = new Book(title, isbn, author, user, genre, notes);
-        book.add(bookItem);
+        //insert book to database
+        bookDao.insert(newBook);
 
-
-        req.setAttribute("books", book);
+        req.setAttribute("books", newBook);
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/bookFound.jsp");
         dispatcher.forward(req, resp);
@@ -97,34 +98,30 @@ public class AddBook extends HttpServlet {
      */
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+        //get book ID from form
         String idString =  req.getParameter("bookId");
         int bookId = Integer.parseInt(idString);
+        logger.debug("BookId: {}", bookId);
 
-        //get info from form
+        //Get book to update
+        Book bookToUpdate = bookDao.getById(bookId);
+        logger.debug("Book: {}", bookToUpdate);
+
+        //get info from form and set in bookToUpdate
         String genre = req.getParameter("genre");
-        logger.debug("genre: {}", genre);
-
         List<Genre> genreList = genreDao.getByPropertyEqual("name", genre);
-        logger.debug("genre list: {}", genreList);
-
         Genre genreItem = genreList.get(0);
-        String notes = req.getParameter("notes");
-
-        //Create array of book attributes
-        Book bookToUpdate = (Book)bookDao.getById(bookId);
-        bookToUpdate.setNotes(notes);
         bookToUpdate.setGenre(genreItem);
 
+        String notes = req.getParameter("notes");
+        bookToUpdate.setNotes(notes);
+
+
+        //update book
         bookDao.update(bookToUpdate);
-        //Add to tables
-        Book newBook = new Book();
-        logger.debug("Added book: {}", newBook);
+        Book retrievedBook = bookDao.getById(bookId);
 
-
-        int id = bookDao.insert(newBook);
-
-        req.setAttribute("books", newBook);
+        req.setAttribute("books", retrievedBook);
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/addSuccessful.jsp");
         dispatcher.forward(req, resp);
