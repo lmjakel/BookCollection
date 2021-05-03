@@ -8,6 +8,7 @@ import org.assertj.core.api.Assertions;
 import org.glassfish.jersey.client.ClientProperties;
 import static org.assertj.core.api.Assertions.assertThat;
 
+import javax.ws.rs.RedirectionException;
 import javax.ws.rs.client.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -17,13 +18,20 @@ public class ApiDao {
     public Info getBook(String ISBN) throws JsonProcessingException {
 
         Client client = ClientBuilder.newClient();
+        String response = null;
+        Boolean redirecting = true;
+        String url = "http://openlibrary.org/isbn/" + ISBN + ".json";
 
-        WebTarget target =
-                client.target("http://openlibrary.org/isbn/" + ISBN + ".json")
-                .property(ClientProperties.FOLLOW_REDIRECTS, Boolean.TRUE);
-
-        String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
-
+        while(redirecting) {
+            WebTarget target =
+                    client.target(url);
+            try {
+                response = target.request(MediaType.APPLICATION_JSON).get(String.class);
+                redirecting = false;
+            } catch (RedirectionException re) {
+                url = re.getLocation().toString();
+            }
+        }
 
         ObjectMapper mapper = new ObjectMapper();
         Info bookInfo = mapper.readValue(response, Info.class);

@@ -1,6 +1,9 @@
 package test.persistence;
 
+import com.leeannjakel.entity.Author;
 import com.leeannjakel.entity.Book;
+import com.leeannjakel.entity.Genre;
+import com.leeannjakel.entity.User;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import com.leeannjakel.persistence.GenericDao;
@@ -9,6 +12,7 @@ import test.utilities.Database;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 /**
  * The type Book dao test.
@@ -77,5 +81,30 @@ public class BookDaoTest {
         assertEquals(2, retrievedBooks.size());
     }
 
+    /**
+     * Insert author success.
+     */
+    @Test
+    void insertBookSuccess() {
+        GenericDao<Author> authorDao = new GenericDao<>(Author.class);
+        List<Author> author = authorDao.getByPropertyEqual("name", "Sarah J. Maas");
+        Author bookAuthor = author.get(0);
+
+        GenericDao<User> userDao = new GenericDao<>(User.class);
+        User user = userDao.getById(1);
+
+
+        GenericDao<Genre> genreDao = new GenericDao<>(Genre.class);
+        Genre genre = genreDao.getById(1);
+
+
+        Book newBook= new Book("A Court of Thorns and Roses", "9781408857861", bookAuthor, user, genre, "Also lovely books by SJM" );
+
+        int id = bookDao.insert(newBook);
+        assertNotEquals(0, id);
+
+        Book insertedBook = (Book)bookDao.getById(id);
+        assertEquals("A Court of Thorns and Roses", insertedBook.getTitle());
+    }
 
 }

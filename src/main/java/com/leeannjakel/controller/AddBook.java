@@ -21,7 +21,7 @@ import java.util.List;
  * The type Add book.
  */
 @WebServlet(
-        urlPatterns = {"/addBook"}
+        urlPatterns = {"/AddBook"}
 )
 
 public class AddBook extends HttpServlet {
@@ -69,6 +69,7 @@ public class AddBook extends HttpServlet {
         String authorName = apiDao.getAuthor(key);
         Author author = new Author(authorName);
 
+
         //Set Genre and notes to null
         Genre genre = new Genre("");
         String notes = "";
@@ -102,13 +103,18 @@ public class AddBook extends HttpServlet {
 
         //get info from form
         String genre = req.getParameter("genre");
-        Genre genreName = (Genre) genreDao.getByPropertyEqual("name", genre);
+        logger.debug("genre: {}", genre);
+
+        List<Genre> genreList = genreDao.getByPropertyEqual("name", genre);
+        logger.debug("genre list: {}", genreList);
+
+        Genre genreItem = genreList.get(0);
         String notes = req.getParameter("notes");
 
         //Create array of book attributes
-        Book bookToUpdate = (Book) bookDao.getById(bookId);
+        Book bookToUpdate = (Book)bookDao.getById(bookId);
         bookToUpdate.setNotes(notes);
-        bookToUpdate.setGenre(genreName);
+        bookToUpdate.setGenre(genreItem);
 
         bookDao.update(bookToUpdate);
         //Add to tables
@@ -120,7 +126,7 @@ public class AddBook extends HttpServlet {
 
         req.setAttribute("books", newBook);
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/bookFound.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/addSuccessful.jsp");
         dispatcher.forward(req, resp);
     }
 }

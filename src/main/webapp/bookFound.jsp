@@ -35,10 +35,10 @@
             <tr>
                 <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.title}</td>
                 <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.isbn}</td>
-                <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.authorName}</td>
+                <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.author.name}</td>
             </tr>
 
-        <form>
+        <form action="AddBook" method="POST">
             <label for="genre">Genre: </label>
             <select name="genre" id="genre">
                 <option value="Action">Action</option>

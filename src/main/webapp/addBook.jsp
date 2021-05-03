@@ -30,7 +30,7 @@
             any notes. If the ISBN cannot be found you will be prompted to manly enter the Title, Author, Genre,
             and ISBN into the database
         </p>
-        <form id="bookForm" action ="addBook" method="GET">
+        <form id="bookForm" action ="AddBook" method="GET">
             <label for="isbn">ISBN: </label>
             <input type="text" id="isbn" name="isbn">
             </br>
