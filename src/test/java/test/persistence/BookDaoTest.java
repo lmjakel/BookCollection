@@ -22,7 +22,13 @@ public class BookDaoTest {
     /**
      * The Book dao.
      */
-    GenericDao bookDao;
+    GenericDao<Book> bookDao;
+    GenericDao<Author> authorDao;
+    GenericDao<User> userDao;
+    GenericDao<Genre> genreDao;
+
+
+
 
     /**
      * Sets .
@@ -30,6 +36,9 @@ public class BookDaoTest {
     @BeforeEach
     void setup() {
         bookDao = new GenericDao(Book.class);
+        authorDao = new GenericDao<>(Author.class);
+        userDao = new GenericDao<>(User.class);
+        genreDao = new GenericDao<>(Genre.class);
 
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
@@ -86,25 +95,32 @@ public class BookDaoTest {
      */
     @Test
     void insertBookSuccess() {
-        GenericDao<Author> authorDao = new GenericDao<>(Author.class);
+        Book newBook = new Book();
+        newBook.setTitle("Throne of Glass");
+        newBook.setIsbn("9781599906959");
+        newBook.setNotes("Another lovely book by SJM");
+
         List<Author> author = authorDao.getByPropertyEqual("name", "Sarah J. Maas");
+        System.out.println(author);
         Author bookAuthor = author.get(0);
+        newBook.setAuthor(bookAuthor);
+        System.out.println(bookAuthor);
 
-        GenericDao<User> userDao = new GenericDao<>(User.class);
         User user = userDao.getById(1);
+        newBook.setUser(user);
+        System.out.println(user);
 
-
-        GenericDao<Genre> genreDao = new GenericDao<>(Genre.class);
         Genre genre = genreDao.getById(1);
+        newBook.setGenre(genre);
+        System.out.println(genre);
 
-
-        Book newBook= new Book("A Court of Thorns and Roses", "9781408857861", bookAuthor, user, genre, "Also lovely books by SJM" );
+        System.out.println(newBook);
 
         int id = bookDao.insert(newBook);
         assertNotEquals(0, id);
 
-        Book insertedBook = (Book)bookDao.getById(id);
-        assertEquals("A Court of Thorns and Roses", insertedBook.getTitle());
+        Book insertedBook = bookDao.getById(id);
+        assertEquals("Throne of Glass", insertedBook.getTitle());
     }
 
 }

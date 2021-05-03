@@ -289,3 +289,14 @@
 [DEBUG] 2021-05-02 20:57:57.897 [http-nio-8080-exec-7] AddBook - genre list: [Genre{id=1, name='Young_Adult'}]
 [DEBUG] 2021-05-02 21:15:12.894 [main] GenericDao - Searching for book with name = Sarah J. Maas
 [DEBUG] 2021-05-02 21:16:21.448 [main] GenericDao - Searching for book with name = Sarah J. Maas
+[DEBUG] 2021-05-03 09:11:35.501 [main] GenericDao - Searching for book with name = Sarah J. Maas
+[DEBUG] 2021-05-03 09:15:40.033 [main] GenericDao - Searching for book with name = Sarah J. Maas
+[DEBUG] 2021-05-03 09:19:21.962 [main] GenericDao - Searching for book with name = Sarah J. Maas
+[DEBUG] 2021-05-03 09:25:49.343 [main] GenericDao - Searching for book with name = Sarah J. Maas
+[DEBUG] 2021-05-03 09:32:43.782 [main] GenericDao - Searching for book with name = Sarah J. Maas
+[DEBUG] 2021-05-03 09:34:12.697 [main] GenericDao - Searching for book with name = Sarah J. Maas
+[DEBUG] 2021-05-03 09:43:36.900 [main] GenericDao - Searching for book with name = Sarah J. Maas
+[DEBUG] 2021-05-03 09:50:37.831 [main] GenericDao - Searching for book with name = Sarah J. Maas
+[DEBUG] 2021-05-03 09:51:56.814 [main] GenericDao - Searching for book with name = Sarah J. Maas
+[DEBUG] 2021-05-03 09:53:04.553 [main] GenericDao - Searching for book with name = Sarah J. Maas
+[DEBUG] 2021-05-03 09:54:41.737 [main] GenericDao - Searching for book with name = Sarah J. Maas

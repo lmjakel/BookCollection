@@ -54,6 +54,7 @@ CREATE TABLE `book` (
   `user_id` int NOT NULL,
   `author_id` int NOT NULL,
   `genre_id` int NOT NULL,
+  `notes` varchar(200) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `book_id_uindex` (`id`),
   KEY `book_author_id_fk` (`author_id`),
@@ -71,7 +72,7 @@ CREATE TABLE `book` (
 
 LOCK TABLES `book` WRITE;
 /*!40000 ALTER TABLE `book` DISABLE KEYS */;
-INSERT INTO `book` VALUES (1,'A Court Of Thorns and Roses','978-1408857861',1,1,1),(2,'The Way of Kings','978-0765365279',4,4,2),(3,'Dark Witch','978-0425259856',1,5,5),(4,'City of Bones','978-0743566575',2,3,1);
+INSERT INTO `book` VALUES (1,'A Court Of Thorns and Roses','978-1408857861',1,1,1,'Fantastic book, the mystery and romance is perfectly combined! Rhys is the best! Yay for night court! The 3rd book is my favorite'),(3,'Dark Witch','978-0425259856',1,5,5,NULL);
 /*!40000 ALTER TABLE `book` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -87,7 +88,7 @@ CREATE TABLE `genre` (
   `name` varchar(20) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `genre_id_uindex` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -96,7 +97,7 @@ CREATE TABLE `genre` (
 
 LOCK TABLES `genre` WRITE;
 /*!40000 ALTER TABLE `genre` DISABLE KEYS */;
-INSERT INTO `genre` VALUES (1,'Young Adult'),(2,'Science Fiction'),(3,'History'),(4,'Mystery'),(5,'Romance');
+INSERT INTO `genre` VALUES (1,'Young_Adult'),(2,'Science_Fiction'),(3,'History'),(4,'Mystery'),(5,'Romance'),(6,'Action'),(7,'Adventure'),(8,'Children'),(9,'Fantasy'),(10,'Historical_Fiction'),(11,'Non_Fiction'),(12,'Other'),(13,'Thriller'),(14,'Western');
 /*!40000 ALTER TABLE `genre` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -167,4 +168,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-04-27 14:04:42
+-- Dump completed on 2021-05-03  9:51:08
