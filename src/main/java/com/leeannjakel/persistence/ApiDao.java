@@ -2,16 +2,14 @@ package com.leeannjakel.persistence;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.leeannjakel.entity.AuthorResponse;
-import com.leeannjakel.entity.Info;
-import org.assertj.core.api.Assertions;
-import org.glassfish.jersey.client.ClientProperties;
+import com.leeannjakel.entity.*;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 import javax.ws.rs.RedirectionException;
 import javax.ws.rs.client.*;
 import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
+import java.util.List;
 
 public class ApiDao {
 
@@ -37,6 +35,23 @@ public class ApiDao {
         Info bookInfo = mapper.readValue(response, Info.class);
 
         return bookInfo;
+    }
+
+    public String getWorks (String works) throws JsonProcessingException {
+        Client client = ClientBuilder.newClient();
+        WebTarget target =
+                client.target("http://openlibrary.org" + works + ".json");
+        String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
+
+        ObjectMapper mapper = new ObjectMapper();
+        WorksResponse worksInfo = mapper.readValue(response, WorksResponse.class);
+        List<WorksAuthorsItem> authors = worksInfo.getAuthors();
+        WorksAuthorsItem authorsItem = authors.get(0);
+        WorksAuthor authorKey = authorsItem.getAuthor();
+
+        String author = getAuthor(authorKey.getKey());
+
+        return author;
     }
 
     public String getAuthor (String author) throws JsonProcessingException {

@@ -2,7 +2,7 @@ package com.leeannjakel.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class AuthorsItem{
+public class WorksAuthor{
 
     @JsonProperty("key")
     private String key;
@@ -18,7 +18,7 @@ public class AuthorsItem{
     @Override
     public String toString(){
         return
-                "AuthorsItem{" +
+                "WorksAuthor{" +
                         "key = '" + key + '\'' +
                         "}";
     }

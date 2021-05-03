@@ -5,7 +5,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import com.leeannjakel.persistence.ApiDao;
 import com.leeannjakel.persistence.GenericDao;
-import com.fasterxml.jackson.core.JsonProcessingException;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -14,7 +13,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -59,9 +57,9 @@ public class AddBook extends HttpServlet {
         String title = bookInfo.getTitle();
 
         //get author name
-        List<AuthorsItem> authorList = apiDao.getBook(isbn).getAuthors();
+        List<WorksItem> authorList = apiDao.getBook(isbn).getWorks();
         String key = authorList.get(0).getKey();
-        String authorName = apiDao.getAuthor(key);
+        String authorName = apiDao.getWorks(key);
         Author bookAuthor = null;
         /**determine if author already exists
          * if so, get Author. If not, add author

@@ -7,10 +7,8 @@ import java.util.List;
 
 /**
  * The type Author response.
- * @author LeeAnn Jakel
  *
- * Resourse used for JsonIgnoreProperties
- * https://stackoverflow.com/questions/4486787/jackson-with-json-unrecognized-field-not-marked-as-ignorable
+ * @author LeeAnn Jakel Resourse used for JsonIgnoreProperties https://stackoverflow.com/questions/4486787/jackson-with-json-unrecognized-field-not-marked-as-ignorable
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class AuthorResponse{

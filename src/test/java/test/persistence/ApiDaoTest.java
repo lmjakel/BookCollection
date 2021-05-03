@@ -1,7 +1,8 @@
 package test.persistence;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.leeannjakel.entity.AuthorsItem;
+import com.leeannjakel.entity.WorksAuthorsItem;
+import com.leeannjakel.entity.WorksItem;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Test;
@@ -27,10 +28,10 @@ class ApiDaoTest {
     void getBookAuthor() throws JsonProcessingException {
         ApiDao dao = new ApiDao();
         String ISBN = "9781599906959";
-        List<AuthorsItem> author = dao.getBook(ISBN).getAuthors();
+        List<WorksItem> author = dao.getBook(ISBN).getWorks();
         String key = author.get(0).getKey();
 
-        assertEquals("Sarah J. Maas", dao.getAuthor(key));
+        assertEquals("Sarah J. Maas", dao.getWorks(key));
     }
 
 }

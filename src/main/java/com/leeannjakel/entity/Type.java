@@ -1,6 +1,10 @@
 package com.leeannjakel.entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Type{
+
+	@JsonProperty("key")
 	private String key;
 
 	public void setKey(String key){

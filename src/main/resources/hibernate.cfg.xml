@@ -18,7 +18,7 @@
 
         <mapping class="com.leeannjakel.entity.Author"/>
         <mapping class="com.leeannjakel.entity.AuthorResponse"/>
-        <mapping class="com.leeannjakel.entity.AuthorsItem"/>
+        <mapping class="com.leeannjakel.entity.WorksAuthorsItem"/>
         <mapping class="com.leeannjakel.entity.Book"/>
         <mapping class="com.leeannjakel.entity.Classifications"/>
         <mapping class="com.leeannjakel.entity.Created"/>
@@ -31,6 +31,7 @@
         <mapping class="com.leeannjakel.entity.Type"/>
         <mapping class="com.leeannjakel.entity.User"/>
         <mapping class="com.leeannjakel.entity.WorksItem"/>
+        <mapping class="com.leeannjakel.entity.WorksAuthorsItem"/>
 
 
     </session-factory>

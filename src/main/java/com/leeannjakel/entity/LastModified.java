@@ -1,7 +1,13 @@
 package com.leeannjakel.entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class LastModified{
+
+	@JsonProperty("type")
 	private String type;
+
+	@JsonProperty("value")
 	private String value;
 
 	public void setType(String type){

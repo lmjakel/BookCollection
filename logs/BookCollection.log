@@ -342,3 +342,4 @@
 [DEBUG] 2021-05-03 17:03:43.295 [http-nio-8080-exec-4] AddBook - BookId: 10
 [DEBUG] 2021-05-03 17:03:43.348 [http-nio-8080-exec-4] AddBook - Book: Book{id=10, title='Decisive battles in Chinese history', isbn='9781594162893', author=Author{id=15, name='Morgan Deane'}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young_Adult'}, notes=''}
 [DEBUG] 2021-05-03 17:03:43.537 [http-nio-8080-exec-4] GenericDao - Searching for book with name = Other
+[DEBUG] 2021-05-03 17:11:35.139 [http-nio-8080-exec-4] GenericDao - Searching for book with userName = ljakel

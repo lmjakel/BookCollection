@@ -157,7 +157,7 @@
 [DEBUG] 2021-05-03 09:43:34.531 [main] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
 [DEBUG] 2021-05-03 09:43:34.556 [main] TypeConfiguration$Scope - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2ef0dd86] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@3337d04c]
 [DEBUG] 2021-05-03 09:43:34.671 [main] AnnotationMetadataSourceProcessorImpl - Encountered a non-categorized annotated class [com.leeannjakel.entity.AuthorResponse]; ignoring
-[DEBUG] 2021-05-03 09:43:34.676 [main] AnnotationMetadataSourceProcessorImpl - Encountered a non-categorized annotated class [com.leeannjakel.entity.AuthorsItem]; ignoring
+[DEBUG] 2021-05-03 09:43:34.676 [main] AnnotationMetadataSourceProcessorImpl - Encountered a non-categorized annotated class [com.leeannjakel.entity.WorksAuthorsItem]; ignoring
 [DEBUG] 2021-05-03 09:43:34.678 [main] AnnotationMetadataSourceProcessorImpl - Encountered a non-categorized annotated class [com.leeannjakel.entity.Classifications]; ignoring
 [DEBUG] 2021-05-03 09:43:34.679 [main] AnnotationMetadataSourceProcessorImpl - Encountered a non-categorized annotated class [com.leeannjakel.entity.Created]; ignoring
 [DEBUG] 2021-05-03 09:43:34.680 [main] AnnotationMetadataSourceProcessorImpl - Encountered a non-categorized annotated class [com.leeannjakel.entity.Identifiers]; ignoring
