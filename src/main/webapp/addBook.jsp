@@ -26,9 +26,9 @@
     <main>
         <h2>Add a Book</h2>
         <p>
-            Please enter the ISBN, if your book can be found in the system you will be asked to select a genre and
-            any notes. If the ISBN cannot be found you will be prompted to manly enter the Title, Author, Genre,
-            and ISBN into the database
+            Please enter the ISBN (13 numbers found on the barcode on the back of the book). If your book is already
+            in the system you will be asked to select a genre and add notes. If the ISBN cannot be found you will be
+            prompted to manually enter the Title, Author, Genre, and ISBN into the database.
         </p>
         <form id="bookForm" action ="AddBook" method="GET">
             <label for="isbn">ISBN: </label>

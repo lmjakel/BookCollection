@@ -29,7 +29,7 @@
     </p>
 
 
-    <c:out value="${books.title} && ${books.author} && ${books.isbn}" />
+    <c:out value="Title:${books.title} Author:${books.author.name} ISBN:${books.isbn}" />
 
     <form action="AddBook" method="POST">
         <label for="genre">Genre: </label>

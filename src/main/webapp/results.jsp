@@ -50,8 +50,8 @@
                 <c:forEach var="bookInfo" items="${book}">
                     <tr>
                         <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.title}</td>
-                        <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.genre.name}</td>
                         <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.isbn}</td>
+                        <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.genre.name}</td>
                         <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.author.name}</td>
                         <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.notes}</td>
                         <td>

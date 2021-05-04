@@ -24,13 +24,8 @@
 <div id="container">
 
     <main>
-        <c:forEach var="bookInfo" items="${newBook}">
-            <tr>
-            <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.title}</td>
-            <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.isbn}</td>
-            <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.author.name}</td>
-            </tr>
-        </c:forEach>
+        <c:out value="Title:${books.title} Author:${books.author.name} ISBN:${books.isbn} Genre: ${books.genre.name} Notes: ${books.notes}" />
+
     </main>
 </div>
 

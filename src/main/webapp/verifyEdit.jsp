@@ -30,31 +30,17 @@
         </p>
 
         <table>
-            <jsp:useBean id="book" scope="request" type="java.util.List"/>
-            <c:forEach var="bookInfo" items="${book}">
-            <tr>
-                <td>Title:</td><td>${bookInfo.title}</td>
-            </tr>
-            <tr>
-                <td>Genre:</td><td>${bookInfo.genre.name}</td>
-            </tr>
-            <tr>
-                <td>ISBN</td><td>${bookInfo.isbn}</td>
-            </tr>
-            <tr>
-                <td>Author:</td><td>${bookInfo.author.name}</td>
-            </tr>
-        </table>
-        <form id="bookForm" action ="EditBook" method="POST">
+            <c:out value="Title:${books.title} Author:${books.author.name} ISBN:${books.isbn} Genre: ${books.genre.name} Notes: ${books.notes}" />
+
+            <form id="bookForm" action ="EditBook" method="POST">
 
             <label for="notes">Edit your notes below</label>
             <input class="notes" id="notes" type="text" name="notes" value="${bookInfo.notes}">
 
-            <input name="bookId" value="${bookInfo.id}" type="hidden">
+            <input name="bookId" value="${books.id}" type="hidden">
             <button class="formButton" type="submit" name="submit" value="submit">Confirm</button>
         </form>
 
-        </c:forEach>
 
     </main>
 

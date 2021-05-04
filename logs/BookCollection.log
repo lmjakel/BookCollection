@@ -343,3 +343,13 @@
 [DEBUG] 2021-05-03 17:03:43.348 [http-nio-8080-exec-4] AddBook - Book: Book{id=10, title='Decisive battles in Chinese history', isbn='9781594162893', author=Author{id=15, name='Morgan Deane'}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young_Adult'}, notes=''}
 [DEBUG] 2021-05-03 17:03:43.537 [http-nio-8080-exec-4] GenericDao - Searching for book with name = Other
 [DEBUG] 2021-05-03 17:11:35.139 [http-nio-8080-exec-4] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-03 18:31:40.524 [http-nio-8080-exec-4] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-03 18:31:45.267 [http-nio-8080-exec-4] GenericDao - Searching for book with name = Sarah J. Maas
+[DEBUG] 2021-05-03 18:31:59.187 [http-nio-8080-exec-10] AddBook - BookId: 11
+[DEBUG] 2021-05-03 18:31:59.243 [http-nio-8080-exec-10] AddBook - Book: Book{id=11, title='Crescent City : house of earth and blood', isbn='9781635574043', author=Author{id=14, name='Sarah J. Maas'}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young_Adult'}, notes=''}
+[DEBUG] 2021-05-03 18:31:59.401 [http-nio-8080-exec-10] GenericDao - Searching for book with name = Young_Adult
+[DEBUG] 2021-05-03 18:33:12.511 [http-nio-8080-exec-7] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-03 18:33:13.523 [http-nio-8080-exec-7] GenericDao - Searching for book with name = Sarah J. Maas
+[DEBUG] 2021-05-03 18:33:39.435 [http-nio-8080-exec-1] AddBook - BookId: 12
+[DEBUG] 2021-05-03 18:33:39.492 [http-nio-8080-exec-1] AddBook - Book: Book{id=12, title='Throne of glass', isbn='9781599906959', author=Author{id=14, name='Sarah J. Maas'}, user=User{id=1, firstName='LeeAnn', lastName='Jakel', userName='ljakel', password='password', email='email@something.com'}, genre=Genre{id=1, name='Young_Adult'}, notes=''}
+[DEBUG] 2021-05-03 18:33:39.492 [http-nio-8080-exec-1] GenericDao - Searching for book with name = Action
