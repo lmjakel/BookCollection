@@ -30,6 +30,7 @@
 
 
     <c:out value="Title:${books.title} Author:${books.author.name} ISBN:${books.isbn}" />
+    <br>
 
     <form action="AddBook" method="POST">
         <label for="genre">Genre: </label>
@@ -49,8 +50,9 @@
             <option value="Western">Western</option>
             <option value="Young Adult">Young Adult</option>
         </select>
+        <br>
 
-        <label for="notes">Add any notes about the book:</label>
+        <label for="notes">Add any notes about the book:</label><br>
         <textarea name="notes" id="notes" cols="30" rows="10"></textarea>
 
         <input name="bookId" value="${books.id}" type="hidden">

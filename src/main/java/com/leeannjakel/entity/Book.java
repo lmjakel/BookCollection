@@ -36,9 +36,6 @@ public class Book {
     @Column(name = "notes")
     private String notes;
 
-    @Column(name = "cover")
-    private int cover;
-
     /**
      * Instantiates a new Book.
      */
@@ -54,35 +51,16 @@ public class Book {
      * @param user   the user
      * @param genre  the genre
      * @param notes  the notes
-     * @param cover  the cover
      */
-    public Book(String title, String isbn, Author author, User user, Genre genre, String notes, int cover) {
+    public Book(String title, String isbn, Author author, User user, Genre genre, String notes) {
         this.title = title;
         this.isbn = isbn;
         this.author = author;
         this.user = user;
         this.genre = genre;
         this.notes = notes;
-        this.cover = cover;
     }
 
-    /**
-     * Gets cover.
-     *
-     * @return the cover
-     */
-    public int getCover() {
-        return cover;
-    }
-
-    /**
-     * Sets cover.
-     *
-     * @param cover the cover
-     */
-    public void setCover(int cover) {
-        this.cover = cover;
-    }
 
     /**
      * Gets notes.
@@ -220,7 +198,6 @@ public class Book {
                 ", user=" + user +
                 ", genre=" + genre +
                 ", notes='" + notes + '\'' +
-                ", cover=" + cover +
                 '}';
     }
 }
