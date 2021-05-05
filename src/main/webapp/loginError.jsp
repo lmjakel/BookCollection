@@ -19,9 +19,6 @@
 <!-- Body -->
 <body>
 
-<!-- header -->
-<c:import url="header-logged-in.jsp" />
-<!-- end header-->
 <div id="container">
     <main>
         Invalid username/password, please try again. <a href="login.jsp">Login</a>

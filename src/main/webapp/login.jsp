@@ -18,9 +18,6 @@
 <!-- Body -->
 <body>
 
-<!-- header -->
-<c:import url="header.jsp" />
-<!-- end header-->
 <div id="container">
     <main>
         <FORM ACTION="j_security_check" METHOD="POST">

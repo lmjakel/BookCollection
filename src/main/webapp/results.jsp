@@ -49,7 +49,7 @@
                 <jsp:useBean id="book" scope="request" type="java.util.List"/>
                 <c:forEach var="bookInfo" items="${book}">
                     <tr>
-                        <td><img  src="https://covers.openlibrary.org/b/isbn/${bookInfo.cover}-S.jpg" alt="book cover"></td>
+                        <td><img  src="https://covers.openlibrary.org/b/isbn/${bookInfo.isbn}-S.jpg" alt="book cover"></td>
                         <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.title}</td>
                         <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.isbn}</td>
                         <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.genre.name}</td>

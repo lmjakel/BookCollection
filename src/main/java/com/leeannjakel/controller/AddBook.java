@@ -55,8 +55,6 @@ public class AddBook extends HttpServlet {
         String isbn = req.getParameter("isbn");
         Info bookInfo = apiDao.getBook(isbn);
         String title = bookInfo.getTitle();
-        int coverInt = bookInfo.getCovers().get(0);
-
 
         //get author name
         List<WorksItem> authorList = apiDao.getBook(isbn).getWorks();
