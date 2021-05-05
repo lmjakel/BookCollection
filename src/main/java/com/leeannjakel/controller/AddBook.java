@@ -92,8 +92,6 @@ public class AddBook extends HttpServlet {
         newBook.setGenre(genre);
         newBook.setAuthor(bookAuthor);
         newBook.setUser(user);
-        newBook.setCover(coverInt);
-
 
         //insert book to database
         bookDao.insert(newBook);
