@@ -11,8 +11,18 @@ import javax.ws.rs.client.*;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
 
+/**
+ * The type Api dao.
+ */
 public class ApiDao {
 
+    /**
+     * Gets book.
+     *
+     * @param ISBN the isbn
+     * @return the book
+     * @throws JsonProcessingException the json processing exception
+     */
     public Info getBook(String ISBN) throws JsonProcessingException {
 
         Client client = ClientBuilder.newClient();
@@ -37,6 +47,13 @@ public class ApiDao {
         return bookInfo;
     }
 
+    /**
+     * Gets works.
+     *
+     * @param works the works
+     * @return the works
+     * @throws JsonProcessingException the json processing exception
+     */
     public String getWorks (String works) throws JsonProcessingException {
         Client client = ClientBuilder.newClient();
         WebTarget target =
@@ -54,6 +71,13 @@ public class ApiDao {
         return author;
     }
 
+    /**
+     * Gets author.
+     *
+     * @param author the author
+     * @return the author
+     * @throws JsonProcessingException the json processing exception
+     */
     public String getAuthor (String author) throws JsonProcessingException {
 
         Client client = ClientBuilder.newClient();
@@ -67,6 +91,5 @@ public class ApiDao {
 
         return authorName;
     }
-
 
 }

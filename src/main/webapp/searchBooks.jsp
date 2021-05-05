@@ -26,26 +26,29 @@
 
     <main>
         <form action ="searchBooks" method="GET">
-            <fieldset>
-                <legend>How would you like to search for your book?</legend>
-                <label for="viewAll">View All</label>
-                <input type="radio" value="viewAll" id="viewAll" name="type">
-                <br>
 
+            <fieldset>
+
+                <legend>How would you like to search for your book?</legend>
                 <label for="author">Author</label>
                 <input type="radio" value="author" id="author" name="type">
-                <br>
 
                 <label for="title">Title</label>
                 <input type="radio" value="title" id="title" name="type">
-                <br>
 
                 <label for="genre">Genre</label>
                 <input type="radio" value="genre" id="genre" name="type">
-            </fieldset>
+                <br>
 
-            <label for="searchTerm">Enter Search Term: </label>
-            <input type="text"  id="searchTerm" name="searchTerm">
+                <label for="searchTerm">Enter Search Term: </label>
+                <input type="text"  id="searchTerm" name="searchTerm">
+                <br>
+                <br>
+
+                <label for="viewAll">View All Books</label>
+                <input type="radio" value="viewAll" id="viewAll" name="type">
+                <br>
+            </fieldset>
 
             <button type="submit" name="search" value="search">Search</button>
         </form>

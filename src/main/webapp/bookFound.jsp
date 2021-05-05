@@ -38,16 +38,16 @@
             <option value="Adventure">Adventure</option>
             <option value="Children">Children's</option>
             <option value="Fantasy">Fantasy</option>
-            <option value="Historical_Fiction">Historical Fiction</option>
+            <option value="Historical Fiction">Historical Fiction</option>
             <option value="History">History</option>
             <option value="Mystery">Mystery</option>
-            <option value="Non_Fiction">Non-Fiction</option>
+            <option value="Non Fiction">Non Fiction</option>
             <option value="Other">Other</option>
             <option value="Romance">Romance</option>
-            <option value="Science_Fiction">Science Fiction</option>
+            <option value="Science Fiction">Science Fiction</option>
             <option value="Thriller">Thriller</option>
             <option value="Western">Western</option>
-            <option value="Young_Adult">Young Adult</option>
+            <option value="Young Adult">Young Adult</option>
         </select>
 
         <label for="notes">Add any notes about the book:</label>

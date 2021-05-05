@@ -34,8 +34,8 @@
             <table id="resultsTable" class="display" cellspacing="0" width="100%">
                 <thead>
                 <th style="border: 3px solid black; border-collapse: collapse">Title</th>
-                <th style="border: 3px solid black; border-collapse: collapse">Genre</th>
                 <th style="border: 3px solid black; border-collapse: collapse">ISBN</th>
+                <th style="border: 3px solid black; border-collapse: collapse">Genre</th>
                 <th style="border: 3px solid black; border-collapse: collapse">Author</th>
                 <th style="border: 3px solid black; border-collapse: collapse">Notes</th>
                 <th style="border: 3px solid black; border-collapse: collapse">Delete</th>
@@ -49,6 +49,7 @@
                 <jsp:useBean id="book" scope="request" type="java.util.List"/>
                 <c:forEach var="bookInfo" items="${book}">
                     <tr>
+                        <td><img  src="https://covers.openlibrary.org/b/isbn/${bookInfo.cover}-S.jpg" alt="book cover"></td>
                         <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.title}</td>
                         <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.isbn}</td>
                         <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.genre.name}</td>

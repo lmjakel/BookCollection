@@ -15,10 +15,10 @@ public class Book {
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
 
-    @Column(name="title")
+    @Column(name = "title")
     private String title;
 
-    @Column(name="isbn")
+    @Column(name = "isbn")
     private String isbn;
 
     @ManyToOne
@@ -33,8 +33,11 @@ public class Book {
     @JoinColumn(name = "genre_id")
     private Genre genre;
 
-    @Column(name="notes")
+    @Column(name = "notes")
     private String notes;
+
+    @Column(name = "cover")
+    private int cover;
 
     /**
      * Instantiates a new Book.
@@ -51,14 +54,34 @@ public class Book {
      * @param user   the user
      * @param genre  the genre
      * @param notes  the notes
+     * @param cover  the cover
      */
-    public Book(String title, String isbn, Author author, User user, Genre genre, String notes) {
+    public Book(String title, String isbn, Author author, User user, Genre genre, String notes, int cover) {
         this.title = title;
         this.isbn = isbn;
         this.author = author;
         this.user = user;
         this.genre = genre;
         this.notes = notes;
+        this.cover = cover;
+    }
+
+    /**
+     * Gets cover.
+     *
+     * @return the cover
+     */
+    public int getCover() {
+        return cover;
+    }
+
+    /**
+     * Sets cover.
+     *
+     * @param cover the cover
+     */
+    public void setCover(int cover) {
+        this.cover = cover;
     }
 
     /**
@@ -197,6 +220,7 @@ public class Book {
                 ", user=" + user +
                 ", genre=" + genre +
                 ", notes='" + notes + '\'' +
+                ", cover=" + cover +
                 '}';
     }
 }
