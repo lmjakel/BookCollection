@@ -5,6 +5,10 @@ import java.util.List;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * The type Info.
+ * For API
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Info{
 
@@ -98,243 +102,543 @@ public class Info{
 	@JsonProperty("authors")
 	private List<AuthorsItem> authors;
 
-	public void setPagination(String pagination){
+    /**
+     * Set pagination.
+     *
+     * @param pagination the pagination
+     */
+    public void setPagination(String pagination){
 		this.pagination = pagination;
 	}
 
-	public String getPagination(){
+    /**
+     * Get pagination string.
+     *
+     * @return the string
+     */
+    public String getPagination(){
 		return pagination;
 	}
 
-	public void setWorks(List<WorksItem> works){
+    /**
+     * Set works.
+     *
+     * @param works the works
+     */
+    public void setWorks(List<WorksItem> works){
 		this.works = works;
 	}
 
-	public List<WorksItem> getWorks(){
+    /**
+     * Get works list.
+     *
+     * @return the list
+     */
+    public List<WorksItem> getWorks(){
 		return works;
 	}
 
-	public void setNumberOfPages(int numberOfPages){
+    /**
+     * Set number of pages.
+     *
+     * @param numberOfPages the number of pages
+     */
+    public void setNumberOfPages(int numberOfPages){
 		this.numberOfPages = numberOfPages;
 	}
 
-	public int getNumberOfPages(){
+    /**
+     * Get number of pages int.
+     *
+     * @return the int
+     */
+    public int getNumberOfPages(){
 		return numberOfPages;
 	}
 
-	public void setDescription(String description){
+    /**
+     * Set description.
+     *
+     * @param description the description
+     */
+    public void setDescription(String description){
 		this.description = description;
 	}
 
-	public String getDescription(){
+    /**
+     * Get description string.
+     *
+     * @return the string
+     */
+    public String getDescription(){
 		return description;
 	}
 
-	public void setTitle(String title){
+    /**
+     * Set title.
+     *
+     * @param title the title
+     */
+    public void setTitle(String title){
 		this.title = title;
 	}
 
-	public String getTitle(){
+    /**
+     * Get title string.
+     *
+     * @return the string
+     */
+    public String getTitle(){
 		return title;
 	}
 
-	public void setEditionName(String editionName){
+    /**
+     * Set edition name.
+     *
+     * @param editionName the edition name
+     */
+    public void setEditionName(String editionName){
 		this.editionName = editionName;
 	}
 
-	public String getEditionName(){
+    /**
+     * Get edition name string.
+     *
+     * @return the string
+     */
+    public String getEditionName(){
 		return editionName;
 	}
 
-	public void setType(Type type){
+    /**
+     * Set type.
+     *
+     * @param type the type
+     */
+    public void setType(Type type){
 		this.type = type;
 	}
 
-	public Type getType(){
+    /**
+     * Get type type.
+     *
+     * @return the type
+     */
+    public Type getType(){
 		return type;
 	}
 
-	public void setIsbn13(List<String> isbn13){
+    /**
+     * Set isbn 13.
+     *
+     * @param isbn13 the isbn 13
+     */
+    public void setIsbn13(List<String> isbn13){
 		this.isbn13 = isbn13;
 	}
 
-	public List<String> getIsbn13(){
+    /**
+     * Get isbn 13 list.
+     *
+     * @return the list
+     */
+    public List<String> getIsbn13(){
 		return isbn13;
 	}
 
-	public void setPublishPlaces(List<String> publishPlaces){
+    /**
+     * Set publish places.
+     *
+     * @param publishPlaces the publish places
+     */
+    public void setPublishPlaces(List<String> publishPlaces){
 		this.publishPlaces = publishPlaces;
 	}
 
-	public List<String> getPublishPlaces(){
+    /**
+     * Get publish places list.
+     *
+     * @return the list
+     */
+    public List<String> getPublishPlaces(){
 		return publishPlaces;
 	}
 
-	public void setLccn(List<String> lccn){
+    /**
+     * Set lccn.
+     *
+     * @param lccn the lccn
+     */
+    public void setLccn(List<String> lccn){
 		this.lccn = lccn;
 	}
 
-	public List<String> getLccn(){
+    /**
+     * Get lccn list.
+     *
+     * @return the list
+     */
+    public List<String> getLccn(){
 		return lccn;
 	}
 
-	public void setPublishCountry(String publishCountry){
+    /**
+     * Set publish country.
+     *
+     * @param publishCountry the publish country
+     */
+    public void setPublishCountry(String publishCountry){
 		this.publishCountry = publishCountry;
 	}
 
-	public String getPublishCountry(){
+    /**
+     * Get publish country string.
+     *
+     * @return the string
+     */
+    public String getPublishCountry(){
 		return publishCountry;
 	}
 
-	public void setByStatement(String byStatement){
+    /**
+     * Set by statement.
+     *
+     * @param byStatement the by statement
+     */
+    public void setByStatement(String byStatement){
 		this.byStatement = byStatement;
 	}
 
-	public String getByStatement(){
+    /**
+     * Get by statement string.
+     *
+     * @return the string
+     */
+    public String getByStatement(){
 		return byStatement;
 	}
 
-	public void setPublishers(List<String> publishers){
+    /**
+     * Set publishers.
+     *
+     * @param publishers the publishers
+     */
+    public void setPublishers(List<String> publishers){
 		this.publishers = publishers;
 	}
 
-	public List<String> getPublishers(){
+    /**
+     * Get publishers list.
+     *
+     * @return the list
+     */
+    public List<String> getPublishers(){
 		return publishers;
 	}
 
-	public void setDeweyDecimalClass(List<String> deweyDecimalClass){
+    /**
+     * Set dewey decimal class.
+     *
+     * @param deweyDecimalClass the dewey decimal class
+     */
+    public void setDeweyDecimalClass(List<String> deweyDecimalClass){
 		this.deweyDecimalClass = deweyDecimalClass;
 	}
 
-	public List<String> getDeweyDecimalClass(){
+    /**
+     * Get dewey decimal class list.
+     *
+     * @return the list
+     */
+    public List<String> getDeweyDecimalClass(){
 		return deweyDecimalClass;
 	}
 
-	public void setPhysicalFormat(String physicalFormat){
+    /**
+     * Set physical format.
+     *
+     * @param physicalFormat the physical format
+     */
+    public void setPhysicalFormat(String physicalFormat){
 		this.physicalFormat = physicalFormat;
 	}
 
-	public String getPhysicalFormat(){
+    /**
+     * Get physical format string.
+     *
+     * @return the string
+     */
+    public String getPhysicalFormat(){
 		return physicalFormat;
 	}
 
-	public void setLcClassifications(List<String> lcClassifications){
+    /**
+     * Set lc classifications.
+     *
+     * @param lcClassifications the lc classifications
+     */
+    public void setLcClassifications(List<String> lcClassifications){
 		this.lcClassifications = lcClassifications;
 	}
 
-	public List<String> getLcClassifications(){
+    /**
+     * Get lc classifications list.
+     *
+     * @return the list
+     */
+    public List<String> getLcClassifications(){
 		return lcClassifications;
 	}
 
-	public void setLastModified(LastModified lastModified){
+    /**
+     * Set last modified.
+     *
+     * @param lastModified the last modified
+     */
+    public void setLastModified(LastModified lastModified){
 		this.lastModified = lastModified;
 	}
 
-	public LastModified getLastModified(){
+    /**
+     * Get last modified last modified.
+     *
+     * @return the last modified
+     */
+    public LastModified getLastModified(){
 		return lastModified;
 	}
 
-	public void setKey(String key){
+    /**
+     * Set key.
+     *
+     * @param key the key
+     */
+    public void setKey(String key){
 		this.key = key;
 	}
 
-	public String getKey(){
+    /**
+     * Get key string.
+     *
+     * @return the string
+     */
+    public String getKey(){
 		return key;
 	}
 
-	public void setCovers(List<Integer> covers){
+    /**
+     * Set covers.
+     *
+     * @param covers the covers
+     */
+    public void setCovers(List<Integer> covers){
 		this.covers = covers;
 	}
 
-	public List<Integer> getCovers(){
+    /**
+     * Get covers list.
+     *
+     * @return the list
+     */
+    public List<Integer> getCovers(){
 		return covers;
 	}
 
-	public void setLocalId(List<String> localId){
+    /**
+     * Set local id.
+     *
+     * @param localId the local id
+     */
+    public void setLocalId(List<String> localId){
 		this.localId = localId;
 	}
 
-	public List<String> getLocalId(){
+    /**
+     * Get local id list.
+     *
+     * @return the list
+     */
+    public List<String> getLocalId(){
 		return localId;
 	}
 
-	public void setLanguages(List<LanguagesItem> languages){
+    /**
+     * Set languages.
+     *
+     * @param languages the languages
+     */
+    public void setLanguages(List<LanguagesItem> languages){
 		this.languages = languages;
 	}
 
-	public List<LanguagesItem> getLanguages(){
+    /**
+     * Get languages list.
+     *
+     * @return the list
+     */
+    public List<LanguagesItem> getLanguages(){
 		return languages;
 	}
 
-	public void setIdentifiers(Identifiers identifiers){
+    /**
+     * Set identifiers.
+     *
+     * @param identifiers the identifiers
+     */
+    public void setIdentifiers(Identifiers identifiers){
 		this.identifiers = identifiers;
 	}
 
-	public Identifiers getIdentifiers(){
+    /**
+     * Get identifiers identifiers.
+     *
+     * @return the identifiers
+     */
+    public Identifiers getIdentifiers(){
 		return identifiers;
 	}
 
-	public void setCreated(Created created){
+    /**
+     * Set created.
+     *
+     * @param created the created
+     */
+    public void setCreated(Created created){
 		this.created = created;
 	}
 
-	public Created getCreated(){
+    /**
+     * Get created created.
+     *
+     * @return the created
+     */
+    public Created getCreated(){
 		return created;
 	}
 
-	public void setSubjects(List<String> subjects){
+    /**
+     * Set subjects.
+     *
+     * @param subjects the subjects
+     */
+    public void setSubjects(List<String> subjects){
 		this.subjects = subjects;
 	}
 
-	public List<String> getSubjects(){
+    /**
+     * Get subjects list.
+     *
+     * @return the list
+     */
+    public List<String> getSubjects(){
 		return subjects;
 	}
 
-	public void setSourceRecords(List<String> sourceRecords){
+    /**
+     * Set source records.
+     *
+     * @param sourceRecords the source records
+     */
+    public void setSourceRecords(List<String> sourceRecords){
 		this.sourceRecords = sourceRecords;
 	}
 
-	public List<String> getSourceRecords(){
+    /**
+     * Get source records list.
+     *
+     * @return the list
+     */
+    public List<String> getSourceRecords(){
 		return sourceRecords;
 	}
 
-	public void setRevision(int revision){
+    /**
+     * Set revision.
+     *
+     * @param revision the revision
+     */
+    public void setRevision(int revision){
 		this.revision = revision;
 	}
 
-	public int getRevision(){
+    /**
+     * Get revision int.
+     *
+     * @return the int
+     */
+    public int getRevision(){
 		return revision;
 	}
 
-	public void setClassifications(Classifications classifications){
+    /**
+     * Set classifications.
+     *
+     * @param classifications the classifications
+     */
+    public void setClassifications(Classifications classifications){
 		this.classifications = classifications;
 	}
 
-	public Classifications getClassifications(){
+    /**
+     * Get classifications classifications.
+     *
+     * @return the classifications
+     */
+    public Classifications getClassifications(){
 		return classifications;
 	}
 
-	public void setPublishDate(String publishDate){
+    /**
+     * Set publish date.
+     *
+     * @param publishDate the publish date
+     */
+    public void setPublishDate(String publishDate){
 		this.publishDate = publishDate;
 	}
 
-	public String getPublishDate(){
+    /**
+     * Get publish date string.
+     *
+     * @return the string
+     */
+    public String getPublishDate(){
 		return publishDate;
 	}
 
-	public void setLatestRevision(int latestRevision){
+    /**
+     * Set latest revision.
+     *
+     * @param latestRevision the latest revision
+     */
+    public void setLatestRevision(int latestRevision){
 		this.latestRevision = latestRevision;
 	}
 
-	public int getLatestRevision(){
+    /**
+     * Get latest revision int.
+     *
+     * @return the int
+     */
+    public int getLatestRevision(){
 		return latestRevision;
 	}
 
-	public void setAuthors(List<AuthorsItem> authors){
+    /**
+     * Set authors.
+     *
+     * @param authors the authors
+     */
+    public void setAuthors(List<AuthorsItem> authors){
 		this.authors = authors;
 	}
 
-	public List<AuthorsItem> getAuthors(){
+    /**
+     * Get authors list.
+     *
+     * @return the list
+     */
+    public List<AuthorsItem> getAuthors(){
 		return authors;
 	}
 

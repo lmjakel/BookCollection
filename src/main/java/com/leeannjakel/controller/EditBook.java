@@ -18,6 +18,10 @@ import java.util.List;
 @WebServlet(
         urlPatterns = {"/EditBook"}
 )
+/**
+ * class edits book entry
+ * @author LeeAnn Jakel
+ */
 public class EditBook extends HttpServlet {
 
     private final Logger logger = LogManager.getLogger(this.getClass());

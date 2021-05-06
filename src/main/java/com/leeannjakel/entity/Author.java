@@ -8,6 +8,7 @@ import java.util.Set;
 
 /**
  * The type Author.
+ * @author LeeAnn Jakel
  */
 @Entity(name="Author")
 @Table(name="author")
@@ -24,72 +25,72 @@ public class Author {
 	@OneToMany(mappedBy = "author", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
 	private Set<Book> books = new HashSet<>();
 
-	/**
-	 * Instantiates a new Author.
-	 */
-	public Author() {
+    /**
+     * Instantiates a new Author.
+     */
+    public Author() {
 	}
 
-	/**
-	 * Instantiates a new Author.
-	 *
-	 * @param name the name
-	 */
-	public Author(String name) {
+    /**
+     * Instantiates a new Author.
+     *
+     * @param name the name
+     */
+    public Author(String name) {
 		this.name = name;
 	}
 
-	/**
-	 * Gets id.
-	 *
-	 * @return the id
-	 */
-	public int getId() {
+    /**
+     * Gets id.
+     *
+     * @return the id
+     */
+    public int getId() {
 		return id;
 	}
 
-	/**
-	 * Sets id.
-	 *
-	 * @param id the id
-	 */
-	public void setId(int id) {
+    /**
+     * Sets id.
+     *
+     * @param id the id
+     */
+    public void setId(int id) {
 		this.id = id;
 	}
 
-	/**
-	 * Gets name.
-	 *
-	 * @return the name
-	 */
-	public String getName() {
+    /**
+     * Gets name.
+     *
+     * @return the name
+     */
+    public String getName() {
 		return name;
 	}
 
-	/**
-	 * Sets name.
-	 *
-	 * @param name the name
-	 */
-	public void setName(String name) {
+    /**
+     * Sets name.
+     *
+     * @param name the name
+     */
+    public void setName(String name) {
 		this.name = name;
 	}
 
-	/**
-	 * Gets books.
-	 *
-	 * @return the books
-	 */
-	public Set<Book> getBooks() {
+    /**
+     * Gets books.
+     *
+     * @return the books
+     */
+    public Set<Book> getBooks() {
 		return books;
 	}
 
-	/**
-	 * Sets books.
-	 *
-	 * @param books the books
-	 */
-	public void setBooks(Set<Book> books) {
+    /**
+     * Sets books.
+     *
+     * @param books the books
+     */
+    public void setBooks(Set<Book> books) {
 		this.books = books;
 	}
 

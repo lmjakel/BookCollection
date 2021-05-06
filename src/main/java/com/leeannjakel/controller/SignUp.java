@@ -15,13 +15,16 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
+/**
+ * The type Sign up.
+ */
 @WebServlet(
         urlPatterns = {"/SignUp"}
 )
-/*
-  A servlet to add a new user.
 
-  @author LeeAnn Jakel
+/**
+ * class adds new user to database
+ * @author LeeAnn Jakel
  */
 public class SignUp extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());

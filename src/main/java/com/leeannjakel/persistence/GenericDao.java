@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * The type Generic dao.
- *
+ * @author LeeAnn Jakel
  * @param <T> the type parameter
  */
 public class GenericDao<T> {

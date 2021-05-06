@@ -8,6 +8,7 @@ import java.util.Set;
 
 /**
  * The type User.
+ * @author LeeAnn Jakel
  */
 @Entity(name="User")
 @Table(name="user")

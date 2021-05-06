@@ -25,7 +25,7 @@
 <div id="container">
 
     <main>
-        <form action ="searchBooks" method="GET">
+        <form action ="SearchBooks" method="GET">
 
             <fieldset>
 

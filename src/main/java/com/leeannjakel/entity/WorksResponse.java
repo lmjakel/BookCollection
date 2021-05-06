@@ -5,6 +5,10 @@ import java.util.List;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * The type Works response.
+ * For API
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class WorksResponse{
 
@@ -32,67 +36,147 @@ public class WorksResponse{
 	@JsonProperty("revision")
 	private int revision;
 
-	public void setCreated(Created created){
+    /**
+     * Set created.
+     *
+     * @param created the created
+     */
+    public void setCreated(Created created){
 		this.created = created;
 	}
 
-	public Created getCreated(){
+    /**
+     * Get created created.
+     *
+     * @return the created
+     */
+    public Created getCreated(){
 		return created;
 	}
 
-	public void setTitle(String title){
+    /**
+     * Set title.
+     *
+     * @param title the title
+     */
+    public void setTitle(String title){
 		this.title = title;
 	}
 
-	public String getTitle(){
+    /**
+     * Get title string.
+     *
+     * @return the string
+     */
+    public String getTitle(){
 		return title;
 	}
 
-	public void setType(Type type){
+    /**
+     * Set type.
+     *
+     * @param type the type
+     */
+    public void setType(Type type){
 		this.type = type;
 	}
 
-	public Type getType(){
+    /**
+     * Get type type.
+     *
+     * @return the type
+     */
+    public Type getType(){
 		return type;
 	}
 
-	public void setLastModified(LastModified lastModified){
+    /**
+     * Set last modified.
+     *
+     * @param lastModified the last modified
+     */
+    public void setLastModified(LastModified lastModified){
 		this.lastModified = lastModified;
 	}
 
-	public LastModified getLastModified(){
+    /**
+     * Get last modified last modified.
+     *
+     * @return the last modified
+     */
+    public LastModified getLastModified(){
 		return lastModified;
 	}
 
-	public void setKey(String key){
+    /**
+     * Set key.
+     *
+     * @param key the key
+     */
+    public void setKey(String key){
 		this.key = key;
 	}
 
-	public String getKey(){
+    /**
+     * Get key string.
+     *
+     * @return the string
+     */
+    public String getKey(){
 		return key;
 	}
 
-	public void setAuthors(List<WorksAuthorsItem> authors){
+    /**
+     * Set authors.
+     *
+     * @param authors the authors
+     */
+    public void setAuthors(List<WorksAuthorsItem> authors){
 		this.authors = authors;
 	}
 
-	public List<WorksAuthorsItem> getAuthors(){
+    /**
+     * Get authors list.
+     *
+     * @return the list
+     */
+    public List<WorksAuthorsItem> getAuthors(){
 		return authors;
 	}
 
-	public void setLatestRevision(int latestRevision){
+    /**
+     * Set latest revision.
+     *
+     * @param latestRevision the latest revision
+     */
+    public void setLatestRevision(int latestRevision){
 		this.latestRevision = latestRevision;
 	}
 
-	public int getLatestRevision(){
+    /**
+     * Get latest revision int.
+     *
+     * @return the int
+     */
+    public int getLatestRevision(){
 		return latestRevision;
 	}
 
-	public void setRevision(int revision){
+    /**
+     * Set revision.
+     *
+     * @param revision the revision
+     */
+    public void setRevision(int revision){
 		this.revision = revision;
 	}
 
-	public int getRevision(){
+    /**
+     * Get revision int.
+     *
+     * @return the int
+     */
+    public int getRevision(){
 		return revision;
 	}
 

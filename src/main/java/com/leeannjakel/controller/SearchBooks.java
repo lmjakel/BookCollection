@@ -23,9 +23,12 @@ import java.util.List;
  * The type Search books.
  */
 @WebServlet(
-        urlPatterns = {"/searchBooks"}
+        urlPatterns = {"/SearchBooks"}
 )
-
+/**
+ * class allows user to search for a book
+ * @author LeeAnn Jakel
+ */
 public class SearchBooks extends HttpServlet {
 
     private final Logger logger = LogManager.getLogger(this.getClass());

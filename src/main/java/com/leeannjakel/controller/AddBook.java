@@ -21,7 +21,10 @@ import java.util.List;
 @WebServlet(
         urlPatterns = {"/AddBook"}
 )
-
+/**
+ * class adds new book to database
+ * @author LeeAnn Jakel
+ */
 public class AddBook extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
 

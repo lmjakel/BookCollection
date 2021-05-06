@@ -2,6 +2,10 @@ package com.leeannjakel.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * The type Last modified.
+ * For API
+ */
 public class LastModified{
 
 	@JsonProperty("type")
@@ -10,19 +14,39 @@ public class LastModified{
 	@JsonProperty("value")
 	private String value;
 
-	public void setType(String type){
+    /**
+     * Set type.
+     *
+     * @param type the type
+     */
+    public void setType(String type){
 		this.type = type;
 	}
 
-	public String getType(){
+    /**
+     * Get type string.
+     *
+     * @return the string
+     */
+    public String getType(){
 		return type;
 	}
 
-	public void setValue(String value){
+    /**
+     * Set value.
+     *
+     * @param value the value
+     */
+    public void setValue(String value){
 		this.value = value;
 	}
 
-	public String getValue(){
+    /**
+     * Get value string.
+     *
+     * @return the string
+     */
+    public String getValue(){
 		return value;
 	}
 

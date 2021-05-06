@@ -13,6 +13,7 @@ import java.util.List;
 
 /**
  * The type Api dao.
+ * @author LeeAnn Jakel
  */
 public class ApiDao {
 

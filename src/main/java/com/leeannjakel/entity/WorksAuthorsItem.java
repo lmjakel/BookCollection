@@ -2,6 +2,10 @@ package com.leeannjakel.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * The type Works authors item.
+ * For API
+ */
 public class WorksAuthorsItem {
 
 	@JsonProperty("author")
@@ -10,19 +14,39 @@ public class WorksAuthorsItem {
 	@JsonProperty("type")
 	private Type type;
 
-	public void setAuthor(WorksAuthor author){
+    /**
+     * Set author.
+     *
+     * @param author the author
+     */
+    public void setAuthor(WorksAuthor author){
 		this.author = author;
 	}
 
-	public WorksAuthor getAuthor(){
+    /**
+     * Get author works author.
+     *
+     * @return the works author
+     */
+    public WorksAuthor getAuthor(){
 		return author;
 	}
 
-	public void setType(Type type){
+    /**
+     * Set type.
+     *
+     * @param type the type
+     */
+    public void setType(Type type){
 		this.type = type;
 	}
 
-	public Type getType(){
+    /**
+     * Get type type.
+     *
+     * @return the type
+     */
+    public Type getType(){
 		return type;
 	}
 
