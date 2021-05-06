@@ -15,7 +15,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,10 +32,25 @@ import java.util.List;
 public class SearchBooks extends HttpServlet {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
+    /**
+     * The Dao.
+     */
     GenericDao<Book> dao = new GenericDao(Book.class);
+    /**
+     * The Author dao.
+     */
     GenericDao<Author> authorDao = new GenericDao(Author.class);
+    /**
+     * The Genre dao.
+     */
     GenericDao<Genre> genreDao = new GenericDao(Genre.class);
+    /**
+     * The User dao.
+     */
     GenericDao<User> userDao = new GenericDao(User.class);
+    /**
+     * The Search results.
+     */
     List<Book> searchResults = new ArrayList<Book>();
 
     @Override
@@ -46,8 +60,9 @@ public class SearchBooks extends HttpServlet {
         int userId = users.get(0).getId();
 
         String searchType = req.getParameter("type");
-        String searchTerm = req.getParameter("searchTerm");
+        String searchTerm = req.getParameter("searchTerm").toLowerCase();
 
+        searchResults.clear();
         searchResults = getUser(searchType, searchTerm, userId);
 
         req.setAttribute("book", searchResults);
@@ -56,7 +71,16 @@ public class SearchBooks extends HttpServlet {
         dispatcher.forward(req, resp);
         }
 
-        public List<Book> getUser (String searchType, String searchTerm, int userId) {
+    /**
+     * Gets current user and pass the user's book list and search term to another
+     * method depending on the search type selected
+     *
+     * @param searchType the search type
+     * @param searchTerm the search term
+     * @param userId     the user id
+     * @return the user
+     */
+    public List<Book> getUser (String searchType, String searchTerm, int userId) {
             List<Book> bookList = dao.getByPropertyEqualsId("user", userId);
             logger.debug("current user book list: {}", bookList);
 
@@ -66,59 +90,95 @@ public class SearchBooks extends HttpServlet {
                 logger.debug("search type: {}", searchType);
                 logger.debug("search term: {}", searchTerm);
 
-                if (searchType.equals("author")) {
-                    logger.debug("Search results before getAuthor: {}", searchResults);
+                switch (searchType) {
+                    case "author":
 
-                    searchResults = getByAuthor(bookList, searchTerm);
-                    logger.debug("Search results after: {}", searchResults);
+                        searchResults = getByAuthor(bookList, searchTerm);
+                        logger.debug("Search results author: {}", searchResults);
 
+                        break;
+                    case "genre":
+                        searchResults = getByGenre(bookList, searchTerm);
+                        logger.debug("Search results genre: {}", searchResults);
 
-                } else if (searchType.equals("genre")) {
-                    List<Genre> genreList = genreDao.getByPropertyLike("name", searchTerm);
-                    logger.debug("genreList: {}", genreList);
+                        break;
+                    case "title":
+                        searchResults = getByTitle(bookList, searchTerm);
+                        logger.debug("Search results title: {}", searchResults);
 
-                    for (Genre genre : genreList) {
-                        List<Book> genreBooks = dao.getByPropertyEqualsId("genre", genre.getId());
-                        logger.debug("genre books: {}", genreBooks);
-
-                        for (Book books : genreBooks) {
-                            searchResults.add(books);
-                        }
-                        logger.debug("Book list: {}", searchResults);
-                    }
-                } else if (searchType.equals("title")) {
-
-                    searchResults = dao.getByPropertyEqual("title", searchTerm);
-                    logger.debug("Title books: {}", searchResults);
-
+                        break;
                 }
             }
             return searchResults;
         }
 
-        public List<Book> getByAuthor(List<Book> bookList, String searchTerm) {
+    /**
+     * Gets book list by author.
+     *
+     * @param bookList   the book list
+     * @param searchTerm the search term
+     * @return the by author
+     */
+    public List<Book> getByAuthor(List<Book> bookList, String searchTerm) {
             logger.debug("get by author: {}", searchTerm);
             for (Book book: bookList) {
                 Author author = book.getAuthor();
                 String authorName = author.getName();
                 logger.debug("author name: {}", authorName);
+                authorName = authorName.toLowerCase();
 
                 if (authorName.contains(searchTerm)) {
                     searchResults.add(book);
                 }
             }
-//            List<Author> authorList = authorDao.getByPropertyLike("name", searchTerm);
-//            logger.debug("authorList: {}", authorList);
-//
-//            for (Author author : authorList) {
-//                List<Book> authorBooks = dao.getByPropertyEqualsId("author", author.getId());
-//                logger.debug("author books: {}", authorBooks);
-//
-//                for (Book books : authorBooks) {
-//                    book.add(books);
-//                }
-//                logger.debug("Book list: {}", book);
-//            }
+
+            logger.debug("Search results: {}", searchResults);
+            return searchResults;
+        }
+
+    /**
+     * Gets book list by genre.
+     *
+     * @param bookList   the book list
+     * @param searchTerm the search term
+     * @return the by genre
+     */
+    public List<Book> getByGenre (List<Book> bookList, String searchTerm) {
+            logger.debug("get by genre: {}", searchTerm);
+            for (Book book: bookList) {
+                Genre genre = book.getGenre();
+                String genreName = genre.getName();
+                logger.debug("genre name: {}", genreName);
+                genreName = genreName.toLowerCase();
+
+                if (genreName.contains(searchTerm)) {
+                    searchResults.add(book);
+                }
+            }
+
+            logger.debug("Search results: {}", searchResults);
+            return searchResults;
+        }
+
+    /**
+     * Gets book list by title.
+     *
+     * @param bookList   the book list
+     * @param searchTerm the search term
+     * @return the by title
+     */
+    public List<Book> getByTitle(List<Book> bookList, String searchTerm) {
+            logger.debug("get by title: {}", searchTerm);
+            for (Book book: bookList) {
+                String bookTitle = book.getTitle();
+                logger.debug("title name: {}", bookTitle);
+                bookTitle = bookTitle.toLowerCase();
+
+                if (bookTitle.contains(searchTerm)) {
+                    searchResults.add(book);
+                }
+            }
+
             logger.debug("Search results: {}", searchResults);
             return searchResults;
         }
