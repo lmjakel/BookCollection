@@ -33,6 +33,7 @@
 
             <table id="resultsTable" class="display" cellspacing="0" width="100%">
                 <thead>
+                <th style="border: 3px solid black; border-collapse: collapse">Cover Photo</th>
                 <th style="border: 3px solid black; border-collapse: collapse">Title</th>
                 <th style="border: 3px solid black; border-collapse: collapse">ISBN</th>
                 <th style="border: 3px solid black; border-collapse: collapse">Genre</th>
@@ -46,7 +47,6 @@
                 </thead>
 
                 <tbody>
-                <jsp:useBean id="book" scope="request" type="java.util.List"/>
                 <c:forEach var="bookInfo" items="${book}">
                     <tr>
                         <td><img  src="https://covers.openlibrary.org/b/isbn/${bookInfo.isbn}-S.jpg" alt="book cover"></td>

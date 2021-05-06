@@ -3,6 +3,7 @@ package com.leeannjakel.controller;
 import com.leeannjakel.entity.Author;
 import com.leeannjakel.entity.Book;
 import com.leeannjakel.entity.Genre;
+import com.leeannjakel.entity.User;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import com.leeannjakel.persistence.GenericDao;
@@ -32,61 +33,94 @@ import java.util.List;
 public class SearchBooks extends HttpServlet {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
+    GenericDao<Book> dao = new GenericDao(Book.class);
+    GenericDao<Author> authorDao = new GenericDao(Author.class);
+    GenericDao<Genre> genreDao = new GenericDao(Genre.class);
+    GenericDao<User> userDao = new GenericDao(User.class);
+    List<Book> searchResults = new ArrayList<Book>();
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String username = req.getUserPrincipal().getName();
+        List<User> users = userDao.getByPropertyEqual("userName", username);
+        int userId = users.get(0).getId();
 
-        GenericDao<Book> dao = new GenericDao(Book.class);
-        GenericDao<Author> authorDao = new GenericDao(Author.class);
-        GenericDao<Genre> genreDao = new GenericDao(Genre.class);
+        String searchType = req.getParameter("type");
+        String searchTerm = req.getParameter("searchTerm");
 
-        List<Book> book = new ArrayList<>();
+        searchResults = getUser(searchType, searchTerm, userId);
 
-        if (req.getParameter("type").equals("viewAll")) {
-            req.setAttribute("book", dao.getAll());
-        } else {
-            String searchType = req.getParameter("type");
-            logger.debug("search type: {}", searchType);
-            String searchTerm = req.getParameter("searchTerm");
-            logger.debug("search term: {}", searchTerm);
+        req.setAttribute("book", searchResults);
 
-            if (searchType.equals("author")) {
-                List<Author> authorList = authorDao.getByPropertyLike("name", searchTerm);
-                logger.debug("authorList: {}", authorList);
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
+        dispatcher.forward(req, resp);
+        }
 
-                for (Author author : authorList) {
-                    List<Book> authorBooks = dao.getByPropertyEqualsId("author", author.getId());
-                    logger.debug("author books: {}", authorBooks);
+        public List<Book> getUser (String searchType, String searchTerm, int userId) {
+            List<Book> bookList = dao.getByPropertyEqualsId("user", userId);
+            logger.debug("current user book list: {}", bookList);
 
-                    for (Book books : authorBooks) {
-                        book.add(books);
+            if (searchType.equals("viewAll")) {
+                searchResults = bookList;
+            } else {
+                logger.debug("search type: {}", searchType);
+                logger.debug("search term: {}", searchTerm);
+
+                if (searchType.equals("author")) {
+                    logger.debug("Search results before getAuthor: {}", searchResults);
+
+                    searchResults = getByAuthor(bookList, searchTerm);
+                    logger.debug("Search results after: {}", searchResults);
+
+
+                } else if (searchType.equals("genre")) {
+                    List<Genre> genreList = genreDao.getByPropertyLike("name", searchTerm);
+                    logger.debug("genreList: {}", genreList);
+
+                    for (Genre genre : genreList) {
+                        List<Book> genreBooks = dao.getByPropertyEqualsId("genre", genre.getId());
+                        logger.debug("genre books: {}", genreBooks);
+
+                        for (Book books : genreBooks) {
+                            searchResults.add(books);
+                        }
+                        logger.debug("Book list: {}", searchResults);
                     }
-                    logger.debug("Book list: {}", book);
+                } else if (searchType.equals("title")) {
+
+                    searchResults = dao.getByPropertyEqual("title", searchTerm);
+                    logger.debug("Title books: {}", searchResults);
+
                 }
-            } else if (searchType.equals("genre")) {
-                List<Genre> genreList = genreDao.getByPropertyLike("name", searchTerm);
-                logger.debug("genreList: {}", genreList);
-
-                for (Genre genre : genreList) {
-                    List<Book> genreBooks = dao.getByPropertyEqualsId("genre", genre.getId());
-                    logger.debug("genre books: {}", genreBooks);
-
-                    for (Book books : genreBooks) {
-                        book.add(books);
-                    }
-                    logger.debug("Book list: {}", book);
-                }
-            } else if (searchType.equals("title")) {
-
-                book = dao.getByPropertyEqual("title", searchTerm);
-                logger.debug("Title books: {}", book);
-
             }
-            req.setAttribute("book", book);
+            return searchResults;
         }
 
-            RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
-            dispatcher.forward(req, resp);
+        public List<Book> getByAuthor(List<Book> bookList, String searchTerm) {
+            logger.debug("get by author: {}", searchTerm);
+            for (Book book: bookList) {
+                Author author = book.getAuthor();
+                String authorName = author.getName();
+                logger.debug("author name: {}", authorName);
+
+                if (authorName.contains(searchTerm)) {
+                    searchResults.add(book);
+                }
+            }
+//            List<Author> authorList = authorDao.getByPropertyLike("name", searchTerm);
+//            logger.debug("authorList: {}", authorList);
+//
+//            for (Author author : authorList) {
+//                List<Book> authorBooks = dao.getByPropertyEqualsId("author", author.getId());
+//                logger.debug("author books: {}", authorBooks);
+//
+//                for (Book books : authorBooks) {
+//                    book.add(books);
+//                }
+//                logger.debug("Book list: {}", book);
+//            }
+            logger.debug("Search results: {}", searchResults);
+            return searchResults;
         }
-    }
+}
+
