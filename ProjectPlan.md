@@ -52,17 +52,21 @@
 
 ## Week 14
 - [ ] Weekly reflection 
-- [ ] Add Lombok
 - [x] Edit book notes
 - [x] Remove book 
-- [ ] Add book
+- [x] Add book
 - [x] User can view all books
 - [x] User can search within book collection (title, genre, author)
-- [ ] User can view book suggestions
-- [ ] Create CSS
+
 
 ## Week 15
-- [ ] Weekly reflection
+- [ ] Weekly reflection 
+- [x] Refactor Search Books for single action methods 
+- [x] display only current user books
+- [ ] User can view book suggestions
+- [ ] Add Lombok
+- [ ] Create CSS 
+- [ ] Logout button
 - [ ] Finalize code
 - [ ] Finalize documentation
 

@@ -1,5 +1,9 @@
 package com.leeannjakel.entity;
 
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -12,6 +16,12 @@ import java.util.Objects;
  */
 @Entity(name = "Role")
 @Table(name = "role")
+/**
+ * Lombok
+*/
+@NoArgsConstructor
+@RequiredArgsConstructor
+@Data
 public class Role {
 
     @Id
@@ -20,96 +30,18 @@ public class Role {
     private int id;
 
     @ManyToOne
+    @NonNull
     @JoinColumn(name = "user_id", foreignKey = @ForeignKey(name = "user_id"))
     private User user;
 
     @Column(name = "role_name")
+    @NonNull
     private String roleName;
 
     @Column(name = "user_name")
+    @NonNull
     private String userName;
 
-    /**
-     * Instantiates a new Role.
-     */
-    public Role() {
-    }
-
-    /**
-     * Instantiates a new Role.
-     *
-     * @param user     the user
-     * @param roleName the role name
-     * @param userName the user name
-     */
-    public Role(User user, String roleName, String userName) {
-        this.user = user;
-        this.roleName = roleName;
-        this.userName = userName;
-    }
-
-    /**
-     * Gets id.
-     *
-     * @return the id
-     */
-    public int getId() {
-        return id;
-    }
-
-    /**
-     * Sets id.
-     *
-     * @param id the id
-     */
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    /**
-     * Gets user.
-     *
-     * @return the user
-     */
-    public User getUser() {
-        return user;
-    }
-
-    /**
-     * Sets user.
-     *
-     * @param user the user
-     */
-    public void setUser(User user) {
-        this.user = user;
-    }
-
-    /**
-     * Gets role name.
-     *
-     * @return the role name
-     */
-    public String getRoleName() {
-        return roleName;
-    }
-
-    /**
-     * Sets role name.
-     *
-     * @param roleName the role name
-     */
-    public void setRoleName(String roleName) {
-        this.roleName = roleName;
-    }
-
-    @Override
-    public String toString() {
-        return "Role{" +
-                "id=" + id +
-                ", roleName='" + roleName + '\'' +
-                ", userName='" + userName + '\'' +
-                '}';
-    }
 
     @Override
     public boolean equals(Object o) {
