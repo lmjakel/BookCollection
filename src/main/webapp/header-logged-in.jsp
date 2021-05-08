@@ -20,4 +20,8 @@
             <li><a href="bookSuggestions.jsp">Book Suggestions</a></li>
         </ul>
     </nav>
+
+    <form action="LogoutUser" method="POST">
+        <button type="submit" value="logout" name="logout">Logout</button>
+    </form>
 </header>

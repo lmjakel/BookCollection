@@ -34,7 +34,7 @@ public class SignUp extends HttpServlet {
     String jspToCall = "";
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String username = req.getParameter("userName");
         logger.debug("username: {}", username);
 

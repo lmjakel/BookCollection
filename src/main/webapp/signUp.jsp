@@ -29,7 +29,7 @@
         <c:set var="signUpError" value="${requestScope.Error}" />
         <c:out value="${Error}" />
 
-       <form id="signUpForm" action ="SignUp" method="GET">
+       <form id="signUpForm" action ="SignUp" method="POST">
             <label for="firstName">First Name: </label>
             <input type="text" id="firstName" name="firstName">
             </br>
