@@ -25,6 +25,10 @@
 
 
     <main>
+        <!-- displays error message if signup error -->
+        <c:set var="signUpError" value="${requestScope.Error}" />
+        <c:out value="${Error}" />
+
        <form id="signUpForm" action ="SignUp" method="GET">
             <label for="firstName">First Name: </label>
             <input type="text" id="firstName" name="firstName">
@@ -48,10 +52,6 @@
 
             <button class="formButton" type="submit" name="submit" value="create">Create Account</button>
         </form>
-
-        <!-- displays error message if signup error -->
-        <c:set var="signUpError" value="${requestScope.Error}" />
-        <c:out value="${Error}" />
 
         <!-- removes error message -->
         <c:remove var="Error" scope="request" />

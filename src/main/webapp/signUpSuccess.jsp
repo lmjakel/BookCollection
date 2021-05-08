@@ -26,8 +26,8 @@
     <c:set var="signUpSuccess" value="${requestScope.Success}" />
     <c:out value="${Success}" />
 
-    <a href="login.jsp">You may now login and start cataloging your books!</a>
-    <!-- removes error message -->
+    You may now <a href="login.jsp">login</a> and start cataloging your books!
+    <!-- removes success message -->
     <c:remove var="Success" scope="request" />
 
 </main>

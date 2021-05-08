@@ -84,3 +84,15 @@
 [DEBUG] 2021-05-07 19:26:04.549 [http-nio-8080-exec-8] SignUp - is unique username
 [DEBUG] 2021-05-07 19:26:04.550 [http-nio-8080-exec-8] SignUp - Added user: User(id=0, firstName=Beckam, lastName=Walters, userName=bwalters, password=password, email=email@email.com, roles=[], books=[])
 [DEBUG] 2021-05-07 19:26:05.019 [http-nio-8080-exec-8] GenericDao - Searching for book with id = 8
+[DEBUG] 2021-05-07 19:29:35.213 [http-nio-8080-exec-9] SignUp - username: mwilson
+[DEBUG] 2021-05-07 19:29:49.507 [http-nio-8080-exec-9] SignUp - user list: ljakel
+[DEBUG] 2021-05-07 19:29:49.507 [http-nio-8080-exec-9] SignUp - user list: mjakel
+[DEBUG] 2021-05-07 19:29:49.507 [http-nio-8080-exec-9] SignUp - user list: lisa
+[DEBUG] 2021-05-07 19:29:49.507 [http-nio-8080-exec-9] SignUp - user list: ricerocks
+[DEBUG] 2021-05-07 19:29:49.508 [http-nio-8080-exec-9] SignUp - user list: pwaite
+[DEBUG] 2021-05-07 19:29:49.508 [http-nio-8080-exec-9] SignUp - user list: eajakel
+[DEBUG] 2021-05-07 19:29:49.508 [http-nio-8080-exec-9] SignUp - user list: lmjakel
+[DEBUG] 2021-05-07 19:29:49.508 [http-nio-8080-exec-9] SignUp - user list: bwalters
+[DEBUG] 2021-05-07 19:29:49.510 [http-nio-8080-exec-9] SignUp - is unique username
+[DEBUG] 2021-05-07 19:29:49.511 [http-nio-8080-exec-9] SignUp - Added user: User(id=0, firstName=Megan , lastName=Wilson, userName=mwilson, password=java, email=email@email.com, roles=[], books=[])
+[DEBUG] 2021-05-07 19:29:49.910 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 9

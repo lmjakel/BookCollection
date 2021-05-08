@@ -41,7 +41,7 @@ public class SignUp extends HttpServlet {
         notUnique = verifyUniqueUsername(username);
 
         if (notUnique) {
-            String errorMessage = "Your username was invalid, please select a new username and try again";
+            String errorMessage = "That username is already in use. Please select a new username and try again";
             req.setAttribute("Error", errorMessage);
             logger.debug("username removed?  {}", req.getParameter("userName"));
             jspToCall = "/signUp.jsp";
