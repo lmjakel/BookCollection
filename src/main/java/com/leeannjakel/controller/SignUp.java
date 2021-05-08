@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.List;
 
 
 /**
@@ -28,31 +29,61 @@ import java.io.IOException;
  */
 public class SignUp extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
+    GenericDao<User> userDao = new GenericDao(User.class);
+    boolean notUnique;
+    String jspToCall = "";
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        String username = req.getParameter("userName");
+        logger.debug("username: {}", username);
 
-        GenericDao userDao = new GenericDao(User.class);
+        notUnique = verifyUniqueUsername(username);
 
-        User user = new User();
-        user.setFirstName(req.getParameter("firstName"));
-        user.setLastName(req.getParameter("lastName"));
-        user.setUserName(req.getParameter("userName"));
-        user.setEmail(req.getParameter("email"));
-        user.setPassword(req.getParameter("password"));
+        if (notUnique) {
+            String errorMessage = "Your username was invalid, please select a new username and try again";
+            req.setAttribute("Error", errorMessage);
+            logger.debug("username removed?  {}", req.getParameter("userName"));
+            jspToCall = "/signUp.jsp";
 
-        User newUser = new User(user.getFirstName(), user.getLastName(), user.getUserName(), user.getPassword(), user.getEmail());
-        logger.debug("Added user: {}", newUser);
+        } else {
+            logger.debug("is unique username");
+            User user = new User();
+            user.setFirstName(req.getParameter("firstName"));
+            user.setLastName(req.getParameter("lastName"));
+            user.setUserName(username);
+            user.setEmail(req.getParameter("email"));
+            user.setPassword(req.getParameter("password"));
 
-        Role role = new Role(newUser, "basic_user", newUser.getUserName());
-        newUser.addRole(role);
+            User newUser = new User(user.getFirstName(), user.getLastName(), user.getUserName(), user.getPassword(), user.getEmail());
+            logger.debug("Added user: {}", newUser);
 
-        int id = userDao.insert(newUser);
+            Role role = new Role(newUser, "basic_user", newUser.getUserName());
+            newUser.addRole(role);
 
-        req.setAttribute("newUser", userDao.getByPropertyEqualsId("id", id));
-
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/signUpSuccess.jsp");
+            int id = userDao.insert(newUser);
+            String successMessage = "Your signup was successful, please log in!";
+            req.setAttribute("Success", successMessage);
+            req.setAttribute("newUser", userDao.getByPropertyEqualsId("id", id));
+            jspToCall = "/signUpSuccess.jsp";
+        }
+        RequestDispatcher dispatcher = req.getRequestDispatcher(jspToCall);
         dispatcher.forward(req, resp);
+    }
+
+    public Boolean verifyUniqueUsername(String username) {
+        List<User> userList = userDao.getAll();
+        for (User user: userList) {
+            logger.debug("user list: {}", user.getUserName());
+            String previousUserName = user.getUserName();
+            if (username.equals(previousUserName)) {
+                notUnique = true;
+                break;
+            } else {
+                notUnique = false;
+            }
+        }
+        return notUnique;
     }
 
 }

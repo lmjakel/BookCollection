@@ -22,7 +22,7 @@
     <main>
         Invalid username/password, please try again. <a href="login.jsp">Login</a>
         <br>
-        Don't have an account set up? <a href="signup.jap">Click here to set up a profile</a>
+        Don't have an account set up? <a href="signUp.jsp">Click here to set up a profile</a>
     </main>
 </div>
 </body>

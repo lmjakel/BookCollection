@@ -14,6 +14,8 @@
     <nav id="menu">
         <ul>
             <li><a href="index-logged-in.jsp">Login</a></li>
+            <li><a href="signUp.jsp">Sign Up</a></li>
+
 
         </ul>
     </nav>

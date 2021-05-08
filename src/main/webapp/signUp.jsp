@@ -25,7 +25,7 @@
 
 
     <main>
-        <form id="signUpForm" action ="SignUp" method="GET">
+       <form id="signUpForm" action ="SignUp" method="GET">
             <label for="firstName">First Name: </label>
             <input type="text" id="firstName" name="firstName">
             </br>
@@ -38,13 +38,23 @@
             <input type="text" id="userName" name="userName">
             </br>
 
-            <label for="password">Password: </label>
-            <input type="text" id="password" name="password">
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="email">
             </br>
 
-            <button class="formButton" type="submit" name="submit" value="create">Create Account</button>
+           <label for="password">Password: </label>
+           <input type="text" id="password" name="password">
+           </br>
 
+            <button class="formButton" type="submit" name="submit" value="create">Create Account</button>
         </form>
+
+        <!-- displays error message if signup error -->
+        <c:set var="signUpError" value="${requestScope.Error}" />
+        <c:out value="${Error}" />
+
+        <!-- removes error message -->
+        <c:remove var="Error" scope="request" />
 
     </main>
 </div>
