@@ -32,7 +32,7 @@
         </p>
         <form id="bookForm" action ="AddBook" method="GET">
             <label for="isbn">ISBN: </label>
-            <input type="text" id="isbn" name="isbn">
+            <input type="text" id="isbn" name="isbn" required>
             </br>
 
             <button class="formButton" type="submit" name="submit" value="submit">Add Book</button>
