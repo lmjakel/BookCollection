@@ -38,23 +38,23 @@
 
         <div class="pure-g">
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                <h3 class="content-subhead">Add Book</h3>
+                <h3 class="content-subhead"><i>Add Book</i></h3>
                 <ul>
                     <li>Enter the book ISBN-13 found on the barcode</li>
-                    <li>Open Library API will pull book information</li>
+                    <li>Application will pull book information</li>
                 </ul>
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                <h3 class="content-subhead">Search</h3>
+                <h3 class="content-subhead"><i>Search</i></h3>
                 <ul>
                     <li>Search by part or all of an author's first name or last name</li>
                     <li>Search by part of all of a book title</li>
                     <li>Search by genre</li>
-                    <li>View all books in your b</li>
+                    <li>View all books stored in your database</li>
                 </ul>
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                <h3 class="content-subhead">Book Notes</h3>
+                <h3 class="content-subhead"><i>Book Notes</i></h3>
                 <ul>
                     <li>Keep track of who you loan a book to</li>
                     <li>Thoughts on characters</li>
@@ -62,16 +62,16 @@
                 </ul>
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                <h3 class="content-subhead">Book Suggestions</h3>
+                <h3 class="content-subhead"><i>Book Suggestions</i></h3>
                 <ul>
-                    <li>Based on your library genres</li>
-                    <li>5 popular book selections</li>
+                    <li>Books selected are based on your most popular genre</li>
+                    <li>5 popular book selections will be displayed</li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="ribbon l-box-lrg pure-g">
-        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+        <div class="l-box-lrg is-center pure-u-1">
             <h2 class="content-head content-head-ribbon">User Guide</h2>
             <p>
                 I will add the user guide here it will have lots of information about how the program works adding
@@ -80,12 +80,12 @@
         </div>
 
     </div>
-</div>
 <!-- end main -->
 
 <!-- footer -->
 <c:import url="footer.jsp" />
 <!-- end footer -->
+</div>
 
 </body>
 </html>

@@ -24,20 +24,28 @@
 <div id="container">
 
     <main>
-        <h2>Add a Book</h2>
-        <p>
-            Please enter the ISBN (13 numbers found on the barcode on the back of the book). If your book is already
-            in the system you will be asked to select a genre and add notes. If the ISBN cannot be found you will be
-            prompted to manually enter the Title, Author, Genre, and ISBN into the database.
-        </p>
-        <form id="bookForm" action ="AddBook" method="GET">
-            <label for="isbn">ISBN: </label>
-            <input type="text" id="isbn" name="isbn" required>
-            </br>
+        <div class="addBook-container">
+            <div class="addBook">
+                <h2 class="addBook-head is-center">Add a Book</h2>
 
-            <button class="formButton" type="submit" name="submit" value="submit">Add Book</button>
+                <div class="pure-g">
+                    <div class="l-box pure-u-1">
+                        <p class="addBook-subhead">
+                            Please enter the ISBN-13 (13 numbers found on the barcode on the back of the book).
+                            Once your book is located, you will be prompted to select a genre and given the opportunity
+                            to add notes.
+                        </p>
+                        <form id="bookForm" action ="AddBook" method="GET" class="pure-form">
+                            <label for="isbn">ISBN: </label>
+                            <input type="text" id="isbn" name="isbn" required>
+                            </br>
 
-        </form>
+                            <button class="pure-button pure-button-primary" type="submit" name="submit" value="submit">Add Book</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </main>
 </div>
