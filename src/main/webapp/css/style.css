@@ -1,0 +1,50 @@
+/* Base styles */
+.l-box {
+    padding: 1em;
+}
+
+.l-box-lrg {
+    padding: 2em;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.is-center {
+    text-align: center;
+}
+/* Header styles */
+.home-menu{
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.10);
+}
+.home-menu {
+    background: #3C253D;
+}
+
+.pure-menu.pure-menu-fixed {
+    border-bottom: none;
+    z-index:4;
+}
+.home-menu .pure-menu-heading {
+    color: white;
+    font-weight: 400;
+    font-size: 120%;
+}
+
+.home-menu a {
+    color: #87608A;
+}
+
+.home-menu li a:hover,
+.home-menu li a:focus {
+    background-color: white;
+    color: #538A7E;
+}
+
+/* Main styles */
+
+/* Form styles */
+
+/* Table styles */
+
+/* Footer styles */
