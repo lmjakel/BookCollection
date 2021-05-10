@@ -156,17 +156,9 @@ h1, h2, h3, h4, h5, h6, label {
     background: white;
     z-index: 1;
     overflow: hidden;
-
-    /* the follow allowed the scroll over effect */
-    width: 100%;
-    height: 88%;
-    top: 0;
-    left: 0;
-    position: fixed !important;
 }
 
 .addBook {
-    /*absolute center .splash within .splash-container*/
     width: 80%;
     height: 50%;
     margin: auto;
@@ -179,8 +171,8 @@ h1, h2, h3, h4, h5, h6, label {
 .addBook-head {
     font-size: 20px;
     font-weight: bold;
-    color: white;
-    border: 3px solid white;
+    color: #3C253D;
+    border-bottom: 2px solid #3C253D;
     padding: 1em 1.6em;
     border-radius: 5px;
     line-height: 1em;
@@ -190,6 +182,7 @@ h1, h2, h3, h4, h5, h6, label {
     color:black;
     letter-spacing: 0.05em;
     opacity: 0.8;
+    width: 80%;
 }
 
 /* Table styles */
@@ -230,7 +223,7 @@ h1, h2, h3, h4, h5, h6, label {
         height: 50%;
     }
 
-    .splash-head {
+    .splash-head, .addBook-head {
         font-size: 250%;
     }
 

@@ -26,25 +26,23 @@
     <main>
         <div class="addBook-container">
             <div class="addBook">
-                <h2 class="addBook-head is-center">Add a Book</h2>
+                <h2 class="addBook-head">Add a Book</h2>
+                <div class="is-center">
+                    <p class="addBook-subhead">
+                        Please enter the ISBN-13 (13 numbers found on the barcode on the back of the book).
+                        Once your book is located, you will be prompted to select a genre and given the opportunity
+                        to add notes.
+                    </p>
+                    <form id="bookForm" action ="AddBook" method="GET" class="pure-form">
+                        <label for="isbn">ISBN: </label>
+                        <input type="text" id="isbn" name="isbn" required>
+                        </br>
 
-                <div class="pure-g">
-                    <div class="l-box pure-u-1">
-                        <p class="addBook-subhead">
-                            Please enter the ISBN-13 (13 numbers found on the barcode on the back of the book).
-                            Once your book is located, you will be prompted to select a genre and given the opportunity
-                            to add notes.
-                        </p>
-                        <form id="bookForm" action ="AddBook" method="GET" class="pure-form">
-                            <label for="isbn">ISBN: </label>
-                            <input type="text" id="isbn" name="isbn" required>
-                            </br>
-
-                            <button class="pure-button pure-button-primary" type="submit" name="submit" value="submit">Add Book</button>
-                        </form>
-                    </div>
+                        <button class="pure-button pure-button-primary" type="submit" name="submit" value="submit">Add Book</button>
+                    </form>
                 </div>
             </div>
+
         </div>
 
     </main>
