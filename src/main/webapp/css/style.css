@@ -152,13 +152,14 @@ h1, h2, h3, h4, h5, h6, label {
 }
 
 /* addBooks styles */
-.addBook-container {
+.addBook-container, .results-container {
     background: white;
     z-index: 1;
     overflow: hidden;
+    margin: 0 auto;
 }
 
-.addBook {
+.addBook, .results {
     width: 80%;
     height: 50%;
     margin: auto;
@@ -168,7 +169,7 @@ h1, h2, h3, h4, h5, h6, label {
     text-transform: uppercase;
 }
 
-.addBook-head {
+.addBook-head, .results-head {
     font-size: 20px;
     font-weight: bold;
     color: #3C253D;
@@ -189,6 +190,7 @@ h1, h2, h3, h4, h5, h6, label {
 .form-box {
     text-align: center;
     font-size: 120%;
+    margin: 1em;
 }
 
 .pure-form label {
@@ -206,7 +208,7 @@ h1, h2, h3, h4, h5, h6, label {
 }
 
 .form-box .pure-button {
-    background-color: #728A60;
+    background-color: #538A7E;
     color: white;
     vertical-align: top;
     font-size: 85%;
@@ -216,6 +218,9 @@ h1, h2, h3, h4, h5, h6, label {
     margin: 0.3em;
 }
 /* Table styles */
+.pure-table {
+    width: 80%;
+}
 
 /* Footer styles */
 .footer {

@@ -28,50 +28,50 @@
 <div id="container">
 
     <main>
-        <div class="container-fluid">
-            <h2>Search Results: </h2>
+        <div class="results-container">
+            <div class="pure-g results">
+                <h2 class="results-head pure-u-1">Search Results: </h2>
 
-            <table id="resultsTable" class="display" cellspacing="0" width="100%">
-                <thead>
-                <th style="border: 3px solid black; border-collapse: collapse">Cover Photo</th>
-                <th style="border: 3px solid black; border-collapse: collapse">Title</th>
-                <th style="border: 3px solid black; border-collapse: collapse">ISBN</th>
-                <th style="border: 3px solid black; border-collapse: collapse">Genre</th>
-                <th style="border: 3px solid black; border-collapse: collapse">Author</th>
-                <th style="border: 3px solid black; border-collapse: collapse">Notes</th>
-                <th style="border: 3px solid black; border-collapse: collapse">Delete</th>
-                <th style="border: 3px solid black; border-collapse: collapse">Edit</th>
+                <div class="l-box pure-u-1">
+                    <table id="resultsTable" class="pure-table pure-table-bordered" cellspacing="0" width="100%">
+                        <thead>
+                            <th >Cover Photo</th>
+                            <th >Title</th>
+                            <th >ISBN</th>
+                            <th >Genre</th>
+                            <th >Author</th>
+                            <th >Notes</th>
+                            <th >Delete</th>
+                            <th >Edit</th>
+                        </thead>
 
-
-
-                </thead>
-
-                <tbody>
-                <c:forEach var="bookInfo" items="${book}">
-                    <tr>
-                        <td><img  src="https://covers.openlibrary.org/b/isbn/${bookInfo.isbn}-S.jpg" alt="book cover"></td>
-                        <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.title}</td>
-                        <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.isbn}</td>
-                        <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.genre.name}</td>
-                        <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.author.name}</td>
-                        <td style="border: 3px solid black; border-collapse: collapse">${bookInfo.notes}</td>
-                        <td>
-                            <form id="bookDeleteForm" action ="DeleteBook" method="GET">
-                                <input type="hidden" value="${bookInfo.id}" class="bookId" name="bookId">
-                                <input type="submit" value="delete" id="delete" name="modify">
-                            </form>
-                        </td>
-                        <td>
-                            <form id="bookEditForm" action ="EditBook" method="GET">
-                                <input type="hidden" value="${bookInfo.id}" class="bookId" name="bookId">
-                                <input type="submit" value="edit" id="edit" name="modify">
-                            </form>
-                        </td>
-                    </tr>
-                </c:forEach>
-                </tbody>
-            </table>
-
+                        <tbody>
+                            <c:forEach var="bookInfo" items="${book}">
+                                <tr>
+                                    <td><img  src="https://covers.openlibrary.org/b/isbn/${bookInfo.isbn}-S.jpg" alt="book cover"></td>
+                                    <td >${bookInfo.title}</td>
+                                    <td >${bookInfo.isbn}</td>
+                                    <td >${bookInfo.genre.name}</td>
+                                    <td >${bookInfo.author.name}</td>
+                                    <td >${bookInfo.notes}</td>
+                                    <td>
+                                        <form id="bookDeleteForm" action ="DeleteBook" method="GET">
+                                            <input type="hidden" value="${bookInfo.id}" class="bookId" name="bookId">
+                                            <input type="submit" value="delete" id="delete" name="modify">
+                                        </form>
+                                    </td>
+                                    <td>
+                                        <form id="bookEditForm" action ="EditBook" method="GET">
+                                            <input type="hidden" value="${bookInfo.id}" class="bookId" name="bookId">
+                                            <input type="submit" value="edit" id="edit" name="modify">
+                                        </form>
+                                    </td>
+                                </tr>
+                            </c:forEach>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </main>
 </div>

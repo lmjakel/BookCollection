@@ -24,8 +24,37 @@
 <div id="container">
 
     <main>
-        <c:out value="Title:${books.title} Author:${books.author.name} ISBN:${books.isbn} Genre: ${books.genre.name} Notes: ${books.notes}" />
+        <div class="addBook-container">
+            <div class="addBook">
+                <h2 class="addBook-head is-center">Success!</h2>
 
+                <div class="pure-g">
+                    <div class="l-box pure-u-1 pure-u-md-1 pure-u-lg-1">
+                        <p class="addBook-subhead">We added the following book to your collection:</p>
+
+                        <table id="resultsTable" class="pure-table is-center" cellspacing="0" width="100%">
+                            <tbody>
+                            <tr>
+                                <td>Title: ${books.title}</td>
+                            </tr>
+                            <tr>
+                                <td>Author: ${books.author.name}</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: ${books.isbn}</td>
+                            </tr>
+                            <tr>
+                                <td>Genre: ${books.genre.name}</td>
+                            </tr>
+                            <tr>
+                                <td>Notes: ${books.notes}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 </div>
 

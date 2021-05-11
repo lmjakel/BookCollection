@@ -24,42 +24,63 @@
 <div id="container">
 
 <main>
-    <p>
-        Please add the book genre and any notes you'd like saved!
-    </p>
+    <div class="addBook-container">
+        <div class="addBook">
+            <h2 class="addBook-head is-center">We found your book</h2>
 
+            <div class="pure-g">
+                <div class="l-box pure-u-1 pure-u-md-1 pure-u-lg-1">
+                    <h3 class="addBook-subhead">
+                        Please add the book genre and any notes you'd like saved
+                    </h3>
 
-    <c:out value="Title:${books.title} Author:${books.author.name} ISBN:${books.isbn}" />
-    <br>
+                    <table id="resultsTable" class="pure-table is-center" cellspacing="0" width="100%">
+                        <tbody>
+                            <tr>
+                                <td>Title: ${books.title}</td>
+                            </tr>
+                            <tr>
+                                <td>Author: ${books.author.name}</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: ${books.isbn}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
 
-    <form action="AddBook" method="POST">
-        <label for="genre">Genre: </label>
-        <select name="genre" id="genre">
-            <option value="Action">Action</option>
-            <option value="Adventure">Adventure</option>
-            <option value="Children">Children's</option>
-            <option value="Fantasy">Fantasy</option>
-            <option value="Historical Fiction">Historical Fiction</option>
-            <option value="History">History</option>
-            <option value="Mystery">Mystery</option>
-            <option value="Non Fiction">Non Fiction</option>
-            <option value="Other">Other</option>
-            <option value="Romance">Romance</option>
-            <option value="Science Fiction">Science Fiction</option>
-            <option value="Thriller">Thriller</option>
-            <option value="Western">Western</option>
-            <option value="Young Adult">Young Adult</option>
-        </select>
-        <br>
+                <div class="form-box pure-u-1">
+                    <form class="pure-form pure-form-aligned is-center" action="AddBook" method="POST">
+                        <label for="genre">Genre: </label>
+                        <select name="genre" id="genre">
+                            <option value="Action">Action</option>
+                            <option value="Adventure">Adventure</option>
+                            <option value="Children">Children's</option>
+                            <option value="Fantasy">Fantasy</option>
+                            <option value="Historical Fiction">Historical Fiction</option>
+                            <option value="History">History</option>
+                            <option value="Mystery">Mystery</option>
+                            <option value="Non Fiction">Non Fiction</option>
+                            <option value="Other">Other</option>
+                            <option value="Romance">Romance</option>
+                            <option value="Science Fiction">Science Fiction</option>
+                            <option value="Thriller">Thriller</option>
+                            <option value="Western">Western</option>
+                            <option value="Young Adult">Young Adult</option>
+                        </select>
+                        <br>
 
-        <label for="notes">Add any notes about the book:</label><br>
-        <textarea name="notes" id="notes" cols="30" rows="10"></textarea>
+                        <label for="notes">Add any notes about the book:</label>
+                        <textarea name="notes" id="notes" rows="10"></textarea>
+                        <br>
 
-        <input name="bookId" value="${books.id}" type="hidden">
-        <button class="formButton" type="submit" name="submit" value="submit">Add Book</button>
-
-    </form>
-
+                        <input name="bookId" value="${books.id}" type="hidden">
+                        <button class="pure-button pure-button-primary" type="submit" name="submit" value="submit">Add Book</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 </div>
 </body>

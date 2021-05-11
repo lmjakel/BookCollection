@@ -27,8 +27,8 @@
         <div class="addBook-container">
             <div class="pure-g addBook">
                 <h2 class="addBook-head pure-u-1">Add a Book</h2>
-                <div class="is-center">
-                    <p class="addBook-subhead">
+                <div class="l-box pure-u-1">
+                    <p class="addBook-subhead is-center">
                         Please enter the ISBN-13 (13 numbers found on the barcode on the back of the book).
                         Once your book is located, you will be prompted to select a genre and given the opportunity
                         to add notes.

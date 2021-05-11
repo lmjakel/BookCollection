@@ -106,3 +106,74 @@
 [DEBUG] 2021-05-10 19:24:16.798 [http-nio-8080-exec-2] GenericDao - Searching for book with userName = ljakel
 [DEBUG] 2021-05-10 19:24:16.979 [http-nio-8080-exec-2] GenericDao - Searching for book with user = 1
 [DEBUG] 2021-05-10 19:24:17.316 [http-nio-8080-exec-2] SearchBooks - current user book list: [[!!!com.leeannjakel.entity.Book@67d70004=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3d770f92=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5f828ed2=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7602d120=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@673b46b4=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7d010a2=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7f645494=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@76a66979=>java.lang.StackOverflowError:null!!!]]
+[DEBUG] 2021-05-10 19:30:59.993 [http-nio-8080-exec-4] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 19:31:04.109 [http-nio-8080-exec-4] GenericDao - Searching for book with name = Victoria Aveyard
+[DEBUG] 2021-05-10 19:31:12.562 [http-nio-8080-exec-5] AddBook - BookId: 15
+[DEBUG] 2021-05-10 19:31:12.678 [http-nio-8080-exec-5] AddBook - Book: [!!!com.leeannjakel.entity.Book@64256d76=>java.lang.StackOverflowError:null!!!]
+[DEBUG] 2021-05-10 19:31:12.907 [http-nio-8080-exec-5] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-05-10 20:06:19.615 [http-nio-8080-exec-3] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 20:06:25.320 [http-nio-8080-exec-3] GenericDao - Searching for book with name = Victoria Aveyard
+[DEBUG] 2021-05-10 20:06:34.590 [http-nio-8080-exec-6] AddBook - BookId: 16
+[DEBUG] 2021-05-10 20:06:34.672 [http-nio-8080-exec-6] AddBook - Book: [!!!com.leeannjakel.entity.Book@64cf11c6=>java.lang.StackOverflowError:null!!!]
+[DEBUG] 2021-05-10 20:06:34.935 [http-nio-8080-exec-6] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-05-10 20:17:50.191 [http-nio-8080-exec-3] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 20:18:41.958 [http-nio-8080-exec-6] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 20:18:46.412 [http-nio-8080-exec-6] GenericDao - Searching for book with name = Victoria Aveyard
+[DEBUG] 2021-05-10 20:26:16.827 [http-nio-8080-exec-1] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 20:26:21.119 [http-nio-8080-exec-1] GenericDao - Searching for book with name = Cassandra Clare
+[DEBUG] 2021-05-10 20:33:54.287 [http-nio-8080-exec-10] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 20:33:58.249 [http-nio-8080-exec-10] GenericDao - Searching for book with name = Cassandra Clare
+[DEBUG] 2021-05-10 20:34:12.579 [http-nio-8080-exec-4] AddBook - BookId: 19
+[DEBUG] 2021-05-10 20:34:12.663 [http-nio-8080-exec-4] AddBook - Book: [!!!com.leeannjakel.entity.Book@fe56dac=>java.lang.StackOverflowError:null!!!]
+[DEBUG] 2021-05-10 20:34:12.827 [http-nio-8080-exec-4] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-05-10 20:40:40.085 [http-nio-8080-exec-3] AddBook - BookId: 19
+[DEBUG] 2021-05-10 20:40:50.014 [http-nio-8080-exec-10] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 20:40:50.646 [http-nio-8080-exec-3] AddBook - Book: [!!!com.leeannjakel.entity.Book@5621a30a=>java.lang.StackOverflowError:null!!!]
+[DEBUG] 2021-05-10 20:40:50.880 [http-nio-8080-exec-3] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-05-10 20:40:56.987 [http-nio-8080-exec-5] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 20:41:01.219 [http-nio-8080-exec-5] GenericDao - Searching for book with name = Cassandra Clare
+[DEBUG] 2021-05-10 20:41:10.139 [http-nio-8080-exec-8] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 20:41:11.533 [http-nio-8080-exec-8] GenericDao - Searching for book with name = Cassandra Clare
+[DEBUG] 2021-05-10 20:41:23.140 [http-nio-8080-exec-2] AddBook - BookId: 21
+[DEBUG] 2021-05-10 20:41:23.228 [http-nio-8080-exec-2] AddBook - Book: [!!!com.leeannjakel.entity.Book@16c67a1d=>java.lang.StackOverflowError:null!!!]
+[DEBUG] 2021-05-10 20:41:23.253 [http-nio-8080-exec-2] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-05-10 20:55:43.597 [http-nio-8080-exec-4] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 20:55:54.107 [http-nio-8080-exec-8] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 20:55:57.483 [http-nio-8080-exec-8] GenericDao - Searching for book with name = Cassandra Clare
+[DEBUG] 2021-05-10 20:56:07.356 [http-nio-8080-exec-2] AddBook - BookId: 22
+[DEBUG] 2021-05-10 20:56:07.468 [http-nio-8080-exec-2] AddBook - Book: [!!!com.leeannjakel.entity.Book@18368185=>java.lang.StackOverflowError:null!!!]
+[DEBUG] 2021-05-10 20:56:07.629 [http-nio-8080-exec-2] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-05-10 21:20:56.014 [http-nio-8080-exec-4] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 21:21:02.430 [http-nio-8080-exec-4] GenericDao - Searching for book with name = Cassandra Clare
+[DEBUG] 2021-05-10 21:21:52.912 [http-nio-8080-exec-7] AddBook - BookId: 23
+[DEBUG] 2021-05-10 21:21:53.056 [http-nio-8080-exec-7] AddBook - Book: [!!!com.leeannjakel.entity.Book@3f0d1fef=>java.lang.StackOverflowError:null!!!]
+[DEBUG] 2021-05-10 21:21:53.250 [http-nio-8080-exec-7] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-05-10 21:35:01.022 [http-nio-8080-exec-4] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 21:35:06.562 [http-nio-8080-exec-4] GenericDao - Searching for book with name = Cassandra Clare
+[DEBUG] 2021-05-10 21:41:37.047 [http-nio-8080-exec-9] AddBook - BookId: 24
+[DEBUG] 2021-05-10 21:41:37.168 [http-nio-8080-exec-9] AddBook - Book: [!!!com.leeannjakel.entity.Book@3e91a7cf=>java.lang.StackOverflowError:null!!!]
+[DEBUG] 2021-05-10 21:41:37.413 [http-nio-8080-exec-9] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-05-10 21:47:02.017 [http-nio-8080-exec-3] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 21:47:12.845 [http-nio-8080-exec-3] GenericDao - Searching for book with name = Cassandra Clare
+[DEBUG] 2021-05-10 21:47:40.711 [http-nio-8080-exec-7] AddBook - BookId: 25
+[DEBUG] 2021-05-10 21:47:40.818 [http-nio-8080-exec-7] AddBook - Book: [!!!com.leeannjakel.entity.Book@70d4b432=>java.lang.StackOverflowError:null!!!]
+[DEBUG] 2021-05-10 21:47:40.963 [http-nio-8080-exec-7] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-05-10 21:52:44.358 [http-nio-8080-exec-1] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 21:53:35.194 [http-nio-8080-exec-5] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 21:53:57.708 [http-nio-8080-exec-9] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 21:56:28.587 [http-nio-8080-exec-1] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 21:56:29.967 [http-nio-8080-exec-1] GenericDao - Searching for book with name = Cassandra Clare
+[DEBUG] 2021-05-10 21:56:53.246 [http-nio-8080-exec-6] AddBook - BookId: 26
+[DEBUG] 2021-05-10 21:56:53.389 [http-nio-8080-exec-6] AddBook - Book: [!!!com.leeannjakel.entity.Book@6d65ff97=>java.lang.StackOverflowError:null!!!]
+[DEBUG] 2021-05-10 21:56:53.578 [http-nio-8080-exec-6] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-05-10 22:02:44.795 [http-nio-8080-exec-3] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 22:03:03.091 [http-nio-8080-exec-5] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 22:03:07.536 [http-nio-8080-exec-5] GenericDao - Searching for book with name = Cassandra Clare
+[DEBUG] 2021-05-10 22:05:17.946 [http-nio-8080-exec-8] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 22:05:19.361 [http-nio-8080-exec-8] GenericDao - Searching for book with name = Cassandra Clare
+[DEBUG] 2021-05-10 22:05:34.564 [http-nio-8080-exec-4] AddBook - BookId: 28
+[DEBUG] 2021-05-10 22:05:34.624 [http-nio-8080-exec-4] AddBook - Book: [!!!com.leeannjakel.entity.Book@6a09abc5=>java.lang.StackOverflowError:null!!!]
+[DEBUG] 2021-05-10 22:05:34.805 [http-nio-8080-exec-4] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-05-10 22:08:07.717 [http-nio-8080-exec-4] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 22:08:07.850 [http-nio-8080-exec-4] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-05-10 22:08:08.186 [http-nio-8080-exec-4] SearchBooks - current user book list: [[!!!com.leeannjakel.entity.Book@791af179=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1aeb2b17=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@151978c3=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6bf3e761=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@454c525f=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6bc6a72=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@58bdc506=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@2c01e99f=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@b7898ea=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6ef29c0d=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@58d1e120=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7bbfb6b4=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@344fcee1=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@4e272e91=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@19281e94=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1fa41113=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@55d6ecc0=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@22f2134d=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7bf77539=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@44e4cfdd=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@26b68b6d=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@146c9c8d=>java.lang.StackOverflowError:null!!!]]
