@@ -22,13 +22,22 @@
 <!-- end header-->
 <div id="container">
 <main>
-    <!-- displays message if signup successful -->
-    <c:set var="signUpSuccess" value="${requestScope.Success}" />
-    <c:out value="${Success}" />
+    <div class="book-container">
+        <div class="pure-g book">
+            <h2 class="book-head pure-u-1">
+                <!-- displays message if signup successful -->
+                <c:set var="signUpSuccess" value="${requestScope.Success}" />
+                <c:out value="${Success}" />
+            </h2>
 
-    You may now <a href="login.jsp">login</a> and start cataloging your books!
-    <!-- removes success message -->
-    <c:remove var="Success" scope="request" />
+            <p class="book-subhead pure-u-1">
+                You may now <a href="login.jsp">login</a> and start cataloging your books!
+                <!-- removes success message -->
+                <c:remove var="Success" scope="request" />
+            </p>
+
+        </div>
+    </div>
 
 </main>
 

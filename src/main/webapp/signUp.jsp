@@ -25,42 +25,51 @@
 
 
     <main>
-        <!-- displays error message if signup error -->
-        <c:set var="signUpError" value="${requestScope.Error}" />
-        <c:out value="${Error}" />
+        <div class="book-container">
+            <div class="pure-g book">
+                <h2 class="book-head pure-u-1">Sign Up!</h2>
+                <p class="book-subhead">
+                    <!-- displays error message if signup error -->
+                    <c:set var="signUpError" value="${requestScope.Error}" />
+                    <c:out value="${Error}" />
+                </p>
 
-       <form id="signUpForm" action ="SignUp" method="POST">
-            <label for="firstName">First Name: </label>
-            <input type="text" id="firstName" name="firstName">
-            </br>
+                <div class=" form-box pure-u-1">
+                   <form id="signUpForm" class="pure-form pure-form-aligned" action ="SignUp" method="POST">
+                       <div class="pure-control-group" >
+                       <label for="firstName">First Name: </label>
+                        <input type="text" id="firstName" name="firstName" required>
+                       </div>
+                       <div class="pure-control-group" >
+                        <label for="lastName">Last Name: </label>
+                        <input type="text" id="lastName" name="lastName" required>
+                       </div>
+                       <div class="pure-control-group" >
+                        <label for="userName">Username: </label>
+                        <input type="text" id="userName" name="userName" required>
+                       </div>
+                       <div class="pure-control-group" >
+                        <label for="email">Email: </label>
+                        <input type="text" id="email" name="email" required>
+                       </div>
+                       <div class="pure-control-group" >
+                       <label for="password">Password: </label>
+                       <input type="text" id="password" name="password" required>
+                       </div>
 
-            <label for="lastName">Last Name: </label>
-            <input type="text" id="lastName" name="lastName">
-            </br>
+                        <button class="pure-button pure-button-primary" type="submit" name="submit" value="create">Create Account</button>
+                    </form>
 
-            <label for="userName">Username: </label>
-            <input type="text" id="userName" name="userName">
-            </br>
+                    <!-- removes error message -->
+                    <c:remove var="Error" scope="request" />
 
-            <label for="email">Email: </label>
-            <input type="text" id="email" name="email">
-            </br>
-
-           <label for="password">Password: </label>
-           <input type="text" id="password" name="password">
-           </br>
-
-            <button class="formButton" type="submit" name="submit" value="create">Create Account</button>
-        </form>
-
-        <!-- removes error message -->
-        <c:remove var="Error" scope="request" />
-
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <c:import url="footer.jsp" />
+        <!-- end footer -->
     </main>
-
-    <!-- footer -->
-    <c:import url="footer.jsp" />
-    <!-- end footer -->
 </div>
 </body>
 </html>

@@ -63,14 +63,15 @@
 - [ ] Weekly reflection 
 - [x] Refactor Search Books for single action methods 
 - [x] display only current user books
-- [ ] User can view book suggestions
-- [ ] Add Lombok
-- [ ] Create CSS 
-- [ ] Logout button
-- [ ] Finalize code
-- [ ] Finalize documentation
+- [x] Add Lombok
+- [x] Create CSS 
+- [x] Logout button
+- [x] Finalize code
+- [x] Finalize documentation
 
 ## Week 16
+- [ ] Finalize CSS
+- [ ] User can view book suggestions
 - [ ] Final presentation
 - [ ] Create video
 - [ ] Weekly reflection

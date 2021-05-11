@@ -50,7 +50,7 @@
 <tr><td>21March2021</td><td>Week 8 - finished activities</td><td>2 hours</td><td></td></tr>
 <tr><td>23March2021</td><td>Project - created GenericDao, implemented API(week 8 exercise), created searchBook page and deployed to AWS</td><td>5 hours</td><td></td></tr>
 <tr><td>23March2021</td><td>Project - Updated Time log, project plan, and weekly reflection</td><td>0.5 hours</td><td></td></tr>
-
+<tr><td></td></tr>
 </tbody>
 
 </table>
