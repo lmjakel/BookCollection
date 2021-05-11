@@ -24,13 +24,13 @@
 <div id="container">
 
     <main>
-        <div class="addBook-container">
-            <div class="addBook">
-                <h2 class="addBook-head is-center">Success!</h2>
+        <div class="book-container">
+            <div class="book">
+                <h2 class="book-head is-center">Success!</h2>
 
                 <div class="pure-g">
                     <div class="l-box pure-u-1 pure-u-md-1 pure-u-lg-1">
-                        <p class="addBook-subhead">We added the following book to your collection:</p>
+                        <p class="book-subhead">We added the following book to your collection:</p>
 
                         <table id="resultsTable" class="pure-table is-center" cellspacing="0" width="100%">
                             <tbody>

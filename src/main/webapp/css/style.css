@@ -33,6 +33,10 @@ h1, h2, h3, h4, h5, h6, label {
     text-align: center;
 }
 
+pure-g {
+    letter-spacing: normal;
+}
+
 /* Header styles */
 .home-menu {
     padding: 0.5em;
@@ -151,15 +155,15 @@ h1, h2, h3, h4, h5, h6, label {
     color: darkgray;
 }
 
-/* addBooks styles */
-.addBook-container, .results-container {
+/* main content styles */
+.book-container, .results-container {
     background: white;
     z-index: 1;
     overflow: hidden;
     margin: 0 auto;
 }
 
-.addBook, .results {
+.book, .results {
     width: 80%;
     height: 50%;
     margin: auto;
@@ -169,7 +173,7 @@ h1, h2, h3, h4, h5, h6, label {
     text-transform: uppercase;
 }
 
-.addBook-head, .results-head {
+.book-head, .results-head {
     font-size: 20px;
     font-weight: bold;
     color: #3C253D;
@@ -179,18 +183,19 @@ h1, h2, h3, h4, h5, h6, label {
     line-height: 1em;
 }
 
-.addBook-subhead {
+.book-subhead {
     color:black;
     letter-spacing: 0.05em;
     opacity: 0.8;
     width: 80%;
+    margin: 0 auto;
 }
 
 /* Form styles */
 .form-box {
-    text-align: center;
     font-size: 120%;
-    margin: 1em;
+    margin: 0 auto;
+    padding: 1em;
 }
 
 .pure-form label {
@@ -219,7 +224,12 @@ h1, h2, h3, h4, h5, h6, label {
 }
 /* Table styles */
 .pure-table {
-    width: 80%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#resultsTable {
+    width: 75%;
 }
 
 /* Footer styles */

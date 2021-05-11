@@ -24,16 +24,15 @@
 <div id="container">
 
 <main>
-    <div class="addBook-container">
-        <div class="addBook">
-            <h2 class="addBook-head is-center">We found your book</h2>
+    <div class="book-container">
+        <div class="book">
+            <h2 class="book-head">We found your book</h2>
+                <h3 class="book-subhead">
+                    Please add the book genre and any notes you'd like saved
+                </h3>
 
             <div class="pure-g">
                 <div class="l-box pure-u-1 pure-u-md-1 pure-u-lg-1">
-                    <h3 class="addBook-subhead">
-                        Please add the book genre and any notes you'd like saved
-                    </h3>
-
                     <table id="resultsTable" class="pure-table is-center" cellspacing="0" width="100%">
                         <tbody>
                             <tr>
@@ -50,7 +49,7 @@
                 </div>
 
                 <div class="form-box pure-u-1">
-                    <form class="pure-form pure-form-aligned is-center" action="AddBook" method="POST">
+                    <form class="pure-form pure-form-aligned" action="AddBook" method="POST">
                         <label for="genre">Genre: </label>
                         <select name="genre" id="genre">
                             <option value="Action">Action</option>

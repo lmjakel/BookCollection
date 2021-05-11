@@ -25,33 +25,43 @@
 <div id="container">
 
     <main>
-        <form action ="SearchBooks" method="GET">
+        <div class="book-container">
+            <div class="pure-g book">
+                <h2 class="book-head pure-u-1">Search for a book</h2>
 
-            <fieldset>
+                <div class=" form-box l-box">
+                    <form action ="SearchBooks" method="GET" class="pure-form">
+                        <fieldset>
+                            <legend>How would you like to search for your book?</legend>
+                            <div class="pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-2">
+                            <label for="author" class="pure-radio">
+                            <input  type="radio" value="author" id="author" name="type">Author</label>
 
-                <legend>How would you like to search for your book?</legend>
-                <label for="author">Author</label>
-                <input type="radio" value="author" id="author" name="type">
+                            <label for="title" class="pure-radio" >
+                            <input type="radio" value="title" id="title" name="type">Title</label>
 
-                <label for="title">Title</label>
-                <input type="radio" value="title" id="title" name="type">
+                            <label for="genre" class="pure-radio">
+                            <input  type="radio" value="genre" id="genre" name="type">Genre</label>
+                            </div>
+                            <div class="pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-2">
+                            <label for="searchTerm">Enter Search Term: </label>
+                            <input type="text"  id="searchTerm" name="searchTerm">
+                            <br>
+                            </div>
 
-                <label for="genre">Genre</label>
-                <input type="radio" value="genre" id="genre" name="type">
-                <br>
+                            <div class="pure-u-1">
+                            <label for="viewAll"  class="pure-radio">
+                            <input type="radio" value="viewAll" id="viewAll" name="type">View All Books</label>
+                            </div>
+                        </fieldset>
 
-                <label for="searchTerm">Enter Search Term: </label>
-                <input type="text"  id="searchTerm" name="searchTerm">
-                <br>
-                <br>
+                        <button type="submit" name="search" value="search">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
 
-                <label for="viewAll">View All Books</label>
-                <input type="radio" value="viewAll" id="viewAll" name="type">
-                <br>
-            </fieldset>
-
-            <button type="submit" name="search" value="search">Search</button>
-        </form>
     </main>
+</div>
 </body>
 </html>
