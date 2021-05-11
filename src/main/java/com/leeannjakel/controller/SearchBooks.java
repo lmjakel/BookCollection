@@ -33,23 +33,12 @@ public class SearchBooks extends HttpServlet {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
     /**
-     * The Dao.
+     * The Daos
      */
     GenericDao<Book> dao = new GenericDao(Book.class);
-    /**
-     * The Author dao.
-     */
-    GenericDao<Author> authorDao = new GenericDao(Author.class);
-    /**
-     * The Genre dao.
-     */
-    GenericDao<Genre> genreDao = new GenericDao(Genre.class);
-    /**
-     * The User dao.
-     */
     GenericDao<User> userDao = new GenericDao(User.class);
     /**
-     * The Search results.
+     * The Search results Lists.
      */
     List<Book> searchResults = new ArrayList<Book>();
 

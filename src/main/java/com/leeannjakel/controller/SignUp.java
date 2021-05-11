@@ -29,8 +29,17 @@ import java.util.List;
  */
 public class SignUp extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
+    /**
+     * The User dao.
+     */
     GenericDao<User> userDao = new GenericDao(User.class);
+    /**
+     * The Not unique.
+     */
     boolean notUnique;
+    /**
+     * The Jsp to call.
+     */
     String jspToCall = "";
 
     @Override
@@ -71,6 +80,12 @@ public class SignUp extends HttpServlet {
         dispatcher.forward(req, resp);
     }
 
+    /**
+     * Verify unique username boolean.
+     *
+     * @param username the username
+     * @return the boolean
+     */
     public Boolean verifyUniqueUsername(String username) {
         List<User> userList = userDao.getAll();
         for (User user: userList) {
