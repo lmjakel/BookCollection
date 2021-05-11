@@ -71,7 +71,9 @@
 
 ## Week 16
 - [x] Finalize CSS
-- [ ] User can view book suggestions
+- [ ] User can view book suggestions 
+- [x] User Guide 
+- [ ] ReadMe
 - [ ] Final presentation
 - [ ] Create video
 - [ ] Weekly reflection
