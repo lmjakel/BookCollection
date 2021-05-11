@@ -22,8 +22,10 @@
 
         <p class="splash-subhead">
             We've encountered an error, please go back and try again!
-            <a href="index-logged-in.jsp">Home</a>
         </p>
+        <form action="index-logged-in.jsp">
+            <button type="submit">Home</button>
+        </form>
 
     </div>
 </div>

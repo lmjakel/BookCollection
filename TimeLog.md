@@ -50,7 +50,34 @@
 <tr><td>21March2021</td><td>Week 8 - finished activities</td><td>2 hours</td><td></td></tr>
 <tr><td>23March2021</td><td>Project - created GenericDao, implemented API(week 8 exercise), created searchBook page and deployed to AWS</td><td>5 hours</td><td></td></tr>
 <tr><td>23March2021</td><td>Project - Updated Time log, project plan, and weekly reflection</td><td>0.5 hours</td><td></td></tr>
-<tr><td></td></tr>
+<tr><td>27March2021</td><td>Created jsp for index page after login</td><td>0.5 Hours</td><td></td></tr>
+<tr><td>15April2021</td><td>Added signup class and jsp, created a class for role</td><td>1.5 Hours</td><td></td></tr>
+<tr><td>16April2021</td><td>API getBook now works with inserting an ISBN</td><td>1 Hours</td><td></td></tr>
+<tr><td>23April2021</td><td>API get author created</td><td>2 Hours</td><td></td></tr>
+<tr><td>27April2021</td><td>Corrected test and hibernate values. Altered author table and respective values in code to have author Name instead of first name and last name separately to match what the API provides</td><td>1.5 Hours</td><td></td></tr>
+<tr><td>28April2021</td><td>Configured search form and log file</td><td>1.5 Hours</td><td></td></tr>
+<tr><td>29April2021</td><td>Worked on search classes to create successful searches</td><td>3 Hours</td><td></td></tr>
+<tr><td>30April2021</td><td>Worked on deleting a book from the users database</td><td>3Hours</td><td>results were unsuccessful</td></tr>
+<tr><td>01May2021</td><td>Successful delete of book. Worked to allow user to edit the notes of previously entered books. Attempt to allow user to add book from website</td><td>3 Hours</td><td>Error connecting to API, posted for help correct this issue</td></tr>
+<tr><td>02May2021</td><td>Per Paula's suggestion was able to connect to API from website!</td><td>2 Hours</td><td></td></tr>
+<tr><td>02May2021</td><td>Books were found but unable to add to database</td><td>2 Hours</td><td></td></tr>
+<tr><td>03May2021</td><td>Books successfully added to database and worked to correctly gather book information and display to the user</td><td>5 Hours</td><td></td></tr>
+<tr><td>04May2021</td><td>Was able to connect to API to get cover photo and display to the webpage. worked on table format to display results  properly</td><td>3 Hours</td><td></td></tr>
+<tr><td>06May2021</td><td>altered searchBook class to only display current users books</td><td>2 Hours</td><td></td></tr>
+<tr><td>06May2021</td><td>added lombok to classes</td><td>2 Hours</td><td>Kept getting errors</td></tr>
+<tr><td>07May2021</td><td>added validation for unique username for signUP</td><td>3 Hours</td><td>Orignally kept returning all usernames as not unique, booleans are odd!</td></tr>
+<tr><td>08May2021</td><td>added logout class and buttom</td><td>1 hour</td><td></td></tr>
+<tr><td>09May2021</td><td>Learning and adding Pure CSS</td><td>5 hour</td><td></td></tr>
+<tr><td>10May2021</td><td>Learning and adding Pure CSS, also corrected an issue with Lombok</td><td>5 hour</td><td></td></tr>
+<tr><td>11May2021</td><td>Learning and adding Pure CSS. Updated time log, project plan, readme, mysqldump, and added Error Page to catch 404, 403, and 500 errors</td><td>6 hour</td><td></td></tr>
+
+
+
+
+
+
+
+
 </tbody>
 
 </table>
