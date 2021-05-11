@@ -71,8 +71,8 @@
         </div>
     </div>
     <div class="ribbon l-box-lrg pure-g">
-        <div class="l-box-lrg pure-u-1">
-            <h2 class="content-head content-head-ribbon">User Guide</h2>
+        <div class="ribbon-content l-box-lrg pure-u-1">
+            <h2 class="content-head content-head-ribbon is-center">User Guide</h2>
             <section>
                 <h3>Application functions:</h3>
                 <ul>

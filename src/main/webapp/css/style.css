@@ -150,6 +150,11 @@ h1, h2, h3, h4, h5, h6, label {
     background: #283D38;
     color: darkgray;
     text-align: left;
+    margin: 0 auto;
+}
+
+.ribbon-content {
+    width: 80%;
 }
 
 /* main content styles */
