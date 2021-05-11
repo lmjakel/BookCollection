@@ -1,9 +1,6 @@
 package com.leeannjakel.entity;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -20,7 +17,9 @@ import javax.persistence.*;
  */
 @NoArgsConstructor
 @RequiredArgsConstructor
-@Data
+@Getter
+@Setter
+@ToString
 public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")

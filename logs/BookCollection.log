@@ -96,3 +96,13 @@
 [DEBUG] 2021-05-07 19:29:49.510 [http-nio-8080-exec-9] SignUp - is unique username
 [DEBUG] 2021-05-07 19:29:49.511 [http-nio-8080-exec-9] SignUp - Added user: User(id=0, firstName=Megan , lastName=Wilson, userName=mwilson, password=java, email=email@email.com, roles=[], books=[])
 [DEBUG] 2021-05-07 19:29:49.910 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 9
+[DEBUG] 2021-05-10 19:10:14.414 [http-nio-8080-exec-3] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 19:15:23.180 [http-nio-8080-exec-1] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 19:23:36.348 [http-nio-8080-exec-4] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 19:23:46.339 [http-nio-8080-exec-4] GenericDao - Searching for book with name = Victoria Aveyard
+[DEBUG] 2021-05-10 19:24:01.178 [http-nio-8080-exec-6] AddBook - BookId: 14
+[DEBUG] 2021-05-10 19:24:01.303 [http-nio-8080-exec-6] AddBook - Book: [!!!com.leeannjakel.entity.Book@77f087ac=>java.lang.StackOverflowError:null!!!]
+[DEBUG] 2021-05-10 19:24:01.443 [http-nio-8080-exec-6] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-05-10 19:24:16.798 [http-nio-8080-exec-2] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-10 19:24:16.979 [http-nio-8080-exec-2] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-05-10 19:24:17.316 [http-nio-8080-exec-2] SearchBooks - current user book list: [[!!!com.leeannjakel.entity.Book@67d70004=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3d770f92=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5f828ed2=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7602d120=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@673b46b4=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7d010a2=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7f645494=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@76a66979=>java.lang.StackOverflowError:null!!!]]

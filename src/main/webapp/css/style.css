@@ -185,6 +185,36 @@ h1, h2, h3, h4, h5, h6, label {
     width: 80%;
 }
 
+/* Form styles */
+.form-box {
+    text-align: center;
+    font-size: 120%;
+}
+
+.pure-form label {
+    margin: 1em 0 0;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.pure-form input[type] {
+    border: 2px solid #ddd;
+    box-shadow: none;
+    font-size: 100%;
+    margin: 0.3em auto;
+    text-align: center;
+}
+
+.form-box .pure-button {
+    background-color: #728A60;
+    color: white;
+    vertical-align: top;
+    font-size: 85%;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin: 0.3em;
+}
 /* Table styles */
 
 /* Footer styles */

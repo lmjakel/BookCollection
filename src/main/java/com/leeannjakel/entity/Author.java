@@ -19,7 +19,9 @@ import java.util.Set;
  */
 @NoArgsConstructor
 @RequiredArgsConstructor
-@Data
+@Getter
+@Setter
+@ToString
 public class Author {
 
 	@Id
@@ -31,7 +33,7 @@ public class Author {
 	@NonNull
 	private String name;
 
-	@OneToMany(mappedBy = "author", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+	@OneToMany(mappedBy = "author", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
 	private Set<Book> books = new HashSet<>();
 
 }
