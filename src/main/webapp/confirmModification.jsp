@@ -24,11 +24,13 @@
 <div id="container">
 
     <main>
-        <c:out value="${output}"/>
+        <div class="results-container">
+            <div class="pure-g results">
+                <h2 class="results-head pure-u-1">Confirm Modifications: </h2>
+                <c:out value="${output}"/>
+            </div>
+        </div>
     </main>
-
-
-
 
 </div>
 

@@ -74,6 +74,9 @@
             </div>
         </div>
     </main>
+    <!-- footer -->
+    <c:import url="footer.jsp" />
+    <!-- end footer -->
 </div>
 </body>
 </html>

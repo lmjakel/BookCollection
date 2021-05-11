@@ -20,9 +20,16 @@
 
 <div id="container">
     <main>
-        Invalid username/password, please try again. <a href="login.jsp">Login</a>
-        <br>
-        Don't have an account set up? <a href="signUp.jsp">Click here to set up a profile</a>
+        <div class="book-container">
+            <div class="pure-g book">
+                <h2 class="book-head pure-u-1">Invalid username/password, please try again</h2>
+                <p class="book-subhead">
+                    <a href="login.jsp">Login</a>
+                    <br>
+                    Don't have an account set up? <a href="signUp.jsp">Click here</a> to set up a profile
+                </p>
+            </div>
+        </div>
     </main>
 </div>
 </body>

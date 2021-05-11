@@ -57,10 +57,10 @@
         <c:remove var="Error" scope="request" />
 
     </main>
-</div>
 
-<!-- footer -->
-<c:import url="footer.jsp" />
-<!-- end footer -->
+    <!-- footer -->
+    <c:import url="footer.jsp" />
+    <!-- end footer -->
+</div>
 </body>
 </html>

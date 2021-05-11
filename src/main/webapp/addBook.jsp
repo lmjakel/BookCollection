@@ -26,7 +26,7 @@
     <main>
         <div class="book-container">
             <div class="book">
-                <h2 class="book-head">Add a Book</h2>
+                <h2 class="book-head pure-u-1">Add a Book</h2>
                     <p class="book-subhead">
                         Please enter the ISBN-13 (13 numbers found on the barcode on the back of the book).
                         Once your book is located, you will be prompted to select a genre and given the opportunity
@@ -47,10 +47,10 @@
         </div>
 
     </main>
-</div>
 
 <!-- footer -->
 <c:import url="footer.jsp" />
 <!-- end footer -->
+</div>
 </body>
 </html>

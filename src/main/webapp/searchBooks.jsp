@@ -32,7 +32,7 @@
                 <div class=" form-box l-box">
                     <form action ="SearchBooks" method="GET" class="pure-form">
                         <fieldset>
-                            <legend>How would you like to search for your book?</legend>
+                            <legend class="pure-u-1">How would you like to search for your book?</legend>
                             <div class="pure-u-1-2 pure-u-md-1-2 pure-u-lg-1-2">
                             <label for="author" class="pure-radio">
                             <input  type="radio" value="author" id="author" name="type">Author</label>
@@ -62,6 +62,9 @@
         </div>
 
     </main>
+    <!-- footer -->
+    <c:import url="footer.jsp" />
+    <!-- end footer -->
 </div>
 </body>
 </html>

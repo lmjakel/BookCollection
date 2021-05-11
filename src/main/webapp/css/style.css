@@ -33,10 +33,6 @@ h1, h2, h3, h4, h5, h6, label {
     text-align: center;
 }
 
-pure-g {
-    letter-spacing: normal;
-}
-
 /* Header styles */
 .home-menu {
     padding: 0.5em;

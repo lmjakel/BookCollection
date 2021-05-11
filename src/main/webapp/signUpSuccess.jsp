@@ -21,7 +21,7 @@
 <c:import url="header.jsp" />
 <!-- end header-->
 <div id="container">
-
+<main>
     <!-- displays message if signup successful -->
     <c:set var="signUpSuccess" value="${requestScope.Success}" />
     <c:out value="${Success}" />
@@ -31,10 +31,10 @@
     <c:remove var="Success" scope="request" />
 
 </main>
-</div>
 
-<!-- footer -->
-<c:import url="footer.jsp" />
-<!-- end footer -->
+    <!-- footer -->
+    <c:import url="footer.jsp" />
+    <!-- end footer -->
+</div>
 </body>
 </html>

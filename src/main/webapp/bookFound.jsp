@@ -50,27 +50,31 @@
 
                 <div class="form-box pure-u-1">
                     <form class="pure-form pure-form-aligned" action="AddBook" method="POST">
-                        <label for="genre">Genre: </label>
-                        <select name="genre" id="genre">
-                            <option value="Action">Action</option>
-                            <option value="Adventure">Adventure</option>
-                            <option value="Children">Children's</option>
-                            <option value="Fantasy">Fantasy</option>
-                            <option value="Historical Fiction">Historical Fiction</option>
-                            <option value="History">History</option>
-                            <option value="Mystery">Mystery</option>
-                            <option value="Non Fiction">Non Fiction</option>
-                            <option value="Other">Other</option>
-                            <option value="Romance">Romance</option>
-                            <option value="Science Fiction">Science Fiction</option>
-                            <option value="Thriller">Thriller</option>
-                            <option value="Western">Western</option>
-                            <option value="Young Adult">Young Adult</option>
-                        </select>
+                        <div class="pure-control-group">
+                            <label for="genre">Genre: </label>
+                            <select name="genre" id="genre">
+                                <option value="Action">Action</option>
+                                <option value="Adventure">Adventure</option>
+                                <option value="Children">Children's</option>
+                                <option value="Fantasy">Fantasy</option>
+                                <option value="Historical Fiction">Historical Fiction</option>
+                                <option value="History">History</option>
+                                <option value="Mystery">Mystery</option>
+                                <option value="Non Fiction">Non Fiction</option>
+                                <option value="Other">Other</option>
+                                <option value="Romance">Romance</option>
+                                <option value="Science Fiction">Science Fiction</option>
+                                <option value="Thriller">Thriller</option>
+                                <option value="Western">Western</option>
+                                <option value="Young Adult">Young Adult</option>
+                            </select>
+                        </div>
                         <br>
 
-                        <label for="notes">Add any notes about the book:</label>
-                        <textarea name="notes" id="notes" rows="10"></textarea>
+                        <div class="pure-control-group">
+                            <label for="notes">Add any notes about the book:</label>
+                            <textarea name="notes" id="notes" class="pure-input-2-3" rows="10"></textarea>
+                        </div>
                         <br>
 
                         <input name="bookId" value="${books.id}" type="hidden">
@@ -81,6 +85,9 @@
         </div>
     </div>
 </main>
+    <!-- footer -->
+    <c:import url="footer.jsp" />
+    <!-- end footer -->
 </div>
 </body>
 </html>
