@@ -13,9 +13,17 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * The type Api dao test.
+ */
 class ApiDaoTest {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
+    /**
+     * Gets book title.
+     *
+     * @throws JsonProcessingException the json processing exception
+     */
     @Test
     void getBookTitle() throws JsonProcessingException {
         ApiDao dao = new ApiDao();
@@ -24,6 +32,11 @@ class ApiDaoTest {
         assertEquals("Throne of glass", title);
     }
 
+    /**
+     * Gets book author.
+     *
+     * @throws JsonProcessingException the json processing exception
+     */
     @Test
     void getBookAuthor() throws JsonProcessingException {
         ApiDao dao = new ApiDao();

@@ -23,15 +23,22 @@ public class BookDaoTest {
      * The Book dao.
      */
     GenericDao<Book> bookDao;
+    /**
+     * The Author dao.
+     */
     GenericDao<Author> authorDao;
+    /**
+     * The User dao.
+     */
     GenericDao<User> userDao;
+    /**
+     * The Genre dao.
+     */
     GenericDao<Genre> genreDao;
 
 
-
-
     /**
-     * Sets .
+     * Sets up the database before any tests are fun and instantiates the daos.
      */
     @BeforeEach
     void setup() {

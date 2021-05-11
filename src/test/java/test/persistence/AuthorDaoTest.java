@@ -21,7 +21,7 @@ public class AuthorDaoTest {
     GenericDao authorDao;
 
     /**
-     * Sets .
+     * Sets up the database before any tests are run.
      */
     @BeforeEach
     void setup() {

@@ -74,8 +74,7 @@
         <div class="l-box-lrg is-center pure-u-1">
             <h2 class="content-head content-head-ribbon">User Guide</h2>
             <p>
-                I will add the user guide here it will have lots of information about how the program works adding
-                to the above statements about what the different sections do
+                Supported verbs: Get, Post
             </p>
         </div>
 
