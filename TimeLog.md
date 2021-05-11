@@ -66,7 +66,7 @@
 <tr><td>06May2021</td><td>altered searchBook class to only display current users books</td><td>2 Hours</td><td></td></tr>
 <tr><td>06May2021</td><td>added lombok to classes</td><td>2 Hours</td><td>Kept getting errors</td></tr>
 <tr><td>07May2021</td><td>added validation for unique username for signUP</td><td>3 Hours</td><td>Orignally kept returning all usernames as not unique, booleans are odd!</td></tr>
-<tr><td>08May2021</td><td>added logout class and buttom</td><td>1 hour</td><td></td></tr>
+<tr><td>08May2021</td><td>added logout class and button</td><td>1 hour</td><td></td></tr>
 <tr><td>09May2021</td><td>Learning and adding Pure CSS</td><td>5 hour</td><td></td></tr>
 <tr><td>10May2021</td><td>Learning and adding Pure CSS, also corrected an issue with Lombok</td><td>5 hour</td><td></td></tr>
 <tr><td>11May2021</td><td>Learning and adding Pure CSS. Updated time log, project plan, readme, mysqldump, and added Error Page to catch 404, 403, and 500 errors</td><td>6 hour</td><td></td></tr>

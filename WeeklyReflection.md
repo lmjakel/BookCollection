@@ -64,12 +64,43 @@ logged in but that is the goal in the long run.
 The application was successfully deployed using AWS after creating the database
 and tables via ssh in the terminal window. 
 
-## Week 10 - 12
+## Week 10 - 11
 No time spent on project due to team project
 
-## Week 13
-Time Spent on Project:  Hours <br/>
+## Week 12
+Time Spent on Project: 2.5 Hours <br/>
 
+This week I was working to create a user SignUp page and get the API to connect
+to get a book using the ISBN number.
+
+## Week 13
+Time Spent on Project: 2 Hours <br/>
+
+I created an API getAuthor method in the API dao
 
 ## Week 14
-Time Spent on Project:  Hours <br/>
+Time Spent on Project: 16 Hours <br/>
+
+This week I created the bulk of the jsp layouts and getting the pages set up properly. I was working
+to allow a user to edit and delete books from their database. I had a bit of a snag during that phase,
+because I wanted the user to be able to verify what book they were deleting or editing, rather
+than just blindly deleting a book only to find out you clicked on the wrong line!
+
+## Week 15
+Time Spent on Project: 16 Hours <br/>
+
+This week I was able to get a lot more work done, yay for healthy babies that are willing to sleep a
+bit more by themselves! I added Lombok to the java bean classes, connected the API to get the cover
+photos and have those displayed in the results table. There was a struggle getting the API to connect
+to my website for adding a book. It turns out there was a security issue so Paula helped me rewrite
+the code to connect to the API and get the book information translated between the openlibrary website
+and mine!
+
+## Week 16
+Time Spent on Project: 16 Hours <br/>
+
+This week (3 days) I was working on finalizing the code, and implementing the Pure CSS. That was
+a bit challenging to learn but it was similar to bootstrap and the examples on the purecss.io page
+were incredibly useful! I also made sure to update my time log, the weekly reflections (oops got a
+little behind on these). I created an error handling in the web.xml file to route 404, 403, and 500
+errors to an error jsp page.
