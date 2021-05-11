@@ -72,23 +72,52 @@
         </div>
     </div>
     <div class="ribbon l-box-lrg pure-g">
-        <div class="l-box-lrg is-center pure-u-1">
-            <h2 class="content-head content-head-ribbon">User Guide</h2>
-            <p>
-                I will add the user guide here it will have lots of information about how the program works adding
-                to the above statements about what the different sections do
-            </p>
+        <div class="ribbon-content l-box-lrg pure-u-1">
+            <h2 class="content-head content-head-ribbon is-center">User Guide</h2>
+            <section>
+                <h3>Application functions:</h3>
+                <ul>
+                    <li>Add a book</li>
+                    <li>Add notes to a new book</li>
+                    <li>Modify notes on an existing book</li>
+                    <li>Delete a book</li>
+                    <li>Get book by author</li>
+                    <li>Get book by title</li>
+                    <li>Get book by genre</li>
+                    <li>Get all books</li>
+                    <li>Sign up a new user</li>
+                </ul>
+                <p>
+                    To use the personal library application a user must create an account with a login and password.
+                    Once the account is authenticated, and the username is verified to be unique, the user will be
+                    able to access the application.
+                    <br>
+                    The user is able to add books to their collection. At this time adding books is only done through
+                    the ISBN number. The Open Library API uses the ISBN to pull information about the book. I've chosen
+                    only to use the Author, Title, ISBN, and Cover from the API. That information is stored in the
+                    database, then the user is prompted to select a genre from a list and given the option to add notes
+                    to their book.
+                    <br>
+                    After the user has added books they have the capability to edit any notes they've added to the book.
+                    Book information will be displayed on the page and the he current notes will be in a textarea of
+                    a form for editing. A message is displayed to the user confirming the change took place.
+                    <br>
+                    If the user gives a book away or loses a book (oh no!) they are able to delete that book from their
+                    collection. Before the book is removed the user is asked to confirm that they do wish to remove the
+                    book they selected, the book information will be displayed to the user with an option to select
+                    yes or no in a form. If the user selects "yes" the book is removed, if the user selects "no" the
+                    book is not removed. Regardless of the choice, a message is displayed to the user confirming the
+                    change, or lack there of.
+                </p>
+            </section>
         </div>
 
     </div>
-
-
-<!-- end main -->
-
+    <!-- end main -->
     <!-- footer -->
     <c:import url="footer.jsp" />
     <!-- end footer -->
 </div>
+
 </body>
 </html>
-

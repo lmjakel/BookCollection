@@ -21,8 +21,10 @@
         <h1 class="splash-head">Oops!</h1>
 
         <p class="splash-subhead">
-            We've encountered an error, please go back and try again!</p>
-        <a href="index-logged-in.jsp">Home</a>
+            We've encountered an error, please go back and try again!
+            <a href="index-logged-in.jsp">Home</a>
+        </p>
+
     </div>
 </div>
 <!-- end main -->
