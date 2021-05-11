@@ -31,7 +31,7 @@
             </h2>
 
             <p class="book-subhead pure-u-1">
-                You may now <a href="login.jsp">login</a> and start cataloging your books!
+                You may now <a href="index-logged-in.jsp">login</a> and start cataloging your books!
                 <!-- removes success message -->
                 <c:remove var="Success" scope="request" />
             </p>

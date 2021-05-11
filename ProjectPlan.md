@@ -70,7 +70,7 @@
 - [x] Finalize documentation
 
 ## Week 16
-- [ ] Finalize CSS
+- [x] Finalize CSS
 - [ ] User can view book suggestions
 - [ ] Final presentation
 - [ ] Create video

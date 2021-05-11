@@ -49,7 +49,7 @@
                 <div class="form-box">
                     <form id="bookForm" class="pure-form pure-form-stacked" action ="EditBook" method="POST">
                         <label for="notes"></label>
-                        <textarea name="notes" id="notes" class="pure-input-1" rows="10" value="${book.notes}"></textarea>
+                        <textarea name="notes" id="notes" class="pure-input-1" rows="10">${book.notes}</textarea>
 
                         <input name="bookId" value="${book.id}" type="hidden">
 

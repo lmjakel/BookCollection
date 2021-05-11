@@ -23,8 +23,8 @@
         <div class="form-box">
             <FORM ACTION="j_security_check" METHOD="POST">
                 <TABLE>
-                    <TR><TD>User name: <INPUT TYPE="TEXT" NAME="j_username">
-                    <TR><TD>Password: <INPUT TYPE="PASSWORD" NAME="j_password">
+                    <TR><TD>User name: <INPUT TYPE="TEXT" NAME="j_username" required>
+                    <TR><TD>Password: <INPUT TYPE="PASSWORD" NAME="j_password" required>
                     <TR><TH><INPUT TYPE="SUBMIT" VALUE="Log In">
                 </TABLE>
             </FORM>
