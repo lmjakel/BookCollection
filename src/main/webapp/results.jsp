@@ -25,7 +25,6 @@
 <!-- header -->
 <c:import url="header-logged-in.jsp" />
 <!-- end header-->
-<div id="container">
 
     <main>
         <div class="results-container">
@@ -74,9 +73,8 @@
             </div>
         </div>
     </main>
-    <!-- footer -->
-    <c:import url="footer.jsp" />
-    <!-- end footer -->
-</div>
+<!-- footer -->
+<c:import url="footer.jsp" />
+<!-- end footer -->
 </body>
 </html>

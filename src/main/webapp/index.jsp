@@ -81,9 +81,8 @@
 
     </div>
 <!-- end main -->
-
 <!-- footer -->
-<c:import url="footer.jsp" />
+    <c:import url="footer.jsp" />
 <!-- end footer -->
 </div>
 

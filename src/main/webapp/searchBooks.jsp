@@ -22,7 +22,6 @@
 <!-- header -->
 <c:import url="header-logged-in.jsp" />
 <!-- end header-->
-<div id="container">
 
     <main>
         <div class="book-container">
@@ -60,11 +59,10 @@
                 </div>
             </div>
         </div>
-
+        <!-- footer -->
+        <c:import url="footer.jsp" />
+        <!-- end footer -->
     </main>
-    <!-- footer -->
-    <c:import url="footer.jsp" />
-    <!-- end footer -->
-</div>
+
 </body>
 </html>
