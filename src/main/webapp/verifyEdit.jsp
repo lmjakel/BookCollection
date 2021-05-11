@@ -25,26 +25,41 @@
 <div id="container">
 
     <main>
-        <p>
-            Edit your notes below
-        </p>
+        <div class="book-container">
+            <div class="book">
+                <h2 class="book-head">Edit your book notes below</h2>
 
-        <table>
-            <c:out value="Title:${books.title} Author:${books.author.name} ISBN:${books.isbn} Genre: ${books.genre.name} Notes: ${books.notes}" />
 
-            <form id="bookForm" action ="EditBook" method="POST">
+                <table id="resultsTable" class="pure-table is-center" cellspacing="0" width="100%">
+                <tbody>
+                <tr>
+                    <td>Title: ${book.title}</td>
 
-            <label for="notes">Edit your notes below</label>
-            <input class="notes" id="notes" type="text" name="notes" value="${bookInfo.notes}">
+                    <td>Author: ${book.author.name}</td>
 
-            <input name="bookId" value="${books.id}" type="hidden">
-            <button class="formButton" type="submit" name="submit" value="submit">Confirm</button>
-        </form>
+                    <td>ISBN: ${book.isbn}</td>
 
+                    <td>Genre: ${book.genre.name}</td>
+
+                    <td>Notes: ${book.notes}</td>
+                </tr>
+                </tbody>
+                </table>
+
+                <div class="form-box">
+                    <form id="bookForm" class="pure-form pure-form-stacked" action ="EditBook" method="POST">
+                        <label for="notes"></label>
+                        <textarea name="notes" id="notes" class="pure-input-1" rows="10" value="${book.notes}"></textarea>
+
+                        <input name="bookId" value="${book.id}" type="hidden">
+
+                        <button class="formButton" type="submit" name="submit" value="submit">Confirm</button>
+                    </form>
+                </div>
+            </div>
+        </div>
 
     </main>
-
-
     <!-- footer -->
     <c:import url="footer.jsp" />
     <!-- end footer -->

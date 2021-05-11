@@ -26,8 +26,7 @@
     <main>
         <div class="results-container">
             <div class="pure-g results">
-                <h2 class="results-head pure-u-1">Confirm Modifications: </h2>
-                <c:out value="${output}"/>
+                <h2 class="results-head pure-u-1"><c:out value="${output}"/></h2>
             </div>
         </div>
     </main>

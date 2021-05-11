@@ -38,7 +38,7 @@ public class DeleteBook extends HttpServlet{
         String idString = req.getParameter("bookId");
         int idInt = Integer.parseInt(idString);
 
-        List<Book> book = bookDao.getByPropertyEqualsId("id", idInt);
+        Book book = bookDao.getById(idInt);
 
         req.setAttribute("book", book);
 

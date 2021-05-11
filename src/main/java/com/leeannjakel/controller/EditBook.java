@@ -35,9 +35,8 @@ public class EditBook extends HttpServlet {
         String idString = req.getParameter("bookId");
         int idInt = Integer.parseInt(idString);
 
-        List<Book> book = bookDao.getByPropertyEqualsId("id", idInt);
-
-        req.setAttribute("book", book);
+        Book bookToEdit = bookDao.getById(idInt);
+        req.setAttribute("book", bookToEdit);
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/verifyEdit.jsp");
         dispatcher.forward(req, resp);
@@ -56,9 +55,9 @@ public class EditBook extends HttpServlet {
             bookToUpdate.setNotes(req.getParameter("notes"));
 
             bookDao.update(bookToUpdate);
-            output = "Book has been updated";
+            output = "Yippee! Your book has been updated!";
         } else {
-            output = "Book has not been updated";
+            output = "Unfortunately, your book has not been updated.";
         }
         req.setAttribute("output", output);
 
