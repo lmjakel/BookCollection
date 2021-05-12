@@ -32,7 +32,7 @@
                 <h2 class="results-head pure-u-1">Search Results: </h2>
 
                 <div class="l-box pure-u-1">
-                    <table id="resultsTable" class="pure-table pure-table-bordered" cellspacing="0" width="100%">
+                    <table id="resultsPageTable" class="pure-table pure-table-bordered" cellspacing="0" width="100%">
                         <thead>
                             <th >Cover Photo</th>
                             <th >Title</th>

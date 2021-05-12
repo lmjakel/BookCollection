@@ -73,7 +73,7 @@
 
                         <div class="pure-control-group">
                             <label for="notes">Add any notes about the book:</label>
-                            <textarea name="notes" id="notes" class="pure-input-2-3" rows="10"></textarea>
+                            <textarea name="notes" id="notes" class="pure-input-2-3" rows="8"></textarea>
                         </div>
                         <br>
 

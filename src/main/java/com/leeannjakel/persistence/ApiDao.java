@@ -3,19 +3,22 @@ package com.leeannjakel.persistence;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.leeannjakel.entity.*;
+import com.leeannjakel.utilities.*;
 
-import static org.assertj.core.api.Assertions.assertThat;
 
 import javax.ws.rs.RedirectionException;
 import javax.ws.rs.client.*;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
+import java.util.*;
 
 /**
  * The type Api dao.
  * @author LeeAnn Jakel
  */
-public class ApiDao {
+public class ApiDao implements PropertiesLoader {
+    Properties properties = new Properties();
+    String libraryUrl;
 
     /**
      * Gets book.
@@ -25,11 +28,14 @@ public class ApiDao {
      * @throws JsonProcessingException the json processing exception
      */
     public Info getBook(String ISBN) throws JsonProcessingException {
+        properties = loadProperties();
+        String libraryBookUrl = properties.getProperty("open.library.book");
 
         Client client = ClientBuilder.newClient();
         String response = null;
         Boolean redirecting = true;
-        String url = "http://openlibrary.org/isbn/" + ISBN + ".json";
+        String url = libraryBookUrl + ISBN + ".json";
+
 
         while(redirecting) {
             WebTarget target =
@@ -56,9 +62,13 @@ public class ApiDao {
      * @throws JsonProcessingException the json processing exception
      */
     public String getWorks (String works) throws JsonProcessingException {
+        properties = loadProperties();
+        libraryUrl = properties.getProperty("open.library");
+
         Client client = ClientBuilder.newClient();
         WebTarget target =
-                client.target("http://openlibrary.org" + works + ".json");
+                client.target(libraryUrl + works + ".json");
+
         String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
 
         ObjectMapper mapper = new ObjectMapper();
@@ -80,10 +90,13 @@ public class ApiDao {
      * @throws JsonProcessingException the json processing exception
      */
     public String getAuthor (String author) throws JsonProcessingException {
+        properties = loadProperties();
+        libraryUrl = properties.getProperty("open.library");
 
         Client client = ClientBuilder.newClient();
         WebTarget target =
-                client.target("http://openlibrary.org" + author + ".json");
+                client.target(libraryUrl + author + ".json");
+
         String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
 
         ObjectMapper mapper = new ObjectMapper();
