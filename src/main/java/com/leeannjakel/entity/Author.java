@@ -9,6 +9,7 @@ import java.util.Set;
 
 /**
  * The type Author.
+ *
  * @author LeeAnn Jakel
  */
 @Entity(name="Author")

@@ -14,39 +14,39 @@ public class LastModified{
 	@JsonProperty("value")
 	private String value;
 
-    /**
-     * Set type.
-     *
-     * @param type the type
-     */
-    public void setType(String type){
+	/**
+	 * Set type.
+	 *
+	 * @param type the type
+	 */
+	public void setType(String type){
 		this.type = type;
 	}
 
-    /**
-     * Get type string.
-     *
-     * @return the string
-     */
-    public String getType(){
+	/**
+	 * Get type string.
+	 *
+	 * @return the string
+	 */
+	public String getType(){
 		return type;
 	}
 
-    /**
-     * Set value.
-     *
-     * @param value the value
-     */
-    public void setValue(String value){
+	/**
+	 * Set value.
+	 *
+	 * @param value the value
+	 */
+	public void setValue(String value){
 		this.value = value;
 	}
 
-    /**
-     * Get value string.
-     *
-     * @return the string
-     */
-    public String getValue(){
+	/**
+	 * Get value string.
+	 *
+	 * @return the string
+	 */
+	public String getValue(){
 		return value;
 	}
 

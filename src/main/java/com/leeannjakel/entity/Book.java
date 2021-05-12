@@ -7,6 +7,7 @@ import javax.persistence.*;
 
 /**
  * The type Book.
+ *
  * @author LeeAnn Jakel
  */
 @Entity(name="Book")

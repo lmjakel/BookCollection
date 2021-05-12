@@ -12,6 +12,7 @@ import java.util.Set;
 
 /**
  * The type Genre.
+ *
  * @author LeeAnn Jakel
  */
 @Entity(name="Genre")

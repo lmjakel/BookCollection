@@ -102,543 +102,543 @@ public class Info{
 	@JsonProperty("authors")
 	private List<AuthorsItem> authors;
 
-    /**
-     * Set pagination.
-     *
-     * @param pagination the pagination
-     */
-    public void setPagination(String pagination){
+	/**
+	 * Set pagination.
+	 *
+	 * @param pagination the pagination
+	 */
+	public void setPagination(String pagination){
 		this.pagination = pagination;
 	}
 
-    /**
-     * Get pagination string.
-     *
-     * @return the string
-     */
-    public String getPagination(){
+	/**
+	 * Get pagination string.
+	 *
+	 * @return the string
+	 */
+	public String getPagination(){
 		return pagination;
 	}
 
-    /**
-     * Set works.
-     *
-     * @param works the works
-     */
-    public void setWorks(List<WorksItem> works){
+	/**
+	 * Set works.
+	 *
+	 * @param works the works
+	 */
+	public void setWorks(List<WorksItem> works){
 		this.works = works;
 	}
 
-    /**
-     * Get works list.
-     *
-     * @return the list
-     */
-    public List<WorksItem> getWorks(){
+	/**
+	 * Get works list.
+	 *
+	 * @return the list
+	 */
+	public List<WorksItem> getWorks(){
 		return works;
 	}
 
-    /**
-     * Set number of pages.
-     *
-     * @param numberOfPages the number of pages
-     */
-    public void setNumberOfPages(int numberOfPages){
+	/**
+	 * Set number of pages.
+	 *
+	 * @param numberOfPages the number of pages
+	 */
+	public void setNumberOfPages(int numberOfPages){
 		this.numberOfPages = numberOfPages;
 	}
 
-    /**
-     * Get number of pages int.
-     *
-     * @return the int
-     */
-    public int getNumberOfPages(){
+	/**
+	 * Get number of pages int.
+	 *
+	 * @return the int
+	 */
+	public int getNumberOfPages(){
 		return numberOfPages;
 	}
 
-    /**
-     * Set description.
-     *
-     * @param description the description
-     */
-    public void setDescription(String description){
+	/**
+	 * Set description.
+	 *
+	 * @param description the description
+	 */
+	public void setDescription(String description){
 		this.description = description;
 	}
 
-    /**
-     * Get description string.
-     *
-     * @return the string
-     */
-    public String getDescription(){
+	/**
+	 * Get description string.
+	 *
+	 * @return the string
+	 */
+	public String getDescription(){
 		return description;
 	}
 
-    /**
-     * Set title.
-     *
-     * @param title the title
-     */
-    public void setTitle(String title){
+	/**
+	 * Set title.
+	 *
+	 * @param title the title
+	 */
+	public void setTitle(String title){
 		this.title = title;
 	}
 
-    /**
-     * Get title string.
-     *
-     * @return the string
-     */
-    public String getTitle(){
+	/**
+	 * Get title string.
+	 *
+	 * @return the string
+	 */
+	public String getTitle(){
 		return title;
 	}
 
-    /**
-     * Set edition name.
-     *
-     * @param editionName the edition name
-     */
-    public void setEditionName(String editionName){
+	/**
+	 * Set edition name.
+	 *
+	 * @param editionName the edition name
+	 */
+	public void setEditionName(String editionName){
 		this.editionName = editionName;
 	}
 
-    /**
-     * Get edition name string.
-     *
-     * @return the string
-     */
-    public String getEditionName(){
+	/**
+	 * Get edition name string.
+	 *
+	 * @return the string
+	 */
+	public String getEditionName(){
 		return editionName;
 	}
 
-    /**
-     * Set type.
-     *
-     * @param type the type
-     */
-    public void setType(Type type){
+	/**
+	 * Set type.
+	 *
+	 * @param type the type
+	 */
+	public void setType(Type type){
 		this.type = type;
 	}
 
-    /**
-     * Get type type.
-     *
-     * @return the type
-     */
-    public Type getType(){
+	/**
+	 * Get type type.
+	 *
+	 * @return the type
+	 */
+	public Type getType(){
 		return type;
 	}
 
-    /**
-     * Set isbn 13.
-     *
-     * @param isbn13 the isbn 13
-     */
-    public void setIsbn13(List<String> isbn13){
+	/**
+	 * Set isbn 13.
+	 *
+	 * @param isbn13 the isbn 13
+	 */
+	public void setIsbn13(List<String> isbn13){
 		this.isbn13 = isbn13;
 	}
 
-    /**
-     * Get isbn 13 list.
-     *
-     * @return the list
-     */
-    public List<String> getIsbn13(){
+	/**
+	 * Get isbn 13 list.
+	 *
+	 * @return the list
+	 */
+	public List<String> getIsbn13(){
 		return isbn13;
 	}
 
-    /**
-     * Set publish places.
-     *
-     * @param publishPlaces the publish places
-     */
-    public void setPublishPlaces(List<String> publishPlaces){
+	/**
+	 * Set publish places.
+	 *
+	 * @param publishPlaces the publish places
+	 */
+	public void setPublishPlaces(List<String> publishPlaces){
 		this.publishPlaces = publishPlaces;
 	}
 
-    /**
-     * Get publish places list.
-     *
-     * @return the list
-     */
-    public List<String> getPublishPlaces(){
+	/**
+	 * Get publish places list.
+	 *
+	 * @return the list
+	 */
+	public List<String> getPublishPlaces(){
 		return publishPlaces;
 	}
 
-    /**
-     * Set lccn.
-     *
-     * @param lccn the lccn
-     */
-    public void setLccn(List<String> lccn){
+	/**
+	 * Set lccn.
+	 *
+	 * @param lccn the lccn
+	 */
+	public void setLccn(List<String> lccn){
 		this.lccn = lccn;
 	}
 
-    /**
-     * Get lccn list.
-     *
-     * @return the list
-     */
-    public List<String> getLccn(){
+	/**
+	 * Get lccn list.
+	 *
+	 * @return the list
+	 */
+	public List<String> getLccn(){
 		return lccn;
 	}
 
-    /**
-     * Set publish country.
-     *
-     * @param publishCountry the publish country
-     */
-    public void setPublishCountry(String publishCountry){
+	/**
+	 * Set publish country.
+	 *
+	 * @param publishCountry the publish country
+	 */
+	public void setPublishCountry(String publishCountry){
 		this.publishCountry = publishCountry;
 	}
 
-    /**
-     * Get publish country string.
-     *
-     * @return the string
-     */
-    public String getPublishCountry(){
+	/**
+	 * Get publish country string.
+	 *
+	 * @return the string
+	 */
+	public String getPublishCountry(){
 		return publishCountry;
 	}
 
-    /**
-     * Set by statement.
-     *
-     * @param byStatement the by statement
-     */
-    public void setByStatement(String byStatement){
+	/**
+	 * Set by statement.
+	 *
+	 * @param byStatement the by statement
+	 */
+	public void setByStatement(String byStatement){
 		this.byStatement = byStatement;
 	}
 
-    /**
-     * Get by statement string.
-     *
-     * @return the string
-     */
-    public String getByStatement(){
+	/**
+	 * Get by statement string.
+	 *
+	 * @return the string
+	 */
+	public String getByStatement(){
 		return byStatement;
 	}
 
-    /**
-     * Set publishers.
-     *
-     * @param publishers the publishers
-     */
-    public void setPublishers(List<String> publishers){
+	/**
+	 * Set publishers.
+	 *
+	 * @param publishers the publishers
+	 */
+	public void setPublishers(List<String> publishers){
 		this.publishers = publishers;
 	}
 
-    /**
-     * Get publishers list.
-     *
-     * @return the list
-     */
-    public List<String> getPublishers(){
+	/**
+	 * Get publishers list.
+	 *
+	 * @return the list
+	 */
+	public List<String> getPublishers(){
 		return publishers;
 	}
 
-    /**
-     * Set dewey decimal class.
-     *
-     * @param deweyDecimalClass the dewey decimal class
-     */
-    public void setDeweyDecimalClass(List<String> deweyDecimalClass){
+	/**
+	 * Set dewey decimal class.
+	 *
+	 * @param deweyDecimalClass the dewey decimal class
+	 */
+	public void setDeweyDecimalClass(List<String> deweyDecimalClass){
 		this.deweyDecimalClass = deweyDecimalClass;
 	}
 
-    /**
-     * Get dewey decimal class list.
-     *
-     * @return the list
-     */
-    public List<String> getDeweyDecimalClass(){
+	/**
+	 * Get dewey decimal class list.
+	 *
+	 * @return the list
+	 */
+	public List<String> getDeweyDecimalClass(){
 		return deweyDecimalClass;
 	}
 
-    /**
-     * Set physical format.
-     *
-     * @param physicalFormat the physical format
-     */
-    public void setPhysicalFormat(String physicalFormat){
+	/**
+	 * Set physical format.
+	 *
+	 * @param physicalFormat the physical format
+	 */
+	public void setPhysicalFormat(String physicalFormat){
 		this.physicalFormat = physicalFormat;
 	}
 
-    /**
-     * Get physical format string.
-     *
-     * @return the string
-     */
-    public String getPhysicalFormat(){
+	/**
+	 * Get physical format string.
+	 *
+	 * @return the string
+	 */
+	public String getPhysicalFormat(){
 		return physicalFormat;
 	}
 
-    /**
-     * Set lc classifications.
-     *
-     * @param lcClassifications the lc classifications
-     */
-    public void setLcClassifications(List<String> lcClassifications){
+	/**
+	 * Set lc classifications.
+	 *
+	 * @param lcClassifications the lc classifications
+	 */
+	public void setLcClassifications(List<String> lcClassifications){
 		this.lcClassifications = lcClassifications;
 	}
 
-    /**
-     * Get lc classifications list.
-     *
-     * @return the list
-     */
-    public List<String> getLcClassifications(){
+	/**
+	 * Get lc classifications list.
+	 *
+	 * @return the list
+	 */
+	public List<String> getLcClassifications(){
 		return lcClassifications;
 	}
 
-    /**
-     * Set last modified.
-     *
-     * @param lastModified the last modified
-     */
-    public void setLastModified(LastModified lastModified){
+	/**
+	 * Set last modified.
+	 *
+	 * @param lastModified the last modified
+	 */
+	public void setLastModified(LastModified lastModified){
 		this.lastModified = lastModified;
 	}
 
-    /**
-     * Get last modified last modified.
-     *
-     * @return the last modified
-     */
-    public LastModified getLastModified(){
+	/**
+	 * Get last modified last modified.
+	 *
+	 * @return the last modified
+	 */
+	public LastModified getLastModified(){
 		return lastModified;
 	}
 
-    /**
-     * Set key.
-     *
-     * @param key the key
-     */
-    public void setKey(String key){
+	/**
+	 * Set key.
+	 *
+	 * @param key the key
+	 */
+	public void setKey(String key){
 		this.key = key;
 	}
 
-    /**
-     * Get key string.
-     *
-     * @return the string
-     */
-    public String getKey(){
+	/**
+	 * Get key string.
+	 *
+	 * @return the string
+	 */
+	public String getKey(){
 		return key;
 	}
 
-    /**
-     * Set covers.
-     *
-     * @param covers the covers
-     */
-    public void setCovers(List<Integer> covers){
+	/**
+	 * Set covers.
+	 *
+	 * @param covers the covers
+	 */
+	public void setCovers(List<Integer> covers){
 		this.covers = covers;
 	}
 
-    /**
-     * Get covers list.
-     *
-     * @return the list
-     */
-    public List<Integer> getCovers(){
+	/**
+	 * Get covers list.
+	 *
+	 * @return the list
+	 */
+	public List<Integer> getCovers(){
 		return covers;
 	}
 
-    /**
-     * Set local id.
-     *
-     * @param localId the local id
-     */
-    public void setLocalId(List<String> localId){
+	/**
+	 * Set local id.
+	 *
+	 * @param localId the local id
+	 */
+	public void setLocalId(List<String> localId){
 		this.localId = localId;
 	}
 
-    /**
-     * Get local id list.
-     *
-     * @return the list
-     */
-    public List<String> getLocalId(){
+	/**
+	 * Get local id list.
+	 *
+	 * @return the list
+	 */
+	public List<String> getLocalId(){
 		return localId;
 	}
 
-    /**
-     * Set languages.
-     *
-     * @param languages the languages
-     */
-    public void setLanguages(List<LanguagesItem> languages){
+	/**
+	 * Set languages.
+	 *
+	 * @param languages the languages
+	 */
+	public void setLanguages(List<LanguagesItem> languages){
 		this.languages = languages;
 	}
 
-    /**
-     * Get languages list.
-     *
-     * @return the list
-     */
-    public List<LanguagesItem> getLanguages(){
+	/**
+	 * Get languages list.
+	 *
+	 * @return the list
+	 */
+	public List<LanguagesItem> getLanguages(){
 		return languages;
 	}
 
-    /**
-     * Set identifiers.
-     *
-     * @param identifiers the identifiers
-     */
-    public void setIdentifiers(Identifiers identifiers){
+	/**
+	 * Set identifiers.
+	 *
+	 * @param identifiers the identifiers
+	 */
+	public void setIdentifiers(Identifiers identifiers){
 		this.identifiers = identifiers;
 	}
 
-    /**
-     * Get identifiers identifiers.
-     *
-     * @return the identifiers
-     */
-    public Identifiers getIdentifiers(){
+	/**
+	 * Get identifiers identifiers.
+	 *
+	 * @return the identifiers
+	 */
+	public Identifiers getIdentifiers(){
 		return identifiers;
 	}
 
-    /**
-     * Set created.
-     *
-     * @param created the created
-     */
-    public void setCreated(Created created){
+	/**
+	 * Set created.
+	 *
+	 * @param created the created
+	 */
+	public void setCreated(Created created){
 		this.created = created;
 	}
 
-    /**
-     * Get created created.
-     *
-     * @return the created
-     */
-    public Created getCreated(){
+	/**
+	 * Get created created.
+	 *
+	 * @return the created
+	 */
+	public Created getCreated(){
 		return created;
 	}
 
-    /**
-     * Set subjects.
-     *
-     * @param subjects the subjects
-     */
-    public void setSubjects(List<String> subjects){
+	/**
+	 * Set subjects.
+	 *
+	 * @param subjects the subjects
+	 */
+	public void setSubjects(List<String> subjects){
 		this.subjects = subjects;
 	}
 
-    /**
-     * Get subjects list.
-     *
-     * @return the list
-     */
-    public List<String> getSubjects(){
+	/**
+	 * Get subjects list.
+	 *
+	 * @return the list
+	 */
+	public List<String> getSubjects(){
 		return subjects;
 	}
 
-    /**
-     * Set source records.
-     *
-     * @param sourceRecords the source records
-     */
-    public void setSourceRecords(List<String> sourceRecords){
+	/**
+	 * Set source records.
+	 *
+	 * @param sourceRecords the source records
+	 */
+	public void setSourceRecords(List<String> sourceRecords){
 		this.sourceRecords = sourceRecords;
 	}
 
-    /**
-     * Get source records list.
-     *
-     * @return the list
-     */
-    public List<String> getSourceRecords(){
+	/**
+	 * Get source records list.
+	 *
+	 * @return the list
+	 */
+	public List<String> getSourceRecords(){
 		return sourceRecords;
 	}
 
-    /**
-     * Set revision.
-     *
-     * @param revision the revision
-     */
-    public void setRevision(int revision){
+	/**
+	 * Set revision.
+	 *
+	 * @param revision the revision
+	 */
+	public void setRevision(int revision){
 		this.revision = revision;
 	}
 
-    /**
-     * Get revision int.
-     *
-     * @return the int
-     */
-    public int getRevision(){
+	/**
+	 * Get revision int.
+	 *
+	 * @return the int
+	 */
+	public int getRevision(){
 		return revision;
 	}
 
-    /**
-     * Set classifications.
-     *
-     * @param classifications the classifications
-     */
-    public void setClassifications(Classifications classifications){
+	/**
+	 * Set classifications.
+	 *
+	 * @param classifications the classifications
+	 */
+	public void setClassifications(Classifications classifications){
 		this.classifications = classifications;
 	}
 
-    /**
-     * Get classifications classifications.
-     *
-     * @return the classifications
-     */
-    public Classifications getClassifications(){
+	/**
+	 * Get classifications classifications.
+	 *
+	 * @return the classifications
+	 */
+	public Classifications getClassifications(){
 		return classifications;
 	}
 
-    /**
-     * Set publish date.
-     *
-     * @param publishDate the publish date
-     */
-    public void setPublishDate(String publishDate){
+	/**
+	 * Set publish date.
+	 *
+	 * @param publishDate the publish date
+	 */
+	public void setPublishDate(String publishDate){
 		this.publishDate = publishDate;
 	}
 
-    /**
-     * Get publish date string.
-     *
-     * @return the string
-     */
-    public String getPublishDate(){
+	/**
+	 * Get publish date string.
+	 *
+	 * @return the string
+	 */
+	public String getPublishDate(){
 		return publishDate;
 	}
 
-    /**
-     * Set latest revision.
-     *
-     * @param latestRevision the latest revision
-     */
-    public void setLatestRevision(int latestRevision){
+	/**
+	 * Set latest revision.
+	 *
+	 * @param latestRevision the latest revision
+	 */
+	public void setLatestRevision(int latestRevision){
 		this.latestRevision = latestRevision;
 	}
 
-    /**
-     * Get latest revision int.
-     *
-     * @return the int
-     */
-    public int getLatestRevision(){
+	/**
+	 * Get latest revision int.
+	 *
+	 * @return the int
+	 */
+	public int getLatestRevision(){
 		return latestRevision;
 	}
 
-    /**
-     * Set authors.
-     *
-     * @param authors the authors
-     */
-    public void setAuthors(List<AuthorsItem> authors){
+	/**
+	 * Set authors.
+	 *
+	 * @param authors the authors
+	 */
+	public void setAuthors(List<AuthorsItem> authors){
 		this.authors = authors;
 	}
 
-    /**
-     * Get authors list.
-     *
-     * @return the list
-     */
-    public List<AuthorsItem> getAuthors(){
+	/**
+	 * Get authors list.
+	 *
+	 * @return the list
+	 */
+	public List<AuthorsItem> getAuthors(){
 		return authors;
 	}
 
