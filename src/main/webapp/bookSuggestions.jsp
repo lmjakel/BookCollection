@@ -37,77 +37,65 @@
         <h2 class="content-head is-center">Young Adult</h2>
 
         <div class="pure-g">
-            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
                 <h3 class="content-subhead"><i>City of Bones By Cassandra Clare</i></h3>
                 <p>
-                    
+                    Clary Fray is seeing things : Vampires in Brooklyn and werewolves in Manhattan. Irresistibly drawn
+                    by a group of sexy
+                    demon hunters, Clary encounters the dark side of new york city - and the dangers of forbidden love.
                 </p>
             </div>
-            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                <h3 class="content-subhead"><i>Search</i></h3>
-                <ul>
-                    <li>Search by part or all of an author's first name or last name</li>
-                    <li>Search by part of all of a book title</li>
-                    <li>Search by genre</li>
-                    <li>View all books in your b</li>
-                </ul>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                <h3 class="content-subhead"><i>Throne of Glass By Sarah J Maas</i></h3>
+                <p>
+                    This book is about a assassin that has to fight for her freedom and to be the king’s champion.
+                    During the tests she competes against other criminals and avoid being killed by a mysterious killer
+                    that rips their victims apart. Along the way the assassin finds herself falling in love with the
+                    prince, befriending a princess that is not what she seems, discovering a plot, and throwing up her
+                    lunch.
+                </p>
             </div>
-            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                <h3 class="content-subhead"><i>Book Notes</i></h3>
-                <ul>
-                    <li>Keep track of who you loan a book to</li>
-                    <li>Thoughts on characters</li>
-                    <li>Opinion of the story itself</li>
-                </ul>
-            </div>
-            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                <h3 class="content-subhead"><i>Book Suggestions</i></h3>
-                <ul>
-                    <li>Based on your library genres</li>
-                    <li>5 popular book selections</li>
-                </ul>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                <h3 class="content-subhead"><i>The Selection By Kiera Cass</i></h3>
+                <p>
+                    Sixteen-year-old America Singer is living in the caste-divided nation of Illea, which formed after
+                    the war that destroyed the United States. America is chosen to compete in the Selection--a contest
+                    to see which girl can win the heart of Illea's prince--but all she really wants is a chance for a
+                    future with her secret love, Aspen, who is a caste below her"--
+                </p>
             </div>
         </div>
     </div>
     <div class="ribbon l-box-lrg pure-g">
         <div class="ribbon-content l-box-lrg pure-u-1">
             <h2 class="content-head content-head-ribbon is-center">Romance</h2>
-            <section>
-                <h3>Application functions:</h3>
-                <ul>
-                    <li>Add a book</li>
-                    <li>Add notes to a new book</li>
-                    <li>Modify notes on an existing book</li>
-                    <li>Delete a book</li>
-                    <li>Get book by author</li>
-                    <li>Get book by title</li>
-                    <li>Get book by genre</li>
-                    <li>Get all books</li>
-                    <li>Sign up a new user</li>
-                </ul>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+                <h3 class="content-subhead"><i>Captain Jack's Woman By Stephanie Laurents</i></h3>
                 <p>
-                    To use the personal library application a user must create an account with a login and password.
-                    Once the account is authenticated, and the username is verified to be unique, the user will be
-                    able to access the application.
-                    <br>
-                    The user is able to add books to their collection. At this time adding books is only done through
-                    the ISBN number. The Open Library API uses the ISBN to pull information about the book. I've chosen
-                    only to use the Author, Title, ISBN, and Cover from the API. That information is stored in the
-                    database, then the user is prompted to select a genre from a list and given the option to add notes
-                    to their book.
-                    <br>
-                    After the user has added books they have the capability to edit any notes they've added to the book.
-                    Book information will be displayed on the page and the he current notes will be in a textarea of
-                    a form for editing. A message is displayed to the user confirming the change took place.
-                    <br>
-                    If the user gives a book away or loses a book (oh no!) they are able to delete that book from their
-                    collection. Before the book is removed the user is asked to confirm that they do wish to remove the
-                    book they selected, the book information will be displayed to the user with an option to select
-                    yes or no in a form. If the user selects "yes" the book is removed, if the user selects "no" the
-                    book is not removed. Regardless of the choice, a message is displayed to the user confirming the
-                    change, or lack there of.
+                    hey meet in a clash of swords, drenched in the moonlight of Britain's rugged eastern coast:
+                    Captain Jack, his handsome features etched in silver and shadow, his powerful physique compelling
+                    "Kit" Cranmer to surrender. He is her dream lover come vividly alive, and his command of the
+                    smuggling gang is absolute. His all-knowing gaze penetrates her disguise as the "lad" leader of a
+                    rival gang with frightening ease -- and his "punishment" with kisses leaves her maidenly modesty
+                    in tatters. Suddenly Kit finds she's only too delighted to explore with Jack the pleasures
+                    conventionally reserved for married ladies … little knowing what dangerous forces she's unleashing.
+                    For even as Kit revels in midnight gallops and cottage rendezvous, Captain Jack is laying a gentle
+                    trap that will curtail her freedom … and bind her to him with a ring, a promise …and ties of
+                    devotion and desire.
                 </p>
-            </section>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
+                <h3 class="content-subhead"><i>Shameless By Karen Robards</i></h3>
+                <p>
+                    Lady Elizabeth, the youngest and most headstrong of the three Banning sisters, has been engaged
+                    three times, and has most scandalously broken off all three engagements. Neil Severin is a wicked
+                    rogue, black of heart and black of reputation. A man of no morals, devoid of compassion, he is a
+                    government-sanctioned assassin. When circumstances most unexpectedly throw the two together,
+                    Beth's life is in danger and Neil finds himself in the unexpected role of hero, racing to save
+                    her before it's too late.
+                </p>
+            </div>
+
         </div>
 
     </div>
