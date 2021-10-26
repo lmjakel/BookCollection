@@ -534,3 +534,290 @@
 [DEBUG] 2021-05-11 20:20:40.386 [http-nio-8080-exec-4] GenericDao - Searching for book with userName = ljakel
 [DEBUG] 2021-05-11 20:20:40.467 [http-nio-8080-exec-4] GenericDao - Searching for book with user = 1
 [DEBUG] 2021-05-11 20:20:40.879 [http-nio-8080-exec-4] SearchBooks - current user book list: [[!!!com.leeannjakel.entity.Book@74591f73=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@149a5584=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@612fdd1f=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@4d88c186=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7196edc3=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3766b000=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@283e54d6=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@23b134a6=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@650f2de6=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@67eb67f7=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3d290738=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1717003f=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@beb6f26=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@37836573=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@4266a47c=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6d5f42f7=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3d9d8225=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1199d018=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@66abc313=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@71746dcb=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@2029456a=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7f6f5867=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@4764afc2=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@15ac88d0=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7f448d1a=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7a6d4ef5=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1815f4c5=>java.lang.StackOverflowError:null!!!]]
+[DEBUG] 2021-05-11 20:53:49.511 [http-nio-8080-exec-10] SignUp - username: ljakel
+[DEBUG] 2021-05-11 20:54:30.672 [http-nio-8080-exec-10] SignUp - user list: ljakel
+[DEBUG] 2021-05-11 20:54:30.672 [http-nio-8080-exec-10] SignUp - username removed?  ljakel
+[DEBUG] 2021-05-11 20:54:57.238 [http-nio-8080-exec-1] SignUp - username: lmjakel2
+[DEBUG] 2021-05-11 20:54:57.601 [http-nio-8080-exec-4] SignUp - username: lmjakel2
+[DEBUG] 2021-05-11 20:54:58.067 [http-nio-8080-exec-1] SignUp - user list: ljakel
+[DEBUG] 2021-05-11 20:54:58.068 [http-nio-8080-exec-1] SignUp - user list: mjakel
+[DEBUG] 2021-05-11 20:54:58.085 [http-nio-8080-exec-1] SignUp - user list: lisa
+[DEBUG] 2021-05-11 20:54:58.086 [http-nio-8080-exec-1] SignUp - user list: ricerocks
+[DEBUG] 2021-05-11 20:54:58.086 [http-nio-8080-exec-1] SignUp - user list: pwaite
+[DEBUG] 2021-05-11 20:54:58.086 [http-nio-8080-exec-1] SignUp - user list: eajakel
+[DEBUG] 2021-05-11 20:54:58.086 [http-nio-8080-exec-1] SignUp - user list: lmjakel
+[DEBUG] 2021-05-11 20:54:58.086 [http-nio-8080-exec-1] SignUp - user list: bwalters
+[DEBUG] 2021-05-11 20:54:58.086 [http-nio-8080-exec-1] SignUp - user list: mwilson
+[DEBUG] 2021-05-11 20:54:58.086 [http-nio-8080-exec-1] SignUp - user list: fjakel
+[DEBUG] 2021-05-11 20:54:58.086 [http-nio-8080-exec-1] SignUp - user list: dkabler
+[DEBUG] 2021-05-11 20:54:58.130 [http-nio-8080-exec-1] SignUp - is unique username
+[DEBUG] 2021-05-11 20:54:58.338 [http-nio-8080-exec-4] SignUp - user list: ljakel
+[DEBUG] 2021-05-11 20:54:58.338 [http-nio-8080-exec-4] SignUp - user list: mjakel
+[DEBUG] 2021-05-11 20:54:58.344 [http-nio-8080-exec-4] SignUp - user list: lisa
+[DEBUG] 2021-05-11 20:54:58.344 [http-nio-8080-exec-4] SignUp - user list: ricerocks
+[DEBUG] 2021-05-11 20:54:58.345 [http-nio-8080-exec-4] SignUp - user list: pwaite
+[DEBUG] 2021-05-11 20:54:58.345 [http-nio-8080-exec-4] SignUp - user list: eajakel
+[DEBUG] 2021-05-11 20:54:58.345 [http-nio-8080-exec-4] SignUp - user list: lmjakel
+[DEBUG] 2021-05-11 20:54:58.352 [http-nio-8080-exec-4] SignUp - user list: bwalters
+[DEBUG] 2021-05-11 20:54:58.354 [http-nio-8080-exec-4] SignUp - user list: mwilson
+[DEBUG] 2021-05-11 20:54:58.354 [http-nio-8080-exec-4] SignUp - user list: fjakel
+[DEBUG] 2021-05-11 20:54:58.354 [http-nio-8080-exec-4] SignUp - user list: dkabler
+[DEBUG] 2021-05-11 20:54:58.354 [http-nio-8080-exec-4] SignUp - is unique username
+[DEBUG] 2021-05-11 20:54:58.354 [http-nio-8080-exec-4] SignUp - Added user: User(id=0, firstName=LeeAnn, lastName=Jakel, userName=lmjakel2, password=password2, email=email@email.com, roles=[], books=[])
+[DEBUG] 2021-05-11 20:54:58.131 [http-nio-8080-exec-1] SignUp - Added user: User(id=0, firstName=LeeAnn, lastName=Jakel, userName=lmjakel2, password=password2, email=email@email.com, roles=[], books=[])
+[DEBUG] 2021-05-11 20:54:59.309 [http-nio-8080-exec-4] GenericDao - Searching for book with id = 12
+[DEBUG] 2021-05-11 20:54:59.327 [http-nio-8080-exec-1] GenericDao - Searching for book with id = 13
+[DEBUG] 2021-05-11 20:59:29.157 [http-nio-8080-exec-7] SignUp - username: ljakel
+[DEBUG] 2021-05-11 21:00:12.204 [http-nio-8080-exec-7] SignUp - user list: ljakel
+[DEBUG] 2021-05-11 21:00:12.206 [http-nio-8080-exec-7] SignUp - username removed?  ljakel
+[DEBUG] 2021-05-11 21:00:42.132 [http-nio-8080-exec-10] SignUp - username: fdjakel
+[DEBUG] 2021-05-11 21:00:42.827 [http-nio-8080-exec-10] SignUp - user list: ljakel
+[DEBUG] 2021-05-11 21:00:42.828 [http-nio-8080-exec-10] SignUp - user list: mjakel
+[DEBUG] 2021-05-11 21:00:42.828 [http-nio-8080-exec-10] SignUp - user list: lisa
+[DEBUG] 2021-05-11 21:00:42.828 [http-nio-8080-exec-10] SignUp - user list: ricerocks
+[DEBUG] 2021-05-11 21:00:42.828 [http-nio-8080-exec-10] SignUp - user list: pwaite
+[DEBUG] 2021-05-11 21:00:42.828 [http-nio-8080-exec-10] SignUp - user list: eajakel
+[DEBUG] 2021-05-11 21:00:42.828 [http-nio-8080-exec-10] SignUp - user list: lmjakel
+[DEBUG] 2021-05-11 21:00:42.829 [http-nio-8080-exec-10] SignUp - user list: bwalters
+[DEBUG] 2021-05-11 21:00:42.829 [http-nio-8080-exec-10] SignUp - user list: mwilson
+[DEBUG] 2021-05-11 21:00:42.829 [http-nio-8080-exec-10] SignUp - user list: fjakel
+[DEBUG] 2021-05-11 21:00:42.829 [http-nio-8080-exec-10] SignUp - user list: dkabler
+[DEBUG] 2021-05-11 21:00:42.836 [http-nio-8080-exec-10] SignUp - is unique username
+[DEBUG] 2021-05-11 21:00:42.836 [http-nio-8080-exec-10] SignUp - Added user: User(id=0, firstName=Faelynn, lastName=Jakel, userName=fdjakel, password=puppiesRock!, email=puppies@pup.com, roles=[], books=[])
+[DEBUG] 2021-05-11 21:01:07.495 [http-nio-8080-exec-9] SignUp - username: fdjakel
+[DEBUG] 2021-05-11 21:01:07.971 [http-nio-8080-exec-9] SignUp - user list: ljakel
+[DEBUG] 2021-05-11 21:01:07.971 [http-nio-8080-exec-9] SignUp - user list: mjakel
+[DEBUG] 2021-05-11 21:01:07.971 [http-nio-8080-exec-9] SignUp - user list: lisa
+[DEBUG] 2021-05-11 21:01:07.971 [http-nio-8080-exec-9] SignUp - user list: ricerocks
+[DEBUG] 2021-05-11 21:01:07.971 [http-nio-8080-exec-9] SignUp - user list: pwaite
+[DEBUG] 2021-05-11 21:01:07.971 [http-nio-8080-exec-9] SignUp - user list: eajakel
+[DEBUG] 2021-05-11 21:01:07.972 [http-nio-8080-exec-9] SignUp - user list: lmjakel
+[DEBUG] 2021-05-11 21:01:07.972 [http-nio-8080-exec-9] SignUp - user list: bwalters
+[DEBUG] 2021-05-11 21:01:07.972 [http-nio-8080-exec-9] SignUp - user list: mwilson
+[DEBUG] 2021-05-11 21:01:07.972 [http-nio-8080-exec-9] SignUp - user list: fjakel
+[DEBUG] 2021-05-11 21:01:07.972 [http-nio-8080-exec-9] SignUp - user list: dkabler
+[DEBUG] 2021-05-11 21:01:07.972 [http-nio-8080-exec-9] SignUp - is unique username
+[DEBUG] 2021-05-11 21:01:07.972 [http-nio-8080-exec-9] SignUp - Added user: User(id=0, firstName=Faelynn, lastName=Jakel, userName=fdjakel, password=puppiesRock!, email=puppies@pup.com, roles=[], books=[])
+[DEBUG] 2021-05-11 21:01:32.988 [http-nio-8080-exec-10] SignUp - username: fdjakel
+[DEBUG] 2021-05-11 21:01:33.425 [http-nio-8080-exec-10] SignUp - user list: ljakel
+[DEBUG] 2021-05-11 21:01:33.435 [http-nio-8080-exec-10] SignUp - user list: mjakel
+[DEBUG] 2021-05-11 21:01:33.435 [http-nio-8080-exec-10] SignUp - user list: lisa
+[DEBUG] 2021-05-11 21:01:33.435 [http-nio-8080-exec-10] SignUp - user list: ricerocks
+[DEBUG] 2021-05-11 21:01:33.435 [http-nio-8080-exec-10] SignUp - user list: pwaite
+[DEBUG] 2021-05-11 21:01:33.435 [http-nio-8080-exec-10] SignUp - user list: eajakel
+[DEBUG] 2021-05-11 21:01:33.435 [http-nio-8080-exec-10] SignUp - user list: lmjakel
+[DEBUG] 2021-05-11 21:01:33.436 [http-nio-8080-exec-10] SignUp - user list: bwalters
+[DEBUG] 2021-05-11 21:01:33.436 [http-nio-8080-exec-10] SignUp - user list: mwilson
+[DEBUG] 2021-05-11 21:01:33.436 [http-nio-8080-exec-10] SignUp - user list: fjakel
+[DEBUG] 2021-05-11 21:01:33.436 [http-nio-8080-exec-10] SignUp - user list: dkabler
+[DEBUG] 2021-05-11 21:01:33.436 [http-nio-8080-exec-10] SignUp - is unique username
+[DEBUG] 2021-05-11 21:01:33.437 [http-nio-8080-exec-10] SignUp - Added user: User(id=0, firstName=Faelynn, lastName=Jakel, userName=fdjakel, password=puppies, email=puppies@pup.com, roles=[], books=[])
+[DEBUG] 2021-05-11 21:01:33.865 [http-nio-8080-exec-10] GenericDao - Searching for book with id = 14
+[DEBUG] 2021-05-11 21:02:18.272 [http-nio-8080-exec-6] SignUp - username: mjakel2
+[DEBUG] 2021-05-11 21:02:18.657 [http-nio-8080-exec-6] SignUp - user list: ljakel
+[DEBUG] 2021-05-11 21:02:18.658 [http-nio-8080-exec-6] SignUp - user list: mjakel
+[DEBUG] 2021-05-11 21:02:18.670 [http-nio-8080-exec-6] SignUp - user list: lisa
+[DEBUG] 2021-05-11 21:02:18.670 [http-nio-8080-exec-6] SignUp - user list: ricerocks
+[DEBUG] 2021-05-11 21:02:18.670 [http-nio-8080-exec-6] SignUp - user list: pwaite
+[DEBUG] 2021-05-11 21:02:18.670 [http-nio-8080-exec-6] SignUp - user list: eajakel
+[DEBUG] 2021-05-11 21:02:18.670 [http-nio-8080-exec-6] SignUp - user list: lmjakel
+[DEBUG] 2021-05-11 21:02:18.670 [http-nio-8080-exec-6] SignUp - user list: bwalters
+[DEBUG] 2021-05-11 21:02:18.670 [http-nio-8080-exec-6] SignUp - user list: mwilson
+[DEBUG] 2021-05-11 21:02:18.670 [http-nio-8080-exec-6] SignUp - user list: fjakel
+[DEBUG] 2021-05-11 21:02:18.670 [http-nio-8080-exec-6] SignUp - user list: dkabler
+[DEBUG] 2021-05-11 21:02:18.670 [http-nio-8080-exec-6] SignUp - user list: fdjakel
+[DEBUG] 2021-05-11 21:02:18.670 [http-nio-8080-exec-6] SignUp - is unique username
+[DEBUG] 2021-05-11 21:02:18.670 [http-nio-8080-exec-6] SignUp - Added user: User(id=0, firstName=Max, lastName=Jakel, userName=mjakel2, password=password, email=email@email.com, roles=[], books=[])
+[DEBUG] 2021-05-11 21:02:18.783 [http-nio-8080-exec-6] GenericDao - Searching for book with id = 15
+[DEBUG] 2021-05-11 21:02:18.916 [http-nio-8080-exec-8] SignUp - username: mjakel2
+[DEBUG] 2021-05-11 21:02:19.196 [http-nio-8080-exec-8] SignUp - user list: ljakel
+[DEBUG] 2021-05-11 21:02:19.197 [http-nio-8080-exec-8] SignUp - user list: mjakel
+[DEBUG] 2021-05-11 21:02:19.197 [http-nio-8080-exec-8] SignUp - user list: lisa
+[DEBUG] 2021-05-11 21:02:19.197 [http-nio-8080-exec-8] SignUp - user list: ricerocks
+[DEBUG] 2021-05-11 21:02:19.197 [http-nio-8080-exec-8] SignUp - user list: pwaite
+[DEBUG] 2021-05-11 21:02:19.197 [http-nio-8080-exec-8] SignUp - user list: eajakel
+[DEBUG] 2021-05-11 21:02:19.197 [http-nio-8080-exec-8] SignUp - user list: lmjakel
+[DEBUG] 2021-05-11 21:02:19.197 [http-nio-8080-exec-8] SignUp - user list: bwalters
+[DEBUG] 2021-05-11 21:02:19.199 [http-nio-8080-exec-8] SignUp - user list: mwilson
+[DEBUG] 2021-05-11 21:02:19.199 [http-nio-8080-exec-8] SignUp - user list: fjakel
+[DEBUG] 2021-05-11 21:02:19.199 [http-nio-8080-exec-8] SignUp - user list: dkabler
+[DEBUG] 2021-05-11 21:02:19.200 [http-nio-8080-exec-8] SignUp - user list: fdjakel
+[DEBUG] 2021-05-11 21:02:19.200 [http-nio-8080-exec-8] SignUp - user list: mjakel2
+[DEBUG] 2021-05-11 21:02:19.200 [http-nio-8080-exec-8] SignUp - username removed?  mjakel2
+[DEBUG] 2021-05-11 21:02:40.057 [http-nio-8080-exec-9] SignUp - username: Mjjakel
+[DEBUG] 2021-05-11 21:02:40.407 [http-nio-8080-exec-9] SignUp - user list: ljakel
+[DEBUG] 2021-05-11 21:02:40.407 [http-nio-8080-exec-9] SignUp - user list: mjakel
+[DEBUG] 2021-05-11 21:02:40.407 [http-nio-8080-exec-9] SignUp - user list: lisa
+[DEBUG] 2021-05-11 21:02:40.407 [http-nio-8080-exec-9] SignUp - user list: ricerocks
+[DEBUG] 2021-05-11 21:02:40.407 [http-nio-8080-exec-9] SignUp - user list: pwaite
+[DEBUG] 2021-05-11 21:02:40.407 [http-nio-8080-exec-9] SignUp - user list: eajakel
+[DEBUG] 2021-05-11 21:02:40.407 [http-nio-8080-exec-9] SignUp - user list: lmjakel
+[DEBUG] 2021-05-11 21:02:40.407 [http-nio-8080-exec-9] SignUp - user list: bwalters
+[DEBUG] 2021-05-11 21:02:40.407 [http-nio-8080-exec-9] SignUp - user list: mwilson
+[DEBUG] 2021-05-11 21:02:40.407 [http-nio-8080-exec-9] SignUp - user list: fjakel
+[DEBUG] 2021-05-11 21:02:40.407 [http-nio-8080-exec-9] SignUp - user list: dkabler
+[DEBUG] 2021-05-11 21:02:40.407 [http-nio-8080-exec-9] SignUp - user list: fdjakel
+[DEBUG] 2021-05-11 21:02:40.407 [http-nio-8080-exec-9] SignUp - user list: mjakel2
+[DEBUG] 2021-05-11 21:02:40.407 [http-nio-8080-exec-9] SignUp - is unique username
+[DEBUG] 2021-05-11 21:02:40.407 [http-nio-8080-exec-9] SignUp - Added user: User(id=0, firstName=Max, lastName=Jakel, userName=Mjjakel, password=pasword, email=email@email.com, roles=[], books=[])
+[DEBUG] 2021-05-11 21:02:40.465 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 16
+[DEBUG] 2021-05-11 21:04:32.065 [http-nio-8080-exec-2] SignUp - username: ljakel
+[DEBUG] 2021-05-11 21:04:32.556 [http-nio-8080-exec-2] SignUp - user list: ljakel
+[DEBUG] 2021-05-11 21:04:32.556 [http-nio-8080-exec-2] SignUp - username removed?  ljakel
+[DEBUG] 2021-05-11 21:04:46.017 [http-nio-8080-exec-3] SignUp - username: ljakel134
+[DEBUG] 2021-05-11 21:04:46.758 [http-nio-8080-exec-3] SignUp - user list: ljakel
+[DEBUG] 2021-05-11 21:04:46.758 [http-nio-8080-exec-3] SignUp - user list: mjakel
+[DEBUG] 2021-05-11 21:04:46.758 [http-nio-8080-exec-3] SignUp - user list: lisa
+[DEBUG] 2021-05-11 21:04:46.758 [http-nio-8080-exec-3] SignUp - user list: ricerocks
+[DEBUG] 2021-05-11 21:04:46.758 [http-nio-8080-exec-3] SignUp - user list: pwaite
+[DEBUG] 2021-05-11 21:04:46.758 [http-nio-8080-exec-3] SignUp - user list: eajakel
+[DEBUG] 2021-05-11 21:04:46.758 [http-nio-8080-exec-3] SignUp - user list: lmjakel
+[DEBUG] 2021-05-11 21:04:46.758 [http-nio-8080-exec-3] SignUp - user list: bwalters
+[DEBUG] 2021-05-11 21:04:46.758 [http-nio-8080-exec-3] SignUp - user list: mwilson
+[DEBUG] 2021-05-11 21:04:46.758 [http-nio-8080-exec-3] SignUp - user list: fjakel
+[DEBUG] 2021-05-11 21:04:46.758 [http-nio-8080-exec-3] SignUp - user list: dkabler
+[DEBUG] 2021-05-11 21:04:46.758 [http-nio-8080-exec-3] SignUp - user list: fdjakel
+[DEBUG] 2021-05-11 21:04:46.758 [http-nio-8080-exec-3] SignUp - user list: mjakel2
+[DEBUG] 2021-05-11 21:04:46.758 [http-nio-8080-exec-3] SignUp - user list: Mjjakel
+[DEBUG] 2021-05-11 21:04:46.758 [http-nio-8080-exec-3] SignUp - is unique username
+[DEBUG] 2021-05-11 21:04:46.758 [http-nio-8080-exec-3] SignUp - Added user: User(id=0, firstName=LeeAnn, lastName=Jakel, userName=ljakel134, password=March3rd, email=email@email.com, roles=[], books=[])
+[DEBUG] 2021-05-11 21:04:46.857 [http-nio-8080-exec-3] GenericDao - Searching for book with id = 17
+[DEBUG] 2021-05-11 21:06:09.099 [http-nio-8080-exec-6] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-11 21:06:34.506 [http-nio-8080-exec-10] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-11 21:06:58.998 [http-nio-8080-exec-8] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-11 21:07:01.765 [http-nio-8080-exec-8] GenericDao - Searching for book with name = Cassandra Clare
+[DEBUG] 2021-05-11 21:09:01.488 [http-nio-8080-exec-1] AddBook - BookId: 35
+[DEBUG] 2021-05-11 21:09:01.691 [http-nio-8080-exec-1] AddBook - Book: [!!!com.leeannjakel.entity.Book@76a4671f=>java.lang.StackOverflowError:null!!!]
+[DEBUG] 2021-05-11 21:09:02.008 [http-nio-8080-exec-1] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-05-11 21:10:06.812 [http-nio-8080-exec-9] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-11 21:10:06.922 [http-nio-8080-exec-9] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-05-11 21:10:07.675 [http-nio-8080-exec-9] SearchBooks - current user book list: [[!!!com.leeannjakel.entity.Book@6e9aca0b=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7f4c5bfe=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@22f42263=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@34687a15=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@c9a3401=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@11141dc7=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@12f0d2bc=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@65bfaa25=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@38d8a0af=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@9137856=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1d622efa=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@51441f1=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@78345424=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6a7742bc=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@666eb4f6=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@41527a03=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1b1d8379=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@4b2f4004=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@58758493=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@aa57ffc=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7d54239a=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@4c4a6354=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@386f2752=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1994e53c=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@45004d67=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5a4fd650=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1b5b3ffc=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@25d884ae=>java.lang.StackOverflowError:null!!!]]
+[DEBUG] 2021-05-11 21:10:08.132 [http-nio-8080-exec-9] SearchBooks - search type: author
+[DEBUG] 2021-05-11 21:10:08.141 [http-nio-8080-exec-9] SearchBooks - search term: maas
+[DEBUG] 2021-05-11 21:10:08.141 [http-nio-8080-exec-9] SearchBooks - get by author: maas
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Sarah J. Maas 
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Nora Roberts
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Sarah J. Maas
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Sarah J. Maas
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Sarah J. Maas
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Sarah J. Maas
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Leigh Bardugo
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Victoria Aveyard
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Victoria Aveyard
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Victoria Aveyard
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Victoria Aveyard
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:10:08.153 [http-nio-8080-exec-9] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:10:08.154 [http-nio-8080-exec-9] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:10:08.154 [http-nio-8080-exec-9] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:10:08.154 [http-nio-8080-exec-9] SearchBooks - author name: Kiera Cass
+[DEBUG] 2021-05-11 21:10:08.154 [http-nio-8080-exec-9] SearchBooks - author name: Kiera Cass
+[DEBUG] 2021-05-11 21:10:08.154 [http-nio-8080-exec-9] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:10:08.154 [http-nio-8080-exec-9] SearchBooks - Search results: [[!!!com.leeannjakel.entity.Book@6e9aca0b=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@22f42263=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@34687a15=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@c9a3401=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@11141dc7=>java.lang.StackOverflowError:null!!!]]
+[DEBUG] 2021-05-11 21:10:08.195 [http-nio-8080-exec-9] SearchBooks - Search results author: [[!!!com.leeannjakel.entity.Book@6e9aca0b=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@22f42263=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@34687a15=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@c9a3401=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@11141dc7=>java.lang.StackOverflowError:null!!!]]
+[DEBUG] 2021-05-11 21:10:34.018 [http-nio-8080-exec-10] DeleteBook - I am in delete book doGet
+[DEBUG] 2021-05-11 21:11:00.621 [http-nio-8080-exec-5] DeleteBook - book ID: 8
+[DEBUG] 2021-05-11 21:11:08.422 [http-nio-8080-exec-2] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-11 21:11:08.497 [http-nio-8080-exec-2] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-05-11 21:11:09.208 [http-nio-8080-exec-2] SearchBooks - current user book list: [[!!!com.leeannjakel.entity.Book@19aaa051=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@4bd544e7=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5ebaf383=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@21a1b0fe=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6d4524b3=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@cd6b780=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5f96b72=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@29731d73=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6dd7c452=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@548404df=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1a6847c6=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@2b41497d=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@78e7ed13=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@cb1bc2c=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@543f8c0b=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@75142d50=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@32dcd994=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@338d533f=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1b7ade91=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@4fd01e03=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1b147e14=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@4259d2e2=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@f9a126e=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@40752598=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@78a9175c=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@746b1469=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@2b3d71e8=>java.lang.StackOverflowError:null!!!]]
+[DEBUG] 2021-05-11 21:11:09.633 [http-nio-8080-exec-2] SearchBooks - search type: author
+[DEBUG] 2021-05-11 21:11:09.633 [http-nio-8080-exec-2] SearchBooks - search term: maas
+[DEBUG] 2021-05-11 21:11:09.633 [http-nio-8080-exec-2] SearchBooks - get by author: maas
+[DEBUG] 2021-05-11 21:11:09.634 [http-nio-8080-exec-2] SearchBooks - author name: Sarah J. Maas 
+[DEBUG] 2021-05-11 21:11:09.634 [http-nio-8080-exec-2] SearchBooks - author name: Nora Roberts
+[DEBUG] 2021-05-11 21:11:09.634 [http-nio-8080-exec-2] SearchBooks - author name: Sarah J. Maas
+[DEBUG] 2021-05-11 21:11:09.639 [http-nio-8080-exec-2] SearchBooks - author name: Sarah J. Maas
+[DEBUG] 2021-05-11 21:11:09.639 [http-nio-8080-exec-2] SearchBooks - author name: Sarah J. Maas
+[DEBUG] 2021-05-11 21:11:09.639 [http-nio-8080-exec-2] SearchBooks - author name: Leigh Bardugo
+[DEBUG] 2021-05-11 21:11:09.639 [http-nio-8080-exec-2] SearchBooks - author name: Victoria Aveyard
+[DEBUG] 2021-05-11 21:11:09.639 [http-nio-8080-exec-2] SearchBooks - author name: Victoria Aveyard
+[DEBUG] 2021-05-11 21:11:09.639 [http-nio-8080-exec-2] SearchBooks - author name: Victoria Aveyard
+[DEBUG] 2021-05-11 21:11:09.639 [http-nio-8080-exec-2] SearchBooks - author name: Victoria Aveyard
+[DEBUG] 2021-05-11 21:11:09.639 [http-nio-8080-exec-2] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:11:09.639 [http-nio-8080-exec-2] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:11:09.651 [http-nio-8080-exec-2] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:11:09.651 [http-nio-8080-exec-2] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:11:09.651 [http-nio-8080-exec-2] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:11:09.651 [http-nio-8080-exec-2] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:11:09.651 [http-nio-8080-exec-2] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:11:09.651 [http-nio-8080-exec-2] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:11:09.651 [http-nio-8080-exec-2] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:11:09.651 [http-nio-8080-exec-2] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:11:09.651 [http-nio-8080-exec-2] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:11:09.651 [http-nio-8080-exec-2] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:11:09.651 [http-nio-8080-exec-2] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:11:09.651 [http-nio-8080-exec-2] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:11:09.651 [http-nio-8080-exec-2] SearchBooks - author name: Kiera Cass
+[DEBUG] 2021-05-11 21:11:09.651 [http-nio-8080-exec-2] SearchBooks - author name: Kiera Cass
+[DEBUG] 2021-05-11 21:11:09.651 [http-nio-8080-exec-2] SearchBooks - author name: Cassandra Clare
+[DEBUG] 2021-05-11 21:11:09.651 [http-nio-8080-exec-2] SearchBooks - Search results: [[!!!com.leeannjakel.entity.Book@19aaa051=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5ebaf383=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@21a1b0fe=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6d4524b3=>java.lang.StackOverflowError:null!!!]]
+[DEBUG] 2021-05-11 21:11:09.750 [http-nio-8080-exec-2] SearchBooks - Search results author: [[!!!com.leeannjakel.entity.Book@19aaa051=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5ebaf383=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@21a1b0fe=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6d4524b3=>java.lang.StackOverflowError:null!!!]]
+[DEBUG] 2021-05-11 21:12:05.476 [http-nio-8080-exec-5] EditBook - book ID: 12
+[DEBUG] 2021-05-11 21:12:16.011 [http-nio-8080-exec-8] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-11 21:12:16.077 [http-nio-8080-exec-8] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-05-11 21:12:16.491 [http-nio-8080-exec-8] SearchBooks - current user book list: [[!!!com.leeannjakel.entity.Book@48f2ba9e=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@48221d1=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@21e52731=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3853218d=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@65285a53=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@70b1638e=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@78650e06=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@591b07ce=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7e46247c=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5909529=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5555bea3=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5471f6b0=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1b5b4d86=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1ae3ba19=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@623bbf40=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@39a401c1=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@78d24c0e=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7fe6027f=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@4098737c=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@592bc8a7=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@33735db0=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7cc9545b=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7fc9cb2d=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@78205a83=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@511706ea=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@674aeb1f=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@56ebd478=>java.lang.StackOverflowError:null!!!]]
+[DEBUG] 2021-05-11 21:12:17.166 [http-nio-8080-exec-8] SearchBooks - search type: title
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - search term: thorns
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - get by title: thorns
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: A Court Of Thorns and Roses
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: Dark Witch
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: Throne of glass
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: Crescent City : house of earth and blood
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: Throne of glass
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: The Grisha : Shadow and Bone
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: Glass Sword (Red Queen #2)
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: Red Queen
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: King's Cage (Red Queen)
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: War Storm (Red Queen)
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: City of Bones: 10th Anniversary Edition (The Mortal Instruments)
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: City Of Ashes Book Two
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: City Of Glass
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: City Of Fallen Angels
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: City of lost souls
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: City Of Heavenly Fire
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: Clockwork Angel
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: Clockwork Prince                            Infernal Devices
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: Clockwork Princess Graphic Novel
+[DEBUG] 2021-05-11 21:12:17.167 [http-nio-8080-exec-8] SearchBooks - title name: Chain of gold
+[DEBUG] 2021-05-11 21:12:17.170 [http-nio-8080-exec-8] SearchBooks - title name: The Last Hours
+[DEBUG] 2021-05-11 21:12:17.170 [http-nio-8080-exec-8] SearchBooks - title name: Lady Midnight
+[DEBUG] 2021-05-11 21:12:17.170 [http-nio-8080-exec-8] SearchBooks - title name: Lord of Shadows
+[DEBUG] 2021-05-11 21:12:17.171 [http-nio-8080-exec-8] SearchBooks - title name: Queen of air and darkness
+[DEBUG] 2021-05-11 21:12:17.171 [http-nio-8080-exec-8] SearchBooks - title name: The Selection
+[DEBUG] 2021-05-11 21:12:17.171 [http-nio-8080-exec-8] SearchBooks - title name: The Elite
+[DEBUG] 2021-05-11 21:12:17.171 [http-nio-8080-exec-8] SearchBooks - title name: City of Bones: 10th Anniversary Edition (The Mortal Instruments)
+[DEBUG] 2021-05-11 21:12:17.171 [http-nio-8080-exec-8] SearchBooks - Search results: [[!!!com.leeannjakel.entity.Book@48f2ba9e=>java.lang.StackOverflowError:null!!!]]
+[DEBUG] 2021-05-11 21:12:17.202 [http-nio-8080-exec-8] SearchBooks - Search results title: [[!!!com.leeannjakel.entity.Book@48f2ba9e=>java.lang.StackOverflowError:null!!!]]
+[DEBUG] 2021-05-11 21:12:26.094 [http-nio-8080-exec-5] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-11 21:12:26.149 [http-nio-8080-exec-5] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-05-11 21:12:26.498 [http-nio-8080-exec-5] SearchBooks - current user book list: [[!!!com.leeannjakel.entity.Book@7fd020bf=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1ae1116e=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@74461e4e=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@77a6de98=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@98ddd0b=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1b75c735=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5f851e7b=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1e96590d=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7914ba51=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@4ced8629=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3bec3f09=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@171e5748=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@4b84b1c8=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6b78ba5f=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3136c44e=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@54f76137=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3a138090=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@14976fcf=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1384cda7=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7c15e839=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5aa4f02b=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@75e215a7=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@403e0749=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@13b97b57=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6e61e4a3=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@b4b8be5=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3bffc18a=>java.lang.StackOverflowError:null!!!]]
+[DEBUG] 2021-05-11 21:14:39.071 [http-nio-8080-exec-4] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-11 21:14:39.145 [http-nio-8080-exec-4] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-05-11 21:14:39.624 [http-nio-8080-exec-4] SearchBooks - current user book list: [[!!!com.leeannjakel.entity.Book@70ad7b35=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@2085bc87=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@24a519ff=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@279a2876=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3cf58b63=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@319969fe=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3d7fe4d3=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@4b50b292=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5b6e8608=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@2142d202=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6359f385=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@2d53195e=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@2a2943a=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@354784ae=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@192e9c58=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@2c82ffca=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3a97ad24=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@33fc2c2c=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5eddaa57=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@651a72e9=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@62e31de3=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@302cd0df=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3105b9f=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@35abec2e=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@4f5de37d=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@19217861=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@186c1479=>java.lang.StackOverflowError:null!!!]]
+[DEBUG] 2021-05-12 15:12:08.325 [http-nio-8080-exec-9] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-05-12 15:12:10.406 [http-nio-8080-exec-9] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-05-12 15:12:10.869 [http-nio-8080-exec-9] SearchBooks - current user book list: [[!!!com.leeannjakel.entity.Book@4e5514e4=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@48e6874=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7426b6ec=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7501fc4b=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1315343b=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@642f23e5=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@257f685a=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5fe63b1a=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@65687831=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@78455f72=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@2626c598=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@48f604ad=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6ef95472=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3c953810=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@705a0e6d=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@659aedce=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@30c0b6aa=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@4046248f=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@60cf638c=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@520916c6=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@67499fcb=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@165abdf1=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@d127fb5=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1737e7f7=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3c2b851d=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7fdd025c=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@61ac35c5=>java.lang.StackOverflowError:null!!!]]
+[DEBUG] 2021-06-01 15:52:45.887 [http-nio-8080-exec-2] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-06-01 15:53:15.094 [http-nio-8080-exec-2] GenericDao - Searching for book with name = Sarah J. Maas
+[DEBUG] 2021-06-01 15:53:54.567 [http-nio-8080-exec-6] AddBook - BookId: 36
+[DEBUG] 2021-06-01 15:53:54.973 [http-nio-8080-exec-6] AddBook - Book: [!!!com.leeannjakel.entity.Book@17c8c2ef=>java.lang.StackOverflowError:null!!!]
+[DEBUG] 2021-06-01 15:53:55.707 [http-nio-8080-exec-6] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-06-01 15:54:25.561 [http-nio-8080-exec-4] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-06-01 15:54:25.878 [http-nio-8080-exec-4] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-06-01 15:54:27.169 [http-nio-8080-exec-4] SearchBooks - current user book list: [[!!!com.leeannjakel.entity.Book@4b74bd5=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6a2ebd3a=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@28c8564c=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@27f87b3d=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@19af65f4=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@677cc96=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6c678022=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@8223f00=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6ac07b35=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@526b1987=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@25df578=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1b9e000c=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@72eed999=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@78c34162=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@15588d37=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7ead71f0=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7a0b4dad=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@18a1cbdf=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@4941dcc9=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5c7606e0=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7cb04ee6=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6ad99d9c=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@2d39a39a=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@4194e1db=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3f2d4071=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@19be1f75=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@797b4aab=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1f87f666=>java.lang.StackOverflowError:null!!!]]
+[DEBUG] 2021-06-01 15:55:03.506 [http-nio-8080-exec-9] EditBook - book ID: 36
+[DEBUG] 2021-06-01 15:55:12.623 [http-nio-8080-exec-4] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-06-01 15:55:12.698 [http-nio-8080-exec-4] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-06-01 15:55:13.624 [http-nio-8080-exec-4] SearchBooks - current user book list: [[!!!com.leeannjakel.entity.Book@2b367fac=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5adc324c=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3d2a2451=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@31d1894b=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@29024bc2=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@12f742fc=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7e93e45f=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@4335a117=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@78d2aee8=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@509af3ac=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@31ca54fc=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5f1966cb=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@32d1262e=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3551b44b=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@56df7ba9=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@42646087=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@793fceb3=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@41f4de33=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6c5be797=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@ddac2c3=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@a17df9d=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6df58daa=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5ea1b8dc=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5b6a511=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3169690d=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@70303a57=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@23040bd5=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@13aabc89=>java.lang.StackOverflowError:null!!!]]
+[DEBUG] 2021-06-01 15:55:21.125 [http-nio-8080-exec-3] DeleteBook - I am in delete book doGet
+[DEBUG] 2021-06-01 15:55:40.218 [http-nio-8080-exec-9] DeleteBook - book ID: 36

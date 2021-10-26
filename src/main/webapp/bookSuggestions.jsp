@@ -26,8 +26,7 @@
         <h1 class="splash-head">Book Suggestions!</h1>
 
         <p class="splash-subhead">
-            Scroll through to see suggested books from various genres. Maybe you'll find a new favorite, or
-            be tempted to explore a genre you typically stay away from!
+            Scroll through to see suggested books based on your top 3 genres!
         </p>
     </div>
 </div>
@@ -70,9 +69,9 @@
         <div class="ribbon-content l-box-lrg pure-u-1">
             <h2 class="content-head content-head-ribbon is-center">Romance</h2>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-                <h3 class="content-subhead"><i>Captain Jack's Woman By Stephanie Laurents</i></h3>
+                <h3><i>Captain Jack's Woman By Stephanie Laurens</i></h3>
                 <p>
-                    hey meet in a clash of swords, drenched in the moonlight of Britain's rugged eastern coast:
+                    They meet in a clash of swords, drenched in the moonlight of Britain's rugged eastern coast:
                     Captain Jack, his handsome features etched in silver and shadow, his powerful physique compelling
                     "Kit" Cranmer to surrender. He is her dream lover come vividly alive, and his command of the
                     smuggling gang is absolute. His all-knowing gaze penetrates her disguise as the "lad" leader of a
@@ -85,7 +84,7 @@
                 </p>
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-2">
-                <h3 class="content-subhead"><i>Shameless By Karen Robards</i></h3>
+                <h3><i>Shameless By Karen Robards</i></h3>
                 <p>
                     Lady Elizabeth, the youngest and most headstrong of the three Banning sisters, has been engaged
                     three times, and has most scandalously broken off all three engagements. Neil Severin is a wicked
