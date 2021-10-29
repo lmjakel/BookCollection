@@ -20,6 +20,7 @@
         <mapping class="com.leeannjakel.entity.AuthorResponse"/>
         <mapping class="com.leeannjakel.entity.WorksAuthorsItem"/>
         <mapping class="com.leeannjakel.entity.Book"/>
+        <mapping class="com.leeannjakel.entity.BookSuggestions"/>
         <mapping class="com.leeannjakel.entity.Classifications"/>
         <mapping class="com.leeannjakel.entity.Created"/>
         <mapping class="com.leeannjakel.entity.Genre"/>

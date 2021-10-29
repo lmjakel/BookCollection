@@ -4,6 +4,8 @@ import com.leeannjakel.entity.Author;
 import com.leeannjakel.entity.Book;
 import com.leeannjakel.entity.Genre;
 import com.leeannjakel.entity.User;
+import com.leeannjakel.entity.BookSuggestions;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import com.leeannjakel.persistence.GenericDao;
@@ -20,6 +22,10 @@ public class SuggestionsTest {
      * The Book dao.
      */
     GenericDao<Book> bookDao;
+    /**
+     * The BookSuggestions dao.
+     */
+    GenericDao<BookSuggestions> bookSuggestionsDao;
     /**
      * The Author dao.
      */
@@ -39,13 +45,23 @@ public class SuggestionsTest {
      */
     @BeforeEach
     void setup() {
-        bookDao = new GenericDao(Book.class);
+        bookDao = new GenericDao<>(Book.class);
+        bookSuggestionsDao = new GenericDao<>(BookSuggestions.class);
         authorDao = new GenericDao<>(Author.class);
         userDao = new GenericDao<>(User.class);
         genreDao = new GenericDao<>(Genre.class);
 
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
+    }
+
+    /**
+     * Gets all books success.
+     */
+    @Test
+    void getAllBooksSuccess() {
+        List<BookSuggestions> books = bookSuggestionsDao.getAll();
+        assertEquals(4, books.size());
     }
 
 }
