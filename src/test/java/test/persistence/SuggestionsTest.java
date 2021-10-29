@@ -61,7 +61,7 @@ public class SuggestionsTest {
     @Test
     void getAllBooksSuccess() {
         List<BookSuggestions> books = bookSuggestionsDao.getAll();
-        assertEquals(4, books.size());
+        assertEquals(52, books.size());
     }
 
 }

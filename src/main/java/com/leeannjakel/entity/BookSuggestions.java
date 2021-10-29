@@ -6,7 +6,7 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 
 /**
- * The type Author.
+ * The type Book Suggestions.
  *
  * @author LeeAnn Jakel
  */
