@@ -64,4 +64,26 @@ public class SuggestionsTest {
         assertEquals(52, books.size());
     }
 
+    /**
+     * Gets books by user success.
+     */
+    @Test
+    void getBooksByUserSuccess() {
+        List<Book> retrievedBooks = bookDao.getByPropertyEqualsId("user", 1);
+        assertEquals(2, retrievedBooks.size());
+    }
+
+    /**
+     * Gets genre by user success.
+     */
+    @Test
+    void getGenreByUserSuccess() {
+        List<Book> retrievedBooks = bookDao.getByPropertyEqualsId("user", 1);
+        Genre genres = new Genre();
+
+        for(int i=0; i < retrievedBooks.size(); i++) {
+            genres = retrievedBooks.get(i).getGenre();
+        }
+        assertEquals(0, genres.getName());
+    }
 }
