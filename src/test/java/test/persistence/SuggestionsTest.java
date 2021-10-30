@@ -12,6 +12,8 @@ import com.leeannjakel.persistence.GenericDao;
 import test.utilities.Database;
 
 import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
@@ -79,11 +81,17 @@ public class SuggestionsTest {
     @Test
     void getGenreByUserSuccess() {
         List<Book> retrievedBooks = bookDao.getByPropertyEqualsId("user", 1);
-        Genre genres = new Genre();
+        String currentGenre;
+        Map<String, Integer> genreList = new TreeMap<>();
 
         for(int i=0; i < retrievedBooks.size(); i++) {
-            genres = retrievedBooks.get(i).getGenre();
+            currentGenre = retrievedBooks.get(i).getGenre().getName();
+            if(genreList.containsKey(currentGenre)) {
+                genreList.put(currentGenre, genreList.get(currentGenre) +1);
+            } else {
+                genreList.put(currentGenre, 1);
+            }
         }
-        assertEquals(0, genres.getName());
+        assertEquals(2, genreList.size());
     }
 }
