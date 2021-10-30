@@ -34,7 +34,8 @@ INSERT INTO user VALUES (1,'LeeAnn','Jakel', 'ljakel', 'password', 'email@someth
 INSERT INTO book VALUES (1, 'A Court Of Thorns and Roses', '9781408857861', 1, 1, 1, ""),
                         (2, 'The Way of Kings', '9780765365279', 4, 4, 2, ""),
                         (3, 'Dark Witch', '9780425259856', 1, 5, 5, ""),
-                        (4, 'City of Bones', '9780743566575', 2, 3, 1, "");
+                        (4, 'City of Bones', '9780743566575', 2, 3, 1, ""),
+                        (5, 'Throne of Glass', '9781408857861', 1, 1, 1, "");
 
 INSERT INTO `role` VALUES (7,'admin','ljakel',1);
 

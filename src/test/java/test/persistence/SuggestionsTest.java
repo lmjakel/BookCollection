@@ -13,6 +13,7 @@ import test.utilities.Database;
 
 import java.util.List;
 import java.util.Map;
+import java.util.SortedSet;
 import java.util.TreeMap;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -84,6 +85,7 @@ public class SuggestionsTest {
         String currentGenre;
         Map<String, Integer> genreList = new TreeMap<>();
 
+        //creates a Map of all genres stored by a given user
         for(int i=0; i < retrievedBooks.size(); i++) {
             currentGenre = retrievedBooks.get(i).getGenre().getName();
             if(genreList.containsKey(currentGenre)) {
@@ -92,6 +94,24 @@ public class SuggestionsTest {
                 genreList.put(currentGenre, 1);
             }
         }
+
+        //outputs the map
+        System.out.println(genreList);
+
+        //finds Key with largest Value
+
+        Map.Entry<String, Integer> maxGenre = null;
+        for(Map.Entry<String, Integer> genre:genreList.entrySet()){
+            if (maxGenre == null || genre.getValue().compareTo(maxGenre.getValue()) > 0) {
+                maxGenre = genre;
+            }
+        }
+
+        //outputs maxEntry
+        System.out.println(maxGenre);
+
+
+        //confirms correct number of entries
         assertEquals(2, genreList.size());
     }
 }

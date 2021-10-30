@@ -18,3 +18,10 @@
 [DEBUG] 2021-10-29 20:52:42.251 [main] GenericDao - Searching for book with user = 1
 [DEBUG] 2021-10-29 21:02:07.852 [main] GenericDao - Searching for book with user = 1
 [DEBUG] 2021-10-29 21:13:47.797 [main] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-10-29 21:15:21.655 [main] GenericDao - Searching for book with user = 2
+[DEBUG] 2021-10-29 21:16:07.234 [main] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-10-29 21:18:12.541 [main] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-10-29 21:18:55.170 [main] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-10-29 21:24:21.146 [main] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-10-30 17:32:01.477 [main] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-10-30 17:33:57.277 [main] GenericDao - Searching for book with user = 1
