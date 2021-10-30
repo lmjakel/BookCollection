@@ -99,16 +99,27 @@ public class SuggestionsTest {
         System.out.println(genreList);
 
         //finds Key with largest Value
-
+        // Resource: studytonight.com/java-examples/how-to-find-maximum-value-in-java-map
         Map.Entry<String, Integer> maxGenre = null;
+        Map.Entry<String, Integer> secondGenre = null;
+        Map.Entry<String, Integer> thirdGenre = null;
+
+
         for(Map.Entry<String, Integer> genre:genreList.entrySet()){
             if (maxGenre == null || genre.getValue().compareTo(maxGenre.getValue()) > 0) {
+                thirdGenre = secondGenre;
+                secondGenre = maxGenre;
                 maxGenre = genre;
             }
         }
 
+
         //outputs maxEntry
         System.out.println(maxGenre);
+        System.out.println(secondGenre);
+        System.out.println(thirdGenre);
+
+
 
 
         //confirms correct number of entries
