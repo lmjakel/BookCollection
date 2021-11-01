@@ -113,16 +113,32 @@ public class SuggestionsTest {
             }
         }
 
-
         //outputs maxEntry
         System.out.println(maxGenre);
         System.out.println(secondGenre);
         System.out.println(thirdGenre);
 
-
-
-
         //confirms correct number of entries
         assertEquals(2, genreList.size());
+    }
+
+    /**
+     * Gets 3 random booksuggestions by genre success.
+     */
+    @Test
+    void getBooksSuggestionByGenre() {
+        //gets all books by genre input
+        List<BookSuggestions> retrievedBooks = bookSuggestionsDao.getByPropertyEqualsId("genre", 1);
+
+        //randomly selects 3 books from the list
+        int listSize = retrievedBooks.size();
+        int min = 1;
+        int max = 9;
+        int bookPosition = (int) (Math.random() * (max - min + 1)) +min;
+        System.out.println(bookPosition);
+
+        String bookSuggestionTitle = retrievedBooks.get(bookPosition).getTitle();
+        System.out.println(bookSuggestionTitle);
+        assertEquals(9, retrievedBooks.size());
     }
 }
