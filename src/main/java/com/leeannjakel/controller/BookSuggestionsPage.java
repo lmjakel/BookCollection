@@ -1,6 +1,8 @@
 package com.leeannjakel.controller;
+
 import com.leeannjakel.entity.Author;
 import com.leeannjakel.entity.Book;
+import com.leeannjakel.entity.BookSuggestions;
 import com.leeannjakel.entity.Genre;
 import com.leeannjakel.entity.User;
 import org.apache.logging.log4j.LogManager;
@@ -27,7 +29,7 @@ import java.util.*;
  * top 3 genres
  * @author LeeAnn Jakel
  */
-public class BookSuggestions extends HttpServlet {
+public class BookSuggestionsPage extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
     /**
      * The Daos
@@ -42,7 +44,6 @@ public class BookSuggestions extends HttpServlet {
      * The Search results Lists.
      */
     List<Book> searchResults = new ArrayList<Book>();
-
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //gets userid
@@ -51,9 +52,12 @@ public class BookSuggestions extends HttpServlet {
         int userId = users.get(0).getId();
 
         //get genres by user
-        Map<String, Integer> top3Genres = getGenresByUser(userId);
+        List<String> top3Genres = getGenresByUser(userId);
 
         //get BookSuggestions for each top Genre
+        List<Integer> bookSuggetsionsList = getBookSuggestionsByGenre(top3Genres);
+
+        //get book info
 
 
         req.setAttribute("book", searchResults);
@@ -69,7 +73,7 @@ public class BookSuggestions extends HttpServlet {
      * @param userId the userId
      * @return the top 3 genres
      */
-    public Map<String,Integer> getGenresByUser(int userId) {
+    public List<String> getGenresByUser(int userId) {
         List<Book> retrievedBooks = bookDao.getByPropertyEqualsId("user", userId);
         String currentGenre;
         Map<String, Integer> genreList = new TreeMap<>();
@@ -90,7 +94,6 @@ public class BookSuggestions extends HttpServlet {
         Map.Entry<String, Integer> secondGenre = null;
         Map.Entry<String, Integer> thirdGenre = null;
 
-
         for(Map.Entry<String, Integer> genre:genreList.entrySet()){
             if (maxGenre == null || genre.getValue().compareTo(maxGenre.getValue()) > 0) {
                 thirdGenre = secondGenre;
@@ -98,12 +101,43 @@ public class BookSuggestions extends HttpServlet {
                 maxGenre = genre;
             }
         }
-        Map<String, Integer> topGenres = new HashMap<>();
-        topGenres.put(maxGenre.getKey(), maxGenre.getValue());
-        topGenres.put(secondGenre.getKey(), secondGenre.getValue());
-        topGenres.put(thirdGenre.getKey(), thirdGenre.getValue());
 
-        return topGenres;
+        //creates a list of top 3 genres
+        List<String> top3Genres = null;
+        top3Genres.add(maxGenre.getKey());
+        top3Genres.add(secondGenre.getKey());
+        top3Genres.add(thirdGenre.getKey());
+
+        return top3Genres;
+    }
+
+
+    /**
+     * @param top3Genres Map of top 3 genres
+     * @return book suggestion list
+     */
+    public List<Integer> getBookSuggestionsByGenre(List<String> top3Genres) {
+        List<BookSuggestions> retrievedBooks = null;
+        List<Integer> bookSuggestionsList = null;
+        //gets all books by genre input
+        for (int i=0; i < top3Genres.size(); i ++) {
+            Genre currentGenre = (Genre) genreDao.getByPropertyEqual("name", top3Genres.get(i));
+            retrievedBooks = bookSuggestionsDao.getByPropertyEqualsId("genre", currentGenre.getId());
+
+            //randomly selects 3 books from the list
+            int listSize = retrievedBooks.size();
+            int min = 1;
+            int max = listSize;
+
+            for(int j = 0; j < 3; j ++) {
+                int bookPosition = (int) (Math.random() * (max - min + 1)) +min;
+                int bookId = retrievedBooks.get(bookPosition).getId();
+                bookSuggestionsList.add(bookId);
+
+            }
+        }
+
+        return bookSuggestionsList;
     }
 
 }

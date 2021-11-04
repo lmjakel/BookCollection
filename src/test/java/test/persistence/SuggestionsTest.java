@@ -134,11 +134,14 @@ public class SuggestionsTest {
         int listSize = retrievedBooks.size();
         int min = 1;
         int max = 9;
-        int bookPosition = (int) (Math.random() * (max - min + 1)) +min;
-        System.out.println(bookPosition);
+        for (int i=0; i < 3; i++) {
+            int bookPosition = (int) (Math.random() * (max - min + 1)) +min;
+            System.out.println(bookPosition);
 
-        String bookSuggestionTitle = retrievedBooks.get(bookPosition).getTitle();
-        System.out.println(bookSuggestionTitle);
+            String bookSuggestionTitle = retrievedBooks.get(bookPosition).getTitle();
+            System.out.println(bookSuggestionTitle);
+        }
+
         assertEquals(9, retrievedBooks.size());
     }
 }
