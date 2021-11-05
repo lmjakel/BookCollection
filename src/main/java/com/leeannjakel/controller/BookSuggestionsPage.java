@@ -40,12 +40,10 @@ public class BookSuggestionsPage extends HttpServlet {
     GenericDao<Author> authorDao  = new GenericDao(Author.class);
     GenericDao<Genre> genreDao  = new GenericDao(Genre.class);
 
-    /**
-     * The Search results Lists.
-     */
-    List<Book> searchResults = new ArrayList<Book>();
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        logger.debug("Suggestions page");
+
         //gets userid
         String username = req.getUserPrincipal().getName();
         List<User> users = userDao.getByPropertyEqual("userName", username);
@@ -55,14 +53,12 @@ public class BookSuggestionsPage extends HttpServlet {
         List<String> top3Genres = getGenresByUser(userId);
 
         //get BookSuggestions for each top Genre
-        List<Integer> bookSuggetsionsList = getBookSuggestionsByGenre(top3Genres);
+        List<Integer> bookSuggestionsList = getBookSuggestionsByGenre(top3Genres);
 
-        //get book info
+        //set book info attribute
+        req.setAttribute("books", bookSuggestionsList);
 
-
-        req.setAttribute("book", searchResults);
-
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/bookSuggestions.jsp");
         dispatcher.forward(req, resp);
     }
 
@@ -107,6 +103,7 @@ public class BookSuggestionsPage extends HttpServlet {
         top3Genres.add(maxGenre.getKey());
         top3Genres.add(secondGenre.getKey());
         top3Genres.add(thirdGenre.getKey());
+        logger.debug("Genre list: {}", top3Genres);
 
         return top3Genres;
     }
@@ -136,6 +133,7 @@ public class BookSuggestionsPage extends HttpServlet {
 
             }
         }
+        logger.debug("Suggestion list: {}", bookSuggestionsList);
 
         return bookSuggestionsList;
     }
