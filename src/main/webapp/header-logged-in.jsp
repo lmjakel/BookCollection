@@ -13,7 +13,7 @@
             <li class="pure-menu-item"><a href="index-logged-in.jsp" class="pure-menu-link">Home</a></li>
             <li class="pure-menu-item"><a href="addBook.jsp" class="pure-menu-link">Add Book</a></li>
             <li class="pure-menu-item"><a href="searchBooks.jsp" class="pure-menu-link">Search Library</a></li>
-            <li class="pure-menu-item"><a href="bookSuggestions.jsp" class="pure-menu-link">Book Suggestions</a></li>
+            <li class="pure-menu-item"><a href="BookSuggestions" class="pure-menu-link">Book Suggestions</a></li>
 
             <li class="pure-menu-item">
                 <form action="LogoutUser" method="POST">

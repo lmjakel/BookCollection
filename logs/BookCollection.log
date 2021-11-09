@@ -38,3 +38,233 @@
 [DEBUG] 2021-11-05 11:34:25.260 [http-nio-8080-exec-4] GenericDao - Searching for book with userName = ljakel
 [DEBUG] 2021-11-05 11:34:26.419 [http-nio-8080-exec-4] GenericDao - Searching for book with user = 1
 [DEBUG] 2021-11-05 11:34:27.733 [http-nio-8080-exec-4] SearchBooks - current user book list: [[!!!com.leeannjakel.entity.Book@14668afa=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@21e85ed3=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@32b4f4c7=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@3d9ddad9=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1d8ca6ca=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@7e716d6e=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6b76bcab=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@386ee80e=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@402ca33f=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@35c3bc49=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6b8ecdbe=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@24ef6659=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@17f1ca0=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@2976c932=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1269fc34=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@dc98812=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@79a1ffde=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@412c6a3c=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@1c79a671=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@5db134f4=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@2b186f93=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@9c78d46=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@585ce821=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@c9e714a=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6492e3bd=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@510affd4=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.Book@6e280834=>java.lang.StackOverflowError:null!!!]]
+[DEBUG] 2021-11-09 13:03:02.595 [http-nio-8080-exec-3] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-09 13:03:18.197 [http-nio-8080-exec-3] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-09 13:03:20.364 [http-nio-8080-exec-3] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-09 13:11:32.113 [http-nio-8080-exec-8] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-09 13:11:57.683 [http-nio-8080-exec-8] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-09 13:12:01.101 [http-nio-8080-exec-8] BookSuggestionsPage - user: 1
+[DEBUG] 2021-11-09 13:12:01.179 [http-nio-8080-exec-8] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-09 13:16:13.410 [http-nio-8080-exec-7] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-09 13:16:29.396 [http-nio-8080-exec-7] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-09 13:16:30.299 [http-nio-8080-exec-7] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-09 13:16:31.406 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.407 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.407 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.407 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop1
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop2
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop2
+[DEBUG] 2021-11-09 13:16:31.408 [http-nio-8080-exec-7] BookSuggestionsPage - for loop2
+[DEBUG] 2021-11-09 13:22:20.546 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-09 13:22:32.609 [http-nio-8080-exec-9] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-09 13:22:34.075 [http-nio-8080-exec-9] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-09 13:22:35.069 [http-nio-8080-exec-9] BookSuggestionsPage - {Action=1, Romance=1, Young Adult=25}
+[DEBUG] 2021-11-09 13:22:35.096 [http-nio-8080-exec-9] BookSuggestionsPage - Max:Young Adult=25
+[DEBUG] 2021-11-09 13:27:28.819 [http-nio-8080-exec-8] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-09 13:27:40.041 [http-nio-8080-exec-8] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-09 13:27:41.136 [http-nio-8080-exec-8] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-09 13:27:42.498 [http-nio-8080-exec-8] BookSuggestionsPage - {Action=1, Romance=1, Young Adult=25}
+[DEBUG] 2021-11-09 13:27:42.500 [http-nio-8080-exec-8] BookSuggestionsPage - Max:Young Adult
+[DEBUG] 2021-11-09 13:30:59.529 [http-nio-8080-exec-7] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-09 13:31:11.339 [http-nio-8080-exec-7] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-09 13:31:12.083 [http-nio-8080-exec-7] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-09 13:31:12.746 [http-nio-8080-exec-7] BookSuggestionsPage - {Action=1, Romance=1, Young Adult=25}
+[DEBUG] 2021-11-09 13:31:12.768 [http-nio-8080-exec-7] BookSuggestionsPage - Max:Young Adult
+[DEBUG] 2021-11-09 13:42:10.551 [http-nio-8080-exec-7] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-09 13:42:22.018 [http-nio-8080-exec-7] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-09 13:42:22.801 [http-nio-8080-exec-7] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-09 13:42:23.440 [http-nio-8080-exec-7] BookSuggestionsPage - {Action=1, Romance=1, Young Adult=25}
+[DEBUG] 2021-11-09 13:42:23.442 [http-nio-8080-exec-7] BookSuggestionsPage - Max:Young Adult
+[DEBUG] 2021-11-09 13:42:23.442 [http-nio-8080-exec-7] BookSuggestionsPage - 2ndMax:Action
+[DEBUG] 2021-11-09 13:45:14.863 [http-nio-8080-exec-7] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-09 13:45:25.158 [http-nio-8080-exec-7] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-09 13:45:26.693 [http-nio-8080-exec-7] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-09 13:45:27.695 [http-nio-8080-exec-7] BookSuggestionsPage - {Action=1, Romance=1, Young Adult=25}
+[DEBUG] 2021-11-09 13:45:27.707 [http-nio-8080-exec-7] BookSuggestionsPage - Max:Young Adult
+[DEBUG] 2021-11-09 13:45:27.707 [http-nio-8080-exec-7] BookSuggestionsPage - 2ndMax:Romance
+[DEBUG] 2021-11-09 13:45:27.707 [http-nio-8080-exec-7] BookSuggestionsPage - 3RdMax:Action
+[DEBUG] 2021-11-09 13:45:27.707 [http-nio-8080-exec-7] BookSuggestionsPage - Genre list: 3
+[DEBUG] 2021-11-09 13:45:27.707 [http-nio-8080-exec-7] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-11-09 14:23:16.856 [http-nio-8080-exec-7] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-09 14:23:29.553 [http-nio-8080-exec-7] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-09 14:23:30.358 [http-nio-8080-exec-7] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-09 14:23:31.635 [http-nio-8080-exec-7] BookSuggestionsPage - {Action=1, Romance=1, Young Adult=25}
+[DEBUG] 2021-11-09 14:23:31.652 [http-nio-8080-exec-7] BookSuggestionsPage - Max:Young Adult
+[DEBUG] 2021-11-09 14:23:31.652 [http-nio-8080-exec-7] BookSuggestionsPage - 2ndMax:Romance
+[DEBUG] 2021-11-09 14:23:31.652 [http-nio-8080-exec-7] BookSuggestionsPage - 3RdMax:Action
+[DEBUG] 2021-11-09 14:23:31.652 [http-nio-8080-exec-7] BookSuggestionsPage - Genre list: [Young Adult, Romance, Action]
+[DEBUG] 2021-11-09 14:23:31.657 [http-nio-8080-exec-7] GenericDao - Searching for book with genre = Young Adult
+[DEBUG] 2021-11-09 16:19:50.269 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-09 16:20:01.329 [http-nio-8080-exec-9] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-09 16:20:03.075 [http-nio-8080-exec-9] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-09 16:20:03.756 [http-nio-8080-exec-9] BookSuggestionsPage - {Action=1, Romance=1, Young Adult=25}
+[DEBUG] 2021-11-09 16:20:03.760 [http-nio-8080-exec-9] BookSuggestionsPage - Max:Young Adult
+[DEBUG] 2021-11-09 16:20:03.760 [http-nio-8080-exec-9] BookSuggestionsPage - 2ndMax:Romance
+[DEBUG] 2021-11-09 16:20:03.760 [http-nio-8080-exec-9] BookSuggestionsPage - 3RdMax:Action
+[DEBUG] 2021-11-09 16:20:03.760 [http-nio-8080-exec-9] BookSuggestionsPage - Genre list: [Young Adult, Romance, Action]
+[DEBUG] 2021-11-09 16:20:03.761 [http-nio-8080-exec-9] GenericDao - Searching for book with genre = Young Adult
+[DEBUG] 2021-11-09 16:23:11.074 [http-nio-8080-exec-8] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-09 16:23:22.580 [http-nio-8080-exec-8] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-09 16:23:23.395 [http-nio-8080-exec-8] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-09 16:23:24.163 [http-nio-8080-exec-8] BookSuggestionsPage - {Action=1, Romance=1, Young Adult=25}
+[DEBUG] 2021-11-09 16:23:24.171 [http-nio-8080-exec-8] BookSuggestionsPage - Max:Young Adult
+[DEBUG] 2021-11-09 16:23:24.171 [http-nio-8080-exec-8] BookSuggestionsPage - 2ndMax:Romance
+[DEBUG] 2021-11-09 16:23:24.171 [http-nio-8080-exec-8] BookSuggestionsPage - 3RdMax:Action
+[DEBUG] 2021-11-09 16:23:24.171 [http-nio-8080-exec-8] BookSuggestionsPage - Genre list: [Young Adult, Romance, Action]
+[DEBUG] 2021-11-09 16:23:24.171 [http-nio-8080-exec-8] BookSuggestionsPage - forloop
+[DEBUG] 2021-11-09 16:23:24.172 [http-nio-8080-exec-8] GenericDao - Searching for book with genre = Young Adult
+[DEBUG] 2021-11-09 16:29:09.159 [http-nio-8080-exec-7] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-09 16:29:21.542 [http-nio-8080-exec-7] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-09 16:29:22.257 [http-nio-8080-exec-7] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-09 16:29:23.003 [http-nio-8080-exec-7] BookSuggestionsPage - {Action=1, Romance=1, Young Adult=25}
+[DEBUG] 2021-11-09 16:29:23.019 [http-nio-8080-exec-7] BookSuggestionsPage - Max:Young Adult
+[DEBUG] 2021-11-09 16:29:23.019 [http-nio-8080-exec-7] BookSuggestionsPage - 2ndMax:Romance
+[DEBUG] 2021-11-09 16:29:23.019 [http-nio-8080-exec-7] BookSuggestionsPage - 3RdMax:Action
+[DEBUG] 2021-11-09 16:29:23.019 [http-nio-8080-exec-7] BookSuggestionsPage - Genre list: [Young Adult, Romance, Action]
+[DEBUG] 2021-11-09 16:29:23.020 [http-nio-8080-exec-7] GenericDao - Searching for book with genre = Young Adult
+[DEBUG] 2021-11-09 16:35:32.226 [http-nio-8080-exec-7] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-09 16:35:43.147 [http-nio-8080-exec-7] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-09 16:35:44.663 [http-nio-8080-exec-7] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-09 16:35:45.395 [http-nio-8080-exec-7] BookSuggestionsPage - {Action=1, Romance=1, Young Adult=25}
+[DEBUG] 2021-11-09 16:35:45.403 [http-nio-8080-exec-7] BookSuggestionsPage - Max:Young Adult
+[DEBUG] 2021-11-09 16:35:45.403 [http-nio-8080-exec-7] BookSuggestionsPage - 2ndMax:Romance
+[DEBUG] 2021-11-09 16:35:45.403 [http-nio-8080-exec-7] BookSuggestionsPage - 3RdMax:Action
+[DEBUG] 2021-11-09 16:35:45.403 [http-nio-8080-exec-7] BookSuggestionsPage - Genre list: [Young Adult, Romance, Action]
+[DEBUG] 2021-11-09 16:35:45.404 [http-nio-8080-exec-7] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-11-09 16:35:45.746 [http-nio-8080-exec-7] BookSuggestionsPage - current Genre: Young Adult
+[DEBUG] 2021-11-09 16:35:45.746 [http-nio-8080-exec-7] GenericDao - Searching for book with genre = 1
+[DEBUG] 2021-11-09 16:35:46.080 [http-nio-8080-exec-7] BookSuggestionsPage - retrievedBooks:[[!!!com.leeannjakel.entity.BookSuggestions@31ca53ac=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.BookSuggestions@11a45b1e=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.BookSuggestions@365089e6=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.BookSuggestions@3c0e9b7b=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.BookSuggestions@5fbaf865=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.BookSuggestions@6c753427=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.BookSuggestions@5ed89ff6=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.BookSuggestions@16451215=>java.lang.StackOverflowError:null!!!], [!!!com.leeannjakel.entity.BookSuggestions@1e34a968=>java.lang.StackOverflowError:null!!!]]
+[DEBUG] 2021-11-09 16:35:46.278 [http-nio-8080-exec-7] BookSuggestionsPage - 9
+[DEBUG] 2021-11-09 16:35:46.278 [http-nio-8080-exec-7] BookSuggestionsPage - for loop
+[DEBUG] 2021-11-09 16:35:46.278 [http-nio-8080-exec-7] BookSuggestionsPage - for loop
+[DEBUG] 2021-11-09 16:35:46.278 [http-nio-8080-exec-7] BookSuggestionsPage - for loop
+[DEBUG] 2021-11-09 16:43:11.018 [http-nio-8080-exec-8] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-09 16:43:22.459 [http-nio-8080-exec-8] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-09 16:43:23.911 [http-nio-8080-exec-8] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-09 16:43:24.627 [http-nio-8080-exec-8] BookSuggestionsPage - {Action=1, Romance=1, Young Adult=25}
+[DEBUG] 2021-11-09 16:43:24.630 [http-nio-8080-exec-8] BookSuggestionsPage - Max:Young Adult
+[DEBUG] 2021-11-09 16:43:24.630 [http-nio-8080-exec-8] BookSuggestionsPage - 2ndMax:Romance
+[DEBUG] 2021-11-09 16:43:24.630 [http-nio-8080-exec-8] BookSuggestionsPage - 3RdMax:Action
+[DEBUG] 2021-11-09 16:43:24.630 [http-nio-8080-exec-8] BookSuggestionsPage - Genre list: [Young Adult, Romance, Action]
+[DEBUG] 2021-11-09 16:43:24.632 [http-nio-8080-exec-8] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-11-09 16:43:24.975 [http-nio-8080-exec-8] GenericDao - Searching for book with genre = 1
+[DEBUG] 2021-11-09 16:43:25.254 [http-nio-8080-exec-8] BookSuggestionsPage - position: 6
+[DEBUG] 2021-11-09 16:43:25.254 [http-nio-8080-exec-8] BookSuggestionsPage - Suggestion list: [12]
+[DEBUG] 2021-11-09 16:43:25.254 [http-nio-8080-exec-8] BookSuggestionsPage - position: 3
+[DEBUG] 2021-11-09 16:43:25.254 [http-nio-8080-exec-8] BookSuggestionsPage - Suggestion list: [12, 9]
+[DEBUG] 2021-11-09 16:43:25.255 [http-nio-8080-exec-8] BookSuggestionsPage - position: 4
+[DEBUG] 2021-11-09 16:43:25.255 [http-nio-8080-exec-8] BookSuggestionsPage - Suggestion list: [12, 9, 10]
+[DEBUG] 2021-11-09 16:43:25.255 [http-nio-8080-exec-8] GenericDao - Searching for book with name = Romance
+[DEBUG] 2021-11-09 16:43:25.381 [http-nio-8080-exec-8] GenericDao - Searching for book with genre = 5
+[DEBUG] 2021-11-09 16:43:25.522 [http-nio-8080-exec-8] BookSuggestionsPage - position: 2
+[DEBUG] 2021-11-09 16:43:25.522 [http-nio-8080-exec-8] BookSuggestionsPage - Suggestion list: [12, 9, 10, 3]
+[DEBUG] 2021-11-09 16:43:25.523 [http-nio-8080-exec-8] BookSuggestionsPage - position: 3
+[DEBUG] 2021-11-09 16:43:25.523 [http-nio-8080-exec-8] BookSuggestionsPage - Suggestion list: [12, 9, 10, 3, 4]
+[DEBUG] 2021-11-09 16:43:25.523 [http-nio-8080-exec-8] BookSuggestionsPage - position: 5
+[DEBUG] 2021-11-09 16:47:00.774 [http-nio-8080-exec-5] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-09 16:47:12.276 [http-nio-8080-exec-5] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-09 16:47:13.098 [http-nio-8080-exec-5] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-09 16:47:13.761 [http-nio-8080-exec-5] BookSuggestionsPage - {Action=1, Romance=1, Young Adult=25}
+[DEBUG] 2021-11-09 16:47:13.764 [http-nio-8080-exec-5] BookSuggestionsPage - Max:Young Adult
+[DEBUG] 2021-11-09 16:47:13.765 [http-nio-8080-exec-5] BookSuggestionsPage - 2ndMax:Romance
+[DEBUG] 2021-11-09 16:47:13.765 [http-nio-8080-exec-5] BookSuggestionsPage - 3RdMax:Action
+[DEBUG] 2021-11-09 16:47:13.765 [http-nio-8080-exec-5] BookSuggestionsPage - Genre list: [Young Adult, Romance, Action]
+[DEBUG] 2021-11-09 16:47:13.766 [http-nio-8080-exec-5] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-11-09 16:47:14.107 [http-nio-8080-exec-5] GenericDao - Searching for book with genre = 1
+[DEBUG] 2021-11-09 16:47:14.385 [http-nio-8080-exec-5] BookSuggestionsPage - position: 1
+[DEBUG] 2021-11-09 16:47:14.385 [http-nio-8080-exec-5] BookSuggestionsPage - Suggestion list: [7]
+[DEBUG] 2021-11-09 16:47:14.385 [http-nio-8080-exec-5] BookSuggestionsPage - position: 5
+[DEBUG] 2021-11-09 16:47:14.385 [http-nio-8080-exec-5] BookSuggestionsPage - Suggestion list: [7, 11]
+[DEBUG] 2021-11-09 16:47:14.385 [http-nio-8080-exec-5] BookSuggestionsPage - position: 2
+[DEBUG] 2021-11-09 16:47:14.389 [http-nio-8080-exec-5] BookSuggestionsPage - Suggestion list: [7, 11, 8]
+[DEBUG] 2021-11-09 16:47:14.389 [http-nio-8080-exec-5] BookSuggestionsPage - position: 7
+[DEBUG] 2021-11-09 16:47:14.389 [http-nio-8080-exec-5] BookSuggestionsPage - Suggestion list: [7, 11, 8, 13]
+[DEBUG] 2021-11-09 16:47:14.390 [http-nio-8080-exec-5] GenericDao - Searching for book with name = Romance
+[DEBUG] 2021-11-09 16:47:14.508 [http-nio-8080-exec-5] GenericDao - Searching for book with genre = 5
+[DEBUG] 2021-11-09 16:47:14.633 [http-nio-8080-exec-5] BookSuggestionsPage - position: 4
+[DEBUG] 2021-11-09 16:47:14.633 [http-nio-8080-exec-5] BookSuggestionsPage - Suggestion list: [7, 11, 8, 13, 5]
+[DEBUG] 2021-11-09 16:47:14.633 [http-nio-8080-exec-5] BookSuggestionsPage - position: 1
+[DEBUG] 2021-11-09 16:47:14.633 [http-nio-8080-exec-5] BookSuggestionsPage - Suggestion list: [7, 11, 8, 13, 5, 2]
+[DEBUG] 2021-11-09 16:47:14.633 [http-nio-8080-exec-5] BookSuggestionsPage - position: 5
+[DEBUG] 2021-11-09 16:55:49.077 [http-nio-8080-exec-6] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-09 16:56:07.831 [http-nio-8080-exec-6] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-09 16:56:08.707 [http-nio-8080-exec-6] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-09 16:56:10.030 [http-nio-8080-exec-6] BookSuggestionsPage - {Action=1, Romance=1, Young Adult=25}
+[DEBUG] 2021-11-09 16:56:10.035 [http-nio-8080-exec-6] BookSuggestionsPage - Max:Young Adult
+[DEBUG] 2021-11-09 16:56:10.036 [http-nio-8080-exec-6] BookSuggestionsPage - 2ndMax:Romance
+[DEBUG] 2021-11-09 16:56:10.036 [http-nio-8080-exec-6] BookSuggestionsPage - 3RdMax:Action
+[DEBUG] 2021-11-09 16:56:10.036 [http-nio-8080-exec-6] BookSuggestionsPage - Genre list: [Young Adult, Romance, Action]
+[DEBUG] 2021-11-09 16:56:10.036 [http-nio-8080-exec-6] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-11-09 16:56:10.429 [http-nio-8080-exec-6] GenericDao - Searching for book with genre = 1
+[DEBUG] 2021-11-09 16:56:10.765 [http-nio-8080-exec-6] BookSuggestionsPage - position: 4
+[DEBUG] 2021-11-09 16:56:10.765 [http-nio-8080-exec-6] BookSuggestionsPage - Suggestion list: [10]
+[DEBUG] 2021-11-09 16:56:10.765 [http-nio-8080-exec-6] BookSuggestionsPage - position: 7
+[DEBUG] 2021-11-09 16:56:10.765 [http-nio-8080-exec-6] BookSuggestionsPage - Suggestion list: [10, 13]
+[DEBUG] 2021-11-09 16:56:10.765 [http-nio-8080-exec-6] BookSuggestionsPage - position: 6
+[DEBUG] 2021-11-09 16:56:10.765 [http-nio-8080-exec-6] BookSuggestionsPage - Suggestion list: [10, 13, 12]
+[DEBUG] 2021-11-09 16:56:10.765 [http-nio-8080-exec-6] GenericDao - Searching for book with name = Romance
+[DEBUG] 2021-11-09 16:56:10.901 [http-nio-8080-exec-6] GenericDao - Searching for book with genre = 5
+[DEBUG] 2021-11-09 16:56:11.035 [http-nio-8080-exec-6] BookSuggestionsPage - position: 2
+[DEBUG] 2021-11-09 16:56:11.036 [http-nio-8080-exec-6] BookSuggestionsPage - Suggestion list: [10, 13, 12, 3]
+[DEBUG] 2021-11-09 16:56:11.036 [http-nio-8080-exec-6] BookSuggestionsPage - position: 1
+[DEBUG] 2021-11-09 16:56:11.036 [http-nio-8080-exec-6] BookSuggestionsPage - Suggestion list: [10, 13, 12, 3, 2]
+[DEBUG] 2021-11-09 16:56:11.036 [http-nio-8080-exec-6] BookSuggestionsPage - position: 2
+[DEBUG] 2021-11-09 16:56:11.036 [http-nio-8080-exec-6] BookSuggestionsPage - Suggestion list: [10, 13, 12, 3, 2, 3]
+[DEBUG] 2021-11-09 16:56:11.036 [http-nio-8080-exec-6] GenericDao - Searching for book with name = Action
+[DEBUG] 2021-11-09 16:56:11.326 [http-nio-8080-exec-6] GenericDao - Searching for book with genre = 6
+[DEBUG] 2021-11-09 16:56:11.349 [http-nio-8080-exec-6] BookSuggestionsPage - position: 1
+[DEBUG] 2021-11-09 17:03:14.842 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-09 17:03:33.547 [http-nio-8080-exec-9] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-09 17:03:35.714 [http-nio-8080-exec-9] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-09 17:03:37.083 [http-nio-8080-exec-9] BookSuggestionsPage - {Mystery=1, Romance=1, Young Adult=26}
+[DEBUG] 2021-11-09 17:03:37.100 [http-nio-8080-exec-9] BookSuggestionsPage - Max:Young Adult
+[DEBUG] 2021-11-09 17:03:37.101 [http-nio-8080-exec-9] BookSuggestionsPage - 2ndMax:Romance
+[DEBUG] 2021-11-09 17:03:37.101 [http-nio-8080-exec-9] BookSuggestionsPage - 3RdMax:Mystery
+[DEBUG] 2021-11-09 17:03:37.101 [http-nio-8080-exec-9] BookSuggestionsPage - Genre list: [Young Adult, Romance, Mystery]
+[DEBUG] 2021-11-09 17:03:37.101 [http-nio-8080-exec-9] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-11-09 17:03:37.497 [http-nio-8080-exec-9] GenericDao - Searching for book with genre = 1
+[DEBUG] 2021-11-09 17:03:37.771 [http-nio-8080-exec-9] BookSuggestionsPage - position: 4
+[DEBUG] 2021-11-09 17:03:37.772 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestion list: [10]
+[DEBUG] 2021-11-09 17:03:37.772 [http-nio-8080-exec-9] BookSuggestionsPage - position: 8
+[DEBUG] 2021-11-09 17:03:37.772 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestion list: [10, 14]
+[DEBUG] 2021-11-09 17:03:37.777 [http-nio-8080-exec-9] BookSuggestionsPage - position: 1
+[DEBUG] 2021-11-09 17:03:37.778 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestion list: [10, 14, 7]
+[DEBUG] 2021-11-09 17:03:37.778 [http-nio-8080-exec-9] GenericDao - Searching for book with name = Romance
+[DEBUG] 2021-11-09 17:03:37.918 [http-nio-8080-exec-9] GenericDao - Searching for book with genre = 5
+[DEBUG] 2021-11-09 17:03:38.080 [http-nio-8080-exec-9] BookSuggestionsPage - position: 2
+[DEBUG] 2021-11-09 17:03:38.080 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestion list: [10, 14, 7, 3]
+[DEBUG] 2021-11-09 17:03:38.080 [http-nio-8080-exec-9] BookSuggestionsPage - position: 2
+[DEBUG] 2021-11-09 17:03:38.080 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestion list: [10, 14, 7, 3, 3]
+[DEBUG] 2021-11-09 17:03:38.080 [http-nio-8080-exec-9] BookSuggestionsPage - position: 2
+[DEBUG] 2021-11-09 17:03:38.080 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestion list: [10, 14, 7, 3, 3, 3]
+[DEBUG] 2021-11-09 17:03:38.081 [http-nio-8080-exec-9] GenericDao - Searching for book with name = Mystery
+[DEBUG] 2021-11-09 17:03:38.209 [http-nio-8080-exec-9] GenericDao - Searching for book with genre = 4
+[DEBUG] 2021-11-09 17:03:38.316 [http-nio-8080-exec-9] BookSuggestionsPage - position: 1
+[DEBUG] 2021-11-09 17:03:38.316 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestion list: [10, 14, 7, 3, 3, 3, 24]
+[DEBUG] 2021-11-09 17:03:38.316 [http-nio-8080-exec-9] BookSuggestionsPage - position: 3
+[DEBUG] 2021-11-09 17:03:38.316 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestion list: [10, 14, 7, 3, 3, 3, 24, 26]
+[DEBUG] 2021-11-09 17:03:38.316 [http-nio-8080-exec-9] BookSuggestionsPage - position: 1
+[DEBUG] 2021-11-09 17:03:38.316 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestion list: [10, 14, 7, 3, 3, 3, 24, 26, 24]

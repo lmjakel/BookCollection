@@ -43,7 +43,6 @@ public class BookSuggestionsPage extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         logger.debug("Suggestions page");
-
         //gets userid
         String username = req.getUserPrincipal().getName();
         List<User> users = userDao.getByPropertyEqual("userName", username);
@@ -83,7 +82,7 @@ public class BookSuggestionsPage extends HttpServlet {
                 genreList.put(currentGenre, 1);
             }
         }
-
+        logger.debug(genreList);
         //finds Key with largest Value
         // Resource: studytonight.com/java-examples/how-to-find-maximum-value-in-java-map
         Map.Entry<String, Integer> maxGenre = null;
@@ -91,15 +90,18 @@ public class BookSuggestionsPage extends HttpServlet {
         Map.Entry<String, Integer> thirdGenre = null;
 
         for(Map.Entry<String, Integer> genre:genreList.entrySet()){
-            if (maxGenre == null || genre.getValue().compareTo(maxGenre.getValue()) > 0) {
+            if (maxGenre == null || genre.getValue().compareTo(maxGenre.getValue()) >= 0) {
                 thirdGenre = secondGenre;
                 secondGenre = maxGenre;
                 maxGenre = genre;
             }
         }
+        logger.debug("Max:{}", maxGenre.getKey());
+        logger.debug("2ndMax:{}", secondGenre.getKey());
+        logger.debug("3RdMax:{}", thirdGenre.getKey());
 
         //creates a list of top 3 genres
-        List<String> top3Genres = null;
+        List<String> top3Genres = new ArrayList<>();
         top3Genres.add(maxGenre.getKey());
         top3Genres.add(secondGenre.getKey());
         top3Genres.add(thirdGenre.getKey());
@@ -114,20 +116,19 @@ public class BookSuggestionsPage extends HttpServlet {
      * @return book suggestion list
      */
     public List<Integer> getBookSuggestionsByGenre(List<String> top3Genres) {
-        List<BookSuggestions> retrievedBooks = null;
-        List<Integer> bookSuggestionsList = null;
+        List<BookSuggestions> retrievedBooks;
+        List<Integer> bookSuggestionsList = new ArrayList<>();
         //gets all books by genre input
-        for (int i=0; i < top3Genres.size(); i ++) {
-            Genre currentGenre = (Genre) genreDao.getByPropertyEqual("name", top3Genres.get(i));
+        for (int i=0; i < 3; i ++) {
+            Genre currentGenre = genreDao.getByPropertyEqual("name", top3Genres.get(i)).get(0);
             retrievedBooks = bookSuggestionsDao.getByPropertyEqualsId("genre", currentGenre.getId());
 
             //randomly selects 3 books from the list
             int listSize = retrievedBooks.size();
             int min = 1;
-            int max = listSize;
 
             for(int j = 0; j < 3; j ++) {
-                int bookPosition = (int) (Math.random() * (max - min + 1)) +min;
+                int bookPosition = (int) (Math.random() * (listSize - min)) +min;
                 int bookId = retrievedBooks.get(bookPosition).getId();
                 bookSuggestionsList.add(bookId);
 
