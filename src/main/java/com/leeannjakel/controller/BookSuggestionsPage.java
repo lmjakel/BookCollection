@@ -39,6 +39,7 @@ public class BookSuggestionsPage extends HttpServlet {
     GenericDao<BookSuggestions> bookSuggestionsDao  = new GenericDao(BookSuggestions.class);
     GenericDao<Author> authorDao  = new GenericDao(Author.class);
     GenericDao<Genre> genreDao  = new GenericDao(Genre.class);
+    List<BookSuggestions> bookSuggestionsList = new ArrayList<>();
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -52,7 +53,7 @@ public class BookSuggestionsPage extends HttpServlet {
         List<String> top3Genres = getGenresByUser(userId);
 
         //get BookSuggestions for each top Genre
-        List<Integer> bookSuggestionsList = getBookSuggestionsByGenre(top3Genres);
+        bookSuggestionsList = getBookSuggestionsByGenre(top3Genres);
 
         //set book info attribute
         req.setAttribute("books", bookSuggestionsList);
@@ -115,9 +116,10 @@ public class BookSuggestionsPage extends HttpServlet {
      * @param top3Genres Map of top 3 genres
      * @return book suggestion list
      */
-    public List<Integer> getBookSuggestionsByGenre(List<String> top3Genres) {
+    public List<BookSuggestions> getBookSuggestionsByGenre(List<String> top3Genres) {
         List<BookSuggestions> retrievedBooks;
-        List<Integer> bookSuggestionsList = new ArrayList<>();
+        List<Integer> bookPositionsList = new ArrayList<>();
+
         //gets all books by genre input
         for (int i=0; i < 3; i ++) {
             Genre currentGenre = genreDao.getByPropertyEqual("name", top3Genres.get(i)).get(0);
@@ -130,11 +132,18 @@ public class BookSuggestionsPage extends HttpServlet {
             for(int j = 0; j < 3; j ++) {
                 int bookPosition = (int) (Math.random() * (listSize - min)) +min;
                 int bookId = retrievedBooks.get(bookPosition).getId();
-                bookSuggestionsList.add(bookId);
+                bookPositionsList.add(bookId);
 
             }
         }
-        logger.debug("Suggestion list: {}", bookSuggestionsList);
+
+        for(int k = 0; k < 9; k++) {
+            BookSuggestions currentBook = bookSuggestionsDao.getByPropertyEqualsId("id", bookPositionsList.get(k)).get(0);
+            logger.debug("Current Book: {}", currentBook.getTitle());
+            bookSuggestionsList.add(currentBook);
+        }
+
+        logger.debug("Suggestion list: {}", bookSuggestionsList.get(0).getTitle());
 
         return bookSuggestionsList;
     }
