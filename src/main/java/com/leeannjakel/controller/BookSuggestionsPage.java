@@ -122,6 +122,7 @@ public class BookSuggestionsPage extends HttpServlet {
 
         //gets all books by genre input
         for (int i=0; i < 3; i ++) {
+            int booksAdded = 0;
             Genre currentGenre = genreDao.getByPropertyEqual("name", top3Genres.get(i)).get(0);
             retrievedBooks = bookSuggestionsDao.getByPropertyEqualsId("genre", currentGenre.getId());
 
@@ -129,11 +130,15 @@ public class BookSuggestionsPage extends HttpServlet {
             int listSize = retrievedBooks.size();
             int min = 1;
 
-            for(int j = 0; j < 3; j ++) {
+            for(int j = 0; booksAdded < 3; j ++) {
                 int bookPosition = (int) (Math.random() * (listSize - min)) +min;
                 int bookId = retrievedBooks.get(bookPosition).getId();
-                bookPositionsList.add(bookId);
 
+                //ensures no duplicate suggestions
+                if(!bookPositionsList.contains(bookId)){
+                    bookPositionsList.add(bookId);
+                    booksAdded++;
+                }
             }
         }
 
