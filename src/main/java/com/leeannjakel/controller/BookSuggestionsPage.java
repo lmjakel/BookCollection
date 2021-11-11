@@ -65,7 +65,7 @@ public class BookSuggestionsPage extends HttpServlet {
 
     /**
      * This method gets the top 3 genres for the current user and
-     * returns them a Map<String, Integer>
+     * returns them a List<String>
      * @param userId the userId
      * @return the top 3 genres
      */
@@ -84,6 +84,17 @@ public class BookSuggestionsPage extends HttpServlet {
             }
         }
         logger.debug(genreList);
+        //ensures there are 3 items on the Genre List
+        if(genreList.size() < 3 ) {
+            int genreId = (int) (Math.random() * (15 - 1)) + 1;
+            Genre genre = genreDao.getByPropertyEqualsId("id", genreId).get(0);
+//TODO: ensure there is no duplicate genre. check genre against user's genreList
+            //ensures no duplicate genre
+            if(!genreList.contains(genreId)){
+                genreList.add(genreId);
+                booksAdded++;
+            }
+        }
         //finds Key with largest Value
         // Resource: studytonight.com/java-examples/how-to-find-maximum-value-in-java-map
         Map.Entry<String, Integer> maxGenre = null;
@@ -97,6 +108,7 @@ public class BookSuggestionsPage extends HttpServlet {
                 maxGenre = genre;
             }
         }
+
         logger.debug("Max:{}", maxGenre.getKey());
         logger.debug("2ndMax:{}", secondGenre.getKey());
         logger.debug("3RdMax:{}", thirdGenre.getKey());

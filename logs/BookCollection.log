@@ -906,3 +906,107 @@
 [DEBUG] 2021-11-10 20:43:35.522 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 25
 [DEBUG] 2021-11-10 20:43:35.672 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: Our House
 [DEBUG] 2021-11-10 20:43:35.672 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestion list: Clockwork Angel
+[DEBUG] 2021-11-10 20:44:27.399 [http-nio-8080-exec-2] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-10 20:44:27.400 [http-nio-8080-exec-2] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-10 20:44:27.483 [http-nio-8080-exec-2] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-10 20:44:28.205 [http-nio-8080-exec-2] BookSuggestionsPage - {Mystery=1, Romance=1, Young Adult=26}
+[DEBUG] 2021-11-10 20:44:28.205 [http-nio-8080-exec-2] BookSuggestionsPage - Max:Young Adult
+[DEBUG] 2021-11-10 20:44:28.205 [http-nio-8080-exec-2] BookSuggestionsPage - 2ndMax:Romance
+[DEBUG] 2021-11-10 20:44:28.206 [http-nio-8080-exec-2] BookSuggestionsPage - 3RdMax:Mystery
+[DEBUG] 2021-11-10 20:44:28.206 [http-nio-8080-exec-2] BookSuggestionsPage - Genre list: [Young Adult, Romance, Mystery]
+[DEBUG] 2021-11-10 20:44:28.206 [http-nio-8080-exec-2] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-11-10 20:44:28.596 [http-nio-8080-exec-2] GenericDao - Searching for book with genre = 1
+[DEBUG] 2021-11-10 20:44:28.917 [http-nio-8080-exec-2] GenericDao - Searching for book with name = Romance
+[DEBUG] 2021-11-10 20:44:29.041 [http-nio-8080-exec-2] GenericDao - Searching for book with genre = 5
+[DEBUG] 2021-11-10 20:44:29.163 [http-nio-8080-exec-2] GenericDao - Searching for book with name = Mystery
+[DEBUG] 2021-11-10 20:44:29.284 [http-nio-8080-exec-2] GenericDao - Searching for book with genre = 4
+[DEBUG] 2021-11-10 20:44:29.417 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 8
+[DEBUG] 2021-11-10 20:44:29.860 [http-nio-8080-exec-2] BookSuggestionsPage - Current Book: A Court of Thorns and Roses
+[DEBUG] 2021-11-10 20:44:29.860 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 9
+[DEBUG] 2021-11-10 20:44:30.239 [http-nio-8080-exec-2] BookSuggestionsPage - Current Book: Crescent City: House of Earth and Blood
+[DEBUG] 2021-11-10 20:44:30.240 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 12
+[DEBUG] 2021-11-10 20:44:30.634 [http-nio-8080-exec-2] BookSuggestionsPage - Current Book: Clockwork Angel
+[DEBUG] 2021-11-10 20:44:30.636 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 4
+[DEBUG] 2021-11-10 20:44:30.849 [http-nio-8080-exec-2] BookSuggestionsPage - Current Book: The Notebook
+[DEBUG] 2021-11-10 20:44:30.850 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 2
+[DEBUG] 2021-11-10 20:44:30.940 [http-nio-8080-exec-2] BookSuggestionsPage - Current Book: The Love Hypothesis
+[DEBUG] 2021-11-10 20:44:30.940 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 3
+[DEBUG] 2021-11-10 20:44:31.066 [http-nio-8080-exec-2] BookSuggestionsPage - Current Book: Big Bad Cowboys
+[DEBUG] 2021-11-10 20:44:31.066 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 26
+[DEBUG] 2021-11-10 20:44:31.184 [http-nio-8080-exec-2] BookSuggestionsPage - Current Book: The Heist
+[DEBUG] 2021-11-10 20:44:31.187 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 25
+[DEBUG] 2021-11-10 20:44:31.305 [http-nio-8080-exec-2] BookSuggestionsPage - Current Book: Our House
+[DEBUG] 2021-11-10 20:44:31.305 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 24
+[DEBUG] 2021-11-10 20:44:31.382 [http-nio-8080-exec-2] BookSuggestionsPage - Current Book: Disappearing  Earth
+[DEBUG] 2021-11-10 20:44:31.382 [http-nio-8080-exec-2] BookSuggestionsPage - Suggestion list: Clockwork Angel
+[DEBUG] 2021-11-10 20:44:34.503 [http-nio-8080-exec-4] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-10 20:44:34.505 [http-nio-8080-exec-4] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-10 20:44:34.548 [http-nio-8080-exec-4] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-10 20:44:35.155 [http-nio-8080-exec-4] BookSuggestionsPage - {Mystery=1, Romance=1, Young Adult=26}
+[DEBUG] 2021-11-10 20:44:35.158 [http-nio-8080-exec-4] BookSuggestionsPage - Max:Young Adult
+[DEBUG] 2021-11-10 20:44:35.159 [http-nio-8080-exec-4] BookSuggestionsPage - 2ndMax:Romance
+[DEBUG] 2021-11-10 20:44:35.159 [http-nio-8080-exec-4] BookSuggestionsPage - 3RdMax:Mystery
+[DEBUG] 2021-11-10 20:44:35.159 [http-nio-8080-exec-4] BookSuggestionsPage - Genre list: [Young Adult, Romance, Mystery]
+[DEBUG] 2021-11-10 20:44:35.168 [http-nio-8080-exec-4] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-11-10 20:44:35.369 [http-nio-8080-exec-4] GenericDao - Searching for book with genre = 1
+[DEBUG] 2021-11-10 20:44:35.587 [http-nio-8080-exec-4] GenericDao - Searching for book with name = Romance
+[DEBUG] 2021-11-10 20:44:35.683 [http-nio-8080-exec-4] GenericDao - Searching for book with genre = 5
+[DEBUG] 2021-11-10 20:44:35.750 [http-nio-8080-exec-4] GenericDao - Searching for book with name = Mystery
+[DEBUG] 2021-11-10 20:44:35.848 [http-nio-8080-exec-4] GenericDao - Searching for book with genre = 4
+[DEBUG] 2021-11-10 20:44:35.941 [http-nio-8080-exec-4] GenericDao - Searching for book with id = 9
+[DEBUG] 2021-11-10 20:44:36.056 [http-nio-8080-exec-4] BookSuggestionsPage - Current Book: Crescent City: House of Earth and Blood
+[DEBUG] 2021-11-10 20:44:36.056 [http-nio-8080-exec-4] GenericDao - Searching for book with id = 8
+[DEBUG] 2021-11-10 20:44:36.235 [http-nio-8080-exec-4] BookSuggestionsPage - Current Book: A Court of Thorns and Roses
+[DEBUG] 2021-11-10 20:44:36.236 [http-nio-8080-exec-4] GenericDao - Searching for book with id = 14
+[DEBUG] 2021-11-10 20:44:36.424 [http-nio-8080-exec-4] BookSuggestionsPage - Current Book: The Selection
+[DEBUG] 2021-11-10 20:44:36.425 [http-nio-8080-exec-4] GenericDao - Searching for book with id = 5
+[DEBUG] 2021-11-10 20:44:36.592 [http-nio-8080-exec-4] BookSuggestionsPage - Current Book: The Time Traveler's Wife
+[DEBUG] 2021-11-10 20:44:36.592 [http-nio-8080-exec-4] GenericDao - Searching for book with id = 2
+[DEBUG] 2021-11-10 20:44:36.756 [http-nio-8080-exec-4] BookSuggestionsPage - Current Book: The Love Hypothesis
+[DEBUG] 2021-11-10 20:44:36.756 [http-nio-8080-exec-4] GenericDao - Searching for book with id = 3
+[DEBUG] 2021-11-10 20:44:36.915 [http-nio-8080-exec-4] BookSuggestionsPage - Current Book: Big Bad Cowboys
+[DEBUG] 2021-11-10 20:44:36.915 [http-nio-8080-exec-4] GenericDao - Searching for book with id = 26
+[DEBUG] 2021-11-10 20:44:37.025 [http-nio-8080-exec-4] BookSuggestionsPage - Current Book: The Heist
+[DEBUG] 2021-11-10 20:44:37.025 [http-nio-8080-exec-4] GenericDao - Searching for book with id = 25
+[DEBUG] 2021-11-10 20:44:37.115 [http-nio-8080-exec-4] BookSuggestionsPage - Current Book: Our House
+[DEBUG] 2021-11-10 20:44:37.116 [http-nio-8080-exec-4] GenericDao - Searching for book with id = 24
+[DEBUG] 2021-11-10 20:44:37.286 [http-nio-8080-exec-4] BookSuggestionsPage - Current Book: Disappearing  Earth
+[DEBUG] 2021-11-10 20:44:37.286 [http-nio-8080-exec-4] BookSuggestionsPage - Suggestion list: Clockwork Angel
+[DEBUG] 2021-11-10 20:44:45.173 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-10 20:44:45.173 [http-nio-8080-exec-9] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-10 20:44:45.191 [http-nio-8080-exec-9] GenericDao - Searching for book with user = 1
+[DEBUG] 2021-11-10 20:44:45.558 [http-nio-8080-exec-9] BookSuggestionsPage - {Mystery=1, Romance=1, Young Adult=26}
+[DEBUG] 2021-11-10 20:44:45.558 [http-nio-8080-exec-9] BookSuggestionsPage - Max:Young Adult
+[DEBUG] 2021-11-10 20:44:45.558 [http-nio-8080-exec-9] BookSuggestionsPage - 2ndMax:Romance
+[DEBUG] 2021-11-10 20:44:45.558 [http-nio-8080-exec-9] BookSuggestionsPage - 3RdMax:Mystery
+[DEBUG] 2021-11-10 20:44:45.558 [http-nio-8080-exec-9] BookSuggestionsPage - Genre list: [Young Adult, Romance, Mystery]
+[DEBUG] 2021-11-10 20:44:45.559 [http-nio-8080-exec-9] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-11-10 20:44:45.780 [http-nio-8080-exec-9] GenericDao - Searching for book with genre = 1
+[DEBUG] 2021-11-10 20:44:46.082 [http-nio-8080-exec-9] GenericDao - Searching for book with name = Romance
+[DEBUG] 2021-11-10 20:44:46.148 [http-nio-8080-exec-9] GenericDao - Searching for book with genre = 5
+[DEBUG] 2021-11-10 20:44:46.230 [http-nio-8080-exec-9] GenericDao - Searching for book with name = Mystery
+[DEBUG] 2021-11-10 20:44:46.279 [http-nio-8080-exec-9] GenericDao - Searching for book with genre = 4
+[DEBUG] 2021-11-10 20:44:46.332 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 8
+[DEBUG] 2021-11-10 20:44:46.487 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: A Court of Thorns and Roses
+[DEBUG] 2021-11-10 20:44:46.487 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 7
+[DEBUG] 2021-11-10 20:44:46.751 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: Throne of Glass
+[DEBUG] 2021-11-10 20:44:46.751 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 13
+[DEBUG] 2021-11-10 20:44:46.906 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: Chain of Gold
+[DEBUG] 2021-11-10 20:44:46.906 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 4
+[DEBUG] 2021-11-10 20:44:46.962 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: The Notebook
+[DEBUG] 2021-11-10 20:44:46.972 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 3
+[DEBUG] 2021-11-10 20:44:47.050 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: Big Bad Cowboys
+[DEBUG] 2021-11-10 20:44:47.050 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 5
+[DEBUG] 2021-11-10 20:44:47.134 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: The Time Traveler's Wife
+[DEBUG] 2021-11-10 20:44:47.134 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 24
+[DEBUG] 2021-11-10 20:44:47.190 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: Disappearing  Earth
+[DEBUG] 2021-11-10 20:44:47.190 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 25
+[DEBUG] 2021-11-10 20:44:47.258 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: Our House
+[DEBUG] 2021-11-10 20:44:47.258 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 26
+[DEBUG] 2021-11-10 20:44:47.324 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: The Heist
+[DEBUG] 2021-11-10 20:44:47.324 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestion list: Clockwork Angel
+[DEBUG] 2021-11-10 20:53:44.535 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-10 20:53:58.103 [http-nio-8080-exec-9] GenericDao - Searching for book with userName = mjakel
+[DEBUG] 2021-11-10 20:54:00.182 [http-nio-8080-exec-9] GenericDao - Searching for book with user = 2
+[DEBUG] 2021-11-10 20:54:00.651 [http-nio-8080-exec-9] BookSuggestionsPage - {History=1}
+[DEBUG] 2021-11-10 20:54:00.675 [http-nio-8080-exec-9] BookSuggestionsPage - Max:History
