@@ -157,6 +157,14 @@ h1, h2, h3, h4, h5, h6, label {
     width: 80%;
 }
 
+.ribbon-content h4 {
+    color: #D3ABD6;
+}
+
+.ribbon-content-subhead {
+    color: #87608A;
+}
+
 /* main content styles */
 .book-container, .results-container {
     background: white;
