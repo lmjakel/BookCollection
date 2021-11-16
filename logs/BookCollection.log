@@ -1010,3 +1010,137 @@
 [DEBUG] 2021-11-10 20:54:00.182 [http-nio-8080-exec-9] GenericDao - Searching for book with user = 2
 [DEBUG] 2021-11-10 20:54:00.651 [http-nio-8080-exec-9] BookSuggestionsPage - {History=1}
 [DEBUG] 2021-11-10 20:54:00.675 [http-nio-8080-exec-9] BookSuggestionsPage - Max:History
+[DEBUG] 2021-11-15 19:16:46.742 [http-nio-8080-exec-3] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-15 19:17:18.990 [http-nio-8080-exec-3] GenericDao - Searching for book with userName = mjakel
+[DEBUG] 2021-11-15 19:17:22.298 [http-nio-8080-exec-3] GenericDao - Searching for book with user = 2
+[DEBUG] 2021-11-15 19:17:23.198 [http-nio-8080-exec-3] BookSuggestionsPage - {History=1}
+[DEBUG] 2021-11-15 19:17:23.208 [http-nio-8080-exec-3] GenericDao - Searching for book with id = 10
+[DEBUG] 2021-11-15 19:17:24.702 [http-nio-8080-exec-3] GenericDao - Searching for book with id = 10
+[DEBUG] 2021-11-15 19:17:25.464 [http-nio-8080-exec-3] BookSuggestionsPage - Max:History
+[DEBUG] 2021-11-15 19:17:25.464 [http-nio-8080-exec-3] BookSuggestionsPage - 2ndMax:Historical Fiction
+[DEBUG] 2021-11-15 19:26:09.008 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-15 19:26:39.365 [http-nio-8080-exec-9] GenericDao - Searching for book with userName = mjakel
+[DEBUG] 2021-11-15 19:26:42.793 [http-nio-8080-exec-9] GenericDao - Searching for book with user = 2
+[DEBUG] 2021-11-15 19:26:43.681 [http-nio-8080-exec-9] BookSuggestionsPage - {History=1}
+[DEBUG] 2021-11-15 19:26:43.686 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 14
+[DEBUG] 2021-11-15 19:26:43.917 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 14
+[DEBUG] 2021-11-15 19:26:44.101 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 6
+[DEBUG] 2021-11-15 19:26:44.361 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 6
+[DEBUG] 2021-11-15 19:26:44.550 [http-nio-8080-exec-9] BookSuggestionsPage - Max:Western
+[DEBUG] 2021-11-15 19:26:44.550 [http-nio-8080-exec-9] BookSuggestionsPage - 2ndMax:History
+[DEBUG] 2021-11-15 19:26:44.550 [http-nio-8080-exec-9] BookSuggestionsPage - 3RdMax:Action
+[DEBUG] 2021-11-15 19:26:44.576 [http-nio-8080-exec-9] BookSuggestionsPage - Genre list: [Western, History, Action]
+[DEBUG] 2021-11-15 19:26:44.577 [http-nio-8080-exec-9] GenericDao - Searching for book with name = Western
+[DEBUG] 2021-11-15 19:26:44.797 [http-nio-8080-exec-9] GenericDao - Searching for book with genre = 14
+[DEBUG] 2021-11-15 19:37:32.785 [http-nio-8080-exec-8] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-15 19:38:05.453 [http-nio-8080-exec-8] GenericDao - Searching for book with userName = mjakel
+[DEBUG] 2021-11-15 19:38:10.115 [http-nio-8080-exec-8] GenericDao - Searching for book with user = 2
+[DEBUG] 2021-11-15 19:38:11.391 [http-nio-8080-exec-8] BookSuggestionsPage - {History=1}
+[DEBUG] 2021-11-15 19:38:11.411 [http-nio-8080-exec-8] GenericDao - Searching for book with id = 2
+[DEBUG] 2021-11-15 19:38:12.537 [http-nio-8080-exec-8] GenericDao - Searching for book with id = 2
+[DEBUG] 2021-11-15 19:38:13.441 [http-nio-8080-exec-8] GenericDao - Searching for book with id = 6
+[DEBUG] 2021-11-15 19:38:14.782 [http-nio-8080-exec-8] GenericDao - Searching for book with id = 6
+[DEBUG] 2021-11-15 19:38:16.132 [http-nio-8080-exec-8] BookSuggestionsPage - Max:Science Fiction
+[DEBUG] 2021-11-15 19:38:16.133 [http-nio-8080-exec-8] BookSuggestionsPage - 2ndMax:History
+[DEBUG] 2021-11-15 19:38:16.133 [http-nio-8080-exec-8] BookSuggestionsPage - 3RdMax:Action
+[DEBUG] 2021-11-15 19:38:16.133 [http-nio-8080-exec-8] BookSuggestionsPage - Genre list: [Science Fiction, History, Action]
+[DEBUG] 2021-11-15 19:38:16.134 [http-nio-8080-exec-8] GenericDao - Searching for book with name = Science Fiction
+[DEBUG] 2021-11-15 19:38:16.878 [http-nio-8080-exec-8] GenericDao - Searching for book with genre = 2
+[DEBUG] 2021-11-15 19:38:17.536 [http-nio-8080-exec-8] GenericDao - Searching for book with name = History
+[DEBUG] 2021-11-15 19:38:17.949 [http-nio-8080-exec-8] GenericDao - Searching for book with genre = 3
+[DEBUG] 2021-11-15 19:38:18.325 [http-nio-8080-exec-8] GenericDao - Searching for book with name = Action
+[DEBUG] 2021-11-15 19:38:19.111 [http-nio-8080-exec-8] GenericDao - Searching for book with genre = 6
+[DEBUG] 2021-11-15 19:40:17.005 [http-nio-8080-exec-1] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-15 19:40:17.019 [http-nio-8080-exec-1] GenericDao - Searching for book with userName = mjakel
+[DEBUG] 2021-11-15 19:40:17.099 [http-nio-8080-exec-1] GenericDao - Searching for book with user = 2
+[DEBUG] 2021-11-15 19:40:17.545 [http-nio-8080-exec-1] BookSuggestionsPage - {History=1}
+[DEBUG] 2021-11-15 19:40:17.546 [http-nio-8080-exec-1] GenericDao - Searching for book with id = 1
+[DEBUG] 2021-11-15 19:40:18.543 [http-nio-8080-exec-1] GenericDao - Searching for book with id = 1
+[DEBUG] 2021-11-15 19:40:19.472 [http-nio-8080-exec-1] GenericDao - Searching for book with id = 1
+[DEBUG] 2021-11-15 19:40:20.366 [http-nio-8080-exec-1] GenericDao - Searching for book with id = 1
+[DEBUG] 2021-11-15 19:40:21.381 [http-nio-8080-exec-1] GenericDao - Searching for book with id = 6
+[DEBUG] 2021-11-15 19:40:22.397 [http-nio-8080-exec-1] GenericDao - Searching for book with id = 6
+[DEBUG] 2021-11-15 19:40:23.412 [http-nio-8080-exec-1] BookSuggestionsPage - Max:Young Adult
+[DEBUG] 2021-11-15 19:40:23.412 [http-nio-8080-exec-1] BookSuggestionsPage - 2ndMax:History
+[DEBUG] 2021-11-15 19:40:23.412 [http-nio-8080-exec-1] BookSuggestionsPage - 3RdMax:Action
+[DEBUG] 2021-11-15 19:40:23.412 [http-nio-8080-exec-1] BookSuggestionsPage - Genre list: [Young Adult, History, Action]
+[DEBUG] 2021-11-15 19:40:23.412 [http-nio-8080-exec-1] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-11-15 19:40:24.430 [http-nio-8080-exec-1] GenericDao - Searching for book with genre = 1
+[DEBUG] 2021-11-15 19:40:25.854 [http-nio-8080-exec-1] GenericDao - Searching for book with name = History
+[DEBUG] 2021-11-15 19:40:26.388 [http-nio-8080-exec-1] GenericDao - Searching for book with genre = 3
+[DEBUG] 2021-11-15 19:40:26.742 [http-nio-8080-exec-1] GenericDao - Searching for book with name = Action
+[DEBUG] 2021-11-15 19:40:27.854 [http-nio-8080-exec-1] GenericDao - Searching for book with genre = 6
+[DEBUG] 2021-11-15 19:43:44.526 [http-nio-8080-exec-2] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-15 19:43:44.528 [http-nio-8080-exec-2] GenericDao - Searching for book with userName = mjakel
+[DEBUG] 2021-11-15 19:43:44.586 [http-nio-8080-exec-2] GenericDao - Searching for book with user = 2
+[DEBUG] 2021-11-15 19:43:45.075 [http-nio-8080-exec-2] BookSuggestionsPage - {History=1}
+[DEBUG] 2021-11-15 19:43:45.075 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 1
+[DEBUG] 2021-11-15 19:43:46.135 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 1
+[DEBUG] 2021-11-15 19:43:47.326 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 8
+[DEBUG] 2021-11-15 19:43:47.917 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 8
+[DEBUG] 2021-11-15 19:43:48.497 [http-nio-8080-exec-2] BookSuggestionsPage - Max:Young Adult
+[DEBUG] 2021-11-15 19:43:48.498 [http-nio-8080-exec-2] BookSuggestionsPage - 2ndMax:History
+[DEBUG] 2021-11-15 19:43:48.498 [http-nio-8080-exec-2] BookSuggestionsPage - 3RdMax:Children
+[DEBUG] 2021-11-15 19:43:48.498 [http-nio-8080-exec-2] BookSuggestionsPage - Genre list: [Young Adult, History, Children]
+[DEBUG] 2021-11-15 19:43:48.498 [http-nio-8080-exec-2] GenericDao - Searching for book with name = Young Adult
+[DEBUG] 2021-11-15 19:43:50.150 [http-nio-8080-exec-2] GenericDao - Searching for book with genre = 1
+[DEBUG] 2021-11-15 19:43:51.572 [http-nio-8080-exec-2] GenericDao - Searching for book with name = History
+[DEBUG] 2021-11-15 19:43:52.059 [http-nio-8080-exec-2] GenericDao - Searching for book with genre = 3
+[DEBUG] 2021-11-15 19:43:52.492 [http-nio-8080-exec-2] GenericDao - Searching for book with name = Children
+[DEBUG] 2021-11-15 19:43:52.991 [http-nio-8080-exec-2] GenericDao - Searching for book with genre = 8
+[DEBUG] 2021-11-15 19:43:53.570 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 9
+[DEBUG] 2021-11-15 19:43:54.855 [http-nio-8080-exec-2] BookSuggestionsPage - Current Book: Crescent City: House of Earth and Blood
+[DEBUG] 2021-11-15 19:43:54.869 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 10
+[DEBUG] 2021-11-15 19:43:55.800 [http-nio-8080-exec-2] BookSuggestionsPage - Current Book: Shadow and Bone
+[DEBUG] 2021-11-15 19:43:55.800 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 11
+[DEBUG] 2021-11-15 19:43:56.394 [http-nio-8080-exec-2] BookSuggestionsPage - Current Book: Red Queen
+[DEBUG] 2021-11-15 19:43:56.399 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 20
+[DEBUG] 2021-11-15 19:43:56.771 [http-nio-8080-exec-2] BookSuggestionsPage - Current Book: The Rise and Fall of the Third Reich
+[DEBUG] 2021-11-15 19:43:56.771 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 19
+[DEBUG] 2021-11-15 19:43:56.976 [http-nio-8080-exec-2] BookSuggestionsPage - Current Book: 1776
+[DEBUG] 2021-11-15 19:43:56.988 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 18
+[DEBUG] 2021-11-15 19:43:57.270 [http-nio-8080-exec-2] BookSuggestionsPage - Current Book: Alexander Hamilton
+[DEBUG] 2021-11-15 19:43:57.279 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 30
+[DEBUG] 2021-11-15 19:43:57.581 [http-nio-8080-exec-2] BookSuggestionsPage - Current Book: Eragon
+[DEBUG] 2021-11-15 19:43:57.582 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 29
+[DEBUG] 2021-11-15 19:43:57.896 [http-nio-8080-exec-2] BookSuggestionsPage - Current Book: The Lightening Thief
+[DEBUG] 2021-11-15 19:43:57.896 [http-nio-8080-exec-2] GenericDao - Searching for book with id = 32
+[DEBUG] 2021-11-15 19:43:58.260 [http-nio-8080-exec-2] BookSuggestionsPage - Current Book: Hatchet
+[DEBUG] 2021-11-15 19:43:58.260 [http-nio-8080-exec-2] BookSuggestionsPage - Suggestion list: Crescent City: House of Earth and Blood
+[DEBUG] 2021-11-15 19:44:25.950 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestions page
+[DEBUG] 2021-11-15 19:44:25.950 [http-nio-8080-exec-9] GenericDao - Searching for book with userName = mjakel
+[DEBUG] 2021-11-15 19:44:26.004 [http-nio-8080-exec-9] GenericDao - Searching for book with user = 2
+[DEBUG] 2021-11-15 19:44:26.297 [http-nio-8080-exec-9] BookSuggestionsPage - {History=1}
+[DEBUG] 2021-11-15 19:44:26.297 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 2
+[DEBUG] 2021-11-15 19:44:26.952 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 2
+[DEBUG] 2021-11-15 19:44:27.431 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 5
+[DEBUG] 2021-11-15 19:44:27.799 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 5
+[DEBUG] 2021-11-15 19:44:28.034 [http-nio-8080-exec-9] BookSuggestionsPage - Max:Science Fiction
+[DEBUG] 2021-11-15 19:44:28.035 [http-nio-8080-exec-9] BookSuggestionsPage - 2ndMax:Romance
+[DEBUG] 2021-11-15 19:44:28.035 [http-nio-8080-exec-9] BookSuggestionsPage - 3RdMax:History
+[DEBUG] 2021-11-15 19:44:28.035 [http-nio-8080-exec-9] BookSuggestionsPage - Genre list: [Science Fiction, Romance, History]
+[DEBUG] 2021-11-15 19:44:28.035 [http-nio-8080-exec-9] GenericDao - Searching for book with name = Science Fiction
+[DEBUG] 2021-11-15 19:44:28.419 [http-nio-8080-exec-9] GenericDao - Searching for book with genre = 2
+[DEBUG] 2021-11-15 19:44:28.867 [http-nio-8080-exec-9] GenericDao - Searching for book with name = Romance
+[DEBUG] 2021-11-15 19:44:29.230 [http-nio-8080-exec-9] GenericDao - Searching for book with genre = 5
+[DEBUG] 2021-11-15 19:44:29.514 [http-nio-8080-exec-9] GenericDao - Searching for book with name = History
+[DEBUG] 2021-11-15 19:44:29.873 [http-nio-8080-exec-9] GenericDao - Searching for book with genre = 3
+[DEBUG] 2021-11-15 19:44:30.109 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 54
+[DEBUG] 2021-11-15 19:44:30.626 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: The Giver
+[DEBUG] 2021-11-15 19:44:30.636 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 53
+[DEBUG] 2021-11-15 19:44:31.063 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: 1984
+[DEBUG] 2021-11-15 19:44:31.063 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 52
+[DEBUG] 2021-11-15 19:44:31.568 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: The Ultimate Hitchhiker's Guide to the Galaxy
+[DEBUG] 2021-11-15 19:44:31.569 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 4
+[DEBUG] 2021-11-15 19:44:31.840 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: The Notebook
+[DEBUG] 2021-11-15 19:44:31.843 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 3
+[DEBUG] 2021-11-15 19:44:32.127 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: Big Bad Cowboys
+[DEBUG] 2021-11-15 19:44:32.130 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 2
+[DEBUG] 2021-11-15 19:44:32.397 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: The Love Hypothesis
+[DEBUG] 2021-11-15 19:44:32.397 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 19
+[DEBUG] 2021-11-15 19:44:32.610 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: 1776
+[DEBUG] 2021-11-15 19:44:32.610 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 20
+[DEBUG] 2021-11-15 19:44:32.854 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: The Rise and Fall of the Third Reich
+[DEBUG] 2021-11-15 19:44:32.855 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 22
+[DEBUG] 2021-11-15 19:44:33.059 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: Guns, Germs, and Steel
+[DEBUG] 2021-11-15 19:44:33.059 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestion list: Crescent City: House of Earth and Blood

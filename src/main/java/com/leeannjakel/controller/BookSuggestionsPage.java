@@ -73,6 +73,7 @@ public class BookSuggestionsPage extends HttpServlet {
         List<Book> retrievedBooks = bookDao.getByPropertyEqualsId("user", userId);
         String currentGenre;
         Map<String, Integer> genreList = new TreeMap<>();
+        List<Integer> genreIdList = new ArrayList<>();
 
         //creates a Map of all genres stored by a given user
         for(int i=0; i < retrievedBooks.size(); i++) {
@@ -81,18 +82,20 @@ public class BookSuggestionsPage extends HttpServlet {
                 genreList.put(currentGenre, genreList.get(currentGenre) +1);
             } else {
                 genreList.put(currentGenre, 1);
+                genreIdList.add(retrievedBooks.get(i).getGenre().getId());
             }
         }
         logger.debug(genreList);
         //ensures there are 3 items on the Genre List
-        if(genreList.size() < 3 ) {
+        while (genreList.size() < 3 ) {
             int genreId = (int) (Math.random() * (15 - 1)) + 1;
             Genre genre = genreDao.getByPropertyEqualsId("id", genreId).get(0);
+
 //TODO: ensure there is no duplicate genre. check genre against user's genreList
             //ensures no duplicate genre
-            if(!genreList.contains(genreId)){
-                genreList.add(genreId);
-                booksAdded++;
+            if(!genreIdList.contains(genreId)){
+                String genreName = genreDao.getByPropertyEqualsId("id", genreId).get(0).getName();
+                genreList.put(genreName, 1);
             }
         }
         //finds Key with largest Value
