@@ -91,7 +91,6 @@ public class BookSuggestionsPage extends HttpServlet {
             int genreId = (int) (Math.random() * (15 - 1)) + 1;
             Genre genre = genreDao.getByPropertyEqualsId("id", genreId).get(0);
 
-//TODO: ensure there is no duplicate genre. check genre against user's genreList
             //ensures no duplicate genre
             if(!genreIdList.contains(genreId)){
                 String genreName = genreDao.getByPropertyEqualsId("id", genreId).get(0).getName();

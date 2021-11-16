@@ -41,6 +41,9 @@
                             </form>
                         </div>
                     </div>
+                <p>
+                    If your book's ISBN is invalid or you cannot find it, please <a href="addBookManually.jsp" class="pure-menu-link">click here</a>to enter the information manually
+                </p>
                 </div>
             </div>
 

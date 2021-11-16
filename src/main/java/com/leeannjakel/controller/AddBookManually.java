@@ -20,13 +20,14 @@ import java.util.List;
  * The type Add book.
  */
 @WebServlet(
-        urlPatterns = {"/AddBook"}
+        urlPatterns = {"/AddBookManually"}
 )
 /**
  * class adds new book to database
  * @author LeeAnn Jakel
  */
-public class AddBook extends HttpServlet {
+public class AddBookManually extends HttpServlet{
+
     private final Logger logger = LogManager.getLogger(this.getClass());
 
     /**
@@ -55,20 +56,18 @@ public class AddBook extends HttpServlet {
         User user = users.get(0);
         int userID = users.get(0).getId();
 
-        //Get book info from API
-        String isbn = req.getParameter("isbn");
-        Info bookInfo = apiDao.getBook(isbn);
-        String title = bookInfo.getTitle();
+        //Get book info from form
+        String title = req.getParameter("title");
+        String authorName = req.getParameter("author");
+        String genreName = req.getParameter("genre");
+        String notes = req.getParameter("notes");
+        String isbn = "0000000000000";
 
-        //get author name
-        List<WorksItem> authorList = apiDao.getBook(isbn).getWorks();
-        String key = authorList.get(0).getKey();
-        String authorName = apiDao.getWorks(key);
-        Author bookAuthor = null;
 
         /**determine if author already exists
          * if so, get Author. If not, add author
          */
+        Author bookAuthor = null;
         List<Author> allAuthorsList = authorDao.getAll();
         boolean found = false;
         for (Author author: allAuthorsList) {
@@ -104,45 +103,6 @@ public class AddBook extends HttpServlet {
         req.setAttribute("books", newBook);
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/bookFound.jsp");
-        dispatcher.forward(req, resp);
-    }
-
-    /**
-     * doPost() used to edit genre and notes
-     *
-     * @param req
-     * @param resp
-     * @throws ServletException
-     * @throws IOException
-     */
-    @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //get book ID from form
-        String idString =  req.getParameter("bookId");
-        int bookId = Integer.parseInt(idString);
-        logger.debug("BookId: {}", bookId);
-
-        //Get book to update
-        Book bookToUpdate = bookDao.getById(bookId);
-        logger.debug("Book: {}", bookToUpdate);
-
-        //get info from form and set in bookToUpdate
-        String genre = req.getParameter("genre");
-        List<Genre> genreList = genreDao.getByPropertyEqual("name", genre);
-        Genre genreItem = genreList.get(0);
-        bookToUpdate.setGenre(genreItem);
-
-        String notes = req.getParameter("notes");
-        bookToUpdate.setNotes(notes);
-
-
-        //update book
-        bookDao.update(bookToUpdate);
-        Book retrievedBook = bookDao.getById(bookId);
-
-        req.setAttribute("books", retrievedBook);
-
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/addSuccessful.jsp");
         dispatcher.forward(req, resp);
     }
 }
