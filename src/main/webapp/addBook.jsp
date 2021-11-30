@@ -32,6 +32,9 @@
                         Once your book is located, you will be prompted to select a genre and given the opportunity
                         to add notes.
                     </p>
+                    <p>
+                        If your book's ISBN is invalid or you cannot find it, please <a href="addBookManually.jsp" class="pure-menu-link">click here</a>to enter the information manually
+                    </p>
                     <div class="pure-g l-box">
                         <div class="form-box pure-u-1">
                             <form id="bookForm" action ="AddBook" method="GET" class="pure-form">
@@ -41,13 +44,8 @@
                             </form>
                         </div>
                     </div>
-                <p>
-                    If your book's ISBN is invalid or you cannot find it, please <a href="addBookManually.jsp" class="pure-menu-link">click here</a>to enter the information manually
-                </p>
                 </div>
             </div>
-
-        </div>
 
     </main>
 

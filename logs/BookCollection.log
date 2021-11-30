@@ -1144,3 +1144,10 @@
 [DEBUG] 2021-11-15 19:44:32.855 [http-nio-8080-exec-9] GenericDao - Searching for book with id = 22
 [DEBUG] 2021-11-15 19:44:33.059 [http-nio-8080-exec-9] BookSuggestionsPage - Current Book: Guns, Germs, and Steel
 [DEBUG] 2021-11-15 19:44:33.059 [http-nio-8080-exec-9] BookSuggestionsPage - Suggestion list: Crescent City: House of Earth and Blood
+[DEBUG] 2021-11-30 16:42:40.501 [http-nio-8080-exec-8] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-30 17:04:19.441 [http-nio-8080-exec-10] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-30 17:04:24.067 [http-nio-8080-exec-10] GenericDao - Searching for book with name = author
+[DEBUG] 2021-11-30 17:05:56.881 [http-nio-8080-exec-9] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-30 17:15:39.104 [http-nio-8080-exec-4] GenericDao - Searching for book with userName = ljakel
+[DEBUG] 2021-11-30 17:15:42.105 [http-nio-8080-exec-4] GenericDao - Searching for book with name = author
+[DEBUG] 2021-11-30 17:15:42.585 [http-nio-8080-exec-4] GenericDao - Searching for book with name = Science Fiction

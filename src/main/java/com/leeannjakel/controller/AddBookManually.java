@@ -61,7 +61,7 @@ public class AddBookManually extends HttpServlet{
         String authorName = req.getParameter("author");
         String genreName = req.getParameter("genre");
         String notes = req.getParameter("notes");
-        String isbn = "0000000000000";
+        String isbn = req.getParameter("isbn");
 
 
         /**determine if author already exists
@@ -83,10 +83,8 @@ public class AddBookManually extends HttpServlet{
             int id = authorDao.insert(newAuthor);
             bookAuthor = authorDao.getById(id);
         }
-        //Set Genre to 1 for time being and notes to null
-        Genre genre = genreDao.getById(1);
-        String notes = "";
 
+        Genre genre = genreDao.getByPropertyEqual("name", genreName).get(0);
 
         //set Book attributes
         Book newBook = new Book();
@@ -102,7 +100,7 @@ public class AddBookManually extends HttpServlet{
 
         req.setAttribute("books", newBook);
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/bookFound.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/addSuccessful.jsp");
         dispatcher.forward(req, resp);
     }
 }

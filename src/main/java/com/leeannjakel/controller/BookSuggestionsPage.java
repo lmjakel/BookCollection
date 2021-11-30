@@ -127,6 +127,7 @@ public class BookSuggestionsPage extends HttpServlet {
 
 
     /**
+     * This method gets BookSuggestions based on the top 3 genres
      * @param top3Genres Map of top 3 genres
      * @return book suggestion list
      */
@@ -134,7 +135,7 @@ public class BookSuggestionsPage extends HttpServlet {
         List<BookSuggestions> retrievedBooks;
         List<Integer> bookPositionsList = new ArrayList<>();
 
-        //gets all books by genre input
+        //gets all book suggestions from the top 3 genres
         for (int i=0; i < 3; i ++) {
             int booksAdded = 0;
             Genre currentGenre = genreDao.getByPropertyEqual("name", top3Genres.get(i)).get(0);
@@ -156,6 +157,7 @@ public class BookSuggestionsPage extends HttpServlet {
             }
         }
 
+        //add books to bookSuggestionList
         for(int k = 0; k < 9; k++) {
             BookSuggestions currentBook = bookSuggestionsDao.getByPropertyEqualsId("id", bookPositionsList.get(k)).get(0);
             logger.debug("Current Book: {}", currentBook.getTitle());
